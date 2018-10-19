@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
+<module version="4">
   <component name="FacetManager">
-    <facet type="Spring" name="Spring">
-      <configuration />
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="" />
+        <datasource-mapping/>
+          <!--factory-entry name="entityManagerFactory" />
+          <factory-entry name="noname-a.xml@0" value="e1d84cc1-d34d-4401-a4b8-7c8c10d29ae2" />
+        </datasource-mapping-->
+      </configuration>
     </facet>
   </component>
 </module>
