@@ -1,9 +1,6 @@
 package com.shelpablo.springpostgres.entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.sql.Timestamp;
 import java.util.Objects;
 
@@ -19,6 +16,8 @@ public class Weather {
     private Integer windSpeed;
 
     @Id
+    @SequenceGenerator( name = "jpaSequence", sequenceName = "weather_id_seq", allocationSize = 1)
+    @GeneratedValue( strategy = GenerationType.SEQUENCE, generator = "jpaSequence")
     @Column(name = "id")
     public long getId() {
         return id;

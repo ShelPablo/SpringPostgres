@@ -40,11 +40,7 @@ public class WeatherClient {
 
     public void requestData() throws InterruptedException {
 
-        Weather weather = new Weather();
-
         RestTemplate restTemplate = new RestTemplate();
-
-        int i = 1;
 
         while (true) {
 
@@ -52,12 +48,13 @@ public class WeatherClient {
                 WindData windData = restTemplate.getForObject(getQueryForWindIn(city), WindData.class);
                 Wind wind = windData.getQuery().getResults().getChannel().getWind();
 
+                Weather weather = new Weather();
+
                 weather.setWindChill(Integer.parseInt(wind.getChill()))
                         .setWindDirection(Integer.parseInt(wind.getDirection()))
                         .setWindSpeed(Integer.parseInt(wind.getSpeed()))
                         .setCountry("ru")
-                        .setCity(city)
-                    .setId(i++);
+                        .setCity(city);
 
                 Thread.sleep(1000);
 
