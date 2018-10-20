@@ -24,8 +24,9 @@ public class Weather {
         return id;
     }
 
-    public void setId(long id) {
+    public Weather setId(long id) {
         this.id = id;
+        return this;
     }
 
     @Basic
@@ -34,8 +35,9 @@ public class Weather {
         return dategmt;
     }
 
-    public void setDategmt(Timestamp dategmt) {
+    public Weather setDategmt(Timestamp dategmt) {
         this.dategmt = dategmt;
+        return this;
     }
 
     @Basic
@@ -44,8 +46,9 @@ public class Weather {
         return country;
     }
 
-    public void setCountry(String country) {
+    public Weather setCountry(String country) {
         this.country = country;
+        return this;
     }
 
     @Basic
@@ -54,8 +57,9 @@ public class Weather {
         return city;
     }
 
-    public void setCity(String city) {
+    public Weather setCity(String city) {
         this.city = city;
+        return this;
     }
 
     @Basic
@@ -64,8 +68,9 @@ public class Weather {
         return temperatureC;
     }
 
-    public void setTemperatureC(Integer temperatureC) {
+    public Weather setTemperatureC(Integer temperatureC) {
         this.temperatureC = temperatureC;
+        return this;
     }
 
     @Basic
@@ -74,8 +79,9 @@ public class Weather {
         return windChill;
     }
 
-    public void setWindChill(Integer windChill) {
+    public Weather setWindChill(Integer windChill) {
         this.windChill = windChill;
+        return this;
     }
 
     @Basic
@@ -84,8 +90,9 @@ public class Weather {
         return windDirection;
     }
 
-    public void setWindDirection(Integer windDirection) {
+    public Weather setWindDirection(Integer windDirection) {
         this.windDirection = windDirection;
+        return this;
     }
 
     @Basic
@@ -94,8 +101,9 @@ public class Weather {
         return windSpeed;
     }
 
-    public void setWindSpeed(Integer windSpeed) {
+    public Weather setWindSpeed(Integer windSpeed) {
         this.windSpeed = windSpeed;
+        return this;
     }
 
     @Override
@@ -117,4 +125,20 @@ public class Weather {
     public int hashCode() {
         return Objects.hash(id, dategmt, country, city, temperatureC, windChill, windDirection, windSpeed);
     }
+
+
+    @Override
+    public String toString() {
+        return "Weather{" +
+                "id=" + id +
+                ", dategmt=" + dategmt +
+                ", country='" + country + '\'' +
+                ", city='" + city + '\'' +
+                ", temperatureC=" + temperatureC +
+                ", windChill=" + windChill +
+                ", windDirection=" + windDirection +
+                ", windSpeed=" + windSpeed +
+                '}';
+    }
+
 }

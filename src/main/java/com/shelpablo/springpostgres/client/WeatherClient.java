@@ -1,7 +1,12 @@
 package com.shelpablo.springpostgres.client;
 
-import com.shelpablo.springpostgres.response.WeatherData;
-import com.shelpablo.springpostgres.response.Wind;
+import com.shelpablo.springpostgres.entity.Weather;
+import com.shelpablo.springpostgres.response.temperature.Condition;
+import com.shelpablo.springpostgres.response.temperature.Example;
+import com.shelpablo.springpostgres.response.wind.Wind;
+import com.shelpablo.springpostgres.response.wind.WindData;
+import com.shelpablo.springpostgres.service.WeatherService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
@@ -9,29 +14,82 @@ import java.net.URI;
 
 @Component
 public class WeatherClient {
-    private static final URI URL_WEATHER = URI.create("https://query.yahooapis.com/v1/public/yql?q=select%20wind%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22chicago%2C%20il%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
+    private static final String[] cities = {"moscow", "samara", "saint-petersburg"};
+
+    private static URI getQueryForTemperatureIn(String city) {
+        return URI.create(
+                "https://query.yahooapis.com/v1/public/yql?q=select%20" +
+                        "item.condition%20from%20weather.forecast%20where%20" +
+                        "woeid%20%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22" +
+                        city + "%2C%20ru%22)&" +
+                        "format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
+    }
+
+
+
+    private static URI getQueryForWindIn(String city) {
+        return URI.create(
+                "https://query.yahooapis.com/v1/public/yql?q=select%20" +
+                        "wind%20from%20weather.forecast%20where%20" +
+                        "woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22" +
+                        city + "%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
+    }
+
+    @Autowired
+    private WeatherService weatherService;
 
     public void requestData() throws InterruptedException {
 
+        Weather weather = new Weather();
+
+        RestTemplate restTemplate = new RestTemplate();
+
+        int i = 1;
+
         while (true) {
 
-            RestTemplate restTemplate = new RestTemplate();
+            for (String city : cities) {
+                WindData windData = restTemplate.getForObject(getQueryForWindIn(city), WindData.class);
+                Wind wind = windData.getQuery().getResults().getChannel().getWind();
 
-            // Send request with GET method and default Headers.
-            WeatherData weatherData = restTemplate.getForObject(URL_WEATHER, WeatherData.class);
+                weather.setWindChill(Integer.parseInt(wind.getChill()))
+                        .setWindDirection(Integer.parseInt(wind.getDirection()))
+                        .setWindSpeed(Integer.parseInt(wind.getSpeed()))
+                        .setCountry("ru")
+                        .setCity(city)
+                    .setId(i++);
 
-            Wind wind = weatherData.getQuery().getResults().getChannel().getWind();
+                Thread.sleep(1000);
 
-            if (weatherData != null) {
-                System.out.println("chill: " + wind.getChill());
-                System.out.println("dir: " + wind.getDirection());
-                System.out.println("speed: " + wind.getSpeed()+'\n');
+                Example example = restTemplate.getForObject(getQueryForTemperatureIn(city), Example.class);
+
+                weather.setTemperatureC(Integer.parseInt(example.getQuery()
+                        .getResults()
+                        .getChannel()
+                        .getItem()
+                        .getCondition()
+                        .getTemp()));
+
+                System.out.println("weather:  " + weather);
+                weatherService.addWeather(weather);
             }
-
-            Thread.sleep(3000);
+            Thread.sleep(20000);
         }
 
     }
 
-
 }
+    /*private static final URI URL_CONDITION_MOSCOW = URI.create(
+            "https://query.yahooapis.com/v1/public/yql?q=select%20item.condition%20from%20weather.forecast%20where%20woeid%20%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22moscow%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
+    private static final URI URL_CONDITION_SAMARA = URI.create(
+            "https://query.yahooapis.com/v1/public/yql?q=select%20item.condition%20from%20weather.forecast%20where%20woeid%20%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22samara%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
+    private static final URI URL_CONDITION_SPB = URI.create(
+            "https://query.yahooapis.com/v1/public/yql?q=select%20item.condition%20from%20weather.forecast%20where%20woeid%20%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22saint-petersburg%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
+
+    private static final URI URL_WIND_MOSCOW = URI.create(
+            "https://query.yahooapis.com/v1/public/yql?q=select%20wind%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22moscow%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
+    private static final URI URL_WIND_SAMARA = URI.create(
+            "https://query.yahooapis.com/v1/public/yql?q=select%20wind%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22samara%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
+    private static final URI URL_WIND_SPB = URI.create(
+            "https://query.yahooapis.com/v1/public/yql?q=select%20wind%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22saint-petersburg%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
+*/
