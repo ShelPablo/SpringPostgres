@@ -1,7 +1,6 @@
 package com.shelpablo.springpostgres.client;
 
 import com.shelpablo.springpostgres.entity.Weather;
-import com.shelpablo.springpostgres.response.temperature.Condition;
 import com.shelpablo.springpostgres.response.temperature.Example;
 import com.shelpablo.springpostgres.response.wind.Wind;
 import com.shelpablo.springpostgres.response.wind.WindData;
@@ -76,17 +75,3 @@ public class WeatherClient {
     }
 
 }
-    /*private static final URI URL_CONDITION_MOSCOW = URI.create(
-            "https://query.yahooapis.com/v1/public/yql?q=select%20item.condition%20from%20weather.forecast%20where%20woeid%20%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22moscow%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
-    private static final URI URL_CONDITION_SAMARA = URI.create(
-            "https://query.yahooapis.com/v1/public/yql?q=select%20item.condition%20from%20weather.forecast%20where%20woeid%20%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22samara%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
-    private static final URI URL_CONDITION_SPB = URI.create(
-            "https://query.yahooapis.com/v1/public/yql?q=select%20item.condition%20from%20weather.forecast%20where%20woeid%20%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22saint-petersburg%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
-
-    private static final URI URL_WIND_MOSCOW = URI.create(
-            "https://query.yahooapis.com/v1/public/yql?q=select%20wind%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22moscow%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
-    private static final URI URL_WIND_SAMARA = URI.create(
-            "https://query.yahooapis.com/v1/public/yql?q=select%20wind%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22samara%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
-    private static final URI URL_WIND_SPB = URI.create(
-            "https://query.yahooapis.com/v1/public/yql?q=select%20wind%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22saint-petersburg%2C%20ru%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys");
-*/

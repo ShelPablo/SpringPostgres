@@ -30,3 +30,5 @@ hs_err_pid*
 Будет удалено pom.xml
 Будет удалено src/
 Будет удалено target/
+Будет удалено target/classes/application.properties
+Будет удалено target/generated-sources/
