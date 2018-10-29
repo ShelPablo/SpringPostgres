@@ -43,6 +43,8 @@ public class WeatherClient {
 
         while (true) {
 
+            weatherService.clearCurrentWeather();
+
             for (String city : cities) {
                 WindData windData = restTemplate.getForObject(getQueryForWindIn(city), WindData.class);
                 Wind wind = windData.getQuery().getResults().getChannel().getWind();

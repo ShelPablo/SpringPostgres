@@ -14,7 +14,8 @@ public class SpringjpapostgresApplication {
 
     public static void main(String[] args) throws InterruptedException {
         SpringApplication.run(SpringjpapostgresApplication.class, args)
-                .getBean(WeatherClient.class).requestData();
+        //       .getBean(WeatherClient.class).requestData()
+        ;
     }
 
 }
