@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"></meta>
     <title>Document</title>
@@ -9,11 +9,12 @@
 
   <body>
     <h2>Table view test</h2>
-    <!--form id="form1" runat="server">
+    <form id="form1" runat="server">
     
     <div id="divTable">
     </div>
     </form>
-    <script src="js/script.js"></script!-->
+    <!--script type="text/javascript" src="/js/script2.js"></script    "@{/mypath/abc.html}" -->
+    <script type="text/javascript" th:src = "@{/js/script2.js}" ></script>
   </body>
 </html>
