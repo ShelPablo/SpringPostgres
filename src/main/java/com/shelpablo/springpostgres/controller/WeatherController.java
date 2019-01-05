@@ -23,9 +23,10 @@ public class WeatherController {
     public String index(){
         return "index";
     }
+
     @GetMapping("/js/{filename}")
     public void script(@PathVariable("filename") String fileName,
-        HttpServletResponse response) throws IOException {
+            HttpServletResponse response) throws IOException {
         InputStream is = getClass().getResourceAsStream("/js/"+fileName+".js");   //"\\s";
         IOUtils.copy(is, response.getOutputStream());
         response.flushBuffer();

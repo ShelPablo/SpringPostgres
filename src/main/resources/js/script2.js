@@ -32,8 +32,6 @@ function fillTableWithJsonArray(tableID, tableName, jsObj)
         }
     }
 
-
-
     div.appendChild(table);
     return table;
 }
