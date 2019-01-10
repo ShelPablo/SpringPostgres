@@ -23,7 +23,6 @@ public class WeatherController {
 
     @GetMapping("/oneCity/{city}")
     public List<List<OneCityResponse>> getOneCityWeather(@PathVariable("city") String city) {
-        System.out.println(city);
         return weatherService.getOneCityWeather("city");
     }
 }
