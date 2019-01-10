@@ -1,10 +1,10 @@
 package com.shelpablo.springpostgres.client;
 
 import com.shelpablo.springpostgres.entity.Weather;
-import com.shelpablo.springpostgres.response.temperature.Example;
-import com.shelpablo.springpostgres.response.wind.Wind;
-import com.shelpablo.springpostgres.response.wind.WindData;
-import com.shelpablo.springpostgres.service.WeatherService;
+import com.shelpablo.springpostgres.client.response.temperature.Example;
+import com.shelpablo.springpostgres.client.response.wind.Wind;
+import com.shelpablo.springpostgres.client.response.wind.WindData;
+import com.shelpablo.springpostgres.services.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;

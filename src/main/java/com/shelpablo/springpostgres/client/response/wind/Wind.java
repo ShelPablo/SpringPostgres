@@ -1,4 +1,4 @@
-package com.shelpablo.springpostgres.response.wind;
+package com.shelpablo.springpostgres.client.response.wind;
 
 import java.util.HashMap;
 import java.util.Map;

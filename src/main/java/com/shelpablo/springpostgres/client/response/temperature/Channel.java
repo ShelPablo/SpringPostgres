@@ -1,4 +1,4 @@
-package com.shelpablo.springpostgres.response.temperature;
+package com.shelpablo.springpostgres.client.response.temperature;
 
 import java.util.HashMap;
 import java.util.Map;

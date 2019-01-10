@@ -1,4 +1,4 @@
-package com.shelpablo.springpostgres.response.temperature;
+package com.shelpablo.springpostgres.client.response.temperature;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,23 +11,23 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-        "condition"
+        "query"
 })
-public class Item {
+public class Example {
 
-    @JsonProperty("condition")
-    private Condition condition;
+    @JsonProperty("query")
+    private Query query;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
-    @JsonProperty("condition")
-    public Condition getCondition() {
-        return condition;
+    @JsonProperty("query")
+    public Query getQuery() {
+        return query;
     }
 
-    @JsonProperty("condition")
-    public void setCondition(Condition condition) {
-        this.condition = condition;
+    @JsonProperty("query")
+    public void setQuery(Query query) {
+        this.query = query;
     }
 
     @JsonAnyGetter

@@ -1,51 +1,29 @@
 package com.shelpablo.springpostgres.controller;
 
-import com.shelpablo.springpostgres.entity.Weather;
-import com.shelpablo.springpostgres.service.WeatherService;
-import groovy.lang.Grab;
-import org.apache.tomcat.util.http.fileupload.IOUtils;
+import com.shelpablo.springpostgres.responses.AllCitiesResponse;
+import com.shelpablo.springpostgres.responses.OneCityResponse;
+import com.shelpablo.springpostgres.services.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
-
-import javax.servlet.http.HttpServletResponse;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
-//@Grab("thymeleaf-spring4")
-@Controller
+
+@RestController
+//@AllArgsConstructor(@__"Autowired")
 public class WeatherController {
+
     @Autowired
-    private WeatherService service;
+    WeatherService weatherService;
 
-    @RequestMapping("/index")
-    public String index(){
-        return "index";
+    @GetMapping("/allCities")
+    public List<AllCitiesResponse> getAllCitiesWeather() {
+        return weatherService.getAllCitiesWeather();
     }
 
-    @GetMapping("/js/{filename}")
-    public void script(@PathVariable("filename") String fileName,
-            HttpServletResponse response) throws IOException {
-        InputStream is = getClass().getResourceAsStream("/js/"+fileName+".js");   //"\\s";
-        IOUtils.copy(is, response.getOutputStream());
-        response.flushBuffer();
+    @GetMapping("/oneCity/{city}")
+    public List<List<OneCityResponse>> getOneCityWeather(@PathVariable("city") String city) {
+        System.out.println(city);
+        return weatherService.getOneCityWeather("city");
     }
-
-  /*  @RequestMapping(value = "/files/{fileID}", method = RequestMethod.GET)
-    public void getFile(
-            @PathVariable("fileID") String fileName,
-            HttpServletResponse response) throws IOException {
-        String src= "\\("\\"+fileName);
-        InputStream is = new FileInputStream(src);
-        IOUtils.copy(is, response.getOutputStream());
-        response.flushBuffer();
-    }
-*/
-
-//    @GetMapping
-//    public List<Weather> index(){
-//        return service.getCurrentWeather();
-//    }
 }
-
