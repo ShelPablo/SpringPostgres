@@ -7,8 +7,7 @@ import java.util.Objects;
 @Entity
 public class Weather {
     private long id;
-    private Timestamp dategmt;
-    private String country;
+    private String datetime;
     private String city;
     private Integer temperatureC;
     private Integer windChill;
@@ -29,24 +28,13 @@ public class Weather {
     }
 
     @Basic
-    @Column(name = "dategmt")
-    public Timestamp getDategmt() {
-        return dategmt;
+    @Column(name = "datetime")
+    public String getDatetime() {
+        return datetime;
     }
 
-    public Weather setDategmt(Timestamp dategmt) {
-        this.dategmt = dategmt;
-        return this;
-    }
-
-    @Basic
-    @Column(name = "country")
-    public String getCountry() {
-        return country;
-    }
-
-    public Weather setCountry(String country) {
-        this.country = country;
+    public Weather setDatetime(String datetime) {
+        this.datetime = datetime;
         return this;
     }
 
@@ -111,8 +99,7 @@ public class Weather {
         if (o == null || getClass() != o.getClass()) return false;
         Weather weather = (Weather) o;
         return id == weather.id &&
-                Objects.equals(dategmt, weather.dategmt) &&
-                Objects.equals(country, weather.country) &&
+                Objects.equals(datetime, weather.datetime) &&
                 Objects.equals(city, weather.city) &&
                 Objects.equals(temperatureC, weather.temperatureC) &&
                 Objects.equals(windChill, weather.windChill) &&
@@ -122,7 +109,7 @@ public class Weather {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, dategmt, country, city, temperatureC, windChill, windDirection, windSpeed);
+        return Objects.hash(id, datetime, city, temperatureC, windChill, windDirection, windSpeed);
     }
 
 
@@ -130,8 +117,7 @@ public class Weather {
     public String toString() {
         return "Weather{" +
                 "id=" + id +
-                ", dategmt=" + dategmt +
-                ", country='" + country + '\'' +
+                ", datetime=" + datetime +
                 ", city='" + city + '\'' +
                 ", temperatureC=" + temperatureC +
                 ", windChill=" + windChill +

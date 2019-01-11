@@ -30,7 +30,7 @@ CREATE DATABASE weather_shelest WITH OWNER user_weather_shelest;
 
 CREATE TABLE public.weather (
     id bigint NOT NULL,
-    dategmt timestamp without time zone,
+    datetime timestamp without time zone,
     country character varying(32),
     city character varying(32),
     temperature_c integer,

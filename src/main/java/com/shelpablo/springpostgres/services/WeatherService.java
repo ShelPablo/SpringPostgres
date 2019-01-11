@@ -29,13 +29,13 @@ public class WeatherService {
         currentWeather.add(weather);
     }
 
-    public List<Weather> findAllByCountry(String country){
-        return weatherRepository.findAllByCountry(country);
+    public List<Weather> findAllByCity(String city){
+        return weatherRepository.findAllByCity(city);
     }
 
     public List<AllCitiesResponse> getAllCitiesWeather() {
         List<AllCitiesResponse> list = new ArrayList<>();
-        list.add(new AllCitiesResponse("САРАТОВ", 26, 95, "sunny"));
+        list.add(new AllCitiesResponse("Самара", 26, 95, "sunny"));
         list.add(new AllCitiesResponse("Москва", 27, 96, "cloudly"));
         list.add(new AllCitiesResponse("Санкт-Петербург", 16, 108, "rain"));
         return list;

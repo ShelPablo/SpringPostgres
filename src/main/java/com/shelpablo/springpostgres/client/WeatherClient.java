@@ -6,6 +6,7 @@ import com.shelpablo.springpostgres.client.response.wind.Wind;
 import com.shelpablo.springpostgres.client.response.wind.WindData;
 import com.shelpablo.springpostgres.services.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
@@ -25,7 +26,6 @@ public class WeatherClient {
     }
 
 
-
     private static URI getQueryForWindIn(String city) {
         return URI.create(
                 "https://query.yahooapis.com/v1/public/yql?q=select%20" +
@@ -37,42 +37,39 @@ public class WeatherClient {
     @Autowired
     private WeatherService weatherService;
 
+    private RestTemplate restTemplate = new RestTemplate();
+
+    //    @Scheduled(fixedRate = 3600*1000)
     public void requestData() throws InterruptedException {
 
-        RestTemplate restTemplate = new RestTemplate();
+        weatherService.clearCurrentWeather();
 
-        while (true) {
+        for (String city : cities) {
+            WindData windData = restTemplate.getForObject(getQueryForWindIn(city), WindData.class);
+            Wind wind = windData.getQuery().getResults().getChannel().getWind();
 
-            weatherService.clearCurrentWeather();
+            Weather weather = new Weather();
 
-            for (String city : cities) {
-                WindData windData = restTemplate.getForObject(getQueryForWindIn(city), WindData.class);
-                Wind wind = windData.getQuery().getResults().getChannel().getWind();
+            weather.setWindChill(Integer.parseInt(wind.getChill()))
+                    .setWindDirection(Integer.parseInt(wind.getDirection()))
+                    .setWindSpeed(Integer.parseInt(wind.getSpeed()))
+                    .setCity(city);
 
-                Weather weather = new Weather();
+            Thread.sleep(1000);
 
-                weather.setWindChill(Integer.parseInt(wind.getChill()))
-                        .setWindDirection(Integer.parseInt(wind.getDirection()))
-                        .setWindSpeed(Integer.parseInt(wind.getSpeed()))
-                        .setCountry("ru")
-                        .setCity(city);
+            Example example = restTemplate.getForObject(getQueryForTemperatureIn(city), Example.class);
 
-                Thread.sleep(1000);
+            weather.setTemperatureC(Integer.parseInt(example.getQuery()
+                    .getResults()
+                    .getChannel()
+                    .getItem()
+                    .getCondition()
+                    .getTemp()));
 
-                Example example = restTemplate.getForObject(getQueryForTemperatureIn(city), Example.class);
-
-                weather.setTemperatureC(Integer.parseInt(example.getQuery()
-                        .getResults()
-                        .getChannel()
-                        .getItem()
-                        .getCondition()
-                        .getTemp()));
-
-                System.out.println("weather:  " + weather);
-                weatherService.addWeather(weather);
-            }
-            Thread.sleep(20000);
+            System.out.println("weather:  " + weather);
+            weatherService.addWeather(weather);
         }
+        Thread.sleep(20000);
 
     }
 
