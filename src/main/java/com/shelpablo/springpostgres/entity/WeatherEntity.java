@@ -1,11 +1,11 @@
 package com.shelpablo.springpostgres.entity;
 
 import javax.persistence.*;
-import java.sql.Timestamp;
 import java.util.Objects;
 
 @Entity
-public class Weather {
+@Table(name = "weather", schema = "public", catalog = "weather_shelest")
+public class WeatherEntity {
     private long id;
     private String datetime;
     private String city;
@@ -17,78 +17,78 @@ public class Weather {
     @Id
     @SequenceGenerator( name = "jpaSequence", sequenceName = "weather_id_seq", allocationSize = 1)
     @GeneratedValue( strategy = GenerationType.SEQUENCE, generator = "jpaSequence")
-    @Column(name = "id")
+    @Column(name = "id", nullable = false)
     public long getId() {
         return id;
     }
 
-    public Weather setId(long id) {
+    public WeatherEntity setId(long id) {
         this.id = id;
         return this;
     }
 
     @Basic
-    @Column(name = "datetime")
+    @Column(name = "datetime", nullable = true, length = 16)
     public String getDatetime() {
         return datetime;
     }
 
-    public Weather setDatetime(String datetime) {
+    public WeatherEntity setDatetime(String datetime) {
         this.datetime = datetime;
         return this;
     }
 
     @Basic
-    @Column(name = "city")
+    @Column(name = "city", nullable = true, length = 32)
     public String getCity() {
         return city;
     }
 
-    public Weather setCity(String city) {
+    public WeatherEntity setCity(String city) {
         this.city = city;
         return this;
     }
 
     @Basic
-    @Column(name = "temperature_c")
+    @Column(name = "temperature_c", nullable = true)
     public Integer getTemperatureC() {
         return temperatureC;
     }
 
-    public Weather setTemperatureC(Integer temperatureC) {
+    public WeatherEntity setTemperatureC(Integer temperatureC) {
         this.temperatureC = temperatureC;
         return this;
     }
 
     @Basic
-    @Column(name = "wind_chill")
+    @Column(name = "wind_chill", nullable = true)
     public Integer getWindChill() {
         return windChill;
     }
 
-    public Weather setWindChill(Integer windChill) {
+    public WeatherEntity setWindChill(Integer windChill) {
         this.windChill = windChill;
         return this;
     }
 
     @Basic
-    @Column(name = "wind_direction")
+    @Column(name = "wind_direction", nullable = true)
     public Integer getWindDirection() {
         return windDirection;
     }
 
-    public Weather setWindDirection(Integer windDirection) {
+    public WeatherEntity setWindDirection(Integer windDirection) {
         this.windDirection = windDirection;
         return this;
     }
 
     @Basic
-    @Column(name = "wind_speed")
+    @Column(name = "wind_speed", nullable = true)
     public Integer getWindSpeed() {
         return windSpeed;
     }
 
-    public Weather setWindSpeed(Integer windSpeed) {
+    public WeatherEntity setWindSpeed(Integer windSpeed) {
         this.windSpeed = windSpeed;
         return this;
     }
@@ -97,14 +97,14 @@ public class Weather {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Weather weather = (Weather) o;
-        return id == weather.id &&
-                Objects.equals(datetime, weather.datetime) &&
-                Objects.equals(city, weather.city) &&
-                Objects.equals(temperatureC, weather.temperatureC) &&
-                Objects.equals(windChill, weather.windChill) &&
-                Objects.equals(windDirection, weather.windDirection) &&
-                Objects.equals(windSpeed, weather.windSpeed);
+        WeatherEntity weatherEntity = (WeatherEntity) o;
+        return id == weatherEntity.id &&
+                Objects.equals(datetime, weatherEntity.datetime) &&
+                Objects.equals(city, weatherEntity.city) &&
+                Objects.equals(temperatureC, weatherEntity.temperatureC) &&
+                Objects.equals(windChill, weatherEntity.windChill) &&
+                Objects.equals(windDirection, weatherEntity.windDirection) &&
+                Objects.equals(windSpeed, weatherEntity.windSpeed);
     }
 
     @Override
@@ -115,7 +115,7 @@ public class Weather {
 
     @Override
     public String toString() {
-        return "Weather{" +
+        return "WeatherEntity{" +
                 "id=" + id +
                 ", datetime=" + datetime +
                 ", city='" + city + '\'' +

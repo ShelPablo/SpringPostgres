@@ -1,7 +1,7 @@
 package com.shelpablo.springpostgres.services;
 
 
-import com.shelpablo.springpostgres.entity.Weather;
+import com.shelpablo.springpostgres.entity.WeatherEntity;
 import com.shelpablo.springpostgres.repository.WeatherRepository;
 import com.shelpablo.springpostgres.responses.AllCitiesResponse;
 import com.shelpablo.springpostgres.responses.OneCityResponse;
@@ -17,19 +17,19 @@ public class WeatherService {
     @Autowired
     WeatherRepository weatherRepository;
     @Getter
-    private List<Weather> currentWeather = new ArrayList<>();
+    private List<WeatherEntity> currentWeather = new ArrayList<>();
 
-    public void addWeather(Weather weather) {
-        weatherRepository.save(weather);
+    public void addWeather(WeatherEntity weatherEntity) {
+        weatherRepository.save(weatherEntity);
     }
     public void clearCurrentWeather() {
         currentWeather.clear();
     }
-    public void addCurrentWeather(Weather weather) {
-        currentWeather.add(weather);
+    public void addCurrentWeather(WeatherEntity weatherEntity) {
+        currentWeather.add(weatherEntity);
     }
 
-    public List<Weather> findAllByCity(String city){
+    public List<WeatherEntity> findAllByCity(String city){
         return weatherRepository.findAllByCity(city);
     }
 

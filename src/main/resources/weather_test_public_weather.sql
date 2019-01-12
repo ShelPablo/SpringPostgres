@@ -25,10 +25,10 @@ CREATE DATABASE weather_shelest WITH OWNER user_weather_shelest;
 --SET default_with_oids = false;
 
 --
--- Name: weather; Type: TABLE; Schema: public; Owner: user_weather_shelest
+-- Name: weatherEntity; Type: TABLE; Schema: public; Owner: user_weather_shelest
 --
 
-CREATE TABLE public.weather (
+CREATE TABLE public.weatherEntity (
     id bigint NOT NULL,
     datetime timestamp without time zone,
     country character varying(32),
@@ -40,7 +40,7 @@ CREATE TABLE public.weather (
 );
 
 
-ALTER TABLE public.weather OWNER TO user_weather_shelest;
+ALTER TABLE public.weatherEntity OWNER TO user_weather_shelest;
 
 --
 -- Name: weather_id_seq; Type: SEQUENCE; Schema: public; Owner: user_weather_shelest
@@ -58,23 +58,23 @@ ALTER TABLE public.weather_id_seq OWNER TO user_weather_shelest;
 --
 -- Name: weather_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: user_weather_shelest
 --
-ALTER SEQUENCE public.weather_id_seq OWNED BY public.weather.id;
+ALTER SEQUENCE public.weather_id_seq OWNED BY public.weatherEntity.id;
 --
--- Name: weather id; Type: DEFAULT; Schema: public; Owner: user_weather_shelest
+-- Name: weatherEntity id; Type: DEFAULT; Schema: public; Owner: user_weather_shelest
 --
 
-ALTER TABLE ONLY public.weather ALTER COLUMN id SET DEFAULT nextval('public.weather_id_seq'::regclass);
+ALTER TABLE ONLY public.weatherEntity ALTER COLUMN id SET DEFAULT nextval('public.weather_id_seq'::regclass);
 --
--- Data for Name: weather; Type: TABLE DATA; Schema: public; Owner: user_weather_shelest
+-- Data for Name: weatherEntity; Type: TABLE DATA; Schema: public; Owner: user_weather_shelest
 --
 --
 -- Name: weather_id_seq; Type: SEQUENCE SET; Schema: public; Owner: user_weather_shelest
 --
 SELECT pg_catalog.setval('public.weather_id_seq', 1, false);
 --
--- Name: weather weather_pkey; Type: CONSTRAINT; Schema: public; Owner: user_weather_shelest
+-- Name: weatherEntity weather_pkey; Type: CONSTRAINT; Schema: public; Owner: user_weather_shelest
 --
-ALTER TABLE ONLY public.weather
+ALTER TABLE ONLY public.weatherEntity
     ADD CONSTRAINT weather_pkey PRIMARY KEY (id);
 --
 -- PostgreSQL database dump complete

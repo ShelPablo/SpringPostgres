@@ -1,6 +1,5 @@
 package com.shelpablo.springpostgres;
 
-import com.shelpablo.springpostgres.client.WeatherClient;
 import com.shelpablo.springpostgres.services.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
