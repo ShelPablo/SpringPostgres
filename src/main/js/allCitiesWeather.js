@@ -28,10 +28,13 @@ const TableComponent = props => {
             accessor: "windDir"
         },
         {
-            Header: "Облачность",
-            accessor: "cloudness"
-        }
-
+            Header: "Скорость ветра",
+            accessor: "windSpeed"
+        },
+        {
+            Header: "К-т резкости",
+            accessor: "windChill"
+        },
     ];
 
     return (

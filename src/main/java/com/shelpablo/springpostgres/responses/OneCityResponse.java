@@ -7,8 +7,15 @@ import lombok.Data;
 @AllArgsConstructor
 public class OneCityResponse {
     String date;// "01.01",
-    int tmin;// 26,
-    int tmax;//: 35,
-    int windSpeedMin; //: 11,
-    int windSpeedMax;//: 12
+    int tmin;
+    int tmax;
+    int windSpeedMin;
+    int windSpeedMax;
+
+    public OneCityResponse setDate(String date) {
+        this.date = date;
+        return this;
+    }
+
+
 }

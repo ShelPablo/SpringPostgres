@@ -1,4476 +1,4557 @@
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1, null, 'moscow', 42, 39, 145, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2, null, 'samara', 49, 46, 180, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3, null, 'saint-petersburg', 43, 37, 35, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4, null, 'moscow', 42, 39, 145, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (5, null, 'samara', 49, 46, 180, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (6, null, 'saint-petersburg', 43, 37, 35, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (14, '2018-12-01 12:00', 'Москва', -10, -16, -25, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (15, '2018-12-01 12:00', 'Самара', 3, -19, -129, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (16, '2018-12-01 12:00', 'Санкт-Петербург', 9, 0, -150, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (17, '2018-12-01 01:00', 'Москва', 34, -18, 90, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (18, '2018-12-01 01:00', 'Самара', 5, 3, -119, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (19, '2018-12-01 01:00', 'Санкт-Петербург', 17, 14, 63, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (20, '2018-12-01 02:00', 'Москва', 29, -13, -166, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (21, '2018-12-01 02:00', 'Самара', -3, -16, 60, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (22, '2018-12-01 02:00', 'Санкт-Петербург', -16, 8, 117, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (23, '2018-12-01 03:00', 'Москва', -6, -9, 50, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (24, '2018-12-01 03:00', 'Самара', -2, -20, 152, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (25, '2018-12-01 03:00', 'Санкт-Петербург', 26, 12, 156, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (26, '2018-12-01 04:00', 'Москва', 21, -13, -79, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (27, '2018-12-01 04:00', 'Самара', 32, 4, -76, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (28, '2018-12-01 04:00', 'Санкт-Петербург', -12, 13, -42, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (29, '2018-12-01 05:00', 'Москва', 11, -17, 103, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (30, '2018-12-01 05:00', 'Самара', 13, 3, -75, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (31, '2018-12-01 05:00', 'Санкт-Петербург', 8, 9, 134, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (32, '2018-12-01 06:00', 'Москва', -1, 17, -107, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (33, '2018-12-01 06:00', 'Самара', 28, -1, -42, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (34, '2018-12-01 06:00', 'Санкт-Петербург', 12, -12, 67, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (35, '2018-12-01 07:00', 'Москва', -11, 17, -12, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (36, '2018-12-01 07:00', 'Самара', 12, -20, 161, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (37, '2018-12-01 07:00', 'Санкт-Петербург', 34, 17, 175, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (38, '2018-12-01 08:00', 'Москва', -3, 13, 31, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (39, '2018-12-01 08:00', 'Самара', -14, -4, 154, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (40, '2018-12-01 08:00', 'Санкт-Петербург', 34, -7, -48, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (41, '2018-12-01 09:00', 'Москва', -3, 17, -15, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (42, '2018-12-01 09:00', 'Самара', -9, -16, -134, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (43, '2018-12-01 09:00', 'Санкт-Петербург', 34, 6, -5, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (44, '2018-12-01 10:00', 'Москва', 2, -10, -37, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (45, '2018-12-01 10:00', 'Самара', -3, -4, -128, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (46, '2018-12-01 10:00', 'Санкт-Петербург', 19, 4, 66, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (47, '2018-12-01 11:00', 'Москва', -11, -10, -108, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (48, '2018-12-01 11:00', 'Самара', 29, 18, -142, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (49, '2018-12-01 11:00', 'Санкт-Петербург', -12, 5, -81, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (50, '2018-12-01 12:00', 'Москва', -10, -5, -102, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (51, '2018-12-01 12:00', 'Самара', -18, -17, 170, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (52, '2018-12-01 12:00', 'Санкт-Петербург', 25, 14, 96, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (53, '2018-12-01 01:00', 'Москва', 6, -2, -148, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (54, '2018-12-01 01:00', 'Самара', 17, 19, -7, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (55, '2018-12-01 01:00', 'Санкт-Петербург', 16, 9, 40, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (56, '2018-12-01 02:00', 'Москва', -16, -13, -5, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (57, '2018-12-01 02:00', 'Самара', 15, -15, -90, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (58, '2018-12-01 02:00', 'Санкт-Петербург', -14, -3, -157, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (59, '2018-12-01 03:00', 'Москва', 16, 11, 163, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (60, '2018-12-01 03:00', 'Самара', -13, 10, 152, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (61, '2018-12-01 03:00', 'Санкт-Петербург', -2, -5, -75, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (62, '2018-12-01 04:00', 'Москва', 3, 2, -113, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (63, '2018-12-01 04:00', 'Самара', 32, 14, 91, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (64, '2018-12-01 04:00', 'Санкт-Петербург', -5, 11, -113, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (65, '2018-12-01 05:00', 'Москва', -10, 7, 47, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (66, '2018-12-01 05:00', 'Самара', 19, 20, -159, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (67, '2018-12-01 05:00', 'Санкт-Петербург', -13, -2, -50, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (68, '2018-12-01 06:00', 'Москва', -3, -14, -130, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (69, '2018-12-01 06:00', 'Самара', 22, 8, -72, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (70, '2018-12-01 06:00', 'Санкт-Петербург', 24, 5, -83, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (71, '2018-12-01 07:00', 'Москва', 23, -12, 61, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (72, '2018-12-01 07:00', 'Самара', 19, -14, 93, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (73, '2018-12-01 07:00', 'Санкт-Петербург', 31, -18, -101, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (74, '2018-12-01 08:00', 'Москва', 6, -14, -174, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (75, '2018-12-01 08:00', 'Самара', 32, -13, 66, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (76, '2018-12-01 08:00', 'Санкт-Петербург', 20, 13, 51, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (77, '2018-12-01 09:00', 'Москва', -14, 16, -170, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (9, '2019-01-12 03:00', 'Самара', 5, 14, 24, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (10, '2019-01-12 03:00', 'Санкт-Петербург', 27, 17, -82, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (8, '2019-01-12 04:00', 'Москва', 14, 3, 42, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (78, '2018-12-01 09:00', 'Самара', 20, 6, 100, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (79, '2018-12-01 09:00', 'Санкт-Петербург', -16, -5, 110, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (11, '2019-01-31 11:00', 'Москва', 32, 5, 75, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (12, '2019-01-31 11:00', 'Самара', 29, -19, 80, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (13, '2019-01-31 11:00', 'Санкт-Петербург', 0, 1, 151, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (80, '2018-12-01 10:00', 'Москва', -14, -2, -37, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (81, '2018-12-01 10:00', 'Самара', 10, 10, -85, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (82, '2018-12-01 10:00', 'Санкт-Петербург', 23, -13, -118, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (83, '2018-12-01 11:00', 'Москва', 14, -10, -176, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (84, '2018-12-01 11:00', 'Самара', 33, 7, 172, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (85, '2018-12-01 11:00', 'Санкт-Петербург', 22, 12, 37, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (86, '2018-12-02 12:00', 'Москва', -8, -3, -103, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (87, '2018-12-02 12:00', 'Самара', 16, 19, -161, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (88, '2018-12-02 12:00', 'Санкт-Петербург', 20, 13, -19, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (89, '2018-12-02 01:00', 'Москва', 4, 1, -10, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (90, '2018-12-02 01:00', 'Самара', 3, 12, -27, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (91, '2018-12-02 01:00', 'Санкт-Петербург', -8, -14, -41, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (92, '2018-12-02 02:00', 'Москва', -12, 18, 55, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (93, '2018-12-02 02:00', 'Самара', 13, 7, -2, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (94, '2018-12-02 02:00', 'Санкт-Петербург', -15, -18, -169, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (95, '2018-12-02 03:00', 'Москва', -10, -12, 89, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (96, '2018-12-02 03:00', 'Самара', -16, 15, -82, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (97, '2018-12-02 03:00', 'Санкт-Петербург', 6, 14, -173, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (98, '2018-12-02 04:00', 'Москва', -14, -17, -149, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (99, '2018-12-02 04:00', 'Самара', 33, 6, -33, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (100, '2018-12-02 04:00', 'Санкт-Петербург', 34, 9, -113, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (101, '2018-12-02 05:00', 'Москва', 11, -11, -16, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (102, '2018-12-02 05:00', 'Самара', 12, -9, -142, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (103, '2018-12-02 05:00', 'Санкт-Петербург', 0, 5, 112, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (104, '2018-12-02 06:00', 'Москва', -19, 9, 52, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (105, '2018-12-02 06:00', 'Самара', 10, 3, 100, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (106, '2018-12-02 06:00', 'Санкт-Петербург', 31, -8, 127, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (107, '2018-12-02 07:00', 'Москва', -6, -12, -65, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (108, '2018-12-02 07:00', 'Самара', -1, -11, -34, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (109, '2018-12-02 07:00', 'Санкт-Петербург', -11, 5, 82, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (110, '2018-12-02 08:00', 'Москва', 6, -18, -38, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (111, '2018-12-02 08:00', 'Самара', 29, -16, 159, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (112, '2018-12-02 08:00', 'Санкт-Петербург', -4, -4, 0, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (113, '2018-12-02 09:00', 'Москва', -1, 10, -108, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (114, '2018-12-02 09:00', 'Самара', 13, 11, 53, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (115, '2018-12-02 09:00', 'Санкт-Петербург', -19, 4, 141, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (116, '2018-12-02 10:00', 'Москва', 5, 0, 50, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (117, '2018-12-02 10:00', 'Самара', 2, -1, -98, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (118, '2018-12-02 10:00', 'Санкт-Петербург', 21, 10, -28, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (119, '2018-12-02 11:00', 'Москва', 19, 0, 113, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (120, '2018-12-02 11:00', 'Самара', 23, 20, 143, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (121, '2018-12-02 11:00', 'Санкт-Петербург', 28, -5, 165, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (122, '2018-12-02 12:00', 'Москва', 12, 1, 124, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (123, '2018-12-02 12:00', 'Самара', -20, -12, 101, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (124, '2018-12-02 12:00', 'Санкт-Петербург', -15, 11, -90, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (125, '2018-12-02 01:00', 'Москва', -12, -18, 162, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (126, '2018-12-02 01:00', 'Самара', -14, -15, 49, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (127, '2018-12-02 01:00', 'Санкт-Петербург', 4, 6, -166, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (128, '2018-12-02 02:00', 'Москва', 9, 19, 114, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (129, '2018-12-02 02:00', 'Самара', -7, 17, 67, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (130, '2018-12-02 02:00', 'Санкт-Петербург', -19, -5, -157, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (131, '2018-12-02 03:00', 'Москва', -11, -9, 93, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (132, '2018-12-02 03:00', 'Самара', 3, 17, 12, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (133, '2018-12-02 03:00', 'Санкт-Петербург', -7, -3, -72, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (134, '2018-12-02 04:00', 'Москва', 3, 10, -99, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (135, '2018-12-02 04:00', 'Самара', 5, 19, 32, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (136, '2018-12-02 04:00', 'Санкт-Петербург', 4, 15, 97, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (137, '2018-12-02 05:00', 'Москва', -17, -18, -39, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (138, '2018-12-02 05:00', 'Самара', 7, 2, -162, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (139, '2018-12-02 05:00', 'Санкт-Петербург', 29, -2, 91, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (140, '2018-12-02 06:00', 'Москва', 7, -15, 42, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (141, '2018-12-02 06:00', 'Самара', 28, -5, -83, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (142, '2018-12-02 06:00', 'Санкт-Петербург', -11, 20, -175, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (143, '2018-12-02 07:00', 'Москва', -14, -16, -177, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (144, '2018-12-02 07:00', 'Самара', 9, 4, 170, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (145, '2018-12-02 07:00', 'Санкт-Петербург', 10, -13, -170, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (146, '2018-12-02 08:00', 'Москва', 5, 20, -17, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (147, '2018-12-02 08:00', 'Самара', 21, 10, 168, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (148, '2018-12-02 08:00', 'Санкт-Петербург', 11, -15, 157, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (149, '2018-12-02 09:00', 'Москва', 17, 14, 27, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (150, '2018-12-02 09:00', 'Самара', 21, -14, 155, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (151, '2018-12-02 09:00', 'Санкт-Петербург', 30, 1, -66, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (152, '2018-12-02 10:00', 'Москва', 7, -20, 127, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (153, '2018-12-02 10:00', 'Самара', 17, -1, 43, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (154, '2018-12-02 10:00', 'Санкт-Петербург', -13, 16, -56, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (155, '2018-12-02 11:00', 'Москва', 31, -19, -46, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (156, '2018-12-02 11:00', 'Самара', -9, -17, -41, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (157, '2018-12-02 11:00', 'Санкт-Петербург', -9, 10, 39, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (158, '2018-12-03 12:00', 'Москва', 7, -3, 163, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (159, '2018-12-03 12:00', 'Самара', -12, 9, 55, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (160, '2018-12-03 12:00', 'Санкт-Петербург', -5, -14, 8, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (161, '2018-12-03 01:00', 'Москва', 18, -3, 97, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (162, '2018-12-03 01:00', 'Самара', 26, 4, 175, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (163, '2018-12-03 01:00', 'Санкт-Петербург', 12, -15, 105, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (164, '2018-12-03 02:00', 'Москва', 16, 18, 157, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (165, '2018-12-03 02:00', 'Самара', 20, -9, 95, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (166, '2018-12-03 02:00', 'Санкт-Петербург', -4, -14, 89, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (167, '2018-12-03 03:00', 'Москва', 11, 14, 18, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (168, '2018-12-03 03:00', 'Самара', 4, -7, -50, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (169, '2018-12-03 03:00', 'Санкт-Петербург', 3, -9, 145, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (170, '2018-12-03 04:00', 'Москва', -5, 16, 133, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (171, '2018-12-03 04:00', 'Самара', 22, -16, 73, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (172, '2018-12-03 04:00', 'Санкт-Петербург', 10, 15, -119, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (173, '2018-12-03 05:00', 'Москва', 4, 13, -1, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (174, '2018-12-03 05:00', 'Самара', -17, -9, -119, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (175, '2018-12-03 05:00', 'Санкт-Петербург', 34, 2, -141, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (176, '2018-12-03 06:00', 'Москва', 14, -7, 58, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (177, '2018-12-03 06:00', 'Самара', 13, 7, 65, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (178, '2018-12-03 06:00', 'Санкт-Петербург', 31, 7, -108, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (179, '2018-12-03 07:00', 'Москва', 35, 15, -178, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (180, '2018-12-03 07:00', 'Самара', 2, -1, 5, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (181, '2018-12-03 07:00', 'Санкт-Петербург', -10, -6, 70, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (182, '2018-12-03 08:00', 'Москва', -10, 20, -50, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (183, '2018-12-03 08:00', 'Самара', -20, -17, 52, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (184, '2018-12-03 08:00', 'Санкт-Петербург', 18, -7, 168, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (185, '2018-12-03 09:00', 'Москва', -18, 20, 31, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (186, '2018-12-03 09:00', 'Самара', 6, -15, 46, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (187, '2018-12-03 09:00', 'Санкт-Петербург', 25, 20, 85, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (188, '2018-12-03 10:00', 'Москва', -5, 9, 8, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (189, '2018-12-03 10:00', 'Самара', 4, -3, 3, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (190, '2018-12-03 10:00', 'Санкт-Петербург', 22, 13, 149, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (191, '2018-12-03 11:00', 'Москва', 23, -2, -168, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (192, '2018-12-03 11:00', 'Самара', -7, -16, 111, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (193, '2018-12-03 11:00', 'Санкт-Петербург', 17, -16, 122, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (194, '2018-12-03 12:00', 'Москва', 28, -12, 177, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (195, '2018-12-03 12:00', 'Самара', 16, 3, -58, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (196, '2018-12-03 12:00', 'Санкт-Петербург', -19, -2, 101, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (197, '2018-12-03 01:00', 'Москва', 5, -4, 54, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (198, '2018-12-03 01:00', 'Самара', 19, 8, 66, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (199, '2018-12-03 01:00', 'Санкт-Петербург', -14, -13, 162, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (200, '2018-12-03 02:00', 'Москва', -3, -13, -36, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (201, '2018-12-03 02:00', 'Самара', -16, 3, -158, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (202, '2018-12-03 02:00', 'Санкт-Петербург', 19, -12, 133, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (203, '2018-12-03 03:00', 'Москва', 13, 8, 153, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (204, '2018-12-03 03:00', 'Самара', 31, 11, -130, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (205, '2018-12-03 03:00', 'Санкт-Петербург', -9, 4, -63, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (206, '2018-12-03 04:00', 'Москва', 32, -9, 31, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (207, '2018-12-03 04:00', 'Самара', 9, -2, 79, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (208, '2018-12-03 04:00', 'Санкт-Петербург', 1, -7, -87, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (209, '2018-12-03 05:00', 'Москва', -15, 8, -155, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (210, '2018-12-03 05:00', 'Самара', -2, -3, 124, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (211, '2018-12-03 05:00', 'Санкт-Петербург', -3, -20, 57, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (212, '2018-12-03 06:00', 'Москва', -12, 10, 26, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (213, '2018-12-03 06:00', 'Самара', 7, -17, 128, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (214, '2018-12-03 06:00', 'Санкт-Петербург', 18, -20, 27, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (215, '2018-12-03 07:00', 'Москва', 5, -17, 147, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (216, '2018-12-03 07:00', 'Самара', 35, 17, -134, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (217, '2018-12-03 07:00', 'Санкт-Петербург', 3, -16, 30, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (218, '2018-12-03 08:00', 'Москва', 16, 12, -109, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (219, '2018-12-03 08:00', 'Самара', 8, -10, -20, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (220, '2018-12-03 08:00', 'Санкт-Петербург', 30, -4, -97, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (221, '2018-12-03 09:00', 'Москва', 28, 0, -87, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (222, '2018-12-03 09:00', 'Самара', 1, -10, -14, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (223, '2018-12-03 09:00', 'Санкт-Петербург', 29, 2, -7, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (224, '2018-12-03 10:00', 'Москва', 23, -13, 71, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (225, '2018-12-03 10:00', 'Самара', -16, -11, -147, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (226, '2018-12-03 10:00', 'Санкт-Петербург', -14, 4, -154, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (227, '2018-12-03 11:00', 'Москва', 30, 5, 126, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (228, '2018-12-03 11:00', 'Самара', 22, 7, -34, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (229, '2018-12-03 11:00', 'Санкт-Петербург', -17, 5, -26, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (230, '2018-12-04 12:00', 'Москва', 35, -20, -122, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (231, '2018-12-04 12:00', 'Самара', 18, 0, 80, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (232, '2018-12-04 12:00', 'Санкт-Петербург', 8, -9, -10, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (233, '2018-12-04 01:00', 'Москва', 7, -4, -63, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (234, '2018-12-04 01:00', 'Самара', -6, -1, -145, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (235, '2018-12-04 01:00', 'Санкт-Петербург', 19, -13, 118, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (236, '2018-12-04 02:00', 'Москва', 15, -16, 117, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (237, '2018-12-04 02:00', 'Самара', -14, 4, -5, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (238, '2018-12-04 02:00', 'Санкт-Петербург', 3, 9, 155, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (239, '2018-12-04 03:00', 'Москва', 1, 2, -129, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (240, '2018-12-04 03:00', 'Самара', 26, 20, -155, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (241, '2018-12-04 03:00', 'Санкт-Петербург', -5, 6, 139, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (242, '2018-12-04 04:00', 'Москва', 25, -5, 18, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (243, '2018-12-04 04:00', 'Самара', -14, -7, 44, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (244, '2018-12-04 04:00', 'Санкт-Петербург', 35, -3, -139, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (245, '2018-12-04 05:00', 'Москва', 12, 1, 122, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (246, '2018-12-04 05:00', 'Самара', 26, 10, 172, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (247, '2018-12-04 05:00', 'Санкт-Петербург', 28, -3, -123, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (248, '2018-12-04 06:00', 'Москва', -20, 10, -171, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (249, '2018-12-04 06:00', 'Самара', 31, 20, 165, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (250, '2018-12-04 06:00', 'Санкт-Петербург', -6, 2, -157, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (251, '2018-12-04 07:00', 'Москва', 2, -18, 19, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (252, '2018-12-04 07:00', 'Самара', 18, -11, 9, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (253, '2018-12-04 07:00', 'Санкт-Петербург', 25, 16, 79, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (254, '2018-12-04 08:00', 'Москва', 16, -11, -175, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (255, '2018-12-04 08:00', 'Самара', 14, 18, 12, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (256, '2018-12-04 08:00', 'Санкт-Петербург', -12, 13, 180, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (257, '2018-12-04 09:00', 'Москва', 17, 15, -73, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (258, '2018-12-04 09:00', 'Самара', 6, 0, 26, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (259, '2018-12-04 09:00', 'Санкт-Петербург', -14, 7, -63, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (260, '2018-12-04 10:00', 'Москва', -7, 3, -149, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (261, '2018-12-04 10:00', 'Самара', 21, 6, 35, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (262, '2018-12-04 10:00', 'Санкт-Петербург', 21, 15, -122, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (263, '2018-12-04 11:00', 'Москва', 14, 12, 80, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (264, '2018-12-04 11:00', 'Самара', -14, -13, -77, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (265, '2018-12-04 11:00', 'Санкт-Петербург', -11, 13, -166, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (266, '2018-12-04 12:00', 'Москва', -6, 18, -15, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (267, '2018-12-04 12:00', 'Самара', -6, -9, -154, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (268, '2018-12-04 12:00', 'Санкт-Петербург', -18, -13, -3, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (269, '2018-12-04 01:00', 'Москва', -15, 14, -31, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (270, '2018-12-04 01:00', 'Самара', -11, -1, -144, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (271, '2018-12-04 01:00', 'Санкт-Петербург', 5, -14, 51, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (272, '2018-12-04 02:00', 'Москва', 14, -9, -4, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (273, '2018-12-04 02:00', 'Самара', -8, 9, 136, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (274, '2018-12-04 02:00', 'Санкт-Петербург', 28, -2, -23, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (275, '2018-12-04 03:00', 'Москва', -17, -5, -130, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (276, '2018-12-04 03:00', 'Самара', 25, -19, -131, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (277, '2018-12-04 03:00', 'Санкт-Петербург', -17, -5, -116, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (278, '2018-12-04 04:00', 'Москва', 23, 5, -116, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (279, '2018-12-04 04:00', 'Самара', 34, -14, 35, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (280, '2018-12-04 04:00', 'Санкт-Петербург', 16, 18, 161, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (281, '2018-12-04 05:00', 'Москва', 8, -5, -132, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (282, '2018-12-04 05:00', 'Самара', 21, -4, -45, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (283, '2018-12-04 05:00', 'Санкт-Петербург', -1, 1, -122, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (284, '2018-12-04 06:00', 'Москва', 4, -19, 84, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (285, '2018-12-04 06:00', 'Самара', -16, 13, 50, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (286, '2018-12-04 06:00', 'Санкт-Петербург', 9, 8, -2, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (287, '2018-12-04 07:00', 'Москва', 0, -6, 87, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (288, '2018-12-04 07:00', 'Самара', -5, -7, -49, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (289, '2018-12-04 07:00', 'Санкт-Петербург', 10, -11, 169, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (290, '2018-12-04 08:00', 'Москва', 24, 12, -42, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (291, '2018-12-04 08:00', 'Самара', -19, -12, 121, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (292, '2018-12-04 08:00', 'Санкт-Петербург', -9, -18, -98, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (293, '2018-12-04 09:00', 'Москва', 14, 20, 108, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (294, '2018-12-04 09:00', 'Самара', 3, -11, 50, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (295, '2018-12-04 09:00', 'Санкт-Петербург', 9, -5, 146, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (296, '2018-12-04 10:00', 'Москва', 25, -8, -68, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (297, '2018-12-04 10:00', 'Самара', 23, 8, -37, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (298, '2018-12-04 10:00', 'Санкт-Петербург', 29, -11, -20, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (299, '2018-12-04 11:00', 'Москва', 12, -17, -27, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (300, '2018-12-04 11:00', 'Самара', 15, -7, 105, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (301, '2018-12-04 11:00', 'Санкт-Петербург', 4, -17, 24, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (302, '2018-12-05 12:00', 'Москва', -14, -3, -61, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (303, '2018-12-05 12:00', 'Самара', 28, -11, -79, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (304, '2018-12-05 12:00', 'Санкт-Петербург', 34, 6, -172, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (305, '2018-12-05 01:00', 'Москва', -14, -10, -53, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (306, '2018-12-05 01:00', 'Самара', 25, 9, 62, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (307, '2018-12-05 01:00', 'Санкт-Петербург', 35, 12, 164, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (308, '2018-12-05 02:00', 'Москва', 29, 16, 13, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (309, '2018-12-05 02:00', 'Самара', 26, 11, 58, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (310, '2018-12-05 02:00', 'Санкт-Петербург', 12, -7, 152, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (311, '2018-12-05 03:00', 'Москва', 11, -2, -167, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (312, '2018-12-05 03:00', 'Самара', -14, -16, 7, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (313, '2018-12-05 03:00', 'Санкт-Петербург', -3, 14, 94, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (314, '2018-12-05 04:00', 'Москва', 15, 16, -152, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (315, '2018-12-05 04:00', 'Самара', 10, 3, 134, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (316, '2018-12-05 04:00', 'Санкт-Петербург', 12, 12, 100, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (317, '2018-12-05 05:00', 'Москва', -2, 5, 97, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (318, '2018-12-05 05:00', 'Самара', -9, 17, -13, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (319, '2018-12-05 05:00', 'Санкт-Петербург', 11, 18, -29, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (320, '2018-12-05 06:00', 'Москва', -8, -15, 36, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (321, '2018-12-05 06:00', 'Самара', -16, 2, 148, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (322, '2018-12-05 06:00', 'Санкт-Петербург', -8, -14, 4, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (323, '2018-12-05 07:00', 'Москва', 13, 2, -7, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (324, '2018-12-05 07:00', 'Самара', 6, 7, -177, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (325, '2018-12-05 07:00', 'Санкт-Петербург', -2, 20, 110, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (326, '2018-12-05 08:00', 'Москва', 0, 4, -167, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (327, '2018-12-05 08:00', 'Самара', 33, 12, 30, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (328, '2018-12-05 08:00', 'Санкт-Петербург', 22, -15, 113, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (329, '2018-12-05 09:00', 'Москва', 24, -17, 34, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (330, '2018-12-05 09:00', 'Самара', -6, 15, 148, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (331, '2018-12-05 09:00', 'Санкт-Петербург', 20, 7, -96, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (332, '2018-12-05 10:00', 'Москва', 10, 14, 145, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (333, '2018-12-05 10:00', 'Самара', 15, -4, -156, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (334, '2018-12-05 10:00', 'Санкт-Петербург', 15, 8, -75, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (335, '2018-12-05 11:00', 'Москва', 3, -4, -12, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (336, '2018-12-05 11:00', 'Самара', 35, 11, 94, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (337, '2018-12-05 11:00', 'Санкт-Петербург', 31, -19, 17, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (338, '2018-12-05 12:00', 'Москва', -12, 20, -157, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (339, '2018-12-05 12:00', 'Самара', -4, 11, -33, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (340, '2018-12-05 12:00', 'Санкт-Петербург', 8, -12, 43, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (341, '2018-12-05 01:00', 'Москва', -3, -6, -68, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (342, '2018-12-05 01:00', 'Самара', 24, 10, 162, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (343, '2018-12-05 01:00', 'Санкт-Петербург', -2, -14, -88, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (344, '2018-12-05 02:00', 'Москва', 15, -17, -105, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (345, '2018-12-05 02:00', 'Самара', 0, 15, 152, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (346, '2018-12-05 02:00', 'Санкт-Петербург', 35, -2, 177, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (347, '2018-12-05 03:00', 'Москва', 9, -17, 64, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (348, '2018-12-05 03:00', 'Самара', -5, 0, -110, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (349, '2018-12-05 03:00', 'Санкт-Петербург', 13, 12, -70, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (350, '2018-12-05 04:00', 'Москва', 23, 15, 35, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (351, '2018-12-05 04:00', 'Самара', 30, 5, -13, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (352, '2018-12-05 04:00', 'Санкт-Петербург', -14, -17, 148, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (353, '2018-12-05 05:00', 'Москва', 8, -3, 35, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (354, '2018-12-05 05:00', 'Самара', -16, -12, -166, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (355, '2018-12-05 05:00', 'Санкт-Петербург', -11, 14, -132, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (356, '2018-12-05 06:00', 'Москва', -13, -16, -154, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (357, '2018-12-05 06:00', 'Самара', 29, 1, 127, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (358, '2018-12-05 06:00', 'Санкт-Петербург', 12, -5, -51, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (359, '2018-12-05 07:00', 'Москва', 2, 6, -117, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (360, '2018-12-05 07:00', 'Самара', -6, -15, 75, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (361, '2018-12-05 07:00', 'Санкт-Петербург', -10, 17, -49, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (362, '2018-12-05 08:00', 'Москва', 35, 0, 87, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (363, '2018-12-05 08:00', 'Самара', 26, 11, 35, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (364, '2018-12-05 08:00', 'Санкт-Петербург', 34, 12, 23, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (365, '2018-12-05 09:00', 'Москва', 6, -20, -26, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (366, '2018-12-05 09:00', 'Самара', 31, 12, 95, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (367, '2018-12-05 09:00', 'Санкт-Петербург', 30, -5, -142, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (368, '2018-12-05 10:00', 'Москва', 30, 6, 110, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (369, '2018-12-05 10:00', 'Самара', 8, -15, 180, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (370, '2018-12-05 10:00', 'Санкт-Петербург', 23, -14, 60, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (371, '2018-12-05 11:00', 'Москва', 1, 18, -100, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (372, '2018-12-05 11:00', 'Самара', 34, 20, 85, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (373, '2018-12-05 11:00', 'Санкт-Петербург', -7, 17, -80, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (374, '2018-12-06 12:00', 'Москва', 1, 0, 52, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (375, '2018-12-06 12:00', 'Самара', 13, 9, -18, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (376, '2018-12-06 12:00', 'Санкт-Петербург', 31, 5, 68, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (377, '2018-12-06 01:00', 'Москва', 20, -8, -11, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (378, '2018-12-06 01:00', 'Самара', 9, 9, -57, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (379, '2018-12-06 01:00', 'Санкт-Петербург', -19, 20, 67, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (380, '2018-12-06 02:00', 'Москва', 7, -3, 17, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (381, '2018-12-06 02:00', 'Самара', 27, -1, -42, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (382, '2018-12-06 02:00', 'Санкт-Петербург', 0, -2, -157, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (383, '2018-12-06 03:00', 'Москва', 24, -2, -73, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (384, '2018-12-06 03:00', 'Самара', -9, 2, -109, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (385, '2018-12-06 03:00', 'Санкт-Петербург', 16, 20, -99, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (386, '2018-12-06 04:00', 'Москва', -16, -5, -104, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (387, '2018-12-06 04:00', 'Самара', -8, 3, -143, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (388, '2018-12-06 04:00', 'Санкт-Петербург', 2, 17, 170, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (389, '2018-12-06 05:00', 'Москва', 22, 5, -16, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (390, '2018-12-06 05:00', 'Самара', -1, -20, -82, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (391, '2018-12-06 05:00', 'Санкт-Петербург', -18, -18, 78, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (392, '2018-12-06 06:00', 'Москва', -12, 0, -63, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (393, '2018-12-06 06:00', 'Самара', 0, -20, 5, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (394, '2018-12-06 06:00', 'Санкт-Петербург', -11, -19, -96, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (395, '2018-12-06 07:00', 'Москва', 14, -2, -94, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (396, '2018-12-06 07:00', 'Самара', 10, -16, 3, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (397, '2018-12-06 07:00', 'Санкт-Петербург', 7, -6, -103, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (398, '2018-12-06 08:00', 'Москва', 31, 3, 40, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (399, '2018-12-06 08:00', 'Самара', 4, -15, 59, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (400, '2018-12-06 08:00', 'Санкт-Петербург', 8, -1, -117, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (401, '2018-12-06 09:00', 'Москва', 13, 2, -84, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (402, '2018-12-06 09:00', 'Самара', -20, -11, -5, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (403, '2018-12-06 09:00', 'Санкт-Петербург', 23, 8, -31, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (404, '2018-12-06 10:00', 'Москва', 4, 20, 93, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (405, '2018-12-06 10:00', 'Самара', 35, -17, 122, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (406, '2018-12-06 10:00', 'Санкт-Петербург', 22, -6, -22, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (407, '2018-12-06 11:00', 'Москва', -9, 18, -58, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (408, '2018-12-06 11:00', 'Самара', -5, 10, 157, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (409, '2018-12-06 11:00', 'Санкт-Петербург', 8, -17, 39, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (410, '2018-12-06 12:00', 'Москва', -7, 12, -93, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (411, '2018-12-06 12:00', 'Самара', 18, 14, -84, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (412, '2018-12-06 12:00', 'Санкт-Петербург', 12, 15, 1, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (413, '2018-12-06 01:00', 'Москва', 17, 3, -44, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (414, '2018-12-06 01:00', 'Самара', 5, -2, -60, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (415, '2018-12-06 01:00', 'Санкт-Петербург', -16, -16, -139, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (416, '2018-12-06 02:00', 'Москва', 34, 18, 13, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (417, '2018-12-06 02:00', 'Самара', -10, 3, 161, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (418, '2018-12-06 02:00', 'Санкт-Петербург', -12, -16, -5, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (419, '2018-12-06 03:00', 'Москва', 5, -2, -135, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (420, '2018-12-06 03:00', 'Самара', 21, 1, -177, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (421, '2018-12-06 03:00', 'Санкт-Петербург', 24, -4, -102, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (422, '2018-12-06 04:00', 'Москва', -17, 0, 136, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (423, '2018-12-06 04:00', 'Самара', 35, 5, -151, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (424, '2018-12-06 04:00', 'Санкт-Петербург', -10, -14, -64, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (425, '2018-12-06 05:00', 'Москва', 26, 3, -97, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (426, '2018-12-06 05:00', 'Самара', 12, -14, -115, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (427, '2018-12-06 05:00', 'Санкт-Петербург', 12, 15, 142, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (428, '2018-12-06 06:00', 'Москва', 21, 11, -41, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (429, '2018-12-06 06:00', 'Самара', 14, 4, -26, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (430, '2018-12-06 06:00', 'Санкт-Петербург', -1, -16, -111, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (431, '2018-12-06 07:00', 'Москва', 19, 2, 65, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (432, '2018-12-06 07:00', 'Самара', -18, -5, 130, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (433, '2018-12-06 07:00', 'Санкт-Петербург', -14, 18, 176, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (434, '2018-12-06 08:00', 'Москва', 13, 9, -81, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (435, '2018-12-06 08:00', 'Самара', 13, -10, 91, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (436, '2018-12-06 08:00', 'Санкт-Петербург', 5, 8, 35, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (437, '2018-12-06 09:00', 'Москва', -8, -20, -34, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (438, '2018-12-06 09:00', 'Самара', 28, 10, -9, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (439, '2018-12-06 09:00', 'Санкт-Петербург', 26, 3, -112, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (440, '2018-12-06 10:00', 'Москва', -2, -12, 91, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (441, '2018-12-06 10:00', 'Самара', 1, 9, -68, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (442, '2018-12-06 10:00', 'Санкт-Петербург', -3, -12, -13, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (443, '2018-12-06 11:00', 'Москва', -15, 16, 29, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (444, '2018-12-06 11:00', 'Самара', 17, -2, -124, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (445, '2018-12-06 11:00', 'Санкт-Петербург', 0, 11, -93, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (446, '2018-12-07 12:00', 'Москва', 6, 10, 56, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (447, '2018-12-07 12:00', 'Самара', 28, -10, -108, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (448, '2018-12-07 12:00', 'Санкт-Петербург', -16, -3, -76, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (449, '2018-12-07 01:00', 'Москва', -7, -5, 29, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (450, '2018-12-07 01:00', 'Самара', 29, -2, 120, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (451, '2018-12-07 01:00', 'Санкт-Петербург', 28, 11, -102, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (452, '2018-12-07 02:00', 'Москва', 15, -11, -133, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (453, '2018-12-07 02:00', 'Самара', -20, 5, 159, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (454, '2018-12-07 02:00', 'Санкт-Петербург', 13, 14, -168, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (455, '2018-12-07 03:00', 'Москва', 31, -9, -175, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (456, '2018-12-07 03:00', 'Самара', 18, 18, 23, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (457, '2018-12-07 03:00', 'Санкт-Петербург', -2, -1, 78, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (458, '2018-12-07 04:00', 'Москва', 7, 2, 78, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (459, '2018-12-07 04:00', 'Самара', 14, 19, -148, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (460, '2018-12-07 04:00', 'Санкт-Петербург', 33, 4, -86, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (461, '2018-12-07 05:00', 'Москва', 26, 1, 174, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (462, '2018-12-07 05:00', 'Самара', 18, -4, -46, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (463, '2018-12-07 05:00', 'Санкт-Петербург', 6, 1, 140, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (464, '2018-12-07 06:00', 'Москва', -15, -12, 127, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (465, '2018-12-07 06:00', 'Самара', 0, -12, -82, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (466, '2018-12-07 06:00', 'Санкт-Петербург', 13, -8, -78, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (467, '2018-12-07 07:00', 'Москва', 30, -16, 65, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (468, '2018-12-07 07:00', 'Самара', -6, -5, 39, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (469, '2018-12-07 07:00', 'Санкт-Петербург', 8, 9, 179, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (470, '2018-12-07 08:00', 'Москва', 27, -5, 144, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (471, '2018-12-07 08:00', 'Самара', 20, 5, -16, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (472, '2018-12-07 08:00', 'Санкт-Петербург', 3, -14, -60, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (473, '2018-12-07 09:00', 'Москва', 8, 8, 133, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (474, '2018-12-07 09:00', 'Самара', 23, -4, -24, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (475, '2018-12-07 09:00', 'Санкт-Петербург', 13, -18, 11, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (476, '2018-12-07 10:00', 'Москва', 17, -16, -51, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (477, '2018-12-07 10:00', 'Самара', 10, -9, 110, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (478, '2018-12-07 10:00', 'Санкт-Петербург', 34, -11, 151, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (479, '2018-12-07 11:00', 'Москва', 11, -11, 97, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (480, '2018-12-07 11:00', 'Самара', -10, 7, -155, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (481, '2018-12-07 11:00', 'Санкт-Петербург', 34, 18, 30, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (482, '2018-12-07 12:00', 'Москва', 1, 11, -49, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (483, '2018-12-07 12:00', 'Самара', -1, 6, 36, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (484, '2018-12-07 12:00', 'Санкт-Петербург', 30, 5, 39, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (485, '2018-12-07 01:00', 'Москва', -2, -10, 7, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (486, '2018-12-07 01:00', 'Самара', 0, -5, 29, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (487, '2018-12-07 01:00', 'Санкт-Петербург', -4, -5, -127, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (488, '2018-12-07 02:00', 'Москва', 2, 9, 48, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (489, '2018-12-07 02:00', 'Самара', 4, -10, 1, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (490, '2018-12-07 02:00', 'Санкт-Петербург', -9, 20, -107, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (491, '2018-12-07 03:00', 'Москва', 28, 1, -113, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (492, '2018-12-07 03:00', 'Самара', 17, -3, -154, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (493, '2018-12-07 03:00', 'Санкт-Петербург', 16, 8, -160, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (494, '2018-12-07 04:00', 'Москва', 10, -13, 8, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (495, '2018-12-07 04:00', 'Самара', 0, -18, 60, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (496, '2018-12-07 04:00', 'Санкт-Петербург', -1, 20, 99, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (497, '2018-12-07 05:00', 'Москва', 26, -14, 18, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (498, '2018-12-07 05:00', 'Самара', -13, 5, 96, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (499, '2018-12-07 05:00', 'Санкт-Петербург', 3, -7, 174, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (500, '2018-12-07 06:00', 'Москва', -12, -11, -115, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (501, '2018-12-07 06:00', 'Самара', -4, -11, -45, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (502, '2018-12-07 06:00', 'Санкт-Петербург', 31, -1, 21, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (503, '2018-12-07 07:00', 'Москва', -6, -19, 147, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (504, '2018-12-07 07:00', 'Самара', -8, 8, 157, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (505, '2018-12-07 07:00', 'Санкт-Петербург', 32, -14, 31, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (506, '2018-12-07 08:00', 'Москва', 5, -1, -148, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (507, '2018-12-07 08:00', 'Самара', 26, -13, -50, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (508, '2018-12-07 08:00', 'Санкт-Петербург', 28, 8, -106, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (509, '2018-12-07 09:00', 'Москва', -4, 2, -97, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (510, '2018-12-07 09:00', 'Самара', -16, 12, 100, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (511, '2018-12-07 09:00', 'Санкт-Петербург', 29, 5, 172, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (512, '2018-12-07 10:00', 'Москва', 14, 2, 178, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (513, '2018-12-07 10:00', 'Самара', 29, 18, 96, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (514, '2018-12-07 10:00', 'Санкт-Петербург', 3, 1, -153, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (515, '2018-12-07 11:00', 'Москва', 8, -2, -42, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (516, '2018-12-07 11:00', 'Самара', 5, -17, 120, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (517, '2018-12-07 11:00', 'Санкт-Петербург', -4, -13, 112, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (518, '2018-12-08 12:00', 'Москва', 2, 19, -123, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (519, '2018-12-08 12:00', 'Самара', 8, 10, 20, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (520, '2018-12-08 12:00', 'Санкт-Петербург', 30, -2, -48, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (521, '2018-12-08 01:00', 'Москва', 3, 9, -13, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (522, '2018-12-08 01:00', 'Самара', -7, 17, 153, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (523, '2018-12-08 01:00', 'Санкт-Петербург', 35, -20, -21, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (524, '2018-12-08 02:00', 'Москва', 13, -11, 98, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (525, '2018-12-08 02:00', 'Самара', 23, 1, -163, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (526, '2018-12-08 02:00', 'Санкт-Петербург', 26, -9, -149, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (527, '2018-12-08 03:00', 'Москва', -2, -9, -107, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (528, '2018-12-08 03:00', 'Самара', 13, 16, -99, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (529, '2018-12-08 03:00', 'Санкт-Петербург', 28, -9, 148, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (530, '2018-12-08 04:00', 'Москва', -14, -16, -161, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (531, '2018-12-08 04:00', 'Самара', 22, -2, 121, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (532, '2018-12-08 04:00', 'Санкт-Петербург', -3, 5, 5, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (533, '2018-12-08 05:00', 'Москва', 12, 7, -126, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (534, '2018-12-08 05:00', 'Самара', 15, -10, -80, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (535, '2018-12-08 05:00', 'Санкт-Петербург', -7, 0, -32, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (536, '2018-12-08 06:00', 'Москва', 11, -20, -137, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (537, '2018-12-08 06:00', 'Самара', 28, -19, 40, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (538, '2018-12-08 06:00', 'Санкт-Петербург', 31, 3, -56, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (539, '2018-12-08 07:00', 'Москва', 30, 11, 54, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (540, '2018-12-08 07:00', 'Самара', 29, -16, 108, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (541, '2018-12-08 07:00', 'Санкт-Петербург', -4, 13, -48, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (542, '2018-12-08 08:00', 'Москва', 13, 3, -145, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (543, '2018-12-08 08:00', 'Самара', -12, -20, -111, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (544, '2018-12-08 08:00', 'Санкт-Петербург', -18, -13, 8, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (545, '2018-12-08 09:00', 'Москва', -15, 14, 143, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (546, '2018-12-08 09:00', 'Самара', 23, 13, -17, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (547, '2018-12-08 09:00', 'Санкт-Петербург', 13, 14, 136, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (548, '2018-12-08 10:00', 'Москва', -1, -13, -79, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (549, '2018-12-08 10:00', 'Самара', -7, 13, -47, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (550, '2018-12-08 10:00', 'Санкт-Петербург', 15, 17, 39, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (551, '2018-12-08 11:00', 'Москва', 18, 17, 27, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (552, '2018-12-08 11:00', 'Самара', 23, 15, 35, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (553, '2018-12-08 11:00', 'Санкт-Петербург', -8, -14, -77, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (554, '2018-12-08 12:00', 'Москва', 0, 10, -58, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (555, '2018-12-08 12:00', 'Самара', -14, 7, -123, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (556, '2018-12-08 12:00', 'Санкт-Петербург', 31, 8, -99, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (557, '2018-12-08 01:00', 'Москва', 15, 20, -75, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (558, '2018-12-08 01:00', 'Самара', 13, -1, -70, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (559, '2018-12-08 01:00', 'Санкт-Петербург', 12, 20, -16, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (560, '2018-12-08 02:00', 'Москва', 16, -10, 167, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (561, '2018-12-08 02:00', 'Самара', 15, 1, -72, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (562, '2018-12-08 02:00', 'Санкт-Петербург', 4, -11, 95, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (563, '2018-12-08 03:00', 'Москва', 13, 0, 56, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (564, '2018-12-08 03:00', 'Самара', 34, 14, 75, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (565, '2018-12-08 03:00', 'Санкт-Петербург', 22, -11, -179, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (566, '2018-12-08 04:00', 'Москва', 34, -6, 24, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (567, '2018-12-08 04:00', 'Самара', -11, 3, 94, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (568, '2018-12-08 04:00', 'Санкт-Петербург', -11, -15, -160, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (569, '2018-12-08 05:00', 'Москва', -19, -11, 119, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (570, '2018-12-08 05:00', 'Самара', -12, 15, 101, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (571, '2018-12-08 05:00', 'Санкт-Петербург', 16, 7, 122, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (572, '2018-12-08 06:00', 'Москва', -16, 11, 98, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (573, '2018-12-08 06:00', 'Самара', 25, 5, -109, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (574, '2018-12-08 06:00', 'Санкт-Петербург', 2, 16, 105, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (575, '2018-12-08 07:00', 'Москва', -7, 5, 94, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (576, '2018-12-08 07:00', 'Самара', -12, 16, -103, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (577, '2018-12-08 07:00', 'Санкт-Петербург', 26, -4, -33, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (578, '2018-12-08 08:00', 'Москва', 14, -11, 109, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (579, '2018-12-08 08:00', 'Самара', 18, -2, -155, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (580, '2018-12-08 08:00', 'Санкт-Петербург', -11, 2, 42, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (581, '2018-12-08 09:00', 'Москва', 3, -19, 141, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (582, '2018-12-08 09:00', 'Самара', 6, 6, -167, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (583, '2018-12-08 09:00', 'Санкт-Петербург', 24, -19, -1, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (584, '2018-12-08 10:00', 'Москва', 1, -3, 32, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (585, '2018-12-08 10:00', 'Самара', -4, -3, -142, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (586, '2018-12-08 10:00', 'Санкт-Петербург', 30, -15, 135, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (587, '2018-12-08 11:00', 'Москва', -16, 5, -153, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (588, '2018-12-08 11:00', 'Самара', 20, 6, -22, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (589, '2018-12-08 11:00', 'Санкт-Петербург', -17, 10, 59, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (590, '2018-12-09 12:00', 'Москва', -17, -3, 123, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (591, '2018-12-09 12:00', 'Самара', 4, -1, 28, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (592, '2018-12-09 12:00', 'Санкт-Петербург', -14, 1, 77, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (593, '2018-12-09 01:00', 'Москва', 26, -9, -115, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (594, '2018-12-09 01:00', 'Самара', 20, 15, 52, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (595, '2018-12-09 01:00', 'Санкт-Петербург', 11, 10, -63, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (596, '2018-12-09 02:00', 'Москва', -17, -20, 77, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (597, '2018-12-09 02:00', 'Самара', -1, -15, -1, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (598, '2018-12-09 02:00', 'Санкт-Петербург', 3, 10, -45, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (599, '2018-12-09 03:00', 'Москва', -7, -7, -26, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (600, '2018-12-09 03:00', 'Самара', -14, -12, -49, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (601, '2018-12-09 03:00', 'Санкт-Петербург', 11, -10, 12, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (602, '2018-12-09 04:00', 'Москва', 2, -13, 117, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (603, '2018-12-09 04:00', 'Самара', 29, 11, 97, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (604, '2018-12-09 04:00', 'Санкт-Петербург', 7, -12, -165, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (605, '2018-12-09 05:00', 'Москва', -19, -10, 70, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (606, '2018-12-09 05:00', 'Самара', -5, -16, -1, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (607, '2018-12-09 05:00', 'Санкт-Петербург', 30, -8, 133, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (608, '2018-12-09 06:00', 'Москва', -7, -13, -24, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (609, '2018-12-09 06:00', 'Самара', 29, 7, -24, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (610, '2018-12-09 06:00', 'Санкт-Петербург', 16, 2, -154, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (611, '2018-12-09 07:00', 'Москва', -8, -7, 149, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (612, '2018-12-09 07:00', 'Самара', 28, -14, -139, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (613, '2018-12-09 07:00', 'Санкт-Петербург', -13, -4, 58, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (614, '2018-12-09 08:00', 'Москва', 25, -14, -134, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (615, '2018-12-09 08:00', 'Самара', -13, -12, 103, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (616, '2018-12-09 08:00', 'Санкт-Петербург', 11, -4, -172, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (617, '2018-12-09 09:00', 'Москва', 21, -3, 132, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (618, '2018-12-09 09:00', 'Самара', 12, 12, 47, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (619, '2018-12-09 09:00', 'Санкт-Петербург', -17, -6, 179, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (620, '2018-12-09 10:00', 'Москва', 29, 9, -53, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (621, '2018-12-09 10:00', 'Самара', -11, 2, -46, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (622, '2018-12-09 10:00', 'Санкт-Петербург', -9, -18, -94, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (623, '2018-12-09 11:00', 'Москва', 32, 5, -37, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (624, '2018-12-09 11:00', 'Самара', 7, 9, -174, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (625, '2018-12-09 11:00', 'Санкт-Петербург', 24, 10, -172, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (626, '2018-12-09 12:00', 'Москва', 33, 10, 116, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (627, '2018-12-09 12:00', 'Самара', 10, -4, 151, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (628, '2018-12-09 12:00', 'Санкт-Петербург', 32, -13, 17, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (629, '2018-12-09 01:00', 'Москва', -9, 15, -69, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (630, '2018-12-09 01:00', 'Самара', -14, 12, 104, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (631, '2018-12-09 01:00', 'Санкт-Петербург', -13, 10, -162, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (632, '2018-12-09 02:00', 'Москва', -2, 0, -117, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (633, '2018-12-09 02:00', 'Самара', 35, 6, 132, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (634, '2018-12-09 02:00', 'Санкт-Петербург', -17, -11, 75, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (635, '2018-12-09 03:00', 'Москва', 22, -3, 90, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (636, '2018-12-09 03:00', 'Самара', -12, 17, 46, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (637, '2018-12-09 03:00', 'Санкт-Петербург', -18, 16, -172, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (638, '2018-12-09 04:00', 'Москва', -17, -10, -104, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (639, '2018-12-09 04:00', 'Самара', 7, 6, -179, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (640, '2018-12-09 04:00', 'Санкт-Петербург', 25, 2, -149, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (641, '2018-12-09 05:00', 'Москва', 23, -3, 151, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (642, '2018-12-09 05:00', 'Самара', 35, -1, -57, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (643, '2018-12-09 05:00', 'Санкт-Петербург', 14, -11, -162, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (644, '2018-12-09 06:00', 'Москва', 2, 17, -92, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (645, '2018-12-09 06:00', 'Самара', 26, -19, -97, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (646, '2018-12-09 06:00', 'Санкт-Петербург', -9, 15, 40, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (647, '2018-12-09 07:00', 'Москва', 34, 19, -83, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (648, '2018-12-09 07:00', 'Самара', 21, -17, 135, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (649, '2018-12-09 07:00', 'Санкт-Петербург', 29, 0, -4, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (650, '2018-12-09 08:00', 'Москва', 32, 10, 62, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (651, '2018-12-09 08:00', 'Самара', 9, 6, 63, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (652, '2018-12-09 08:00', 'Санкт-Петербург', 9, -1, 178, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (653, '2018-12-09 09:00', 'Москва', 11, -2, 21, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (654, '2018-12-09 09:00', 'Самара', 12, 16, 43, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (655, '2018-12-09 09:00', 'Санкт-Петербург', 18, 8, 154, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (656, '2018-12-09 10:00', 'Москва', 1, -6, 180, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (657, '2018-12-09 10:00', 'Самара', 4, 15, -23, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (658, '2018-12-09 10:00', 'Санкт-Петербург', 7, -4, 131, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (659, '2018-12-09 11:00', 'Москва', 6, 15, 173, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (660, '2018-12-09 11:00', 'Самара', -13, 1, -107, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (661, '2018-12-09 11:00', 'Санкт-Петербург', 14, -14, 160, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (662, '2018-12-10 12:00', 'Москва', 12, 18, -27, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (663, '2018-12-10 12:00', 'Самара', -20, 7, -85, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (664, '2018-12-10 12:00', 'Санкт-Петербург', -18, 14, -71, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (665, '2018-12-10 01:00', 'Москва', 24, -2, 162, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (666, '2018-12-10 01:00', 'Самара', 27, 19, 123, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (667, '2018-12-10 01:00', 'Санкт-Петербург', -16, -2, -109, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (668, '2018-12-10 02:00', 'Москва', 32, -3, 83, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (669, '2018-12-10 02:00', 'Самара', 3, 0, -119, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (670, '2018-12-10 02:00', 'Санкт-Петербург', -5, 13, 56, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (671, '2018-12-10 03:00', 'Москва', 6, 19, -150, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (672, '2018-12-10 03:00', 'Самара', 8, -7, 143, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (673, '2018-12-10 03:00', 'Санкт-Петербург', 4, 19, -144, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (674, '2018-12-10 04:00', 'Москва', -20, 20, 9, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (675, '2018-12-10 04:00', 'Самара', -8, -15, -144, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (676, '2018-12-10 04:00', 'Санкт-Петербург', -3, -7, 1, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (677, '2018-12-10 05:00', 'Москва', -4, 20, -118, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (678, '2018-12-10 05:00', 'Самара', 6, 3, 130, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (679, '2018-12-10 05:00', 'Санкт-Петербург', -20, -8, -96, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (680, '2018-12-10 06:00', 'Москва', -1, 5, -147, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (681, '2018-12-10 06:00', 'Самара', -14, -8, 27, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (682, '2018-12-10 06:00', 'Санкт-Петербург', -12, -11, 99, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (683, '2018-12-10 07:00', 'Москва', 6, 13, 149, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (684, '2018-12-10 07:00', 'Самара', -5, 9, -89, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (685, '2018-12-10 07:00', 'Санкт-Петербург', 25, 4, -92, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (686, '2018-12-10 08:00', 'Москва', 27, -6, 37, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (687, '2018-12-10 08:00', 'Самара', 23, 4, -111, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (688, '2018-12-10 08:00', 'Санкт-Петербург', -5, -13, -99, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (689, '2018-12-10 09:00', 'Москва', -10, 15, -87, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (690, '2018-12-10 09:00', 'Самара', 2, 5, -64, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (691, '2018-12-10 09:00', 'Санкт-Петербург', 21, 11, -150, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (692, '2018-12-10 10:00', 'Москва', 11, -7, 110, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (693, '2018-12-10 10:00', 'Самара', 1, -17, -158, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (694, '2018-12-10 10:00', 'Санкт-Петербург', 28, 10, 35, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (695, '2018-12-10 11:00', 'Москва', 35, 20, 21, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (696, '2018-12-10 11:00', 'Самара', 6, 3, 34, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (697, '2018-12-10 11:00', 'Санкт-Петербург', -14, -2, -76, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (698, '2018-12-10 12:00', 'Москва', -2, 2, 4, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (699, '2018-12-10 12:00', 'Самара', 25, 17, 50, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (700, '2018-12-10 12:00', 'Санкт-Петербург', 12, -17, 27, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (701, '2018-12-10 01:00', 'Москва', 10, 14, -156, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (702, '2018-12-10 01:00', 'Самара', -19, 10, -12, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (703, '2018-12-10 01:00', 'Санкт-Петербург', 15, 5, -122, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (704, '2018-12-10 02:00', 'Москва', 33, 12, -60, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (705, '2018-12-10 02:00', 'Самара', 34, -14, -75, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (706, '2018-12-10 02:00', 'Санкт-Петербург', 1, -20, -180, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (707, '2018-12-10 03:00', 'Москва', -15, 12, 117, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (708, '2018-12-10 03:00', 'Самара', 28, -16, 14, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (709, '2018-12-10 03:00', 'Санкт-Петербург', -20, 6, 138, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (710, '2018-12-10 04:00', 'Москва', -14, 9, 92, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (711, '2018-12-10 04:00', 'Самара', -6, -8, -19, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (712, '2018-12-10 04:00', 'Санкт-Петербург', -11, -7, -73, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (713, '2018-12-10 05:00', 'Москва', 28, 20, -8, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (714, '2018-12-10 05:00', 'Самара', 4, -2, 31, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (715, '2018-12-10 05:00', 'Санкт-Петербург', -12, -4, -173, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (716, '2018-12-10 06:00', 'Москва', 11, 16, -18, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (717, '2018-12-10 06:00', 'Самара', 20, 5, -136, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (718, '2018-12-10 06:00', 'Санкт-Петербург', -3, -13, 37, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (719, '2018-12-10 07:00', 'Москва', 1, 19, 116, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (720, '2018-12-10 07:00', 'Самара', -15, 18, -13, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (721, '2018-12-10 07:00', 'Санкт-Петербург', 15, -6, 54, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (722, '2018-12-10 08:00', 'Москва', 22, 3, 160, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (723, '2018-12-10 08:00', 'Самара', 24, -5, -119, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (724, '2018-12-10 08:00', 'Санкт-Петербург', -1, 4, -149, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (725, '2018-12-10 09:00', 'Москва', 32, 1, -60, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (726, '2018-12-10 09:00', 'Самара', 26, 9, -41, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (727, '2018-12-10 09:00', 'Санкт-Петербург', -5, 18, -39, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (728, '2018-12-10 10:00', 'Москва', 11, -20, -127, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (729, '2018-12-10 10:00', 'Самара', 18, -18, -21, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (730, '2018-12-10 10:00', 'Санкт-Петербург', 32, 3, -83, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (731, '2018-12-10 11:00', 'Москва', -17, -18, 100, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (732, '2018-12-10 11:00', 'Самара', 26, 19, 143, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (733, '2018-12-10 11:00', 'Санкт-Петербург', 10, 14, -136, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (734, '2018-12-11 12:00', 'Москва', -17, 1, 6, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (735, '2018-12-11 12:00', 'Самара', 5, 20, 131, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (736, '2018-12-11 12:00', 'Санкт-Петербург', 8, 16, -127, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (737, '2018-12-11 01:00', 'Москва', 31, -12, -43, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (738, '2018-12-11 01:00', 'Самара', 26, -3, -81, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (739, '2018-12-11 01:00', 'Санкт-Петербург', -12, 7, -39, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (740, '2018-12-11 02:00', 'Москва', 3, 11, -180, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (741, '2018-12-11 02:00', 'Самара', -9, 20, 169, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (742, '2018-12-11 02:00', 'Санкт-Петербург', 29, -20, 39, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (743, '2018-12-11 03:00', 'Москва', 20, 8, 167, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (744, '2018-12-11 03:00', 'Самара', -8, 14, 111, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (745, '2018-12-11 03:00', 'Санкт-Петербург', 4, 5, -37, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (746, '2018-12-11 04:00', 'Москва', 23, -16, -44, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (747, '2018-12-11 04:00', 'Самара', 14, 13, -17, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (748, '2018-12-11 04:00', 'Санкт-Петербург', 6, 18, -6, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (749, '2018-12-11 05:00', 'Москва', 14, 12, 51, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (750, '2018-12-11 05:00', 'Самара', 6, -17, 124, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (751, '2018-12-11 05:00', 'Санкт-Петербург', 35, -12, -153, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (752, '2018-12-11 06:00', 'Москва', -8, -6, -153, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (753, '2018-12-11 06:00', 'Самара', 19, 18, -152, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (754, '2018-12-11 06:00', 'Санкт-Петербург', 3, -6, -47, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (755, '2018-12-11 07:00', 'Москва', -10, 12, -72, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (756, '2018-12-11 07:00', 'Самара', -18, 10, 172, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (757, '2018-12-11 07:00', 'Санкт-Петербург', -12, -5, -87, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (758, '2018-12-11 08:00', 'Москва', 17, -1, -23, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (759, '2018-12-11 08:00', 'Самара', 31, 14, -51, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (760, '2018-12-11 08:00', 'Санкт-Петербург', 23, -9, -180, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (761, '2018-12-11 09:00', 'Москва', 2, -13, 130, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (762, '2018-12-11 09:00', 'Самара', 24, -15, 149, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (763, '2018-12-11 09:00', 'Санкт-Петербург', 19, 7, -129, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (764, '2018-12-11 10:00', 'Москва', 6, 3, 15, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (765, '2018-12-11 10:00', 'Самара', 15, -4, -162, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (766, '2018-12-11 10:00', 'Санкт-Петербург', 16, 20, 62, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (767, '2018-12-11 11:00', 'Москва', 34, -10, 66, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (768, '2018-12-11 11:00', 'Самара', -12, 11, 179, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (769, '2018-12-11 11:00', 'Санкт-Петербург', 32, 13, -72, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (770, '2018-12-11 12:00', 'Москва', 11, 12, 14, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (771, '2018-12-11 12:00', 'Самара', -11, 13, -13, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (772, '2018-12-11 12:00', 'Санкт-Петербург', 30, -6, 15, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (773, '2018-12-11 01:00', 'Москва', -10, -14, -148, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (774, '2018-12-11 01:00', 'Самара', 29, 11, 164, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (775, '2018-12-11 01:00', 'Санкт-Петербург', 33, 16, -60, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (776, '2018-12-11 02:00', 'Москва', -1, 18, -119, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (777, '2018-12-11 02:00', 'Самара', -20, 17, 121, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (778, '2018-12-11 02:00', 'Санкт-Петербург', 9, 1, -65, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (779, '2018-12-11 03:00', 'Москва', 8, 8, -38, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (780, '2018-12-11 03:00', 'Самара', 3, -9, -46, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (781, '2018-12-11 03:00', 'Санкт-Петербург', 35, -7, 149, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (782, '2018-12-11 04:00', 'Москва', -12, 2, 30, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (783, '2018-12-11 04:00', 'Самара', 22, 2, 154, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (784, '2018-12-11 04:00', 'Санкт-Петербург', -5, 4, 162, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (785, '2018-12-11 05:00', 'Москва', 3, 16, -126, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (786, '2018-12-11 05:00', 'Самара', -1, -18, 165, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (787, '2018-12-11 05:00', 'Санкт-Петербург', -12, -10, -159, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (788, '2018-12-11 06:00', 'Москва', 23, -17, 138, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (789, '2018-12-11 06:00', 'Самара', 19, 19, -64, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (790, '2018-12-11 06:00', 'Санкт-Петербург', 3, -18, -155, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (791, '2018-12-11 07:00', 'Москва', 18, 2, 151, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (792, '2018-12-11 07:00', 'Самара', 1, 0, -69, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (793, '2018-12-11 07:00', 'Санкт-Петербург', 32, 12, 172, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (794, '2018-12-11 08:00', 'Москва', -19, 12, -36, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (795, '2018-12-11 08:00', 'Самара', -18, -9, -145, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (796, '2018-12-11 08:00', 'Санкт-Петербург', -15, -14, -82, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (797, '2018-12-11 09:00', 'Москва', 34, 9, 124, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (798, '2018-12-11 09:00', 'Самара', 6, 14, 77, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (799, '2018-12-11 09:00', 'Санкт-Петербург', 10, -1, 153, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (800, '2018-12-11 10:00', 'Москва', 24, 6, -80, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (801, '2018-12-11 10:00', 'Самара', 14, -7, 37, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (802, '2018-12-11 10:00', 'Санкт-Петербург', 3, -6, 45, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (803, '2018-12-11 11:00', 'Москва', 24, 3, -48, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (804, '2018-12-11 11:00', 'Самара', 1, 4, -8, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (805, '2018-12-11 11:00', 'Санкт-Петербург', -13, 7, 38, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (806, '2018-12-12 12:00', 'Москва', 19, -20, -98, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (807, '2018-12-12 12:00', 'Самара', 24, 16, 16, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (808, '2018-12-12 12:00', 'Санкт-Петербург', -6, 2, 66, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (809, '2018-12-12 01:00', 'Москва', -4, -10, 168, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (810, '2018-12-12 01:00', 'Самара', 21, -15, 79, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (811, '2018-12-12 01:00', 'Санкт-Петербург', -11, 13, -141, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (812, '2018-12-12 02:00', 'Москва', -9, 14, -151, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (813, '2018-12-12 02:00', 'Самара', 10, 3, 23, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (814, '2018-12-12 02:00', 'Санкт-Петербург', -1, -7, 67, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (815, '2018-12-12 03:00', 'Москва', -11, 1, -20, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (816, '2018-12-12 03:00', 'Самара', -1, -6, -10, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (817, '2018-12-12 03:00', 'Санкт-Петербург', 3, -20, 153, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (818, '2018-12-12 04:00', 'Москва', 19, 15, 145, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (819, '2018-12-12 04:00', 'Самара', 28, -7, 79, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (820, '2018-12-12 04:00', 'Санкт-Петербург', 29, 10, -41, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (821, '2018-12-12 05:00', 'Москва', 34, 8, 139, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (822, '2018-12-12 05:00', 'Самара', 16, -10, 70, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (823, '2018-12-12 05:00', 'Санкт-Петербург', 28, 5, 162, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (824, '2018-12-12 06:00', 'Москва', -16, -17, 20, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (825, '2018-12-12 06:00', 'Самара', 25, -1, 112, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (826, '2018-12-12 06:00', 'Санкт-Петербург', 3, -18, -8, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (827, '2018-12-12 07:00', 'Москва', 1, 12, 108, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (828, '2018-12-12 07:00', 'Самара', -19, 11, 123, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (829, '2018-12-12 07:00', 'Санкт-Петербург', 28, -5, -36, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (830, '2018-12-12 08:00', 'Москва', 15, 9, 89, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (831, '2018-12-12 08:00', 'Самара', 4, 13, -163, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (832, '2018-12-12 08:00', 'Санкт-Петербург', -15, 5, -171, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (833, '2018-12-12 09:00', 'Москва', -4, -6, 87, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (834, '2018-12-12 09:00', 'Самара', -10, -10, 156, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (835, '2018-12-12 09:00', 'Санкт-Петербург', 29, 19, -72, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (836, '2018-12-12 10:00', 'Москва', 29, -6, 139, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (837, '2018-12-12 10:00', 'Самара', -1, -11, -177, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (838, '2018-12-12 10:00', 'Санкт-Петербург', 23, 11, 87, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (839, '2018-12-12 11:00', 'Москва', -6, 13, 152, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (840, '2018-12-12 11:00', 'Самара', 11, 18, 63, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (841, '2018-12-12 11:00', 'Санкт-Петербург', -8, -10, -141, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (842, '2018-12-12 12:00', 'Москва', 35, -9, -109, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (843, '2018-12-12 12:00', 'Самара', 29, -15, -176, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (844, '2018-12-12 12:00', 'Санкт-Петербург', 2, -2, -167, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (845, '2018-12-12 01:00', 'Москва', 0, -17, -144, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (846, '2018-12-12 01:00', 'Самара', 32, 10, 34, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (847, '2018-12-12 01:00', 'Санкт-Петербург', 28, 16, -148, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (848, '2018-12-12 02:00', 'Москва', 26, -9, 180, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (849, '2018-12-12 02:00', 'Самара', -9, 9, 167, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (850, '2018-12-12 02:00', 'Санкт-Петербург', 21, -3, -3, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (851, '2018-12-12 03:00', 'Москва', 18, -11, -56, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (852, '2018-12-12 03:00', 'Самара', 5, -2, 53, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (853, '2018-12-12 03:00', 'Санкт-Петербург', -2, 1, -45, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (854, '2018-12-12 04:00', 'Москва', 14, -19, 112, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (855, '2018-12-12 04:00', 'Самара', 33, -19, 130, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (856, '2018-12-12 04:00', 'Санкт-Петербург', 1, 5, -3, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (857, '2018-12-12 05:00', 'Москва', 4, 4, 34, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (858, '2018-12-12 05:00', 'Самара', 19, -17, 139, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (859, '2018-12-12 05:00', 'Санкт-Петербург', 3, 1, -10, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (860, '2018-12-12 06:00', 'Москва', 35, -20, 17, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (861, '2018-12-12 06:00', 'Самара', 8, 10, 149, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (862, '2018-12-12 06:00', 'Санкт-Петербург', 11, -20, 62, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (863, '2018-12-12 07:00', 'Москва', 29, 20, 21, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (864, '2018-12-12 07:00', 'Самара', -7, 18, 160, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (865, '2018-12-12 07:00', 'Санкт-Петербург', 6, -12, -130, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (866, '2018-12-12 08:00', 'Москва', 0, 15, -5, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (867, '2018-12-12 08:00', 'Самара', -20, 18, -175, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (868, '2018-12-12 08:00', 'Санкт-Петербург', 33, 16, 72, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (869, '2018-12-12 09:00', 'Москва', -6, -12, 76, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (870, '2018-12-12 09:00', 'Самара', 7, -4, 8, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (871, '2018-12-12 09:00', 'Санкт-Петербург', 23, -13, 114, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (872, '2018-12-12 10:00', 'Москва', 24, 11, -161, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (873, '2018-12-12 10:00', 'Самара', 15, 14, 86, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (874, '2018-12-12 10:00', 'Санкт-Петербург', -4, 14, -130, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (875, '2018-12-12 11:00', 'Москва', -12, -1, 38, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (876, '2018-12-12 11:00', 'Самара', -5, 19, -15, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (877, '2018-12-12 11:00', 'Санкт-Петербург', -1, -5, 47, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (878, '2018-12-13 12:00', 'Москва', 24, -7, 41, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (879, '2018-12-13 12:00', 'Самара', 18, -9, 164, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (880, '2018-12-13 12:00', 'Санкт-Петербург', 28, 1, 65, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (881, '2018-12-13 01:00', 'Москва', 6, 17, 126, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (882, '2018-12-13 01:00', 'Самара', 15, -3, -15, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (883, '2018-12-13 01:00', 'Санкт-Петербург', 34, 20, 130, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (884, '2018-12-13 02:00', 'Москва', -3, -8, -82, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (885, '2018-12-13 02:00', 'Самара', 27, -9, 58, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (886, '2018-12-13 02:00', 'Санкт-Петербург', 0, 15, 88, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (887, '2018-12-13 03:00', 'Москва', -20, 7, 7, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (888, '2018-12-13 03:00', 'Самара', -2, -8, 72, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (889, '2018-12-13 03:00', 'Санкт-Петербург', -20, 8, 166, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (890, '2018-12-13 04:00', 'Москва', -18, 11, 103, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (891, '2018-12-13 04:00', 'Самара', -1, -11, -17, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (892, '2018-12-13 04:00', 'Санкт-Петербург', 35, 18, 37, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (893, '2018-12-13 05:00', 'Москва', -11, -1, -106, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (894, '2018-12-13 05:00', 'Самара', -18, -20, 5, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (895, '2018-12-13 05:00', 'Санкт-Петербург', 27, 5, 160, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (896, '2018-12-13 06:00', 'Москва', 8, 2, -99, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (897, '2018-12-13 06:00', 'Самара', 27, 11, 79, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (898, '2018-12-13 06:00', 'Санкт-Петербург', -8, -1, -141, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (899, '2018-12-13 07:00', 'Москва', -20, -5, -179, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (900, '2018-12-13 07:00', 'Самара', 8, 10, 6, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (901, '2018-12-13 07:00', 'Санкт-Петербург', 28, 16, 102, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (902, '2018-12-13 08:00', 'Москва', 24, 18, -69, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (903, '2018-12-13 08:00', 'Самара', 25, 11, -72, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (904, '2018-12-13 08:00', 'Санкт-Петербург', -1, 2, 55, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (905, '2018-12-13 09:00', 'Москва', 34, 12, 118, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (906, '2018-12-13 09:00', 'Самара', 29, 2, 165, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (907, '2018-12-13 09:00', 'Санкт-Петербург', 5, -3, -19, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (908, '2018-12-13 10:00', 'Москва', -1, -7, 48, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (909, '2018-12-13 10:00', 'Самара', -4, -20, -160, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (910, '2018-12-13 10:00', 'Санкт-Петербург', 34, -8, -161, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (911, '2018-12-13 11:00', 'Москва', -1, -7, -110, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (912, '2018-12-13 11:00', 'Самара', 4, 9, -36, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (913, '2018-12-13 11:00', 'Санкт-Петербург', -18, 8, 132, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (914, '2018-12-13 12:00', 'Москва', 20, -15, 127, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (915, '2018-12-13 12:00', 'Самара', 27, -17, 158, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (916, '2018-12-13 12:00', 'Санкт-Петербург', -2, 17, -166, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (917, '2018-12-13 01:00', 'Москва', -5, -18, 50, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (918, '2018-12-13 01:00', 'Самара', -20, -4, -165, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (919, '2018-12-13 01:00', 'Санкт-Петербург', -4, -1, -78, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (920, '2018-12-13 02:00', 'Москва', -11, -19, -140, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (921, '2018-12-13 02:00', 'Самара', 24, -8, 49, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (922, '2018-12-13 02:00', 'Санкт-Петербург', -11, 14, 94, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (923, '2018-12-13 03:00', 'Москва', -11, 15, 117, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (924, '2018-12-13 03:00', 'Самара', 25, -4, -40, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (925, '2018-12-13 03:00', 'Санкт-Петербург', -7, 2, 49, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (926, '2018-12-13 04:00', 'Москва', -9, 17, -176, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (927, '2018-12-13 04:00', 'Самара', 12, 10, -77, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (928, '2018-12-13 04:00', 'Санкт-Петербург', -2, -5, 9, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (929, '2018-12-13 05:00', 'Москва', -19, -17, 178, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (930, '2018-12-13 05:00', 'Самара', 31, -18, 82, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (931, '2018-12-13 05:00', 'Санкт-Петербург', 7, 8, 109, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (932, '2018-12-13 06:00', 'Москва', -12, 16, -43, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (933, '2018-12-13 06:00', 'Самара', -3, 12, 160, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (934, '2018-12-13 06:00', 'Санкт-Петербург', 16, -12, 78, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (935, '2018-12-13 07:00', 'Москва', 9, -17, 162, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (936, '2018-12-13 07:00', 'Самара', 4, 0, 108, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (937, '2018-12-13 07:00', 'Санкт-Петербург', -3, -15, -66, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (938, '2018-12-13 08:00', 'Москва', 25, -4, 41, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (939, '2018-12-13 08:00', 'Самара', -3, -20, -77, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (940, '2018-12-13 08:00', 'Санкт-Петербург', -13, -19, 13, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (941, '2018-12-13 09:00', 'Москва', -15, 9, -107, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (942, '2018-12-13 09:00', 'Самара', -11, -8, 121, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (943, '2018-12-13 09:00', 'Санкт-Петербург', 32, 9, 62, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (944, '2018-12-13 10:00', 'Москва', 34, -19, -124, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (945, '2018-12-13 10:00', 'Самара', -9, -14, 161, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (946, '2018-12-13 10:00', 'Санкт-Петербург', 21, 4, 76, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (947, '2018-12-13 11:00', 'Москва', 6, -7, -114, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (948, '2018-12-13 11:00', 'Самара', 16, 17, 24, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (949, '2018-12-13 11:00', 'Санкт-Петербург', 32, 9, -174, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (950, '2018-12-14 12:00', 'Москва', -9, -17, -84, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (951, '2018-12-14 12:00', 'Самара', 28, 14, 66, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (952, '2018-12-14 12:00', 'Санкт-Петербург', 0, -9, 177, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (953, '2018-12-14 01:00', 'Москва', 20, 6, 124, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (954, '2018-12-14 01:00', 'Самара', 9, -17, -74, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (955, '2018-12-14 01:00', 'Санкт-Петербург', 8, -17, 120, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (956, '2018-12-14 02:00', 'Москва', 24, 15, -61, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (957, '2018-12-14 02:00', 'Самара', 30, 12, -168, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (958, '2018-12-14 02:00', 'Санкт-Петербург', 12, 20, 57, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (959, '2018-12-14 03:00', 'Москва', -18, 15, 156, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (960, '2018-12-14 03:00', 'Самара', -14, -1, -151, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (961, '2018-12-14 03:00', 'Санкт-Петербург', 15, -14, 134, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (962, '2018-12-14 04:00', 'Москва', 26, -8, 0, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (963, '2018-12-14 04:00', 'Самара', -18, -6, 89, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (964, '2018-12-14 04:00', 'Санкт-Петербург', 11, -8, 1, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (965, '2018-12-14 05:00', 'Москва', 30, 15, 85, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (966, '2018-12-14 05:00', 'Самара', 10, 16, 25, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (967, '2018-12-14 05:00', 'Санкт-Петербург', 21, 3, -152, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (968, '2018-12-14 06:00', 'Москва', 23, -5, 155, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (969, '2018-12-14 06:00', 'Самара', 7, -3, -39, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (970, '2018-12-14 06:00', 'Санкт-Петербург', 0, 2, 148, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (971, '2018-12-14 07:00', 'Москва', 25, 14, 127, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (972, '2018-12-14 07:00', 'Самара', 30, -9, 134, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (973, '2018-12-14 07:00', 'Санкт-Петербург', -13, -3, 74, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (974, '2018-12-14 08:00', 'Москва', -6, 9, -180, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (975, '2018-12-14 08:00', 'Самара', -11, 11, -111, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (976, '2018-12-14 08:00', 'Санкт-Петербург', -14, -16, 63, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (977, '2018-12-14 09:00', 'Москва', -17, 8, -137, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (978, '2018-12-14 09:00', 'Самара', -6, -5, -17, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (979, '2018-12-14 09:00', 'Санкт-Петербург', -19, -15, 124, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (980, '2018-12-14 10:00', 'Москва', 15, 0, 94, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (981, '2018-12-14 10:00', 'Самара', -19, -11, 141, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (982, '2018-12-14 10:00', 'Санкт-Петербург', -8, 2, -174, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (983, '2018-12-14 11:00', 'Москва', 11, 0, 2, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (984, '2018-12-14 11:00', 'Самара', 15, 7, -60, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (985, '2018-12-14 11:00', 'Санкт-Петербург', 14, -20, 149, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (986, '2018-12-14 12:00', 'Москва', 14, -3, 52, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (987, '2018-12-14 12:00', 'Самара', -1, -1, 122, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (988, '2018-12-14 12:00', 'Санкт-Петербург', -12, 9, 60, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (989, '2018-12-14 01:00', 'Москва', 14, -1, 176, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (990, '2018-12-14 01:00', 'Самара', 34, 6, -10, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (991, '2018-12-14 01:00', 'Санкт-Петербург', 15, -5, 27, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (992, '2018-12-14 02:00', 'Москва', 28, -20, -60, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (993, '2018-12-14 02:00', 'Самара', 12, 1, 80, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (994, '2018-12-14 02:00', 'Санкт-Петербург', -4, -17, 106, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (995, '2018-12-14 03:00', 'Москва', 9, 1, 132, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (996, '2018-12-14 03:00', 'Самара', 22, 2, 32, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (997, '2018-12-14 03:00', 'Санкт-Петербург', 9, -13, -20, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (998, '2018-12-14 04:00', 'Москва', -17, -3, -93, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (999, '2018-12-14 04:00', 'Самара', 15, 10, 134, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1000, '2018-12-14 04:00', 'Санкт-Петербург', 28, -4, -16, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1001, '2018-12-14 05:00', 'Москва', 8, -14, -120, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1002, '2018-12-14 05:00', 'Самара', 34, 1, 31, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1003, '2018-12-14 05:00', 'Санкт-Петербург', 11, -13, -49, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1004, '2018-12-14 06:00', 'Москва', 11, -10, 129, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1005, '2018-12-14 06:00', 'Самара', 26, 15, -125, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1006, '2018-12-14 06:00', 'Санкт-Петербург', 15, -1, 150, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1007, '2018-12-14 07:00', 'Москва', 24, 10, -28, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1008, '2018-12-14 07:00', 'Самара', 10, -14, -100, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1009, '2018-12-14 07:00', 'Санкт-Петербург', -17, 14, 151, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1010, '2018-12-14 08:00', 'Москва', 30, 16, 32, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1011, '2018-12-14 08:00', 'Самара', -9, 17, 121, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1012, '2018-12-14 08:00', 'Санкт-Петербург', -18, 4, -85, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1013, '2018-12-14 09:00', 'Москва', 28, 17, 110, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1014, '2018-12-14 09:00', 'Самара', 16, -7, 142, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1015, '2018-12-14 09:00', 'Санкт-Петербург', -3, 1, -80, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1016, '2018-12-14 10:00', 'Москва', 30, -2, -5, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1017, '2018-12-14 10:00', 'Самара', -19, -17, 17, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1018, '2018-12-14 10:00', 'Санкт-Петербург', 8, 19, -10, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1019, '2018-12-14 11:00', 'Москва', 23, -18, -180, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1020, '2018-12-14 11:00', 'Самара', -19, 7, 64, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1021, '2018-12-14 11:00', 'Санкт-Петербург', 30, 20, -42, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1022, '2018-12-15 12:00', 'Москва', -16, 4, -54, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1023, '2018-12-15 12:00', 'Самара', -17, -17, -113, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1024, '2018-12-15 12:00', 'Санкт-Петербург', 27, 8, 51, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1025, '2018-12-15 01:00', 'Москва', 29, 20, 152, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1026, '2018-12-15 01:00', 'Самара', 28, -20, 136, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1027, '2018-12-15 01:00', 'Санкт-Петербург', -11, -14, -15, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1028, '2018-12-15 02:00', 'Москва', 26, -9, 49, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1029, '2018-12-15 02:00', 'Самара', 27, -12, 52, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1030, '2018-12-15 02:00', 'Санкт-Петербург', 27, -16, 41, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1031, '2018-12-15 03:00', 'Москва', 6, 12, 135, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1032, '2018-12-15 03:00', 'Самара', 14, 20, 147, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1033, '2018-12-15 03:00', 'Санкт-Петербург', 19, 3, 56, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1034, '2018-12-15 04:00', 'Москва', 33, 15, -169, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1035, '2018-12-15 04:00', 'Самара', 30, 1, 51, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1036, '2018-12-15 04:00', 'Санкт-Петербург', -1, 5, 85, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1037, '2018-12-15 05:00', 'Москва', 25, -16, -174, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1038, '2018-12-15 05:00', 'Самара', 25, 2, -177, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1039, '2018-12-15 05:00', 'Санкт-Петербург', 26, 3, -125, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1040, '2018-12-15 06:00', 'Москва', 33, 16, 17, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1041, '2018-12-15 06:00', 'Самара', 30, 10, -97, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1042, '2018-12-15 06:00', 'Санкт-Петербург', 34, -13, -145, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1043, '2018-12-15 07:00', 'Москва', 24, 9, 12, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1044, '2018-12-15 07:00', 'Самара', 23, -9, -51, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1045, '2018-12-15 07:00', 'Санкт-Петербург', -9, -18, -83, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1046, '2018-12-15 08:00', 'Москва', 11, -7, 74, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1047, '2018-12-15 08:00', 'Самара', -17, -3, -174, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1048, '2018-12-15 08:00', 'Санкт-Петербург', 7, -9, 38, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1049, '2018-12-15 09:00', 'Москва', 34, -1, -106, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1050, '2018-12-15 09:00', 'Самара', 30, 3, 173, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1051, '2018-12-15 09:00', 'Санкт-Петербург', -20, 4, 143, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1052, '2018-12-15 10:00', 'Москва', 25, -8, 36, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1053, '2018-12-15 10:00', 'Самара', 28, -7, 102, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1054, '2018-12-15 10:00', 'Санкт-Петербург', 21, 0, -72, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1055, '2018-12-15 11:00', 'Москва', 17, -1, -131, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1056, '2018-12-15 11:00', 'Самара', 14, 8, 109, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1057, '2018-12-15 11:00', 'Санкт-Петербург', 30, -3, 164, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1058, '2018-12-15 12:00', 'Москва', -12, -10, 77, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1059, '2018-12-15 12:00', 'Самара', 9, -14, -152, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1060, '2018-12-15 12:00', 'Санкт-Петербург', 20, -14, 107, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1061, '2018-12-15 01:00', 'Москва', -5, 11, 13, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1062, '2018-12-15 01:00', 'Самара', 28, -13, 48, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1063, '2018-12-15 01:00', 'Санкт-Петербург', 25, -20, -103, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1064, '2018-12-15 02:00', 'Москва', -20, 2, 158, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1065, '2018-12-15 02:00', 'Самара', -10, 8, 10, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1066, '2018-12-15 02:00', 'Санкт-Петербург', 3, -8, -161, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1067, '2018-12-15 03:00', 'Москва', 0, -14, 32, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1068, '2018-12-15 03:00', 'Самара', 8, 2, 23, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1069, '2018-12-15 03:00', 'Санкт-Петербург', 35, -13, 25, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1070, '2018-12-15 04:00', 'Москва', -10, 0, 139, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1071, '2018-12-15 04:00', 'Самара', 13, -12, -32, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1072, '2018-12-15 04:00', 'Санкт-Петербург', 2, 6, -64, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1073, '2018-12-15 05:00', 'Москва', 35, -15, -37, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1074, '2018-12-15 05:00', 'Самара', -5, -14, -20, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1075, '2018-12-15 05:00', 'Санкт-Петербург', 10, -10, -1, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1076, '2018-12-15 06:00', 'Москва', -1, 13, -121, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1077, '2018-12-15 06:00', 'Самара', -8, -20, 7, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1078, '2018-12-15 06:00', 'Санкт-Петербург', 23, -2, 35, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1079, '2018-12-15 07:00', 'Москва', -1, 9, 146, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1080, '2018-12-15 07:00', 'Самара', -15, 3, 130, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1081, '2018-12-15 07:00', 'Санкт-Петербург', 33, -2, -177, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1082, '2018-12-15 08:00', 'Москва', -19, 12, 31, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1083, '2018-12-15 08:00', 'Самара', -7, -2, 1, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1084, '2018-12-15 08:00', 'Санкт-Петербург', 28, -5, -3, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1085, '2018-12-15 09:00', 'Москва', -11, 0, -149, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1086, '2018-12-15 09:00', 'Самара', 16, -15, 151, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1087, '2018-12-15 09:00', 'Санкт-Петербург', -19, -5, -95, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1088, '2018-12-15 10:00', 'Москва', 33, -11, -84, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1089, '2018-12-15 10:00', 'Самара', -14, -4, 160, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1090, '2018-12-15 10:00', 'Санкт-Петербург', 30, 11, 114, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1091, '2018-12-15 11:00', 'Москва', 33, -15, 18, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1092, '2018-12-15 11:00', 'Самара', 33, -8, 67, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1093, '2018-12-15 11:00', 'Санкт-Петербург', 5, -1, 33, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1094, '2018-12-16 12:00', 'Москва', 28, 11, 163, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1095, '2018-12-16 12:00', 'Самара', -2, 20, 151, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1096, '2018-12-16 12:00', 'Санкт-Петербург', 14, -16, -172, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1097, '2018-12-16 01:00', 'Москва', 7, 11, -56, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1098, '2018-12-16 01:00', 'Самара', 34, 15, 43, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1099, '2018-12-16 01:00', 'Санкт-Петербург', 12, -7, -180, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1100, '2018-12-16 02:00', 'Москва', 6, -9, -72, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1101, '2018-12-16 02:00', 'Самара', -1, 16, 135, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1102, '2018-12-16 02:00', 'Санкт-Петербург', 0, -10, -149, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1103, '2018-12-16 03:00', 'Москва', 14, -15, -132, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1104, '2018-12-16 03:00', 'Самара', 8, -18, -121, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1105, '2018-12-16 03:00', 'Санкт-Петербург', 28, -6, 91, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1106, '2018-12-16 04:00', 'Москва', 31, -10, 51, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1107, '2018-12-16 04:00', 'Самара', -10, 8, 52, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1108, '2018-12-16 04:00', 'Санкт-Петербург', -2, -1, 141, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1109, '2018-12-16 05:00', 'Москва', -11, 3, -127, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1110, '2018-12-16 05:00', 'Самара', -7, 15, 38, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1111, '2018-12-16 05:00', 'Санкт-Петербург', 8, -12, -6, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1112, '2018-12-16 06:00', 'Москва', 22, -11, -147, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1113, '2018-12-16 06:00', 'Самара', 22, -8, 74, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1114, '2018-12-16 06:00', 'Санкт-Петербург', 25, -13, -154, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1115, '2018-12-16 07:00', 'Москва', -2, -18, 34, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1116, '2018-12-16 07:00', 'Самара', 24, 6, -155, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1117, '2018-12-16 07:00', 'Санкт-Петербург', 0, -4, -165, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1118, '2018-12-16 08:00', 'Москва', 15, -5, -128, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1119, '2018-12-16 08:00', 'Самара', 20, 12, 0, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1120, '2018-12-16 08:00', 'Санкт-Петербург', 21, 0, -169, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1121, '2018-12-16 09:00', 'Москва', 17, 2, -38, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1122, '2018-12-16 09:00', 'Самара', -11, -14, -1, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1123, '2018-12-16 09:00', 'Санкт-Петербург', -17, -18, -8, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1124, '2018-12-16 10:00', 'Москва', -9, 0, -177, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1125, '2018-12-16 10:00', 'Самара', 6, 19, -48, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1126, '2018-12-16 10:00', 'Санкт-Петербург', 32, -5, -49, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1127, '2018-12-16 11:00', 'Москва', -17, -18, -24, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1128, '2018-12-16 11:00', 'Самара', -15, 1, -66, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1129, '2018-12-16 11:00', 'Санкт-Петербург', -2, -19, 18, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1130, '2018-12-16 12:00', 'Москва', 2, -3, 24, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1131, '2018-12-16 12:00', 'Самара', 16, -6, 71, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1132, '2018-12-16 12:00', 'Санкт-Петербург', 1, -11, -79, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1133, '2018-12-16 01:00', 'Москва', 23, 9, -117, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1134, '2018-12-16 01:00', 'Самара', -8, -17, 92, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1135, '2018-12-16 01:00', 'Санкт-Петербург', 15, 6, 37, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1136, '2018-12-16 02:00', 'Москва', -9, 8, -74, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1137, '2018-12-16 02:00', 'Самара', 20, -7, 23, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1138, '2018-12-16 02:00', 'Санкт-Петербург', 29, 0, -162, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1139, '2018-12-16 03:00', 'Москва', 18, -7, -153, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1140, '2018-12-16 03:00', 'Самара', 4, -14, -157, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1141, '2018-12-16 03:00', 'Санкт-Петербург', -14, 2, -145, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1142, '2018-12-16 04:00', 'Москва', 21, 10, 64, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1143, '2018-12-16 04:00', 'Самара', 27, -4, 37, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1144, '2018-12-16 04:00', 'Санкт-Петербург', -1, -5, 16, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1145, '2018-12-16 05:00', 'Москва', 33, 10, 103, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1146, '2018-12-16 05:00', 'Самара', -14, 0, 131, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1147, '2018-12-16 05:00', 'Санкт-Петербург', -18, -4, 28, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1148, '2018-12-16 06:00', 'Москва', 14, 20, -172, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1149, '2018-12-16 06:00', 'Самара', 0, 12, -107, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1150, '2018-12-16 06:00', 'Санкт-Петербург', 19, 13, -175, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1151, '2018-12-16 07:00', 'Москва', 16, -16, -179, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1152, '2018-12-16 07:00', 'Самара', -9, -6, -131, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1153, '2018-12-16 07:00', 'Санкт-Петербург', -14, 2, 15, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1154, '2018-12-16 08:00', 'Москва', 12, 14, -57, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1155, '2018-12-16 08:00', 'Самара', -10, 2, 142, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1156, '2018-12-16 08:00', 'Санкт-Петербург', 28, 14, 7, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1157, '2018-12-16 09:00', 'Москва', 28, 5, 109, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1158, '2018-12-16 09:00', 'Самара', -14, 10, -103, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1159, '2018-12-16 09:00', 'Санкт-Петербург', 13, 4, 163, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1160, '2018-12-16 10:00', 'Москва', -18, -7, -109, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1161, '2018-12-16 10:00', 'Самара', -20, -1, 37, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1162, '2018-12-16 10:00', 'Санкт-Петербург', 22, 0, -16, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1163, '2018-12-16 11:00', 'Москва', 5, -13, 121, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1164, '2018-12-16 11:00', 'Самара', 34, -19, -33, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1165, '2018-12-16 11:00', 'Санкт-Петербург', 18, 16, -37, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1166, '2018-12-17 12:00', 'Москва', -17, -6, 37, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1167, '2018-12-17 12:00', 'Самара', -18, -19, 0, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1168, '2018-12-17 12:00', 'Санкт-Петербург', 1, -4, 105, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1169, '2018-12-17 01:00', 'Москва', -12, 12, 86, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1170, '2018-12-17 01:00', 'Самара', 13, -12, 103, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1171, '2018-12-17 01:00', 'Санкт-Петербург', 23, -12, -42, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1172, '2018-12-17 02:00', 'Москва', -15, -14, -45, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1173, '2018-12-17 02:00', 'Самара', 13, -6, 86, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1174, '2018-12-17 02:00', 'Санкт-Петербург', -16, -18, -1, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1175, '2018-12-17 03:00', 'Москва', -13, -16, -8, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1176, '2018-12-17 03:00', 'Самара', 29, 19, -42, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1177, '2018-12-17 03:00', 'Санкт-Петербург', -7, 8, 127, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1178, '2018-12-17 04:00', 'Москва', -15, 16, -95, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1179, '2018-12-17 04:00', 'Самара', 3, -9, 13, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1180, '2018-12-17 04:00', 'Санкт-Петербург', -12, -18, -129, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1181, '2018-12-17 05:00', 'Москва', 6, -13, -73, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1182, '2018-12-17 05:00', 'Самара', 7, 4, -119, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1183, '2018-12-17 05:00', 'Санкт-Петербург', 1, 5, -130, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1184, '2018-12-17 06:00', 'Москва', -12, -1, -118, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1185, '2018-12-17 06:00', 'Самара', 4, -11, -64, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1186, '2018-12-17 06:00', 'Санкт-Петербург', -8, -14, -101, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1187, '2018-12-17 07:00', 'Москва', 9, -2, -78, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1188, '2018-12-17 07:00', 'Самара', 12, 16, -72, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1189, '2018-12-17 07:00', 'Санкт-Петербург', 2, 8, 132, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1190, '2018-12-17 08:00', 'Москва', 11, 16, -42, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1191, '2018-12-17 08:00', 'Самара', 35, -12, -23, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1192, '2018-12-17 08:00', 'Санкт-Петербург', 18, 0, -137, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1193, '2018-12-17 09:00', 'Москва', -3, -5, 1, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1194, '2018-12-17 09:00', 'Самара', 1, 19, -151, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1195, '2018-12-17 09:00', 'Санкт-Петербург', 17, -4, 26, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1196, '2018-12-17 10:00', 'Москва', 19, 19, -113, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1197, '2018-12-17 10:00', 'Самара', 15, 5, -71, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1198, '2018-12-17 10:00', 'Санкт-Петербург', 18, 16, 178, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1199, '2018-12-17 11:00', 'Москва', 31, -16, 156, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1200, '2018-12-17 11:00', 'Самара', -12, 19, 137, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1201, '2018-12-17 11:00', 'Санкт-Петербург', -15, -4, -26, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1202, '2018-12-17 12:00', 'Москва', 29, -20, -179, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1203, '2018-12-17 12:00', 'Самара', 26, -20, 45, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1204, '2018-12-17 12:00', 'Санкт-Петербург', 27, -6, -97, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1205, '2018-12-17 01:00', 'Москва', -17, 7, 76, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1206, '2018-12-17 01:00', 'Самара', 1, -11, -29, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1207, '2018-12-17 01:00', 'Санкт-Петербург', 0, 1, -173, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1208, '2018-12-17 02:00', 'Москва', -11, 5, 167, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1209, '2018-12-17 02:00', 'Самара', 10, -13, 75, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1210, '2018-12-17 02:00', 'Санкт-Петербург', 14, 16, -60, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1211, '2018-12-17 03:00', 'Москва', 1, 17, -27, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1212, '2018-12-17 03:00', 'Самара', 12, -14, 0, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1213, '2018-12-17 03:00', 'Санкт-Петербург', 18, -2, 57, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1214, '2018-12-17 04:00', 'Москва', -17, 14, -14, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1215, '2018-12-17 04:00', 'Самара', -5, 10, 17, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1216, '2018-12-17 04:00', 'Санкт-Петербург', 9, -15, 70, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1217, '2018-12-17 05:00', 'Москва', -17, 15, 126, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1218, '2018-12-17 05:00', 'Самара', -3, -13, 69, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1219, '2018-12-17 05:00', 'Санкт-Петербург', 28, -13, 108, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1220, '2018-12-17 06:00', 'Москва', -10, 2, 120, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1221, '2018-12-17 06:00', 'Самара', 17, 20, 13, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1222, '2018-12-17 06:00', 'Санкт-Петербург', -9, 2, 25, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1223, '2018-12-17 07:00', 'Москва', -6, 2, 89, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1224, '2018-12-17 07:00', 'Самара', -15, -12, 79, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1225, '2018-12-17 07:00', 'Санкт-Петербург', 18, -6, -88, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1226, '2018-12-17 08:00', 'Москва', 26, -15, -16, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1227, '2018-12-17 08:00', 'Самара', 14, 16, -34, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1228, '2018-12-17 08:00', 'Санкт-Петербург', 0, 3, 61, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1229, '2018-12-17 09:00', 'Москва', -16, 13, -26, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1230, '2018-12-17 09:00', 'Самара', -19, 0, -74, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1231, '2018-12-17 09:00', 'Санкт-Петербург', 4, 3, -97, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1232, '2018-12-17 10:00', 'Москва', -10, -13, 180, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1233, '2018-12-17 10:00', 'Самара', 6, 16, -108, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1234, '2018-12-17 10:00', 'Санкт-Петербург', 2, -18, 168, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1235, '2018-12-17 11:00', 'Москва', 16, -2, -41, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1236, '2018-12-17 11:00', 'Самара', 12, 16, 73, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1237, '2018-12-17 11:00', 'Санкт-Петербург', 25, -5, -93, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1238, '2018-12-18 12:00', 'Москва', 27, 9, 136, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1239, '2018-12-18 12:00', 'Самара', 17, -3, 64, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1240, '2018-12-18 12:00', 'Санкт-Петербург', 10, 16, -90, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1241, '2018-12-18 01:00', 'Москва', -5, 4, 92, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1242, '2018-12-18 01:00', 'Самара', -17, 2, 148, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1243, '2018-12-18 01:00', 'Санкт-Петербург', 29, 18, 58, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1244, '2018-12-18 02:00', 'Москва', 16, -2, -67, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1245, '2018-12-18 02:00', 'Самара', 27, -6, -45, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1246, '2018-12-18 02:00', 'Санкт-Петербург', -8, -19, 121, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1247, '2018-12-18 03:00', 'Москва', 21, 13, -2, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1248, '2018-12-18 03:00', 'Самара', -19, -16, -107, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1249, '2018-12-18 03:00', 'Санкт-Петербург', -6, -10, 29, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1250, '2018-12-18 04:00', 'Москва', 1, 8, 79, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1251, '2018-12-18 04:00', 'Самара', -17, 16, -102, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1252, '2018-12-18 04:00', 'Санкт-Петербург', 18, -14, 48, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1253, '2018-12-18 05:00', 'Москва', -5, 1, -100, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1254, '2018-12-18 05:00', 'Самара', 35, 11, -170, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1255, '2018-12-18 05:00', 'Санкт-Петербург', 18, -11, -177, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1256, '2018-12-18 06:00', 'Москва', 22, -19, 119, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1257, '2018-12-18 06:00', 'Самара', 19, -16, -13, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1258, '2018-12-18 06:00', 'Санкт-Петербург', 23, 10, -62, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1259, '2018-12-18 07:00', 'Москва', 1, 6, -156, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1260, '2018-12-18 07:00', 'Самара', -5, -14, -5, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1261, '2018-12-18 07:00', 'Санкт-Петербург', 13, -19, -11, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1262, '2018-12-18 08:00', 'Москва', 30, 16, -49, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1263, '2018-12-18 08:00', 'Самара', 27, -19, 161, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1264, '2018-12-18 08:00', 'Санкт-Петербург', 35, 7, 99, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1265, '2018-12-18 09:00', 'Москва', 10, -1, 176, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1266, '2018-12-18 09:00', 'Самара', -4, -16, -76, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1267, '2018-12-18 09:00', 'Санкт-Петербург', -8, -15, 78, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1268, '2018-12-18 10:00', 'Москва', 20, -7, 173, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1269, '2018-12-18 10:00', 'Самара', 32, 15, 3, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1270, '2018-12-18 10:00', 'Санкт-Петербург', -17, 1, 86, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1271, '2018-12-18 11:00', 'Москва', 18, -10, 59, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1272, '2018-12-18 11:00', 'Самара', -5, 12, 125, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1273, '2018-12-18 11:00', 'Санкт-Петербург', 3, 14, -70, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1274, '2018-12-18 12:00', 'Москва', 35, 20, -122, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1275, '2018-12-18 12:00', 'Самара', 27, -18, -58, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1276, '2018-12-18 12:00', 'Санкт-Петербург', -1, 7, 59, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1277, '2018-12-18 01:00', 'Москва', 25, -11, -131, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1278, '2018-12-18 01:00', 'Самара', 6, 16, -84, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1279, '2018-12-18 01:00', 'Санкт-Петербург', -8, 18, -95, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1280, '2018-12-18 02:00', 'Москва', 23, 16, 64, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1281, '2018-12-18 02:00', 'Самара', -18, -7, 78, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1282, '2018-12-18 02:00', 'Санкт-Петербург', 25, 6, 28, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1283, '2018-12-18 03:00', 'Москва', 3, -4, 176, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1284, '2018-12-18 03:00', 'Самара', 32, 18, 63, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1285, '2018-12-18 03:00', 'Санкт-Петербург', -1, 0, 17, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1286, '2018-12-18 04:00', 'Москва', 35, -19, -82, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1287, '2018-12-18 04:00', 'Самара', -14, -7, -80, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1288, '2018-12-18 04:00', 'Санкт-Петербург', 21, 13, 147, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1289, '2018-12-18 05:00', 'Москва', 2, 4, -91, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1290, '2018-12-18 05:00', 'Самара', -6, 9, 54, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1291, '2018-12-18 05:00', 'Санкт-Петербург', -5, -11, -140, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1292, '2018-12-18 06:00', 'Москва', 11, -2, 160, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1293, '2018-12-18 06:00', 'Самара', 12, 20, 160, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1294, '2018-12-18 06:00', 'Санкт-Петербург', -15, -11, -164, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1295, '2018-12-18 07:00', 'Москва', -16, -17, -11, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1296, '2018-12-18 07:00', 'Самара', -16, -13, 131, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1297, '2018-12-18 07:00', 'Санкт-Петербург', 35, 18, -67, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1298, '2018-12-18 08:00', 'Москва', -12, 5, 149, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1299, '2018-12-18 08:00', 'Самара', 27, -19, 17, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1300, '2018-12-18 08:00', 'Санкт-Петербург', 10, -16, -85, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1301, '2018-12-18 09:00', 'Москва', 18, -3, -85, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1302, '2018-12-18 09:00', 'Самара', 19, -5, 95, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1303, '2018-12-18 09:00', 'Санкт-Петербург', 2, 16, -14, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1304, '2018-12-18 10:00', 'Москва', 20, 16, -9, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1305, '2018-12-18 10:00', 'Самара', -6, 4, -127, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1306, '2018-12-18 10:00', 'Санкт-Петербург', 27, -7, 156, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1307, '2018-12-18 11:00', 'Москва', 21, 17, 179, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1308, '2018-12-18 11:00', 'Самара', 0, 2, 146, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1309, '2018-12-18 11:00', 'Санкт-Петербург', 16, 13, 6, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1310, '2018-12-19 12:00', 'Москва', 0, 11, -119, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1311, '2018-12-19 12:00', 'Самара', 10, -10, -162, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1312, '2018-12-19 12:00', 'Санкт-Петербург', -10, -11, 80, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1313, '2018-12-19 01:00', 'Москва', 18, 9, 42, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1314, '2018-12-19 01:00', 'Самара', 19, -1, 150, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1315, '2018-12-19 01:00', 'Санкт-Петербург', -17, 12, -92, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1316, '2018-12-19 02:00', 'Москва', 8, -10, 15, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1317, '2018-12-19 02:00', 'Самара', 18, 0, -84, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1318, '2018-12-19 02:00', 'Санкт-Петербург', -10, 1, -107, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1319, '2018-12-19 03:00', 'Москва', 31, -4, 167, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1320, '2018-12-19 03:00', 'Самара', 31, 3, 36, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1321, '2018-12-19 03:00', 'Санкт-Петербург', 25, -10, -62, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1322, '2018-12-19 04:00', 'Москва', -14, -4, -75, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1323, '2018-12-19 04:00', 'Самара', 30, -18, -130, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1324, '2018-12-19 04:00', 'Санкт-Петербург', 14, -18, 163, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1325, '2018-12-19 05:00', 'Москва', 15, -14, -121, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1326, '2018-12-19 05:00', 'Самара', 23, -2, -60, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1327, '2018-12-19 05:00', 'Санкт-Петербург', 9, 17, 119, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1328, '2018-12-19 06:00', 'Москва', -15, -4, -151, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1329, '2018-12-19 06:00', 'Самара', -11, -12, 113, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1330, '2018-12-19 06:00', 'Санкт-Петербург', 30, -20, 171, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1331, '2018-12-19 07:00', 'Москва', 19, -17, -104, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1332, '2018-12-19 07:00', 'Самара', 14, 12, 107, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1333, '2018-12-19 07:00', 'Санкт-Петербург', 16, 8, -61, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1334, '2018-12-19 08:00', 'Москва', 30, -10, -122, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1335, '2018-12-19 08:00', 'Самара', 32, -19, -150, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1336, '2018-12-19 08:00', 'Санкт-Петербург', 33, 13, -104, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1337, '2018-12-19 09:00', 'Москва', 2, 10, 88, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1338, '2018-12-19 09:00', 'Самара', 28, 6, -104, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1339, '2018-12-19 09:00', 'Санкт-Петербург', 9, 18, -106, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1340, '2018-12-19 10:00', 'Москва', -1, -17, -145, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1341, '2018-12-19 10:00', 'Самара', 12, 10, -180, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1342, '2018-12-19 10:00', 'Санкт-Петербург', 21, -1, -165, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1343, '2018-12-19 11:00', 'Москва', -10, 14, -7, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1344, '2018-12-19 11:00', 'Самара', 17, -4, 150, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1345, '2018-12-19 11:00', 'Санкт-Петербург', -6, -2, -5, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1346, '2018-12-19 12:00', 'Москва', -19, -2, -16, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1347, '2018-12-19 12:00', 'Самара', 22, 3, 160, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1348, '2018-12-19 12:00', 'Санкт-Петербург', 5, -10, -148, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1349, '2018-12-19 01:00', 'Москва', 14, -6, -97, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1350, '2018-12-19 01:00', 'Самара', 28, 3, -50, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1351, '2018-12-19 01:00', 'Санкт-Петербург', 24, -20, -90, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1352, '2018-12-19 02:00', 'Москва', -13, 2, -140, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1353, '2018-12-19 02:00', 'Самара', 26, -3, -134, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1354, '2018-12-19 02:00', 'Санкт-Петербург', 5, 10, 68, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1355, '2018-12-19 03:00', 'Москва', 19, 5, -34, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1356, '2018-12-19 03:00', 'Самара', 24, -10, -151, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1357, '2018-12-19 03:00', 'Санкт-Петербург', 26, -19, 35, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1358, '2018-12-19 04:00', 'Москва', 12, 2, -80, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1359, '2018-12-19 04:00', 'Самара', -1, 6, -3, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1360, '2018-12-19 04:00', 'Санкт-Петербург', -3, -18, 83, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1361, '2018-12-19 05:00', 'Москва', 18, 4, 55, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1362, '2018-12-19 05:00', 'Самара', -8, -5, 27, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1363, '2018-12-19 05:00', 'Санкт-Петербург', -1, 15, -67, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1364, '2018-12-19 06:00', 'Москва', 0, -13, -64, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1365, '2018-12-19 06:00', 'Самара', 10, 17, 81, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1366, '2018-12-19 06:00', 'Санкт-Петербург', 14, 12, -166, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1367, '2018-12-19 07:00', 'Москва', -5, 6, -176, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1368, '2018-12-19 07:00', 'Самара', 18, 9, -162, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1369, '2018-12-19 07:00', 'Санкт-Петербург', 19, -20, 76, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1370, '2018-12-19 08:00', 'Москва', 2, 4, 51, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1371, '2018-12-19 08:00', 'Самара', 7, -13, 156, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1372, '2018-12-19 08:00', 'Санкт-Петербург', 17, 1, 2, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1373, '2018-12-19 09:00', 'Москва', 4, -13, 12, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1374, '2018-12-19 09:00', 'Самара', 2, -20, -170, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1375, '2018-12-19 09:00', 'Санкт-Петербург', 19, -6, -32, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1376, '2018-12-19 10:00', 'Москва', 11, 17, -157, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1377, '2018-12-19 10:00', 'Самара', 0, 9, 132, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1378, '2018-12-19 10:00', 'Санкт-Петербург', 0, -14, -109, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1379, '2018-12-19 11:00', 'Москва', -3, -7, 149, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1380, '2018-12-19 11:00', 'Самара', 34, -14, 116, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1381, '2018-12-19 11:00', 'Санкт-Петербург', 1, -13, 1, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1382, '2018-12-20 12:00', 'Москва', 14, 10, 91, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1383, '2018-12-20 12:00', 'Самара', 3, 3, -176, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1384, '2018-12-20 12:00', 'Санкт-Петербург', -13, 2, -148, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1385, '2018-12-20 01:00', 'Москва', 14, -2, 2, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1386, '2018-12-20 01:00', 'Самара', -14, -19, 147, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1387, '2018-12-20 01:00', 'Санкт-Петербург', -17, 19, 32, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1388, '2018-12-20 02:00', 'Москва', 14, 9, 77, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1389, '2018-12-20 02:00', 'Самара', -15, 8, 91, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1390, '2018-12-20 02:00', 'Санкт-Петербург', 35, 3, -95, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1391, '2018-12-20 03:00', 'Москва', 0, -17, -6, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1392, '2018-12-20 03:00', 'Самара', 14, 15, 135, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1393, '2018-12-20 03:00', 'Санкт-Петербург', 14, -16, 124, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1394, '2018-12-20 04:00', 'Москва', -9, 5, -66, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1395, '2018-12-20 04:00', 'Самара', 24, -19, -5, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1396, '2018-12-20 04:00', 'Санкт-Петербург', -6, -5, 1, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1397, '2018-12-20 05:00', 'Москва', -8, 4, -20, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1398, '2018-12-20 05:00', 'Самара', -12, -17, 178, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1399, '2018-12-20 05:00', 'Санкт-Петербург', 14, -19, 149, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1400, '2018-12-20 06:00', 'Москва', 24, -12, -164, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1401, '2018-12-20 06:00', 'Самара', -9, -13, -146, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1402, '2018-12-20 06:00', 'Санкт-Петербург', 7, -16, 50, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1403, '2018-12-20 07:00', 'Москва', -3, -3, -44, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1404, '2018-12-20 07:00', 'Самара', -5, 4, 124, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1405, '2018-12-20 07:00', 'Санкт-Петербург', -9, -18, 23, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1406, '2018-12-20 08:00', 'Москва', 25, -5, 173, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1407, '2018-12-20 08:00', 'Самара', 26, 19, 153, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1408, '2018-12-20 08:00', 'Санкт-Петербург', 19, -9, -71, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1409, '2018-12-20 09:00', 'Москва', 31, 7, -148, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1410, '2018-12-20 09:00', 'Самара', 24, 20, 180, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1411, '2018-12-20 09:00', 'Санкт-Петербург', 27, 5, -105, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1412, '2018-12-20 10:00', 'Москва', 3, 2, 142, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1413, '2018-12-20 10:00', 'Самара', 13, -18, -72, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1414, '2018-12-20 10:00', 'Санкт-Петербург', 27, -18, -144, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1415, '2018-12-20 11:00', 'Москва', 30, -2, 120, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1416, '2018-12-20 11:00', 'Самара', 26, 4, 68, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1417, '2018-12-20 11:00', 'Санкт-Петербург', -11, 14, -122, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1418, '2018-12-20 12:00', 'Москва', -6, 10, -165, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1419, '2018-12-20 12:00', 'Самара', -9, 14, 9, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1420, '2018-12-20 12:00', 'Санкт-Петербург', 7, -14, -136, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1421, '2018-12-20 01:00', 'Москва', -6, 13, -110, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1422, '2018-12-20 01:00', 'Самара', 29, -13, 52, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1423, '2018-12-20 01:00', 'Санкт-Петербург', -5, -2, 57, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1424, '2018-12-20 02:00', 'Москва', -8, -13, 126, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1425, '2018-12-20 02:00', 'Самара', -19, 3, -77, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1426, '2018-12-20 02:00', 'Санкт-Петербург', 32, 0, -24, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1427, '2018-12-20 03:00', 'Москва', 31, -3, 10, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1428, '2018-12-20 03:00', 'Самара', 30, 14, 28, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1429, '2018-12-20 03:00', 'Санкт-Петербург', 0, 2, 93, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1430, '2018-12-20 04:00', 'Москва', 7, 11, -78, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1431, '2018-12-20 04:00', 'Самара', 21, -1, 60, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1432, '2018-12-20 04:00', 'Санкт-Петербург', 2, 7, 26, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1433, '2018-12-20 05:00', 'Москва', 34, 7, 93, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1434, '2018-12-20 05:00', 'Самара', 20, 9, -10, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1435, '2018-12-20 05:00', 'Санкт-Петербург', -16, -10, -6, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1436, '2018-12-20 06:00', 'Москва', 16, -3, -9, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1437, '2018-12-20 06:00', 'Самара', 16, -11, -5, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1438, '2018-12-20 06:00', 'Санкт-Петербург', 9, -14, 156, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1439, '2018-12-20 07:00', 'Москва', -1, -15, 141, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1440, '2018-12-20 07:00', 'Самара', -20, 19, -5, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1441, '2018-12-20 07:00', 'Санкт-Петербург', 16, -18, -60, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1442, '2018-12-20 08:00', 'Москва', 21, -19, 122, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1443, '2018-12-20 08:00', 'Самара', 35, 18, -60, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1444, '2018-12-20 08:00', 'Санкт-Петербург', 26, 8, 102, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1445, '2018-12-20 09:00', 'Москва', -8, -9, 71, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1446, '2018-12-20 09:00', 'Самара', 24, 2, 137, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1447, '2018-12-20 09:00', 'Санкт-Петербург', -5, -4, 149, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1448, '2018-12-20 10:00', 'Москва', 34, -5, 161, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1449, '2018-12-20 10:00', 'Самара', 2, -16, -101, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1450, '2018-12-20 10:00', 'Санкт-Петербург', 5, -6, 50, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1451, '2018-12-20 11:00', 'Москва', 0, 15, -160, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1452, '2018-12-20 11:00', 'Самара', 5, -17, 31, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1453, '2018-12-20 11:00', 'Санкт-Петербург', 2, 0, -122, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1454, '2018-12-21 12:00', 'Москва', -14, 11, -68, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1455, '2018-12-21 12:00', 'Самара', -11, -11, 28, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1456, '2018-12-21 12:00', 'Санкт-Петербург', 24, 10, 129, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1457, '2018-12-21 01:00', 'Москва', -9, -3, 66, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1458, '2018-12-21 01:00', 'Самара', -10, 18, -151, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1459, '2018-12-21 01:00', 'Санкт-Петербург', -10, -14, 134, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1460, '2018-12-21 02:00', 'Москва', -3, -13, 39, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1461, '2018-12-21 02:00', 'Самара', 20, 17, -154, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1462, '2018-12-21 02:00', 'Санкт-Петербург', 4, 19, -140, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1463, '2018-12-21 03:00', 'Москва', 19, -2, -149, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1464, '2018-12-21 03:00', 'Самара', 12, 6, 137, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1465, '2018-12-21 03:00', 'Санкт-Петербург', -1, -15, -139, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1466, '2018-12-21 04:00', 'Москва', 35, 15, 11, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1467, '2018-12-21 04:00', 'Самара', 11, -10, -14, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1468, '2018-12-21 04:00', 'Санкт-Петербург', 11, 3, -66, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1469, '2018-12-21 05:00', 'Москва', -4, -11, 21, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1470, '2018-12-21 05:00', 'Самара', 27, -20, 36, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1471, '2018-12-21 05:00', 'Санкт-Петербург', 25, -12, 29, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1472, '2018-12-21 06:00', 'Москва', 5, -19, 96, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1473, '2018-12-21 06:00', 'Самара', -18, -1, 117, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1474, '2018-12-21 06:00', 'Санкт-Петербург', 26, -1, -19, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1475, '2018-12-21 07:00', 'Москва', 6, 6, 175, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1476, '2018-12-21 07:00', 'Самара', 5, 4, -72, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1477, '2018-12-21 07:00', 'Санкт-Петербург', -12, -11, -126, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1478, '2018-12-21 08:00', 'Москва', 10, -15, 15, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1479, '2018-12-21 08:00', 'Самара', -9, -17, 115, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1480, '2018-12-21 08:00', 'Санкт-Петербург', 31, 13, -5, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1481, '2018-12-21 09:00', 'Москва', 4, -7, 159, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1482, '2018-12-21 09:00', 'Самара', -11, 17, 81, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1483, '2018-12-21 09:00', 'Санкт-Петербург', 31, 0, -90, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1484, '2018-12-21 10:00', 'Москва', 17, 9, -129, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1485, '2018-12-21 10:00', 'Самара', 13, 1, 15, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1486, '2018-12-21 10:00', 'Санкт-Петербург', 16, 8, 1, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1487, '2018-12-21 11:00', 'Москва', 16, -5, -40, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1488, '2018-12-21 11:00', 'Самара', -8, 1, 131, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1489, '2018-12-21 11:00', 'Санкт-Петербург', 35, -15, -107, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1490, '2018-12-21 12:00', 'Москва', -8, 0, -62, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1491, '2018-12-21 12:00', 'Самара', 15, -18, -25, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1492, '2018-12-21 12:00', 'Санкт-Петербург', 32, -8, -96, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1493, '2018-12-21 01:00', 'Москва', 11, -7, 42, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1494, '2018-12-21 01:00', 'Самара', -6, 5, -130, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1495, '2018-12-21 01:00', 'Санкт-Петербург', -7, 1, -115, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1496, '2018-12-21 02:00', 'Москва', 33, 0, 47, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1497, '2018-12-21 02:00', 'Самара', -20, 16, -29, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1498, '2018-12-21 02:00', 'Санкт-Петербург', 24, -15, -52, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1499, '2018-12-21 03:00', 'Москва', -15, 11, 11, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1500, '2018-12-21 03:00', 'Самара', -5, 1, -133, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1501, '2018-12-21 03:00', 'Санкт-Петербург', -18, 12, 85, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1502, '2018-12-21 04:00', 'Москва', 34, 15, -56, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1503, '2018-12-21 04:00', 'Самара', 35, -5, -66, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1504, '2018-12-21 04:00', 'Санкт-Петербург', 13, 6, 160, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1505, '2018-12-21 05:00', 'Москва', -12, -5, 49, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1506, '2018-12-21 05:00', 'Самара', 26, 8, -168, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1507, '2018-12-21 05:00', 'Санкт-Петербург', 17, -11, -106, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1508, '2018-12-21 06:00', 'Москва', -15, -11, 13, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1509, '2018-12-21 06:00', 'Самара', -19, 18, -173, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1510, '2018-12-21 06:00', 'Санкт-Петербург', -13, -14, -112, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1511, '2018-12-21 07:00', 'Москва', 24, 13, 58, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1512, '2018-12-21 07:00', 'Самара', -2, -17, 52, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1513, '2018-12-21 07:00', 'Санкт-Петербург', -16, 9, -168, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1514, '2018-12-21 08:00', 'Москва', -17, -9, -72, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1515, '2018-12-21 08:00', 'Самара', 11, 20, -130, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1516, '2018-12-21 08:00', 'Санкт-Петербург', -9, -4, -40, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1517, '2018-12-21 09:00', 'Москва', 21, -10, -121, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1518, '2018-12-21 09:00', 'Самара', -18, 5, -49, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1519, '2018-12-21 09:00', 'Санкт-Петербург', 29, 2, -125, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1520, '2018-12-21 10:00', 'Москва', 30, 10, 132, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1521, '2018-12-21 10:00', 'Самара', 16, 2, -141, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1522, '2018-12-21 10:00', 'Санкт-Петербург', 16, -5, 135, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1523, '2018-12-21 11:00', 'Москва', 4, 13, 163, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1524, '2018-12-21 11:00', 'Самара', 12, 3, -90, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1525, '2018-12-21 11:00', 'Санкт-Петербург', -16, -19, 105, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1526, '2018-12-22 12:00', 'Москва', 27, -19, -73, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1527, '2018-12-22 12:00', 'Самара', 3, -10, -155, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1528, '2018-12-22 12:00', 'Санкт-Петербург', 3, -5, -98, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1529, '2018-12-22 01:00', 'Москва', -4, 13, -78, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1530, '2018-12-22 01:00', 'Самара', 23, -7, -47, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1531, '2018-12-22 01:00', 'Санкт-Петербург', 17, 17, -129, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1532, '2018-12-22 02:00', 'Москва', 19, -14, 92, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1533, '2018-12-22 02:00', 'Самара', 19, 5, 159, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1534, '2018-12-22 02:00', 'Санкт-Петербург', -8, 10, 24, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1535, '2018-12-22 03:00', 'Москва', -9, 5, 93, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1536, '2018-12-22 03:00', 'Самара', -1, -7, -71, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1537, '2018-12-22 03:00', 'Санкт-Петербург', 14, 18, -1, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1538, '2018-12-22 04:00', 'Москва', 10, 3, 48, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1539, '2018-12-22 04:00', 'Самара', 34, -13, -60, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1540, '2018-12-22 04:00', 'Санкт-Петербург', 15, 10, -41, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1541, '2018-12-22 05:00', 'Москва', 11, -6, 151, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1542, '2018-12-22 05:00', 'Самара', 1, 2, -28, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1543, '2018-12-22 05:00', 'Санкт-Петербург', -13, 14, -39, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1544, '2018-12-22 06:00', 'Москва', -2, 16, -128, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1545, '2018-12-22 06:00', 'Самара', 32, -5, 79, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1546, '2018-12-22 06:00', 'Санкт-Петербург', 24, -12, 148, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1547, '2018-12-22 07:00', 'Москва', -4, -1, -166, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1548, '2018-12-22 07:00', 'Самара', 17, -19, -102, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1549, '2018-12-22 07:00', 'Санкт-Петербург', -4, -19, -53, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1550, '2018-12-22 08:00', 'Москва', 9, -6, 144, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1551, '2018-12-22 08:00', 'Самара', 13, 9, -134, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1552, '2018-12-22 08:00', 'Санкт-Петербург', -5, -8, -141, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1553, '2018-12-22 09:00', 'Москва', 35, 17, 148, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1554, '2018-12-22 09:00', 'Самара', 4, 3, 112, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1555, '2018-12-22 09:00', 'Санкт-Петербург', 22, 0, 134, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1556, '2018-12-22 10:00', 'Москва', -2, -17, -169, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1557, '2018-12-22 10:00', 'Самара', -1, 13, 88, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1558, '2018-12-22 10:00', 'Санкт-Петербург', 1, 20, -24, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1559, '2018-12-22 11:00', 'Москва', 9, -1, 94, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1560, '2018-12-22 11:00', 'Самара', -20, 2, 41, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1561, '2018-12-22 11:00', 'Санкт-Петербург', -19, -3, 179, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1562, '2018-12-22 12:00', 'Москва', 4, 4, 135, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1563, '2018-12-22 12:00', 'Самара', -12, 4, -4, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1564, '2018-12-22 12:00', 'Санкт-Петербург', 13, -14, 165, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1565, '2018-12-22 01:00', 'Москва', 10, 13, 20, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1566, '2018-12-22 01:00', 'Самара', -13, -3, 116, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1567, '2018-12-22 01:00', 'Санкт-Петербург', 8, 5, 3, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1568, '2018-12-22 02:00', 'Москва', 17, 7, -100, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1569, '2018-12-22 02:00', 'Самара', -18, 0, -73, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1570, '2018-12-22 02:00', 'Санкт-Петербург', 32, 15, -147, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1571, '2018-12-22 03:00', 'Москва', -4, -19, 57, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1572, '2018-12-22 03:00', 'Самара', -9, 17, 53, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1573, '2018-12-22 03:00', 'Санкт-Петербург', 18, 11, 15, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1574, '2018-12-22 04:00', 'Москва', 35, 5, -7, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1575, '2018-12-22 04:00', 'Самара', -11, -1, -51, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1576, '2018-12-22 04:00', 'Санкт-Петербург', 14, -5, 166, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1577, '2018-12-22 05:00', 'Москва', 26, 2, 49, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1578, '2018-12-22 05:00', 'Самара', -19, -11, -61, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1579, '2018-12-22 05:00', 'Санкт-Петербург', 14, -5, 67, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1580, '2018-12-22 06:00', 'Москва', -9, 14, -30, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1581, '2018-12-22 06:00', 'Самара', 26, -14, -173, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1582, '2018-12-22 06:00', 'Санкт-Петербург', 30, 3, 146, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1583, '2018-12-22 07:00', 'Москва', 32, -19, 42, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1584, '2018-12-22 07:00', 'Самара', 16, 19, -104, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1585, '2018-12-22 07:00', 'Санкт-Петербург', -16, -7, -109, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1586, '2018-12-22 08:00', 'Москва', 19, 12, 121, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1587, '2018-12-22 08:00', 'Самара', 2, 3, 58, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1588, '2018-12-22 08:00', 'Санкт-Петербург', 17, -11, -120, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1589, '2018-12-22 09:00', 'Москва', -7, 3, 37, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1590, '2018-12-22 09:00', 'Самара', -1, -4, -94, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1591, '2018-12-22 09:00', 'Санкт-Петербург', -19, 2, 122, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1592, '2018-12-22 10:00', 'Москва', 22, -9, 150, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1593, '2018-12-22 10:00', 'Самара', -16, -20, -175, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1594, '2018-12-22 10:00', 'Санкт-Петербург', 29, 5, 132, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1595, '2018-12-22 11:00', 'Москва', 24, 9, -137, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1596, '2018-12-22 11:00', 'Самара', 12, 2, -174, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1597, '2018-12-22 11:00', 'Санкт-Петербург', 18, 11, 125, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1598, '2018-12-23 12:00', 'Москва', -2, -15, -13, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1599, '2018-12-23 12:00', 'Самара', 10, 5, -52, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1600, '2018-12-23 12:00', 'Санкт-Петербург', 26, 11, 64, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1601, '2018-12-23 01:00', 'Москва', -13, -10, -78, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1602, '2018-12-23 01:00', 'Самара', 18, -2, -48, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1603, '2018-12-23 01:00', 'Санкт-Петербург', -15, 20, 165, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1604, '2018-12-23 02:00', 'Москва', -6, -15, 165, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1605, '2018-12-23 02:00', 'Самара', 25, 19, 171, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1606, '2018-12-23 02:00', 'Санкт-Петербург', -1, -17, -157, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1607, '2018-12-23 03:00', 'Москва', -16, -3, 119, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1608, '2018-12-23 03:00', 'Самара', 22, 14, -80, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1609, '2018-12-23 03:00', 'Санкт-Петербург', -19, 9, -147, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1610, '2018-12-23 04:00', 'Москва', 30, 6, -111, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1611, '2018-12-23 04:00', 'Самара', 29, -2, -152, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1612, '2018-12-23 04:00', 'Санкт-Петербург', 3, -9, -3, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1613, '2018-12-23 05:00', 'Москва', -4, -7, -38, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1614, '2018-12-23 05:00', 'Самара', -9, -7, 38, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1615, '2018-12-23 05:00', 'Санкт-Петербург', 19, 12, 55, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1616, '2018-12-23 06:00', 'Москва', 11, -19, 66, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1617, '2018-12-23 06:00', 'Самара', -16, 11, 12, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1618, '2018-12-23 06:00', 'Санкт-Петербург', -17, -20, 173, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1619, '2018-12-23 07:00', 'Москва', 13, -19, 61, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1620, '2018-12-23 07:00', 'Самара', -8, 8, 26, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1621, '2018-12-23 07:00', 'Санкт-Петербург', 0, 10, 131, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1622, '2018-12-23 08:00', 'Москва', -8, -12, -169, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1623, '2018-12-23 08:00', 'Самара', 0, -11, -83, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1624, '2018-12-23 08:00', 'Санкт-Петербург', 28, 4, -5, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1625, '2018-12-23 09:00', 'Москва', 32, 8, 168, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1626, '2018-12-23 09:00', 'Самара', 19, 2, -7, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1627, '2018-12-23 09:00', 'Санкт-Петербург', 28, -6, 124, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1628, '2018-12-23 10:00', 'Москва', -1, 15, 65, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1629, '2018-12-23 10:00', 'Самара', -8, -1, -31, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1630, '2018-12-23 10:00', 'Санкт-Петербург', 26, 1, -152, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1631, '2018-12-23 11:00', 'Москва', 16, -7, 15, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1632, '2018-12-23 11:00', 'Самара', 9, 10, 162, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1633, '2018-12-23 11:00', 'Санкт-Петербург', 34, 9, 118, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1634, '2018-12-23 12:00', 'Москва', 14, -19, 141, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1635, '2018-12-23 12:00', 'Самара', -7, 11, -20, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1636, '2018-12-23 12:00', 'Санкт-Петербург', -3, -17, -158, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1637, '2018-12-23 01:00', 'Москва', -2, 18, -140, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1638, '2018-12-23 01:00', 'Самара', 4, -15, -55, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1639, '2018-12-23 01:00', 'Санкт-Петербург', 27, 1, -143, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1640, '2018-12-23 02:00', 'Москва', -5, 12, 170, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1641, '2018-12-23 02:00', 'Самара', 9, -4, -172, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1642, '2018-12-23 02:00', 'Санкт-Петербург', 15, -7, -48, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1643, '2018-12-23 03:00', 'Москва', 2, 0, 112, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1644, '2018-12-23 03:00', 'Самара', 34, -7, 100, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1645, '2018-12-23 03:00', 'Санкт-Петербург', -9, 5, -32, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1646, '2018-12-23 04:00', 'Москва', -6, 13, 177, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1647, '2018-12-23 04:00', 'Самара', -10, -19, 177, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1648, '2018-12-23 04:00', 'Санкт-Петербург', 19, 7, -155, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1649, '2018-12-23 05:00', 'Москва', -10, 3, 178, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1650, '2018-12-23 05:00', 'Самара', 17, -2, 126, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1651, '2018-12-23 05:00', 'Санкт-Петербург', -12, 6, 62, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1652, '2018-12-23 06:00', 'Москва', 24, -11, 120, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1653, '2018-12-23 06:00', 'Самара', 25, 13, 108, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1654, '2018-12-23 06:00', 'Санкт-Петербург', 1, 3, 175, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1655, '2018-12-23 07:00', 'Москва', 20, 13, 80, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1656, '2018-12-23 07:00', 'Самара', 1, 10, -22, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1657, '2018-12-23 07:00', 'Санкт-Петербург', -12, 5, -77, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1658, '2018-12-23 08:00', 'Москва', 8, 12, -154, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1659, '2018-12-23 08:00', 'Самара', -2, 17, -14, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1660, '2018-12-23 08:00', 'Санкт-Петербург', 23, 10, -59, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1661, '2018-12-23 09:00', 'Москва', -15, 14, -170, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1662, '2018-12-23 09:00', 'Самара', -19, -5, 128, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1663, '2018-12-23 09:00', 'Санкт-Петербург', 30, 8, 24, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1664, '2018-12-23 10:00', 'Москва', -19, 18, 179, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1665, '2018-12-23 10:00', 'Самара', -3, -20, 21, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1666, '2018-12-23 10:00', 'Санкт-Петербург', 13, 0, 81, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1667, '2018-12-23 11:00', 'Москва', 32, 10, 4, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1668, '2018-12-23 11:00', 'Самара', -11, 16, -76, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1669, '2018-12-23 11:00', 'Санкт-Петербург', 11, -2, 113, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1670, '2018-12-24 12:00', 'Москва', -20, 7, 118, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1671, '2018-12-24 12:00', 'Самара', 35, 17, 151, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1672, '2018-12-24 12:00', 'Санкт-Петербург', 10, -16, -139, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1673, '2018-12-24 01:00', 'Москва', -2, 0, -168, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1674, '2018-12-24 01:00', 'Самара', 1, -11, -73, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1675, '2018-12-24 01:00', 'Санкт-Петербург', 19, -19, 2, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1676, '2018-12-24 02:00', 'Москва', 22, -12, -14, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1677, '2018-12-24 02:00', 'Самара', -17, 11, -65, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1678, '2018-12-24 02:00', 'Санкт-Петербург', 2, -2, 135, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1679, '2018-12-24 03:00', 'Москва', 4, -10, -120, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1680, '2018-12-24 03:00', 'Самара', 5, 11, -117, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1681, '2018-12-24 03:00', 'Санкт-Петербург', -3, -18, -137, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1682, '2018-12-24 04:00', 'Москва', 23, -2, -149, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1683, '2018-12-24 04:00', 'Самара', 33, 14, -94, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1684, '2018-12-24 04:00', 'Санкт-Петербург', 24, -2, -151, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1685, '2018-12-24 05:00', 'Москва', -11, 7, -116, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1686, '2018-12-24 05:00', 'Самара', 13, 20, 19, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1687, '2018-12-24 05:00', 'Санкт-Петербург', 16, -16, 138, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1688, '2018-12-24 06:00', 'Москва', -20, -17, -13, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1689, '2018-12-24 06:00', 'Самара', 30, -12, -132, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1690, '2018-12-24 06:00', 'Санкт-Петербург', -11, 13, 157, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1691, '2018-12-24 07:00', 'Москва', 1, 19, 36, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1692, '2018-12-24 07:00', 'Самара', 18, 3, 40, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1693, '2018-12-24 07:00', 'Санкт-Петербург', 25, -2, -121, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1694, '2018-12-24 08:00', 'Москва', 27, -14, 79, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1695, '2018-12-24 08:00', 'Самара', 16, 17, -74, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1696, '2018-12-24 08:00', 'Санкт-Петербург', 10, -17, 33, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1697, '2018-12-24 09:00', 'Москва', -5, -5, 63, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1698, '2018-12-24 09:00', 'Самара', 35, 11, 7, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1699, '2018-12-24 09:00', 'Санкт-Петербург', 12, -6, -97, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1700, '2018-12-24 10:00', 'Москва', -10, 0, -29, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1701, '2018-12-24 10:00', 'Самара', -5, 18, -81, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1702, '2018-12-24 10:00', 'Санкт-Петербург', -17, 7, -171, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1703, '2018-12-24 11:00', 'Москва', -19, 5, 40, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1704, '2018-12-24 11:00', 'Самара', 17, 10, -19, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1705, '2018-12-24 11:00', 'Санкт-Петербург', 6, 14, 147, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1706, '2018-12-24 12:00', 'Москва', 4, -15, 116, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1707, '2018-12-24 12:00', 'Самара', 24, 6, -61, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1708, '2018-12-24 12:00', 'Санкт-Петербург', 11, 11, 149, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1709, '2018-12-24 01:00', 'Москва', -7, -6, 41, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1710, '2018-12-24 01:00', 'Самара', 22, -13, -48, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1711, '2018-12-24 01:00', 'Санкт-Петербург', 16, 1, -45, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1712, '2018-12-24 02:00', 'Москва', 26, -7, -161, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1713, '2018-12-24 02:00', 'Самара', 18, 20, -44, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1714, '2018-12-24 02:00', 'Санкт-Петербург', -19, 3, 57, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1715, '2018-12-24 03:00', 'Москва', 31, -20, -130, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1716, '2018-12-24 03:00', 'Самара', 19, 17, 139, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1717, '2018-12-24 03:00', 'Санкт-Петербург', 18, -10, -117, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1718, '2018-12-24 04:00', 'Москва', 30, 13, -71, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1719, '2018-12-24 04:00', 'Самара', -9, 16, -74, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1720, '2018-12-24 04:00', 'Санкт-Петербург', 19, 16, -42, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1721, '2018-12-24 05:00', 'Москва', -15, -8, 18, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1722, '2018-12-24 05:00', 'Самара', -6, 3, 63, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1723, '2018-12-24 05:00', 'Санкт-Петербург', 4, -1, -82, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1724, '2018-12-24 06:00', 'Москва', 6, 0, -101, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1725, '2018-12-24 06:00', 'Самара', 18, 10, 33, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1726, '2018-12-24 06:00', 'Санкт-Петербург', 18, 11, -123, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1727, '2018-12-24 07:00', 'Москва', 33, 12, -135, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1728, '2018-12-24 07:00', 'Самара', -16, 16, 121, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1729, '2018-12-24 07:00', 'Санкт-Петербург', 13, 13, -117, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1730, '2018-12-24 08:00', 'Москва', -5, -10, 133, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1731, '2018-12-24 08:00', 'Самара', 20, 13, 122, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1732, '2018-12-24 08:00', 'Санкт-Петербург', 15, 18, -31, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1733, '2018-12-24 09:00', 'Москва', 22, -1, -128, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1734, '2018-12-24 09:00', 'Самара', 17, -18, -105, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1735, '2018-12-24 09:00', 'Санкт-Петербург', 4, -20, -36, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1736, '2018-12-24 10:00', 'Москва', 7, 16, -129, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1737, '2018-12-24 10:00', 'Самара', 28, -4, 12, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1738, '2018-12-24 10:00', 'Санкт-Петербург', 12, -16, -48, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1739, '2018-12-24 11:00', 'Москва', 16, -5, -22, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1740, '2018-12-24 11:00', 'Самара', -19, -14, 29, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1741, '2018-12-24 11:00', 'Санкт-Петербург', -3, 0, -12, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1742, '2018-12-25 12:00', 'Москва', 34, 20, 41, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1743, '2018-12-25 12:00', 'Самара', 13, 19, -74, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1744, '2018-12-25 12:00', 'Санкт-Петербург', 21, -19, -57, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1745, '2018-12-25 01:00', 'Москва', -19, -5, 57, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1746, '2018-12-25 01:00', 'Самара', -1, -3, 9, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1747, '2018-12-25 01:00', 'Санкт-Петербург', -5, -11, 54, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1748, '2018-12-25 02:00', 'Москва', -4, -20, 27, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1749, '2018-12-25 02:00', 'Самара', 6, -19, 5, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1750, '2018-12-25 02:00', 'Санкт-Петербург', 35, 10, -113, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1751, '2018-12-25 03:00', 'Москва', 15, -19, 22, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1752, '2018-12-25 03:00', 'Самара', 14, -18, -56, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1753, '2018-12-25 03:00', 'Санкт-Петербург', -5, -6, 89, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1754, '2018-12-25 04:00', 'Москва', 30, 0, -136, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1755, '2018-12-25 04:00', 'Самара', -8, 10, -107, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1756, '2018-12-25 04:00', 'Санкт-Петербург', -17, 8, 4, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1757, '2018-12-25 05:00', 'Москва', 14, -9, 83, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1758, '2018-12-25 05:00', 'Самара', 26, -20, 21, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1759, '2018-12-25 05:00', 'Санкт-Петербург', -12, 3, 173, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1760, '2018-12-25 06:00', 'Москва', 33, -10, 143, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1761, '2018-12-25 06:00', 'Самара', -18, -5, 103, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1762, '2018-12-25 06:00', 'Санкт-Петербург', 33, 20, 56, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1763, '2018-12-25 07:00', 'Москва', 18, 6, 151, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1764, '2018-12-25 07:00', 'Самара', -18, -8, 39, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1765, '2018-12-25 07:00', 'Санкт-Петербург', -11, -7, -143, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1766, '2018-12-25 08:00', 'Москва', 31, 5, 32, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1767, '2018-12-25 08:00', 'Самара', -2, 12, -152, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1768, '2018-12-25 08:00', 'Санкт-Петербург', 27, -3, 124, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1769, '2018-12-25 09:00', 'Москва', -20, 1, 98, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1770, '2018-12-25 09:00', 'Самара', 27, 6, -73, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1771, '2018-12-25 09:00', 'Санкт-Петербург', 10, -15, -135, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1772, '2018-12-25 10:00', 'Москва', 35, 14, 154, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1773, '2018-12-25 10:00', 'Самара', -11, 19, -166, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1774, '2018-12-25 10:00', 'Санкт-Петербург', -1, -3, 30, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1775, '2018-12-25 11:00', 'Москва', 14, 13, 62, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1776, '2018-12-25 11:00', 'Самара', 17, 11, 114, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1777, '2018-12-25 11:00', 'Санкт-Петербург', 35, 6, -22, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1778, '2018-12-25 12:00', 'Москва', 18, 11, 137, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1779, '2018-12-25 12:00', 'Самара', 19, 5, -36, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1780, '2018-12-25 12:00', 'Санкт-Петербург', -6, 18, -84, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1781, '2018-12-25 01:00', 'Москва', 15, 5, 68, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1782, '2018-12-25 01:00', 'Самара', -3, -12, -109, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1783, '2018-12-25 01:00', 'Санкт-Петербург', 28, -16, -7, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1784, '2018-12-25 02:00', 'Москва', -15, -16, 135, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1785, '2018-12-25 02:00', 'Самара', 16, 15, -98, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1786, '2018-12-25 02:00', 'Санкт-Петербург', -12, -3, 42, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1787, '2018-12-25 03:00', 'Москва', 30, 20, -149, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1788, '2018-12-25 03:00', 'Самара', 32, 8, 102, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1789, '2018-12-25 03:00', 'Санкт-Петербург', 20, -12, -51, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1790, '2018-12-25 04:00', 'Москва', -6, -17, -166, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1791, '2018-12-25 04:00', 'Самара', 27, -8, -39, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1792, '2018-12-25 04:00', 'Санкт-Петербург', 33, 12, -39, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1793, '2018-12-25 05:00', 'Москва', 3, 18, -7, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1794, '2018-12-25 05:00', 'Самара', 35, -16, -103, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1795, '2018-12-25 05:00', 'Санкт-Петербург', 2, -18, -157, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1796, '2018-12-25 06:00', 'Москва', 15, -7, 172, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1797, '2018-12-25 06:00', 'Самара', -12, -9, -164, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1798, '2018-12-25 06:00', 'Санкт-Петербург', -5, 4, -29, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1799, '2018-12-25 07:00', 'Москва', -18, 17, 146, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1800, '2018-12-25 07:00', 'Самара', 6, 6, 46, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1801, '2018-12-25 07:00', 'Санкт-Петербург', -12, 6, -52, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1802, '2018-12-25 08:00', 'Москва', 9, 11, -168, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1803, '2018-12-25 08:00', 'Самара', 30, -9, -85, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1804, '2018-12-25 08:00', 'Санкт-Петербург', -19, -12, 162, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1805, '2018-12-25 09:00', 'Москва', -1, -14, -178, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1806, '2018-12-25 09:00', 'Самара', 31, -3, -26, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1807, '2018-12-25 09:00', 'Санкт-Петербург', -1, -4, -65, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1808, '2018-12-25 10:00', 'Москва', 9, 6, -146, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1809, '2018-12-25 10:00', 'Самара', -4, -13, 85, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1810, '2018-12-25 10:00', 'Санкт-Петербург', 34, -13, 79, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1811, '2018-12-25 11:00', 'Москва', -18, -13, 82, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1812, '2018-12-25 11:00', 'Самара', 27, -19, -154, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1813, '2018-12-25 11:00', 'Санкт-Петербург', 29, 8, 37, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1814, '2018-12-26 12:00', 'Москва', 22, 19, -95, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1815, '2018-12-26 12:00', 'Самара', 10, 5, -34, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1816, '2018-12-26 12:00', 'Санкт-Петербург', 18, -1, -39, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1817, '2018-12-26 01:00', 'Москва', 4, 9, 56, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1818, '2018-12-26 01:00', 'Самара', -16, 16, 106, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1819, '2018-12-26 01:00', 'Санкт-Петербург', 15, -5, -82, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1820, '2018-12-26 02:00', 'Москва', 13, 20, -42, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1821, '2018-12-26 02:00', 'Самара', 23, -7, -162, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1822, '2018-12-26 02:00', 'Санкт-Петербург', 24, -8, -119, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1823, '2018-12-26 03:00', 'Москва', 18, -8, 73, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1824, '2018-12-26 03:00', 'Самара', 13, -5, -172, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1825, '2018-12-26 03:00', 'Санкт-Петербург', 1, -16, 32, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1826, '2018-12-26 04:00', 'Москва', 32, -15, -51, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1827, '2018-12-26 04:00', 'Самара', 21, -16, 138, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1828, '2018-12-26 04:00', 'Санкт-Петербург', 19, -1, 78, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1829, '2018-12-26 05:00', 'Москва', -5, 6, 166, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1830, '2018-12-26 05:00', 'Самара', -12, -11, -87, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1831, '2018-12-26 05:00', 'Санкт-Петербург', 22, 2, 89, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1832, '2018-12-26 06:00', 'Москва', 1, 0, -163, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1833, '2018-12-26 06:00', 'Самара', 12, 11, 88, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1834, '2018-12-26 06:00', 'Санкт-Петербург', 8, 13, 68, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1835, '2018-12-26 07:00', 'Москва', -4, 7, 149, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1836, '2018-12-26 07:00', 'Самара', -11, 11, -14, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1837, '2018-12-26 07:00', 'Санкт-Петербург', 35, -17, 71, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1838, '2018-12-26 08:00', 'Москва', 18, 19, -142, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1839, '2018-12-26 08:00', 'Самара', 28, -12, 157, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1840, '2018-12-26 08:00', 'Санкт-Петербург', 19, 2, -143, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1841, '2018-12-26 09:00', 'Москва', 21, -6, -163, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1842, '2018-12-26 09:00', 'Самара', 21, -5, 171, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1843, '2018-12-26 09:00', 'Санкт-Петербург', 1, -5, 51, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1844, '2018-12-26 10:00', 'Москва', 30, 0, 136, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1845, '2018-12-26 10:00', 'Самара', 15, 17, -179, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1846, '2018-12-26 10:00', 'Санкт-Петербург', 24, 3, -166, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1847, '2018-12-26 11:00', 'Москва', -8, -20, 119, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1848, '2018-12-26 11:00', 'Самара', 21, -18, 40, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1849, '2018-12-26 11:00', 'Санкт-Петербург', 15, -16, 93, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1850, '2018-12-26 12:00', 'Москва', 33, 4, 31, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1851, '2018-12-26 12:00', 'Самара', 13, -17, -46, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1852, '2018-12-26 12:00', 'Санкт-Петербург', 13, 12, -100, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1853, '2018-12-26 01:00', 'Москва', 14, -7, -123, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1854, '2018-12-26 01:00', 'Самара', -14, -10, -150, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1855, '2018-12-26 01:00', 'Санкт-Петербург', 14, 6, 6, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1856, '2018-12-26 02:00', 'Москва', -10, 7, -84, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1857, '2018-12-26 02:00', 'Самара', 12, -7, -21, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1858, '2018-12-26 02:00', 'Санкт-Петербург', 22, -11, 120, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1859, '2018-12-26 03:00', 'Москва', 8, -1, 48, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1860, '2018-12-26 03:00', 'Самара', 13, 12, 144, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1861, '2018-12-26 03:00', 'Санкт-Петербург', 14, -12, 178, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1862, '2018-12-26 04:00', 'Москва', -14, -4, -42, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1863, '2018-12-26 04:00', 'Самара', -2, -1, -27, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1864, '2018-12-26 04:00', 'Санкт-Петербург', 25, -10, -15, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1865, '2018-12-26 05:00', 'Москва', 24, 11, 125, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1866, '2018-12-26 05:00', 'Самара', -13, 14, 157, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1867, '2018-12-26 05:00', 'Санкт-Петербург', -8, -11, -32, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1868, '2018-12-26 06:00', 'Москва', 33, -13, -36, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1869, '2018-12-26 06:00', 'Самара', 33, -16, -159, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1870, '2018-12-26 06:00', 'Санкт-Петербург', 2, -2, 115, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1871, '2018-12-26 07:00', 'Москва', 24, -5, 37, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1872, '2018-12-26 07:00', 'Самара', 6, 4, 31, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1873, '2018-12-26 07:00', 'Санкт-Петербург', -15, -9, 141, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1874, '2018-12-26 08:00', 'Москва', 19, -8, -4, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1875, '2018-12-26 08:00', 'Самара', 22, 8, 148, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1876, '2018-12-26 08:00', 'Санкт-Петербург', -14, -4, 171, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1877, '2018-12-26 09:00', 'Москва', 29, -3, 146, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1878, '2018-12-26 09:00', 'Самара', 13, -18, -3, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1879, '2018-12-26 09:00', 'Санкт-Петербург', 32, 20, 136, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1880, '2018-12-26 10:00', 'Москва', 6, 14, -119, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1881, '2018-12-26 10:00', 'Самара', -2, -2, -4, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1882, '2018-12-26 10:00', 'Санкт-Петербург', 15, 17, 139, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1883, '2018-12-26 11:00', 'Москва', -17, 3, 154, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1884, '2018-12-26 11:00', 'Самара', 21, 11, -149, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1885, '2018-12-26 11:00', 'Санкт-Петербург', 8, 18, -36, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1886, '2018-12-27 12:00', 'Москва', 1, 14, 30, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1887, '2018-12-27 12:00', 'Самара', -5, -14, 54, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1888, '2018-12-27 12:00', 'Санкт-Петербург', 31, 19, 85, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1889, '2018-12-27 01:00', 'Москва', 22, 19, -83, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1890, '2018-12-27 01:00', 'Самара', 34, -15, -180, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1891, '2018-12-27 01:00', 'Санкт-Петербург', 11, 1, 94, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1892, '2018-12-27 02:00', 'Москва', -6, -6, 57, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1893, '2018-12-27 02:00', 'Самара', 10, 7, 133, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1894, '2018-12-27 02:00', 'Санкт-Петербург', -9, 2, -144, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1895, '2018-12-27 03:00', 'Москва', 32, 1, -12, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1896, '2018-12-27 03:00', 'Самара', -6, 9, 67, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1897, '2018-12-27 03:00', 'Санкт-Петербург', -6, -1, -106, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1898, '2018-12-27 04:00', 'Москва', 31, -6, -94, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1899, '2018-12-27 04:00', 'Самара', 19, -18, 33, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1900, '2018-12-27 04:00', 'Санкт-Петербург', -10, -20, -58, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1901, '2018-12-27 05:00', 'Москва', -11, 0, 122, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1902, '2018-12-27 05:00', 'Самара', -2, -9, -138, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1903, '2018-12-27 05:00', 'Санкт-Петербург', 7, -2, 78, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1904, '2018-12-27 06:00', 'Москва', -9, 14, 140, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1905, '2018-12-27 06:00', 'Самара', -5, 19, 31, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1906, '2018-12-27 06:00', 'Санкт-Петербург', -13, 14, 12, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1907, '2018-12-27 07:00', 'Москва', 2, -5, -26, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1908, '2018-12-27 07:00', 'Самара', -1, 11, -20, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1909, '2018-12-27 07:00', 'Санкт-Петербург', 8, -2, 31, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1910, '2018-12-27 08:00', 'Москва', -12, 18, -46, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1911, '2018-12-27 08:00', 'Самара', 23, -18, -133, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1912, '2018-12-27 08:00', 'Санкт-Петербург', 1, -16, 40, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1913, '2018-12-27 09:00', 'Москва', -2, -1, 103, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1914, '2018-12-27 09:00', 'Самара', -1, 0, -111, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1915, '2018-12-27 09:00', 'Санкт-Петербург', 10, -4, -43, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1916, '2018-12-27 10:00', 'Москва', 8, -11, -11, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1917, '2018-12-27 10:00', 'Самара', 1, -6, -116, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1918, '2018-12-27 10:00', 'Санкт-Петербург', 16, 9, -23, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1919, '2018-12-27 11:00', 'Москва', -16, 19, 107, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1920, '2018-12-27 11:00', 'Самара', 30, -12, 127, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1921, '2018-12-27 11:00', 'Санкт-Петербург', 30, 4, 122, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1922, '2018-12-27 12:00', 'Москва', 8, 5, 49, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1923, '2018-12-27 12:00', 'Самара', 0, 16, 117, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1924, '2018-12-27 12:00', 'Санкт-Петербург', -4, -13, -28, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1925, '2018-12-27 01:00', 'Москва', 5, -11, -58, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1926, '2018-12-27 01:00', 'Самара', 10, 18, 4, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1927, '2018-12-27 01:00', 'Санкт-Петербург', 25, 1, -19, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1928, '2018-12-27 02:00', 'Москва', -20, -9, 1, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1929, '2018-12-27 02:00', 'Самара', 12, -2, -78, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1930, '2018-12-27 02:00', 'Санкт-Петербург', 31, 18, 83, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1931, '2018-12-27 03:00', 'Москва', -1, -18, 111, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1932, '2018-12-27 03:00', 'Самара', -1, -18, -161, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1933, '2018-12-27 03:00', 'Санкт-Петербург', 14, -6, -128, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1934, '2018-12-27 04:00', 'Москва', -7, -15, 33, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1935, '2018-12-27 04:00', 'Самара', 6, 10, 32, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1936, '2018-12-27 04:00', 'Санкт-Петербург', -3, -8, -109, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1937, '2018-12-27 05:00', 'Москва', 14, 2, -39, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1938, '2018-12-27 05:00', 'Самара', 32, -15, 58, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1939, '2018-12-27 05:00', 'Санкт-Петербург', 30, 6, 107, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1940, '2018-12-27 06:00', 'Москва', -2, 19, 61, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1941, '2018-12-27 06:00', 'Самара', 32, 1, 97, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1942, '2018-12-27 06:00', 'Санкт-Петербург', 18, -1, -162, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1943, '2018-12-27 07:00', 'Москва', 0, -7, -104, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1944, '2018-12-27 07:00', 'Самара', 14, 19, -49, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1945, '2018-12-27 07:00', 'Санкт-Петербург', 24, -6, 139, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1946, '2018-12-27 08:00', 'Москва', -8, 13, 38, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1947, '2018-12-27 08:00', 'Самара', 6, 9, -173, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1948, '2018-12-27 08:00', 'Санкт-Петербург', 19, 3, 48, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1949, '2018-12-27 09:00', 'Москва', -12, 15, -149, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1950, '2018-12-27 09:00', 'Самара', 27, -5, 125, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1951, '2018-12-27 09:00', 'Санкт-Петербург', -5, -12, 83, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1952, '2018-12-27 10:00', 'Москва', 34, -19, 159, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1953, '2018-12-27 10:00', 'Самара', -8, 11, 85, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1954, '2018-12-27 10:00', 'Санкт-Петербург', -11, -5, -150, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1955, '2018-12-27 11:00', 'Москва', 30, -13, 95, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1956, '2018-12-27 11:00', 'Самара', -17, -13, 146, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1957, '2018-12-27 11:00', 'Санкт-Петербург', 6, -20, -7, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1958, '2018-12-28 12:00', 'Москва', -13, -5, -33, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1959, '2018-12-28 12:00', 'Самара', -18, 0, 58, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1960, '2018-12-28 12:00', 'Санкт-Петербург', 32, -6, -8, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1961, '2018-12-28 01:00', 'Москва', -13, 18, 14, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1962, '2018-12-28 01:00', 'Самара', 32, -19, -28, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1963, '2018-12-28 01:00', 'Санкт-Петербург', 28, -11, 178, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1964, '2018-12-28 02:00', 'Москва', 30, 13, -135, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1965, '2018-12-28 02:00', 'Самара', 11, 17, -115, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1966, '2018-12-28 02:00', 'Санкт-Петербург', -10, 20, 100, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1967, '2018-12-28 03:00', 'Москва', 29, -9, 99, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1968, '2018-12-28 03:00', 'Самара', 25, -10, -66, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1969, '2018-12-28 03:00', 'Санкт-Петербург', -6, 1, 100, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1970, '2018-12-28 04:00', 'Москва', 6, 14, -76, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1971, '2018-12-28 04:00', 'Самара', 22, -15, -151, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1972, '2018-12-28 04:00', 'Санкт-Петербург', 19, -14, 129, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1973, '2018-12-28 05:00', 'Москва', -2, -14, 48, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1974, '2018-12-28 05:00', 'Самара', 18, 2, -174, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1975, '2018-12-28 05:00', 'Санкт-Петербург', -11, 4, 166, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1976, '2018-12-28 06:00', 'Москва', 33, -13, -141, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1977, '2018-12-28 06:00', 'Самара', -14, 9, -45, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1978, '2018-12-28 06:00', 'Санкт-Петербург', 30, -5, -83, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1979, '2018-12-28 07:00', 'Москва', 35, -10, -146, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1980, '2018-12-28 07:00', 'Самара', -20, -3, 44, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1981, '2018-12-28 07:00', 'Санкт-Петербург', -15, 17, -85, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1982, '2018-12-28 08:00', 'Москва', -20, -15, -119, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1983, '2018-12-28 08:00', 'Самара', 26, 19, -149, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1984, '2018-12-28 08:00', 'Санкт-Петербург', 11, 7, -146, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1985, '2018-12-28 09:00', 'Москва', 23, -8, -102, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1986, '2018-12-28 09:00', 'Самара', 6, 4, -169, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1987, '2018-12-28 09:00', 'Санкт-Петербург', 7, 9, -60, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1988, '2018-12-28 10:00', 'Москва', -16, 11, -150, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1989, '2018-12-28 10:00', 'Самара', 12, -9, 24, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1990, '2018-12-28 10:00', 'Санкт-Петербург', -13, -17, -70, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1991, '2018-12-28 11:00', 'Москва', -18, -16, -37, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1992, '2018-12-28 11:00', 'Самара', 7, 17, -92, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1993, '2018-12-28 11:00', 'Санкт-Петербург', 17, -16, 108, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1994, '2018-12-28 12:00', 'Москва', -9, -10, 17, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1995, '2018-12-28 12:00', 'Самара', 10, -7, -105, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1996, '2018-12-28 12:00', 'Санкт-Петербург', -14, -13, 109, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1997, '2018-12-28 01:00', 'Москва', 6, -8, 170, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1998, '2018-12-28 01:00', 'Самара', 26, 15, -56, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (1999, '2018-12-28 01:00', 'Санкт-Петербург', -7, 14, 160, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2000, '2018-12-28 02:00', 'Москва', 0, -1, 146, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2001, '2018-12-28 02:00', 'Самара', 0, -20, -80, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2002, '2018-12-28 02:00', 'Санкт-Петербург', -12, 4, -155, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2003, '2018-12-28 03:00', 'Москва', 0, 2, -34, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2004, '2018-12-28 03:00', 'Самара', 30, -7, 22, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2005, '2018-12-28 03:00', 'Санкт-Петербург', 32, -19, 163, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2006, '2018-12-28 04:00', 'Москва', -7, 17, -131, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2007, '2018-12-28 04:00', 'Самара', -15, 14, 69, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2008, '2018-12-28 04:00', 'Санкт-Петербург', 33, -14, -18, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2009, '2018-12-28 05:00', 'Москва', -20, -6, 34, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2010, '2018-12-28 05:00', 'Самара', -2, -8, 89, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2011, '2018-12-28 05:00', 'Санкт-Петербург', 23, -5, -125, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2012, '2018-12-28 06:00', 'Москва', 8, 15, -33, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2013, '2018-12-28 06:00', 'Самара', 26, 19, -170, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2014, '2018-12-28 06:00', 'Санкт-Петербург', 11, -13, -67, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2015, '2018-12-28 07:00', 'Москва', -5, 1, -13, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2016, '2018-12-28 07:00', 'Самара', 8, 5, -51, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2017, '2018-12-28 07:00', 'Санкт-Петербург', -7, -20, -77, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2018, '2018-12-28 08:00', 'Москва', 18, 0, 104, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2019, '2018-12-28 08:00', 'Самара', -12, 6, 138, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2020, '2018-12-28 08:00', 'Санкт-Петербург', 3, 3, 168, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2021, '2018-12-28 09:00', 'Москва', 32, 20, 40, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2022, '2018-12-28 09:00', 'Самара', 34, -1, -73, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2023, '2018-12-28 09:00', 'Санкт-Петербург', 28, -11, -173, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2024, '2018-12-28 10:00', 'Москва', -13, 11, -80, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2025, '2018-12-28 10:00', 'Самара', -7, -15, 165, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2026, '2018-12-28 10:00', 'Санкт-Петербург', 13, 5, 49, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2027, '2018-12-28 11:00', 'Москва', -2, 9, -121, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2028, '2018-12-28 11:00', 'Самара', -14, 15, 102, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2029, '2018-12-28 11:00', 'Санкт-Петербург', 24, -8, 99, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2030, '2018-12-29 12:00', 'Москва', 30, 2, -103, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2031, '2018-12-29 12:00', 'Самара', -16, 0, 144, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2032, '2018-12-29 12:00', 'Санкт-Петербург', 19, 5, 48, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2033, '2018-12-29 01:00', 'Москва', -5, 11, -178, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2034, '2018-12-29 01:00', 'Самара', 14, 12, -159, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2035, '2018-12-29 01:00', 'Санкт-Петербург', 9, -17, 33, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2036, '2018-12-29 02:00', 'Москва', -13, -17, -80, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2037, '2018-12-29 02:00', 'Самара', -9, 14, -32, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2038, '2018-12-29 02:00', 'Санкт-Петербург', 0, 8, -161, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2039, '2018-12-29 03:00', 'Москва', 27, 3, -42, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2040, '2018-12-29 03:00', 'Самара', -6, 4, -33, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2041, '2018-12-29 03:00', 'Санкт-Петербург', 23, 17, -148, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2042, '2018-12-29 04:00', 'Москва', 27, -10, 125, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2043, '2018-12-29 04:00', 'Самара', 18, 0, 142, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2044, '2018-12-29 04:00', 'Санкт-Петербург', 5, -12, 63, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2045, '2018-12-29 05:00', 'Москва', -2, -13, -74, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2046, '2018-12-29 05:00', 'Самара', -4, 9, -3, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2047, '2018-12-29 05:00', 'Санкт-Петербург', 35, 7, -130, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2048, '2018-12-29 06:00', 'Москва', 26, 9, -106, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2049, '2018-12-29 06:00', 'Самара', -4, 0, -141, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2050, '2018-12-29 06:00', 'Санкт-Петербург', 18, 6, -80, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2051, '2018-12-29 07:00', 'Москва', 0, 6, -147, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2052, '2018-12-29 07:00', 'Самара', -15, -9, -23, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2053, '2018-12-29 07:00', 'Санкт-Петербург', 30, -1, -73, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2054, '2018-12-29 08:00', 'Москва', -6, -11, 5, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2055, '2018-12-29 08:00', 'Самара', 25, -1, -152, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2056, '2018-12-29 08:00', 'Санкт-Петербург', -7, -3, -79, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2057, '2018-12-29 09:00', 'Москва', 7, 16, -86, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2058, '2018-12-29 09:00', 'Самара', 29, -7, 5, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2059, '2018-12-29 09:00', 'Санкт-Петербург', 5, 19, 32, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2060, '2018-12-29 10:00', 'Москва', -8, -17, 54, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2061, '2018-12-29 10:00', 'Самара', -6, -6, -155, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2062, '2018-12-29 10:00', 'Санкт-Петербург', 28, -1, 115, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2063, '2018-12-29 11:00', 'Москва', -2, 1, -53, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2064, '2018-12-29 11:00', 'Самара', 23, 4, -178, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2065, '2018-12-29 11:00', 'Санкт-Петербург', 21, 9, 147, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2066, '2018-12-29 12:00', 'Москва', 12, 7, -87, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2067, '2018-12-29 12:00', 'Самара', 14, 1, -123, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2068, '2018-12-29 12:00', 'Санкт-Петербург', 34, -4, 132, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2069, '2018-12-29 01:00', 'Москва', 20, -19, 100, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2070, '2018-12-29 01:00', 'Самара', -10, -7, -21, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2071, '2018-12-29 01:00', 'Санкт-Петербург', 18, -19, -120, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2072, '2018-12-29 02:00', 'Москва', 6, -15, 3, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2073, '2018-12-29 02:00', 'Самара', 26, -3, -115, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2074, '2018-12-29 02:00', 'Санкт-Петербург', 25, 3, -167, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2075, '2018-12-29 03:00', 'Москва', 27, -16, -3, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2076, '2018-12-29 03:00', 'Самара', 30, 5, -44, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2077, '2018-12-29 03:00', 'Санкт-Петербург', 1, -12, 31, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2078, '2018-12-29 04:00', 'Москва', -2, -18, -49, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2079, '2018-12-29 04:00', 'Самара', 15, -17, -144, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2080, '2018-12-29 04:00', 'Санкт-Петербург', -9, 9, -166, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2081, '2018-12-29 05:00', 'Москва', 30, 5, 52, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2082, '2018-12-29 05:00', 'Самара', 22, -4, 59, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2083, '2018-12-29 05:00', 'Санкт-Петербург', 28, 5, 37, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2084, '2018-12-29 06:00', 'Москва', -8, -1, 102, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2085, '2018-12-29 06:00', 'Самара', 15, -10, -172, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2086, '2018-12-29 06:00', 'Санкт-Петербург', -8, -19, 34, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2087, '2018-12-29 07:00', 'Москва', -17, 14, -143, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2088, '2018-12-29 07:00', 'Самара', 25, 15, -151, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2089, '2018-12-29 07:00', 'Санкт-Петербург', -17, -11, 33, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2090, '2018-12-29 08:00', 'Москва', 30, -2, 14, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2091, '2018-12-29 08:00', 'Самара', 30, -11, 82, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2092, '2018-12-29 08:00', 'Санкт-Петербург', 19, 7, -5, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2093, '2018-12-29 09:00', 'Москва', 4, -17, 142, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2094, '2018-12-29 09:00', 'Самара', 8, -20, -109, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2095, '2018-12-29 09:00', 'Санкт-Петербург', 18, 15, 68, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2096, '2018-12-29 10:00', 'Москва', -20, -17, 119, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2097, '2018-12-29 10:00', 'Самара', -2, 6, -35, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2098, '2018-12-29 10:00', 'Санкт-Петербург', 22, 11, -86, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2099, '2018-12-29 11:00', 'Москва', -6, 6, -74, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2100, '2018-12-29 11:00', 'Самара', 23, -15, -74, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2101, '2018-12-29 11:00', 'Санкт-Петербург', 4, 10, 16, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2102, '2018-12-30 12:00', 'Москва', 16, 20, 97, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2103, '2018-12-30 12:00', 'Самара', -11, 7, 137, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2104, '2018-12-30 12:00', 'Санкт-Петербург', -13, 12, 83, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2105, '2018-12-30 01:00', 'Москва', -16, -1, 98, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2106, '2018-12-30 01:00', 'Самара', -1, -13, 154, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2107, '2018-12-30 01:00', 'Санкт-Петербург', 16, -2, 71, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2108, '2018-12-30 02:00', 'Москва', 6, 10, 59, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2109, '2018-12-30 02:00', 'Самара', -15, 2, -93, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2110, '2018-12-30 02:00', 'Санкт-Петербург', 15, -9, 91, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2111, '2018-12-30 03:00', 'Москва', 4, -14, -172, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2112, '2018-12-30 03:00', 'Самара', -19, -4, 153, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2113, '2018-12-30 03:00', 'Санкт-Петербург', -12, -2, 132, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2114, '2018-12-30 04:00', 'Москва', -11, -10, 14, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2115, '2018-12-30 04:00', 'Самара', 2, -1, -128, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2116, '2018-12-30 04:00', 'Санкт-Петербург', 26, 17, 96, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2117, '2018-12-30 05:00', 'Москва', 24, -9, 92, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2118, '2018-12-30 05:00', 'Самара', 25, 1, 3, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2119, '2018-12-30 05:00', 'Санкт-Петербург', -9, 11, 135, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2120, '2018-12-30 06:00', 'Москва', -15, -4, 56, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2121, '2018-12-30 06:00', 'Самара', 29, -20, 39, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2122, '2018-12-30 06:00', 'Санкт-Петербург', 29, -13, -130, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2123, '2018-12-30 07:00', 'Москва', 1, 12, 0, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2124, '2018-12-30 07:00', 'Самара', 9, -16, 173, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2125, '2018-12-30 07:00', 'Санкт-Петербург', 32, -14, 178, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2126, '2018-12-30 08:00', 'Москва', 18, -20, 116, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2127, '2018-12-30 08:00', 'Самара', 19, 10, 129, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2128, '2018-12-30 08:00', 'Санкт-Петербург', -5, 18, 161, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2129, '2018-12-30 09:00', 'Москва', 26, -19, 75, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2130, '2018-12-30 09:00', 'Самара', 18, -12, -7, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2131, '2018-12-30 09:00', 'Санкт-Петербург', 23, -10, 155, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2132, '2018-12-30 10:00', 'Москва', 11, 13, -24, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2133, '2018-12-30 10:00', 'Самара', 5, -16, -80, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2134, '2018-12-30 10:00', 'Санкт-Петербург', 4, 16, -171, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2135, '2018-12-30 11:00', 'Москва', 0, -17, -38, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2136, '2018-12-30 11:00', 'Самара', 1, -2, 35, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2137, '2018-12-30 11:00', 'Санкт-Петербург', 1, -5, 13, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2138, '2018-12-30 12:00', 'Москва', 20, -11, 29, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2139, '2018-12-30 12:00', 'Самара', 5, 4, 174, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2140, '2018-12-30 12:00', 'Санкт-Петербург', -16, -18, 68, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2141, '2018-12-30 01:00', 'Москва', -19, 16, 81, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2142, '2018-12-30 01:00', 'Самара', 2, 11, -112, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2143, '2018-12-30 01:00', 'Санкт-Петербург', -4, -9, 100, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2144, '2018-12-30 02:00', 'Москва', 15, -19, 68, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2145, '2018-12-30 02:00', 'Самара', -6, -19, 143, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2146, '2018-12-30 02:00', 'Санкт-Петербург', -6, -2, 180, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2147, '2018-12-30 03:00', 'Москва', -14, -4, -118, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2148, '2018-12-30 03:00', 'Самара', -16, 1, 45, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2149, '2018-12-30 03:00', 'Санкт-Петербург', 12, -7, 7, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2150, '2018-12-30 04:00', 'Москва', 4, -12, 117, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2151, '2018-12-30 04:00', 'Самара', -5, 9, 171, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2152, '2018-12-30 04:00', 'Санкт-Петербург', 27, -16, 139, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2153, '2018-12-30 05:00', 'Москва', -6, 14, 144, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2154, '2018-12-30 05:00', 'Самара', -11, -13, 137, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2155, '2018-12-30 05:00', 'Санкт-Петербург', 24, 7, -146, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2156, '2018-12-30 06:00', 'Москва', -13, 5, -55, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2157, '2018-12-30 06:00', 'Самара', -11, -1, 120, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2158, '2018-12-30 06:00', 'Санкт-Петербург', -11, -4, 47, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2159, '2018-12-30 07:00', 'Москва', 15, 7, -33, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2160, '2018-12-30 07:00', 'Самара', 0, 19, -90, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2161, '2018-12-30 07:00', 'Санкт-Петербург', 16, 19, 159, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2162, '2018-12-30 08:00', 'Москва', 35, -9, -76, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2163, '2018-12-30 08:00', 'Самара', 16, 0, 97, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2164, '2018-12-30 08:00', 'Санкт-Петербург', 20, 12, 148, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2165, '2018-12-30 09:00', 'Москва', -12, -5, -145, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2166, '2018-12-30 09:00', 'Самара', 0, 8, -152, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2167, '2018-12-30 09:00', 'Санкт-Петербург', 8, -4, -137, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2168, '2018-12-30 10:00', 'Москва', -2, 5, 156, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2169, '2018-12-30 10:00', 'Самара', 16, -4, -130, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2170, '2018-12-30 10:00', 'Санкт-Петербург', 9, -10, 84, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2171, '2018-12-30 11:00', 'Москва', 34, -18, -112, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2172, '2018-12-30 11:00', 'Самара', 13, 13, 165, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2173, '2018-12-30 11:00', 'Санкт-Петербург', -17, 8, -134, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2174, '2019-12-31 12:00', 'Москва', -15, -13, -106, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2175, '2019-12-31 12:00', 'Самара', 10, -13, -14, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2176, '2019-12-31 12:00', 'Санкт-Петербург', 23, -6, 8, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2177, '2019-12-31 01:00', 'Москва', 32, 18, -111, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2178, '2019-12-31 01:00', 'Самара', -8, -13, -73, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2179, '2019-12-31 01:00', 'Санкт-Петербург', 20, 15, 72, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2180, '2019-12-31 02:00', 'Москва', -15, 0, -133, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2181, '2019-12-31 02:00', 'Самара', -20, 3, 46, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2182, '2019-12-31 02:00', 'Санкт-Петербург', 7, -19, -70, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2183, '2019-12-31 03:00', 'Москва', -7, -13, -160, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2184, '2019-12-31 03:00', 'Самара', 23, 16, -172, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2185, '2019-12-31 03:00', 'Санкт-Петербург', 7, 9, -102, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2186, '2019-12-31 04:00', 'Москва', 16, 2, -94, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2187, '2019-12-31 04:00', 'Самара', 7, 16, 131, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2188, '2019-12-31 04:00', 'Санкт-Петербург', -2, -2, -153, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2189, '2019-12-31 05:00', 'Москва', 13, -20, -126, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2190, '2019-12-31 05:00', 'Самара', 8, -2, -130, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2191, '2019-12-31 05:00', 'Санкт-Петербург', 25, 20, 85, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2192, '2019-12-31 06:00', 'Москва', -12, 12, -109, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2193, '2019-12-31 06:00', 'Самара', 26, 1, 53, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2194, '2019-12-31 06:00', 'Санкт-Петербург', 9, -5, -159, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2195, '2019-12-31 07:00', 'Москва', -18, -5, -112, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2196, '2019-12-31 07:00', 'Самара', 22, -20, 79, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2197, '2019-12-31 07:00', 'Санкт-Петербург', 22, 7, 154, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2198, '2019-12-31 08:00', 'Москва', 23, -18, -55, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2199, '2019-12-31 08:00', 'Самара', 29, -2, -140, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2200, '2019-12-31 08:00', 'Санкт-Петербург', 29, -1, -107, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2201, '2019-12-31 09:00', 'Москва', -20, -18, 90, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2202, '2019-12-31 09:00', 'Самара', 20, 8, 101, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2203, '2019-12-31 09:00', 'Санкт-Петербург', 12, -1, -176, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2204, '2019-12-31 10:00', 'Москва', 6, 5, -113, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2205, '2019-12-31 10:00', 'Самара', 21, -15, -89, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2206, '2019-12-31 10:00', 'Санкт-Петербург', 23, -4, 13, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2207, '2019-12-31 11:00', 'Москва', -14, -6, -6, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2208, '2019-12-31 11:00', 'Самара', -20, 16, 106, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2209, '2019-12-31 11:00', 'Санкт-Петербург', 17, 11, 82, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2210, '2019-12-31 12:00', 'Москва', -15, 8, 18, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2211, '2019-12-31 12:00', 'Самара', 15, -1, 63, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2212, '2019-12-31 12:00', 'Санкт-Петербург', -16, 1, -144, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2213, '2019-12-31 01:00', 'Москва', -8, 17, 71, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2214, '2019-12-31 01:00', 'Самара', 30, 4, -100, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2215, '2019-12-31 01:00', 'Санкт-Петербург', 21, -7, 41, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2216, '2019-12-31 02:00', 'Москва', 20, 20, -39, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2217, '2019-12-31 02:00', 'Самара', 34, 2, 155, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2218, '2019-12-31 02:00', 'Санкт-Петербург', -3, 5, -143, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2219, '2019-12-31 03:00', 'Москва', -20, 19, -43, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2220, '2019-12-31 03:00', 'Самара', 13, -12, 63, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2221, '2019-12-31 03:00', 'Санкт-Петербург', 3, -14, 1, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2222, '2019-12-31 04:00', 'Москва', -6, 15, 104, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2223, '2019-12-31 04:00', 'Самара', 33, -15, 14, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2224, '2019-12-31 04:00', 'Санкт-Петербург', -7, 19, -23, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2225, '2019-12-31 05:00', 'Москва', 21, -9, 68, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2226, '2019-12-31 05:00', 'Самара', -9, 16, -79, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2227, '2019-12-31 05:00', 'Санкт-Петербург', 10, -14, 109, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2228, '2019-12-31 06:00', 'Москва', 28, 3, -78, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2229, '2019-12-31 06:00', 'Самара', -2, 19, 97, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2230, '2019-12-31 06:00', 'Санкт-Петербург', 26, 17, -160, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2231, '2019-12-31 07:00', 'Москва', -19, 13, -98, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2232, '2019-12-31 07:00', 'Самара', -18, -18, 51, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2233, '2019-12-31 07:00', 'Санкт-Петербург', 3, -1, -111, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2234, '2019-12-31 08:00', 'Москва', 4, 1, -36, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2235, '2019-12-31 08:00', 'Самара', 33, -20, -108, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2236, '2019-12-31 08:00', 'Санкт-Петербург', -2, -19, -40, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2237, '2019-12-31 09:00', 'Москва', 7, 13, 103, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2238, '2019-12-31 09:00', 'Самара', -10, -8, 149, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2239, '2019-12-31 09:00', 'Санкт-Петербург', 29, -19, 61, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2240, '2019-12-31 10:00', 'Москва', -4, 3, -37, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2241, '2019-12-31 10:00', 'Самара', 28, -5, -134, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2242, '2019-12-31 10:00', 'Санкт-Петербург', 18, 20, 179, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2243, '2019-12-31 11:00', 'Москва', 32, 11, 180, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2244, '2019-12-31 11:00', 'Самара', -5, 16, -92, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2245, '2019-12-31 11:00', 'Санкт-Петербург', 26, -17, -12, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2246, '2019-01-01 12:00', 'Москва', 34, 11, -16, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2247, '2019-01-01 12:00', 'Самара', 33, -5, 69, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2248, '2019-01-01 12:00', 'Санкт-Петербург', 35, -20, -31, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2249, '2019-01-01 01:00', 'Москва', 10, -13, 35, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2250, '2019-01-01 01:00', 'Самара', -5, 2, 145, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2251, '2019-01-01 01:00', 'Санкт-Петербург', 22, 14, 128, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2252, '2019-01-01 02:00', 'Москва', 32, -2, 139, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2253, '2019-01-01 02:00', 'Самара', 2, 10, -85, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2254, '2019-01-01 02:00', 'Санкт-Петербург', 29, 18, 133, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2255, '2019-01-01 03:00', 'Москва', 15, 4, -158, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2256, '2019-01-01 03:00', 'Самара', 18, 18, 111, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2257, '2019-01-01 03:00', 'Санкт-Петербург', -1, -20, -71, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2258, '2019-01-01 04:00', 'Москва', 33, 9, 178, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2259, '2019-01-01 04:00', 'Самара', 8, 0, 110, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2260, '2019-01-01 04:00', 'Санкт-Петербург', 35, -15, -41, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2261, '2019-01-01 05:00', 'Москва', -14, 14, 23, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2262, '2019-01-01 05:00', 'Самара', 2, 1, 27, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2263, '2019-01-01 05:00', 'Санкт-Петербург', -17, -16, 103, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2264, '2019-01-01 06:00', 'Москва', 30, 7, 98, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2265, '2019-01-01 06:00', 'Самара', 30, -5, 40, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2266, '2019-01-01 06:00', 'Санкт-Петербург', -12, 4, 115, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2267, '2019-01-01 07:00', 'Москва', 17, -16, -3, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2268, '2019-01-01 07:00', 'Самара', 17, -13, 165, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2269, '2019-01-01 07:00', 'Санкт-Петербург', 19, -20, 96, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2270, '2019-01-01 08:00', 'Москва', 7, 3, 153, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2271, '2019-01-01 08:00', 'Самара', 14, -14, -39, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2272, '2019-01-01 08:00', 'Санкт-Петербург', -9, 19, 30, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2273, '2019-01-01 09:00', 'Москва', 19, 10, -23, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2274, '2019-01-01 09:00', 'Самара', 6, -5, -49, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2275, '2019-01-01 09:00', 'Санкт-Петербург', 16, -18, 75, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2276, '2019-01-01 10:00', 'Москва', 17, -6, 61, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2277, '2019-01-01 10:00', 'Самара', -1, 9, -132, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2278, '2019-01-01 10:00', 'Санкт-Петербург', -8, -18, 53, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2279, '2019-01-01 11:00', 'Москва', -1, -13, 172, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2280, '2019-01-01 11:00', 'Самара', 35, 12, 25, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2281, '2019-01-01 11:00', 'Санкт-Петербург', -3, 4, 153, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2282, '2019-01-01 12:00', 'Москва', 21, -2, 22, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2283, '2019-01-01 12:00', 'Самара', 16, -8, -18, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2284, '2019-01-01 12:00', 'Санкт-Петербург', -17, -11, 56, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2285, '2019-01-01 01:00', 'Москва', -6, -7, 28, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2286, '2019-01-01 01:00', 'Самара', 17, 14, -35, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2287, '2019-01-01 01:00', 'Санкт-Петербург', 31, 1, -16, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2288, '2019-01-01 02:00', 'Москва', -12, 3, 87, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2289, '2019-01-01 02:00', 'Самара', 22, -19, -140, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2290, '2019-01-01 02:00', 'Санкт-Петербург', 21, 7, -15, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2291, '2019-01-01 03:00', 'Москва', 20, -7, -133, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2292, '2019-01-01 03:00', 'Самара', 0, -13, 162, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2293, '2019-01-01 03:00', 'Санкт-Петербург', -15, -14, 129, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2294, '2019-01-01 04:00', 'Москва', 35, 18, 128, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2295, '2019-01-01 04:00', 'Самара', -16, 4, -18, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2296, '2019-01-01 04:00', 'Санкт-Петербург', 29, 4, 32, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2297, '2019-01-01 05:00', 'Москва', -18, -20, 3, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2298, '2019-01-01 05:00', 'Самара', -13, 15, 65, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2299, '2019-01-01 05:00', 'Санкт-Петербург', 30, 7, -162, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2300, '2019-01-01 06:00', 'Москва', 28, 7, 63, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2301, '2019-01-01 06:00', 'Самара', 1, -20, 178, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2302, '2019-01-01 06:00', 'Санкт-Петербург', 10, -15, 14, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2303, '2019-01-01 07:00', 'Москва', 20, 3, 103, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2304, '2019-01-01 07:00', 'Самара', 1, 3, -33, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2305, '2019-01-01 07:00', 'Санкт-Петербург', -8, 8, -120, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2306, '2019-01-01 08:00', 'Москва', -1, 11, -55, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2307, '2019-01-01 08:00', 'Самара', -5, -9, -180, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2308, '2019-01-01 08:00', 'Санкт-Петербург', -13, -20, -154, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2309, '2019-01-01 09:00', 'Москва', -16, 3, 12, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2310, '2019-01-01 09:00', 'Самара', 14, 2, -31, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2311, '2019-01-01 09:00', 'Санкт-Петербург', 11, -13, -56, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2312, '2019-01-01 10:00', 'Москва', 4, 12, -108, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2313, '2019-01-01 10:00', 'Самара', -17, -9, -85, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2314, '2019-01-01 10:00', 'Санкт-Петербург', 9, -1, -64, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2315, '2019-01-01 11:00', 'Москва', 31, 17, -138, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2316, '2019-01-01 11:00', 'Самара', 11, -12, 119, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2317, '2019-01-01 11:00', 'Санкт-Петербург', 33, -11, 114, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2318, '2019-01-02 12:00', 'Москва', 22, 8, 151, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2319, '2019-01-02 12:00', 'Самара', 12, 4, 21, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2320, '2019-01-02 12:00', 'Санкт-Петербург', 7, 7, 32, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2321, '2019-01-02 01:00', 'Москва', -7, -7, -16, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2322, '2019-01-02 01:00', 'Самара', 22, -19, -143, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2323, '2019-01-02 01:00', 'Санкт-Петербург', 19, -11, 140, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2324, '2019-01-02 02:00', 'Москва', 1, -4, 171, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2325, '2019-01-02 02:00', 'Самара', -8, 20, -173, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2326, '2019-01-02 02:00', 'Санкт-Петербург', -9, -7, 105, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2327, '2019-01-02 03:00', 'Москва', -7, -20, 63, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2328, '2019-01-02 03:00', 'Самара', 17, -10, -156, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2329, '2019-01-02 03:00', 'Санкт-Петербург', -17, 5, -164, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2330, '2019-01-02 04:00', 'Москва', 23, 2, 101, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2331, '2019-01-02 04:00', 'Самара', 10, -8, 41, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2332, '2019-01-02 04:00', 'Санкт-Петербург', 19, 14, -142, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2333, '2019-01-02 05:00', 'Москва', -17, -18, 22, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2334, '2019-01-02 05:00', 'Самара', 12, -13, -68, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2335, '2019-01-02 05:00', 'Санкт-Петербург', 0, -16, 141, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2336, '2019-01-02 06:00', 'Москва', 8, -9, 117, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2337, '2019-01-02 06:00', 'Самара', 22, -14, -71, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2338, '2019-01-02 06:00', 'Санкт-Петербург', 28, -3, -117, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2339, '2019-01-02 07:00', 'Москва', 33, 17, -132, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2340, '2019-01-02 07:00', 'Самара', 14, -14, -177, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2341, '2019-01-02 07:00', 'Санкт-Петербург', -14, -19, 164, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2342, '2019-01-02 08:00', 'Москва', -14, -17, 64, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2343, '2019-01-02 08:00', 'Самара', -8, 4, 146, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2344, '2019-01-02 08:00', 'Санкт-Петербург', 32, 16, -164, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2345, '2019-01-02 09:00', 'Москва', 15, 14, -123, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2346, '2019-01-02 09:00', 'Самара', 18, 15, 40, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2347, '2019-01-02 09:00', 'Санкт-Петербург', -16, 0, -61, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2348, '2019-01-02 10:00', 'Москва', 9, -4, -30, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2349, '2019-01-02 10:00', 'Самара', 6, -12, 118, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2350, '2019-01-02 10:00', 'Санкт-Петербург', -7, -19, -18, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2351, '2019-01-02 11:00', 'Москва', 1, 17, 14, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2352, '2019-01-02 11:00', 'Самара', 14, -7, 172, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2353, '2019-01-02 11:00', 'Санкт-Петербург', -17, 15, 110, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2354, '2019-01-02 12:00', 'Москва', 11, -1, 158, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2355, '2019-01-02 12:00', 'Самара', 21, -5, 179, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2356, '2019-01-02 12:00', 'Санкт-Петербург', 29, 12, -27, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2357, '2019-01-02 01:00', 'Москва', -17, -11, -28, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2358, '2019-01-02 01:00', 'Самара', -16, 3, -39, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2359, '2019-01-02 01:00', 'Санкт-Петербург', 18, 17, 166, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2360, '2019-01-02 02:00', 'Москва', 18, -13, 134, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2361, '2019-01-02 02:00', 'Самара', 9, 4, 92, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2362, '2019-01-02 02:00', 'Санкт-Петербург', 2, -10, 84, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2363, '2019-01-02 03:00', 'Москва', -10, -12, 81, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2364, '2019-01-02 03:00', 'Самара', 2, -15, 130, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2365, '2019-01-02 03:00', 'Санкт-Петербург', -11, 6, -149, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2366, '2019-01-02 04:00', 'Москва', 33, 0, 51, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2367, '2019-01-02 04:00', 'Самара', 23, 17, -90, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2368, '2019-01-02 04:00', 'Санкт-Петербург', -2, -8, 113, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2369, '2019-01-02 05:00', 'Москва', 23, 6, -28, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2370, '2019-01-02 05:00', 'Самара', 13, -3, -77, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2371, '2019-01-02 05:00', 'Санкт-Петербург', 24, 3, -142, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2372, '2019-01-02 06:00', 'Москва', 2, 1, 134, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2373, '2019-01-02 06:00', 'Самара', 16, -10, 20, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2374, '2019-01-02 06:00', 'Санкт-Петербург', 9, -10, 162, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2375, '2019-01-02 07:00', 'Москва', 25, -18, 157, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2376, '2019-01-02 07:00', 'Самара', 31, 19, -153, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2377, '2019-01-02 07:00', 'Санкт-Петербург', 25, 14, 124, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2378, '2019-01-02 08:00', 'Москва', 19, 2, 27, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2379, '2019-01-02 08:00', 'Самара', 0, -15, 52, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2380, '2019-01-02 08:00', 'Санкт-Петербург', -4, 17, -43, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2381, '2019-01-02 09:00', 'Москва', -11, -18, 13, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2382, '2019-01-02 09:00', 'Самара', -15, 12, 154, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2383, '2019-01-02 09:00', 'Санкт-Петербург', 34, -12, 120, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2384, '2019-01-02 10:00', 'Москва', -2, -16, 80, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2385, '2019-01-02 10:00', 'Самара', -16, -7, 143, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2386, '2019-01-02 10:00', 'Санкт-Петербург', 0, -1, 120, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2387, '2019-01-02 11:00', 'Москва', 14, -16, 65, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2388, '2019-01-02 11:00', 'Самара', -8, 17, 109, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2389, '2019-01-02 11:00', 'Санкт-Петербург', -2, 12, -127, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2390, '2019-01-03 12:00', 'Москва', 25, -3, -152, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2391, '2019-01-03 12:00', 'Самара', -20, -4, 83, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2392, '2019-01-03 12:00', 'Санкт-Петербург', -10, 8, -172, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2393, '2019-01-03 01:00', 'Москва', -15, -8, 84, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2394, '2019-01-03 01:00', 'Самара', 0, -16, -108, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2395, '2019-01-03 01:00', 'Санкт-Петербург', -17, 19, 12, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2396, '2019-01-03 02:00', 'Москва', -13, 12, -105, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2397, '2019-01-03 02:00', 'Самара', 14, -5, -6, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2398, '2019-01-03 02:00', 'Санкт-Петербург', -2, 12, 153, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2399, '2019-01-03 03:00', 'Москва', 35, -8, -60, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2400, '2019-01-03 03:00', 'Самара', 32, 2, 37, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2401, '2019-01-03 03:00', 'Санкт-Петербург', 4, -11, 24, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2402, '2019-01-03 04:00', 'Москва', 24, -4, 159, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2403, '2019-01-03 04:00', 'Самара', 26, -13, -51, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2404, '2019-01-03 04:00', 'Санкт-Петербург', 27, -6, -64, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2405, '2019-01-03 05:00', 'Москва', 17, 13, -169, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2406, '2019-01-03 05:00', 'Самара', 31, 19, -54, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2407, '2019-01-03 05:00', 'Санкт-Петербург', 6, -19, -36, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2408, '2019-01-03 06:00', 'Москва', 17, 13, -61, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2409, '2019-01-03 06:00', 'Самара', -7, 1, 44, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2410, '2019-01-03 06:00', 'Санкт-Петербург', -20, -18, 144, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2411, '2019-01-03 07:00', 'Москва', 27, 5, -97, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2412, '2019-01-03 07:00', 'Самара', 5, -10, 98, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2413, '2019-01-03 07:00', 'Санкт-Петербург', 30, -1, -71, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2414, '2019-01-03 08:00', 'Москва', 34, 10, -86, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2415, '2019-01-03 08:00', 'Самара', -5, 18, 43, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2416, '2019-01-03 08:00', 'Санкт-Петербург', -16, -14, 20, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2417, '2019-01-03 09:00', 'Москва', 9, 15, -82, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2418, '2019-01-03 09:00', 'Самара', -5, -9, 105, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2419, '2019-01-03 09:00', 'Санкт-Петербург', -6, -12, 62, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2420, '2019-01-03 10:00', 'Москва', 3, 13, -157, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2421, '2019-01-03 10:00', 'Самара', -3, -14, 126, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2422, '2019-01-03 10:00', 'Санкт-Петербург', 18, -20, 91, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2423, '2019-01-03 11:00', 'Москва', 18, 5, 88, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2424, '2019-01-03 11:00', 'Самара', 19, -6, 82, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2425, '2019-01-03 11:00', 'Санкт-Петербург', 19, -20, -38, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2426, '2019-01-03 12:00', 'Москва', 26, 19, 56, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2427, '2019-01-03 12:00', 'Самара', 0, -13, 126, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2428, '2019-01-03 12:00', 'Санкт-Петербург', -12, -18, -2, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2429, '2019-01-03 01:00', 'Москва', 3, -1, 175, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2430, '2019-01-03 01:00', 'Самара', 3, 14, -9, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2431, '2019-01-03 01:00', 'Санкт-Петербург', 17, -7, 44, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2432, '2019-01-03 02:00', 'Москва', 0, 1, 147, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2433, '2019-01-03 02:00', 'Самара', 22, 2, -61, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2434, '2019-01-03 02:00', 'Санкт-Петербург', 22, 3, -98, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2435, '2019-01-03 03:00', 'Москва', 10, 4, -59, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2436, '2019-01-03 03:00', 'Самара', 8, 16, -9, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2437, '2019-01-03 03:00', 'Санкт-Петербург', -4, 12, -43, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2438, '2019-01-03 04:00', 'Москва', 21, -8, 29, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2439, '2019-01-03 04:00', 'Самара', 6, -1, -50, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2440, '2019-01-03 04:00', 'Санкт-Петербург', 32, 12, 134, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2441, '2019-01-03 05:00', 'Москва', -20, -7, 146, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2442, '2019-01-03 05:00', 'Самара', -9, -3, -95, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2443, '2019-01-03 05:00', 'Санкт-Петербург', 28, 19, 48, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2444, '2019-01-03 06:00', 'Москва', 18, -19, -106, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2445, '2019-01-03 06:00', 'Самара', 4, 6, 35, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2446, '2019-01-03 06:00', 'Санкт-Петербург', 34, 16, -66, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2447, '2019-01-03 07:00', 'Москва', -10, -11, -106, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2448, '2019-01-03 07:00', 'Самара', 29, -17, 98, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2449, '2019-01-03 07:00', 'Санкт-Петербург', 5, -1, -99, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2450, '2019-01-03 08:00', 'Москва', 34, -4, 159, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2451, '2019-01-03 08:00', 'Самара', -12, -8, -37, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2452, '2019-01-03 08:00', 'Санкт-Петербург', 10, -20, -82, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2453, '2019-01-03 09:00', 'Москва', -17, -18, -166, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2454, '2019-01-03 09:00', 'Самара', 10, 0, -76, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2455, '2019-01-03 09:00', 'Санкт-Петербург', 33, -20, -83, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2456, '2019-01-03 10:00', 'Москва', 9, 8, -134, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2457, '2019-01-03 10:00', 'Самара', -7, 20, 104, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2458, '2019-01-03 10:00', 'Санкт-Петербург', -16, 3, 60, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2459, '2019-01-03 11:00', 'Москва', 9, 8, -2, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2460, '2019-01-03 11:00', 'Самара', 9, -15, -134, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2461, '2019-01-03 11:00', 'Санкт-Петербург', -5, -13, -90, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2462, '2019-01-04 12:00', 'Москва', 27, 8, 27, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2463, '2019-01-04 12:00', 'Самара', 5, 9, -63, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2464, '2019-01-04 12:00', 'Санкт-Петербург', 28, 11, 127, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2465, '2019-01-04 01:00', 'Москва', 14, -3, 154, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2466, '2019-01-04 01:00', 'Самара', -10, 18, -86, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2467, '2019-01-04 01:00', 'Санкт-Петербург', -10, -20, 97, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2468, '2019-01-04 02:00', 'Москва', -9, -15, 0, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2469, '2019-01-04 02:00', 'Самара', 17, -16, -177, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2470, '2019-01-04 02:00', 'Санкт-Петербург', 13, 11, -108, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2471, '2019-01-04 03:00', 'Москва', -12, -14, 156, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2472, '2019-01-04 03:00', 'Самара', 25, 16, 96, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2473, '2019-01-04 03:00', 'Санкт-Петербург', 29, -20, 122, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2474, '2019-01-04 04:00', 'Москва', -19, -17, -91, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2475, '2019-01-04 04:00', 'Самара', 26, 1, -77, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2476, '2019-01-04 04:00', 'Санкт-Петербург', 11, -18, 56, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2477, '2019-01-04 05:00', 'Москва', -18, -1, 32, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2478, '2019-01-04 05:00', 'Самара', 34, 14, 125, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2479, '2019-01-04 05:00', 'Санкт-Петербург', -1, 8, -82, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2480, '2019-01-04 06:00', 'Москва', 19, -18, 61, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2481, '2019-01-04 06:00', 'Самара', -9, 3, -4, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2482, '2019-01-04 06:00', 'Санкт-Петербург', 13, 13, 161, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2483, '2019-01-04 07:00', 'Москва', -2, 7, 35, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2484, '2019-01-04 07:00', 'Самара', 32, 14, -103, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2485, '2019-01-04 07:00', 'Санкт-Петербург', 1, -15, 131, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2486, '2019-01-04 08:00', 'Москва', -12, -2, 144, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2487, '2019-01-04 08:00', 'Самара', 19, -18, 179, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2488, '2019-01-04 08:00', 'Санкт-Петербург', 31, 15, -114, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2489, '2019-01-04 09:00', 'Москва', -16, 11, 51, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2490, '2019-01-04 09:00', 'Самара', 35, 4, 171, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2491, '2019-01-04 09:00', 'Санкт-Петербург', 14, -7, 138, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2492, '2019-01-04 10:00', 'Москва', 32, 15, 6, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2493, '2019-01-04 10:00', 'Самара', -9, -2, 60, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2494, '2019-01-04 10:00', 'Санкт-Петербург', 7, 12, -118, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2495, '2019-01-04 11:00', 'Москва', 34, -6, -165, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2496, '2019-01-04 11:00', 'Самара', -17, 12, -106, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2497, '2019-01-04 11:00', 'Санкт-Петербург', 11, -3, 105, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2498, '2019-01-04 12:00', 'Москва', 22, -18, -33, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2499, '2019-01-04 12:00', 'Самара', 0, -2, -91, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2500, '2019-01-04 12:00', 'Санкт-Петербург', 18, 13, 18, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2501, '2019-01-04 01:00', 'Москва', 24, 18, -37, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2502, '2019-01-04 01:00', 'Самара', 30, -5, -128, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2503, '2019-01-04 01:00', 'Санкт-Петербург', 25, -1, -39, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2504, '2019-01-04 02:00', 'Москва', 32, 1, 144, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2505, '2019-01-04 02:00', 'Самара', 22, -16, 120, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2506, '2019-01-04 02:00', 'Санкт-Петербург', -1, 12, -85, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2507, '2019-01-04 03:00', 'Москва', 20, -16, -171, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2508, '2019-01-04 03:00', 'Самара', -14, -1, 63, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2509, '2019-01-04 03:00', 'Санкт-Петербург', 10, 13, -165, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2510, '2019-01-04 04:00', 'Москва', 16, -17, 25, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2511, '2019-01-04 04:00', 'Самара', 20, 17, -47, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2512, '2019-01-04 04:00', 'Санкт-Петербург', 14, -6, -179, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2513, '2019-01-04 05:00', 'Москва', 1, 9, 122, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2514, '2019-01-04 05:00', 'Самара', -6, 12, -134, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2515, '2019-01-04 05:00', 'Санкт-Петербург', -10, -7, 53, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2516, '2019-01-04 06:00', 'Москва', 28, -4, 144, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2517, '2019-01-04 06:00', 'Самара', -8, 3, 105, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2518, '2019-01-04 06:00', 'Санкт-Петербург', 24, -9, -20, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2519, '2019-01-04 07:00', 'Москва', -13, 1, 97, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2520, '2019-01-04 07:00', 'Самара', -16, 3, -137, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2521, '2019-01-04 07:00', 'Санкт-Петербург', -17, -1, 76, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2522, '2019-01-04 08:00', 'Москва', 18, -10, -140, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2523, '2019-01-04 08:00', 'Самара', 7, 1, -136, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2524, '2019-01-04 08:00', 'Санкт-Петербург', 29, -19, 158, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2525, '2019-01-04 09:00', 'Москва', -8, 0, 91, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2526, '2019-01-04 09:00', 'Самара', 0, -4, -110, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2527, '2019-01-04 09:00', 'Санкт-Петербург', -5, -18, 73, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2528, '2019-01-04 10:00', 'Москва', -3, 7, -54, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2529, '2019-01-04 10:00', 'Самара', 7, 5, 8, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2530, '2019-01-04 10:00', 'Санкт-Петербург', 16, -11, -76, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2531, '2019-01-04 11:00', 'Москва', 2, 13, 117, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2532, '2019-01-04 11:00', 'Самара', 16, -4, -57, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2533, '2019-01-04 11:00', 'Санкт-Петербург', 11, 13, -44, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2534, '2019-01-05 12:00', 'Москва', 28, -3, 138, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2535, '2019-01-05 12:00', 'Самара', 31, 2, 93, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2536, '2019-01-05 12:00', 'Санкт-Петербург', 19, 18, 80, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2537, '2019-01-05 01:00', 'Москва', 10, 20, -62, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2538, '2019-01-05 01:00', 'Самара', 28, 14, 5, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2539, '2019-01-05 01:00', 'Санкт-Петербург', -12, 17, 178, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2540, '2019-01-05 02:00', 'Москва', 14, -15, -128, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2541, '2019-01-05 02:00', 'Самара', -1, -1, 34, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2542, '2019-01-05 02:00', 'Санкт-Петербург', -10, 2, -79, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2543, '2019-01-05 03:00', 'Москва', -1, -19, -114, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2544, '2019-01-05 03:00', 'Самара', -1, 8, -151, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2545, '2019-01-05 03:00', 'Санкт-Петербург', -17, 19, -13, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2546, '2019-01-05 04:00', 'Москва', 22, -19, -63, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2547, '2019-01-05 04:00', 'Самара', 34, 13, 117, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2548, '2019-01-05 04:00', 'Санкт-Петербург', 24, 13, -5, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2549, '2019-01-05 05:00', 'Москва', -19, 5, -13, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2550, '2019-01-05 05:00', 'Самара', 6, 8, -156, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2551, '2019-01-05 05:00', 'Санкт-Петербург', 2, 0, 81, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2552, '2019-01-05 06:00', 'Москва', 1, 3, -21, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2553, '2019-01-05 06:00', 'Самара', 5, -1, -158, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2554, '2019-01-05 06:00', 'Санкт-Петербург', -17, -16, 173, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2555, '2019-01-05 07:00', 'Москва', -3, 16, -49, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2556, '2019-01-05 07:00', 'Самара', 33, -15, -93, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2557, '2019-01-05 07:00', 'Санкт-Петербург', 2, 20, -29, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2558, '2019-01-05 08:00', 'Москва', 19, 0, -180, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2559, '2019-01-05 08:00', 'Самара', 25, -8, -86, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2560, '2019-01-05 08:00', 'Санкт-Петербург', -11, -6, 60, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2561, '2019-01-05 09:00', 'Москва', 1, 17, -164, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2562, '2019-01-05 09:00', 'Самара', -11, -8, 137, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2563, '2019-01-05 09:00', 'Санкт-Петербург', -20, 3, 75, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2564, '2019-01-05 10:00', 'Москва', 30, 13, 109, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2565, '2019-01-05 10:00', 'Самара', 17, -20, 180, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2566, '2019-01-05 10:00', 'Санкт-Петербург', 26, -20, -37, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2567, '2019-01-05 11:00', 'Москва', 4, -16, 81, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2568, '2019-01-05 11:00', 'Самара', -14, 20, 4, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2569, '2019-01-05 11:00', 'Санкт-Петербург', 20, 13, 12, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2570, '2019-01-05 12:00', 'Москва', -14, 20, -21, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2571, '2019-01-05 12:00', 'Самара', 28, 11, -169, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2572, '2019-01-05 12:00', 'Санкт-Петербург', 2, -10, -147, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2573, '2019-01-05 01:00', 'Москва', -11, -15, 166, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2574, '2019-01-05 01:00', 'Самара', 7, 14, 80, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2575, '2019-01-05 01:00', 'Санкт-Петербург', -5, -7, 87, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2576, '2019-01-05 02:00', 'Москва', 32, 12, -72, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2577, '2019-01-05 02:00', 'Самара', -11, -13, -163, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2578, '2019-01-05 02:00', 'Санкт-Петербург', 6, -16, -155, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2579, '2019-01-05 03:00', 'Москва', -1, -14, 123, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2580, '2019-01-05 03:00', 'Самара', 28, -6, 169, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2581, '2019-01-05 03:00', 'Санкт-Петербург', -14, 4, -74, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2582, '2019-01-05 04:00', 'Москва', -2, 7, 30, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2583, '2019-01-05 04:00', 'Самара', -2, 9, 108, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2584, '2019-01-05 04:00', 'Санкт-Петербург', -1, 1, 169, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2585, '2019-01-05 05:00', 'Москва', 14, 16, 4, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2586, '2019-01-05 05:00', 'Самара', 6, 20, 145, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2587, '2019-01-05 05:00', 'Санкт-Петербург', -6, -19, 162, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2588, '2019-01-05 06:00', 'Москва', -3, 17, -68, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2589, '2019-01-05 06:00', 'Самара', 22, 16, -166, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2590, '2019-01-05 06:00', 'Санкт-Петербург', -11, -19, -116, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2591, '2019-01-05 07:00', 'Москва', -7, -13, -120, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2592, '2019-01-05 07:00', 'Самара', 33, -2, 41, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2593, '2019-01-05 07:00', 'Санкт-Петербург', 25, 10, -62, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2594, '2019-01-05 08:00', 'Москва', -8, 20, -118, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2595, '2019-01-05 08:00', 'Самара', 6, -3, -143, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2596, '2019-01-05 08:00', 'Санкт-Петербург', -12, -16, 144, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2597, '2019-01-05 09:00', 'Москва', 23, 1, 155, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2598, '2019-01-05 09:00', 'Самара', 7, -7, -69, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2599, '2019-01-05 09:00', 'Санкт-Петербург', 7, -14, 65, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2600, '2019-01-05 10:00', 'Москва', -14, -20, 94, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2601, '2019-01-05 10:00', 'Самара', 2, -19, -124, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2602, '2019-01-05 10:00', 'Санкт-Петербург', 28, -11, -75, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2603, '2019-01-05 11:00', 'Москва', 7, 10, 133, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2604, '2019-01-05 11:00', 'Самара', -20, -20, 137, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2605, '2019-01-05 11:00', 'Санкт-Петербург', -13, 0, 23, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2606, '2019-01-06 12:00', 'Москва', -20, -16, 75, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2607, '2019-01-06 12:00', 'Самара', 4, -18, 148, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2608, '2019-01-06 12:00', 'Санкт-Петербург', 30, 20, 93, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2609, '2019-01-06 01:00', 'Москва', 12, -4, -146, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2610, '2019-01-06 01:00', 'Самара', 30, -13, 103, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2611, '2019-01-06 01:00', 'Санкт-Петербург', 31, 5, -71, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2612, '2019-01-06 02:00', 'Москва', 6, 2, 70, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2613, '2019-01-06 02:00', 'Самара', -10, 11, 17, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2614, '2019-01-06 02:00', 'Санкт-Петербург', -2, 2, 127, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2615, '2019-01-06 03:00', 'Москва', 12, 19, -31, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2616, '2019-01-06 03:00', 'Самара', 17, 1, -92, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2617, '2019-01-06 03:00', 'Санкт-Петербург', 24, 1, 156, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2618, '2019-01-06 04:00', 'Москва', -10, -4, 22, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2619, '2019-01-06 04:00', 'Самара', 23, 9, 14, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2620, '2019-01-06 04:00', 'Санкт-Петербург', 25, -6, 174, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2621, '2019-01-06 05:00', 'Москва', 18, 18, 129, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2622, '2019-01-06 05:00', 'Самара', -3, 18, -67, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2623, '2019-01-06 05:00', 'Санкт-Петербург', 14, -4, -115, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2624, '2019-01-06 06:00', 'Москва', -8, -3, 81, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2625, '2019-01-06 06:00', 'Самара', -4, -8, -92, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2626, '2019-01-06 06:00', 'Санкт-Петербург', 9, 2, -143, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2627, '2019-01-06 07:00', 'Москва', -20, -10, 171, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2628, '2019-01-06 07:00', 'Самара', 9, -4, -175, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2629, '2019-01-06 07:00', 'Санкт-Петербург', -10, -4, -39, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2630, '2019-01-06 08:00', 'Москва', -17, -1, -83, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2631, '2019-01-06 08:00', 'Самара', -5, 10, -119, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2632, '2019-01-06 08:00', 'Санкт-Петербург', -12, 12, -144, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2633, '2019-01-06 09:00', 'Москва', 14, 16, 150, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2634, '2019-01-06 09:00', 'Самара', -8, -18, -63, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2635, '2019-01-06 09:00', 'Санкт-Петербург', -13, 19, 79, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2636, '2019-01-06 10:00', 'Москва', 29, -19, -91, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2637, '2019-01-06 10:00', 'Самара', 34, 18, 145, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2638, '2019-01-06 10:00', 'Санкт-Петербург', -13, 8, -65, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2639, '2019-01-06 11:00', 'Москва', -3, -3, 7, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2640, '2019-01-06 11:00', 'Самара', -3, -6, -27, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2641, '2019-01-06 11:00', 'Санкт-Петербург', 3, -14, 62, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2642, '2019-01-06 12:00', 'Москва', 25, -18, -59, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2643, '2019-01-06 12:00', 'Самара', 11, 0, 77, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2644, '2019-01-06 12:00', 'Санкт-Петербург', -14, -18, 66, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2645, '2019-01-06 01:00', 'Москва', 31, 11, 55, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2646, '2019-01-06 01:00', 'Самара', 25, 8, -87, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2647, '2019-01-06 01:00', 'Санкт-Петербург', 6, 5, -67, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2648, '2019-01-06 02:00', 'Москва', 33, -4, 89, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2649, '2019-01-06 02:00', 'Самара', 31, 18, -6, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2650, '2019-01-06 02:00', 'Санкт-Петербург', -19, 18, 54, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2651, '2019-01-06 03:00', 'Москва', 20, -9, 30, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2652, '2019-01-06 03:00', 'Самара', 2, 1, -80, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2653, '2019-01-06 03:00', 'Санкт-Петербург', -12, 16, -55, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2654, '2019-01-06 04:00', 'Москва', 27, -14, -140, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2655, '2019-01-06 04:00', 'Самара', -12, -12, -53, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2656, '2019-01-06 04:00', 'Санкт-Петербург', 26, 10, -93, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2657, '2019-01-06 05:00', 'Москва', 25, 18, 9, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2658, '2019-01-06 05:00', 'Самара', 32, -8, 160, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2659, '2019-01-06 05:00', 'Санкт-Петербург', 19, -12, 175, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2660, '2019-01-06 06:00', 'Москва', 8, 7, -43, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2661, '2019-01-06 06:00', 'Самара', 35, -13, 22, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2662, '2019-01-06 06:00', 'Санкт-Петербург', -11, 6, -103, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2663, '2019-01-06 07:00', 'Москва', 6, 11, -49, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2664, '2019-01-06 07:00', 'Самара', -4, -17, -66, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2665, '2019-01-06 07:00', 'Санкт-Петербург', 8, 0, -49, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2666, '2019-01-06 08:00', 'Москва', 18, 13, -180, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2667, '2019-01-06 08:00', 'Самара', 4, 5, -78, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2668, '2019-01-06 08:00', 'Санкт-Петербург', 33, -16, 179, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2669, '2019-01-06 09:00', 'Москва', -12, 4, 105, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2670, '2019-01-06 09:00', 'Самара', 9, 10, -32, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2671, '2019-01-06 09:00', 'Санкт-Петербург', 12, -20, -95, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2672, '2019-01-06 10:00', 'Москва', 10, 14, 27, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2673, '2019-01-06 10:00', 'Самара', 27, 6, 134, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2674, '2019-01-06 10:00', 'Санкт-Петербург', -6, 0, 29, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2675, '2019-01-06 11:00', 'Москва', 23, -4, 36, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2676, '2019-01-06 11:00', 'Самара', -7, -10, -75, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2677, '2019-01-06 11:00', 'Санкт-Петербург', -16, -5, 92, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2678, '2019-01-07 12:00', 'Москва', -19, 11, -10, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2679, '2019-01-07 12:00', 'Самара', -9, 7, 88, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2680, '2019-01-07 12:00', 'Санкт-Петербург', 27, -12, 17, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2681, '2019-01-07 01:00', 'Москва', 14, 13, -167, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2682, '2019-01-07 01:00', 'Самара', 5, -14, 27, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2683, '2019-01-07 01:00', 'Санкт-Петербург', -10, -2, 0, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2684, '2019-01-07 02:00', 'Москва', 23, -1, 159, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2685, '2019-01-07 02:00', 'Самара', -11, -6, -34, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2686, '2019-01-07 02:00', 'Санкт-Петербург', 15, -16, -139, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2687, '2019-01-07 03:00', 'Москва', 33, -20, -71, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2688, '2019-01-07 03:00', 'Самара', 10, 9, 158, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2689, '2019-01-07 03:00', 'Санкт-Петербург', -19, 6, 180, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2690, '2019-01-07 04:00', 'Москва', 11, -7, 19, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2691, '2019-01-07 04:00', 'Самара', 34, -14, -154, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2692, '2019-01-07 04:00', 'Санкт-Петербург', 31, -18, 38, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2693, '2019-01-07 05:00', 'Москва', 26, 3, 73, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2694, '2019-01-07 05:00', 'Самара', 15, 2, -161, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2695, '2019-01-07 05:00', 'Санкт-Петербург', 26, -3, 174, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2696, '2019-01-07 06:00', 'Москва', -8, 10, -163, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2697, '2019-01-07 06:00', 'Самара', 14, -9, -103, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2698, '2019-01-07 06:00', 'Санкт-Петербург', 20, 14, 36, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2699, '2019-01-07 07:00', 'Москва', -9, 8, -164, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2700, '2019-01-07 07:00', 'Самара', -7, -17, 5, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2701, '2019-01-07 07:00', 'Санкт-Петербург', 21, 8, -49, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2702, '2019-01-07 08:00', 'Москва', 6, -2, -73, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2703, '2019-01-07 08:00', 'Самара', 11, -20, 148, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2704, '2019-01-07 08:00', 'Санкт-Петербург', -17, -2, -131, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2705, '2019-01-07 09:00', 'Москва', -16, -20, 125, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2706, '2019-01-07 09:00', 'Самара', -18, -19, -45, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2707, '2019-01-07 09:00', 'Санкт-Петербург', -16, -20, -125, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2708, '2019-01-07 10:00', 'Москва', -17, -2, -135, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2709, '2019-01-07 10:00', 'Самара', 31, 12, -60, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2710, '2019-01-07 10:00', 'Санкт-Петербург', 5, -5, -88, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2711, '2019-01-07 11:00', 'Москва', -16, -10, 60, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2712, '2019-01-07 11:00', 'Самара', -1, -10, -132, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2713, '2019-01-07 11:00', 'Санкт-Петербург', 8, -19, -102, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2714, '2019-01-07 12:00', 'Москва', 17, -12, -143, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2715, '2019-01-07 12:00', 'Самара', 23, 14, -113, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2716, '2019-01-07 12:00', 'Санкт-Петербург', -15, 4, -61, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2717, '2019-01-07 01:00', 'Москва', 9, -10, -129, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2718, '2019-01-07 01:00', 'Самара', 24, 12, 115, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2719, '2019-01-07 01:00', 'Санкт-Петербург', 15, 3, -72, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2720, '2019-01-07 02:00', 'Москва', 29, -13, 63, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2721, '2019-01-07 02:00', 'Самара', 25, 18, 163, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2722, '2019-01-07 02:00', 'Санкт-Петербург', 13, 3, -9, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2723, '2019-01-07 03:00', 'Москва', 16, -4, 6, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2724, '2019-01-07 03:00', 'Самара', -11, 5, 112, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2725, '2019-01-07 03:00', 'Санкт-Петербург', 18, 17, 174, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2726, '2019-01-07 04:00', 'Москва', 5, -16, 17, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2727, '2019-01-07 04:00', 'Самара', -15, 18, 75, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2728, '2019-01-07 04:00', 'Санкт-Петербург', 15, 15, 100, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2729, '2019-01-07 05:00', 'Москва', -11, -13, 128, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2730, '2019-01-07 05:00', 'Самара', 32, -20, -133, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2731, '2019-01-07 05:00', 'Санкт-Петербург', 6, -19, 178, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2732, '2019-01-07 06:00', 'Москва', 21, 15, -129, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2733, '2019-01-07 06:00', 'Самара', -2, -4, 78, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2734, '2019-01-07 06:00', 'Санкт-Петербург', 8, -8, 168, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2735, '2019-01-07 07:00', 'Москва', 23, -11, -174, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2736, '2019-01-07 07:00', 'Самара', 29, -16, 146, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2737, '2019-01-07 07:00', 'Санкт-Петербург', 35, 11, -85, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2738, '2019-01-07 08:00', 'Москва', -17, 14, -128, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2739, '2019-01-07 08:00', 'Самара', 29, 6, 71, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2740, '2019-01-07 08:00', 'Санкт-Петербург', 30, -5, -40, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2741, '2019-01-07 09:00', 'Москва', 10, 2, -73, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2742, '2019-01-07 09:00', 'Самара', 20, -8, -159, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2743, '2019-01-07 09:00', 'Санкт-Петербург', 33, -19, 89, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2744, '2019-01-07 10:00', 'Москва', -14, 2, -9, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2745, '2019-01-07 10:00', 'Самара', -12, 4, -35, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2746, '2019-01-07 10:00', 'Санкт-Петербург', 18, 5, 75, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2747, '2019-01-07 11:00', 'Москва', 24, 20, 151, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2748, '2019-01-07 11:00', 'Самара', 27, -20, 28, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2749, '2019-01-07 11:00', 'Санкт-Петербург', 25, 15, 173, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2750, '2019-01-08 12:00', 'Москва', -15, -14, 127, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2751, '2019-01-08 12:00', 'Самара', 5, -16, -27, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2752, '2019-01-08 12:00', 'Санкт-Петербург', -2, -2, -6, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2753, '2019-01-08 01:00', 'Москва', 32, -11, -176, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2754, '2019-01-08 01:00', 'Самара', 1, 19, 88, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2755, '2019-01-08 01:00', 'Санкт-Петербург', 14, 11, -121, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2756, '2019-01-08 02:00', 'Москва', -8, -12, 140, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2757, '2019-01-08 02:00', 'Самара', -1, 8, 1, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2758, '2019-01-08 02:00', 'Санкт-Петербург', -4, 19, 6, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2759, '2019-01-08 03:00', 'Москва', 3, 3, -16, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2760, '2019-01-08 03:00', 'Самара', 19, 3, 86, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2761, '2019-01-08 03:00', 'Санкт-Петербург', 17, -15, 40, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2762, '2019-01-08 04:00', 'Москва', 22, -8, -140, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2763, '2019-01-08 04:00', 'Самара', 5, -1, -35, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2764, '2019-01-08 04:00', 'Санкт-Петербург', -14, 14, -69, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2765, '2019-01-08 05:00', 'Москва', -19, -4, -28, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2766, '2019-01-08 05:00', 'Самара', 14, 19, -93, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2767, '2019-01-08 05:00', 'Санкт-Петербург', -17, 1, -141, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2768, '2019-01-08 06:00', 'Москва', 25, 19, -37, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2769, '2019-01-08 06:00', 'Самара', 9, -10, 84, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2770, '2019-01-08 06:00', 'Санкт-Петербург', -15, -8, -4, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2771, '2019-01-08 07:00', 'Москва', -19, -16, 175, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2772, '2019-01-08 07:00', 'Самара', -18, 19, -140, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2773, '2019-01-08 07:00', 'Санкт-Петербург', 0, -15, -122, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2774, '2019-01-08 08:00', 'Москва', -6, -9, 156, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2775, '2019-01-08 08:00', 'Самара', 15, -11, 13, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2776, '2019-01-08 08:00', 'Санкт-Петербург', 7, -15, -124, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2777, '2019-01-08 09:00', 'Москва', 11, -9, -94, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2778, '2019-01-08 09:00', 'Самара', -14, 8, 99, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2779, '2019-01-08 09:00', 'Санкт-Петербург', 5, 10, 72, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2780, '2019-01-08 10:00', 'Москва', 28, -19, 127, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2781, '2019-01-08 10:00', 'Самара', 28, -19, -169, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2782, '2019-01-08 10:00', 'Санкт-Петербург', 2, 12, 80, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2783, '2019-01-08 11:00', 'Москва', 22, 5, 58, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2784, '2019-01-08 11:00', 'Самара', -2, -14, 99, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2785, '2019-01-08 11:00', 'Санкт-Петербург', 12, 17, -178, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2786, '2019-01-08 12:00', 'Москва', 4, 17, -119, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2787, '2019-01-08 12:00', 'Самара', 33, 6, 120, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2788, '2019-01-08 12:00', 'Санкт-Петербург', -16, -20, 35, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2789, '2019-01-08 01:00', 'Москва', -16, 0, -180, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2790, '2019-01-08 01:00', 'Самара', -13, -16, -24, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2791, '2019-01-08 01:00', 'Санкт-Петербург', 23, 15, 127, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2792, '2019-01-08 02:00', 'Москва', -5, 14, 97, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2793, '2019-01-08 02:00', 'Самара', -12, -9, -78, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2794, '2019-01-08 02:00', 'Санкт-Петербург', -8, -1, -48, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2795, '2019-01-08 03:00', 'Москва', 22, 10, -87, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2796, '2019-01-08 03:00', 'Самара', 18, -3, -62, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2797, '2019-01-08 03:00', 'Санкт-Петербург', -9, 13, -152, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2798, '2019-01-08 04:00', 'Москва', 14, -19, 69, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2799, '2019-01-08 04:00', 'Самара', -17, 17, 170, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2800, '2019-01-08 04:00', 'Санкт-Петербург', -20, -13, -107, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2801, '2019-01-08 05:00', 'Москва', 27, 9, -46, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2802, '2019-01-08 05:00', 'Самара', 26, 18, 73, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2803, '2019-01-08 05:00', 'Санкт-Петербург', 10, 19, -180, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2804, '2019-01-08 06:00', 'Москва', 17, -4, 49, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2805, '2019-01-08 06:00', 'Самара', 15, -2, -118, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2806, '2019-01-08 06:00', 'Санкт-Петербург', 29, -20, -75, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2807, '2019-01-08 07:00', 'Москва', 5, 15, -165, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2808, '2019-01-08 07:00', 'Самара', 34, 19, -103, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2809, '2019-01-08 07:00', 'Санкт-Петербург', 28, 2, -55, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2810, '2019-01-08 08:00', 'Москва', -20, 7, -166, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2811, '2019-01-08 08:00', 'Самара', 5, -17, -161, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2812, '2019-01-08 08:00', 'Санкт-Петербург', 5, 6, -102, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2813, '2019-01-08 09:00', 'Москва', -14, -15, -128, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2814, '2019-01-08 09:00', 'Самара', 11, -7, 72, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2815, '2019-01-08 09:00', 'Санкт-Петербург', 25, 15, -172, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2816, '2019-01-08 10:00', 'Москва', -8, -14, 34, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2817, '2019-01-08 10:00', 'Самара', 0, 6, -169, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2818, '2019-01-08 10:00', 'Санкт-Петербург', 20, 0, 37, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2819, '2019-01-08 11:00', 'Москва', 7, 12, 74, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2820, '2019-01-08 11:00', 'Самара', -18, -4, 58, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2821, '2019-01-08 11:00', 'Санкт-Петербург', 12, -13, -64, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2822, '2019-01-09 12:00', 'Москва', 28, 18, 24, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2823, '2019-01-09 12:00', 'Самара', 20, 4, -83, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2824, '2019-01-09 12:00', 'Санкт-Петербург', -1, -16, -174, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2825, '2019-01-09 01:00', 'Москва', 28, 6, 52, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2826, '2019-01-09 01:00', 'Самара', 33, 2, -55, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2827, '2019-01-09 01:00', 'Санкт-Петербург', 7, -16, -128, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2828, '2019-01-09 02:00', 'Москва', -8, -12, 133, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2829, '2019-01-09 02:00', 'Самара', 29, -2, 149, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2830, '2019-01-09 02:00', 'Санкт-Петербург', 1, 7, -54, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2831, '2019-01-09 03:00', 'Москва', 18, 18, 23, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2832, '2019-01-09 03:00', 'Самара', 9, 8, -128, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2833, '2019-01-09 03:00', 'Санкт-Петербург', 12, 6, 34, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2834, '2019-01-09 04:00', 'Москва', 33, -6, -4, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2835, '2019-01-09 04:00', 'Самара', 9, 3, -153, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2836, '2019-01-09 04:00', 'Санкт-Петербург', -17, 0, 82, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2837, '2019-01-09 05:00', 'Москва', -7, 6, 62, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2838, '2019-01-09 05:00', 'Самара', 29, 0, -131, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2839, '2019-01-09 05:00', 'Санкт-Петербург', -11, -5, 133, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2840, '2019-01-09 06:00', 'Москва', -1, -5, 33, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2841, '2019-01-09 06:00', 'Самара', -14, -7, -161, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2842, '2019-01-09 06:00', 'Санкт-Петербург', -11, 1, -170, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2843, '2019-01-09 07:00', 'Москва', 25, 15, 138, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2844, '2019-01-09 07:00', 'Самара', -18, 1, 69, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2845, '2019-01-09 07:00', 'Санкт-Петербург', 10, 19, -61, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2846, '2019-01-09 08:00', 'Москва', 3, -16, 144, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2847, '2019-01-09 08:00', 'Самара', -1, 5, -154, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2848, '2019-01-09 08:00', 'Санкт-Петербург', -16, -7, 173, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2849, '2019-01-09 09:00', 'Москва', -1, -14, 107, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2850, '2019-01-09 09:00', 'Самара', 1, 12, 110, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2851, '2019-01-09 09:00', 'Санкт-Петербург', -2, 5, -56, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2852, '2019-01-09 10:00', 'Москва', -8, -5, 60, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2853, '2019-01-09 10:00', 'Самара', 1, -9, 77, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2854, '2019-01-09 10:00', 'Санкт-Петербург', 27, 2, -172, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2855, '2019-01-09 11:00', 'Москва', 21, 3, 6, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2856, '2019-01-09 11:00', 'Самара', 3, -11, 140, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2857, '2019-01-09 11:00', 'Санкт-Петербург', -4, 5, 35, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2858, '2019-01-09 12:00', 'Москва', 0, -17, -57, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2859, '2019-01-09 12:00', 'Самара', -19, -16, -167, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2860, '2019-01-09 12:00', 'Санкт-Петербург', 13, -4, -59, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2861, '2019-01-09 01:00', 'Москва', 14, 10, 16, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2862, '2019-01-09 01:00', 'Самара', 33, -2, 130, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2863, '2019-01-09 01:00', 'Санкт-Петербург', 30, -1, 162, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2864, '2019-01-09 02:00', 'Москва', 7, -5, 51, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2865, '2019-01-09 02:00', 'Самара', 16, -18, -62, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2866, '2019-01-09 02:00', 'Санкт-Петербург', -15, -20, 153, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2867, '2019-01-09 03:00', 'Москва', 17, 4, -11, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2868, '2019-01-09 03:00', 'Самара', 32, 13, -108, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2869, '2019-01-09 03:00', 'Санкт-Петербург', -16, -4, 155, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2870, '2019-01-09 04:00', 'Москва', -17, 16, 101, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2871, '2019-01-09 04:00', 'Самара', -11, 18, -96, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2872, '2019-01-09 04:00', 'Санкт-Петербург', 4, -19, -34, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2873, '2019-01-09 05:00', 'Москва', -11, 5, -143, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2874, '2019-01-09 05:00', 'Самара', 2, 6, -111, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2875, '2019-01-09 05:00', 'Санкт-Петербург', -6, 8, 90, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2876, '2019-01-09 06:00', 'Москва', 30, 16, 119, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2877, '2019-01-09 06:00', 'Самара', 3, 15, -102, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2878, '2019-01-09 06:00', 'Санкт-Петербург', 4, 17, -24, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2879, '2019-01-09 07:00', 'Москва', 20, 5, -51, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2880, '2019-01-09 07:00', 'Самара', -3, -10, -14, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2881, '2019-01-09 07:00', 'Санкт-Петербург', 15, 9, 99, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2882, '2019-01-09 08:00', 'Москва', 9, -8, 35, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2883, '2019-01-09 08:00', 'Самара', -1, -15, -170, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2884, '2019-01-09 08:00', 'Санкт-Петербург', -19, 11, 103, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2885, '2019-01-09 09:00', 'Москва', 5, -12, -94, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2886, '2019-01-09 09:00', 'Самара', 27, 11, -60, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2887, '2019-01-09 09:00', 'Санкт-Петербург', 34, 17, 115, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2888, '2019-01-09 10:00', 'Москва', 31, 3, -72, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2889, '2019-01-09 10:00', 'Самара', -14, -16, -37, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2890, '2019-01-09 10:00', 'Санкт-Петербург', -7, -20, -113, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2891, '2019-01-09 11:00', 'Москва', -12, -13, 141, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2892, '2019-01-09 11:00', 'Самара', 17, 7, -180, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2893, '2019-01-09 11:00', 'Санкт-Петербург', 22, -15, -29, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2894, '2019-01-10 12:00', 'Москва', -1, -4, -65, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2895, '2019-01-10 12:00', 'Самара', -5, -15, 120, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2896, '2019-01-10 12:00', 'Санкт-Петербург', 31, 1, 163, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2897, '2019-01-10 01:00', 'Москва', 31, 19, -66, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2898, '2019-01-10 01:00', 'Самара', 20, -5, 168, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2899, '2019-01-10 01:00', 'Санкт-Петербург', -6, -19, -163, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2900, '2019-01-10 02:00', 'Москва', 11, -16, -50, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2901, '2019-01-10 02:00', 'Самара', -14, -16, -15, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2902, '2019-01-10 02:00', 'Санкт-Петербург', 13, 3, -134, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2903, '2019-01-10 03:00', 'Москва', -18, -7, -74, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2904, '2019-01-10 03:00', 'Самара', 5, -17, 93, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2905, '2019-01-10 03:00', 'Санкт-Петербург', 2, -3, 60, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2906, '2019-01-10 04:00', 'Москва', 26, 13, -6, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2907, '2019-01-10 04:00', 'Самара', -20, 7, 48, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2908, '2019-01-10 04:00', 'Санкт-Петербург', 8, 20, 92, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2909, '2019-01-10 05:00', 'Москва', 31, -16, -45, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2910, '2019-01-10 05:00', 'Самара', -17, 1, -167, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2911, '2019-01-10 05:00', 'Санкт-Петербург', 20, 11, 67, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2912, '2019-01-10 06:00', 'Москва', 13, 11, 174, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2913, '2019-01-10 06:00', 'Самара', -14, 19, -149, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2914, '2019-01-10 06:00', 'Санкт-Петербург', -19, -8, -27, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2915, '2019-01-10 07:00', 'Москва', -3, 18, -70, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2916, '2019-01-10 07:00', 'Самара', 32, 4, -88, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2917, '2019-01-10 07:00', 'Санкт-Петербург', 2, -6, 9, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2918, '2019-01-10 08:00', 'Москва', 34, -11, 110, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2919, '2019-01-10 08:00', 'Самара', 1, 0, 86, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2920, '2019-01-10 08:00', 'Санкт-Петербург', 1, -9, -83, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2921, '2019-01-10 09:00', 'Москва', 28, 3, 149, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2922, '2019-01-10 09:00', 'Самара', 31, 6, -126, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2923, '2019-01-10 09:00', 'Санкт-Петербург', -9, -16, 45, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2924, '2019-01-10 10:00', 'Москва', -15, -16, 147, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2925, '2019-01-10 10:00', 'Самара', -18, 19, 144, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2926, '2019-01-10 10:00', 'Санкт-Петербург', -12, -4, -50, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2927, '2019-01-10 11:00', 'Москва', 31, 3, 44, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2928, '2019-01-10 11:00', 'Самара', 20, -16, -4, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2929, '2019-01-10 11:00', 'Санкт-Петербург', -19, -12, -150, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2930, '2019-01-10 12:00', 'Москва', -10, -7, -96, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2931, '2019-01-10 12:00', 'Самара', -13, -4, 161, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2932, '2019-01-10 12:00', 'Санкт-Петербург', 1, -8, -172, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2933, '2019-01-10 01:00', 'Москва', 27, -16, 18, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2934, '2019-01-10 01:00', 'Самара', 25, -1, -65, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2935, '2019-01-10 01:00', 'Санкт-Петербург', 29, 13, 40, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2936, '2019-01-10 02:00', 'Москва', 33, -5, 43, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2937, '2019-01-10 02:00', 'Самара', -1, 6, 23, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2938, '2019-01-10 02:00', 'Санкт-Петербург', 17, 15, -152, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2939, '2019-01-10 03:00', 'Москва', 2, -6, 99, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2940, '2019-01-10 03:00', 'Самара', -10, -14, 95, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2941, '2019-01-10 03:00', 'Санкт-Петербург', 17, 11, 144, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2942, '2019-01-10 04:00', 'Москва', 22, -13, 148, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2943, '2019-01-10 04:00', 'Самара', 30, 8, 147, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2944, '2019-01-10 04:00', 'Санкт-Петербург', -15, -10, 111, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2945, '2019-01-10 05:00', 'Москва', 25, -5, 126, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2946, '2019-01-10 05:00', 'Самара', 14, -2, 7, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2947, '2019-01-10 05:00', 'Санкт-Петербург', 1, 11, -88, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2948, '2019-01-10 06:00', 'Москва', -20, -4, 27, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2949, '2019-01-10 06:00', 'Самара', -6, -10, 46, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2950, '2019-01-10 06:00', 'Санкт-Петербург', 27, 6, -34, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2951, '2019-01-10 07:00', 'Москва', 26, -13, -84, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2952, '2019-01-10 07:00', 'Самара', 25, -12, 56, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2953, '2019-01-10 07:00', 'Санкт-Петербург', 26, 10, 117, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2954, '2019-01-10 08:00', 'Москва', -18, -20, -35, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2955, '2019-01-10 08:00', 'Самара', 10, 16, -86, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2956, '2019-01-10 08:00', 'Санкт-Петербург', 21, -3, 107, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2957, '2019-01-10 09:00', 'Москва', -18, -20, 172, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2958, '2019-01-10 09:00', 'Самара', 27, 8, 136, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2959, '2019-01-10 09:00', 'Санкт-Петербург', 7, 13, -156, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2960, '2019-01-10 10:00', 'Москва', 21, -10, 123, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2961, '2019-01-10 10:00', 'Самара', -18, -5, -83, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2962, '2019-01-10 10:00', 'Санкт-Петербург', 24, 5, 44, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2963, '2019-01-10 11:00', 'Москва', 12, -8, -166, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2964, '2019-01-10 11:00', 'Самара', 17, 15, -149, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2965, '2019-01-10 11:00', 'Санкт-Петербург', 6, -16, 18, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2966, '2019-01-11 12:00', 'Москва', -9, 5, 83, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2967, '2019-01-11 12:00', 'Самара', 26, -8, 7, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2968, '2019-01-11 12:00', 'Санкт-Петербург', -11, -13, -162, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2969, '2019-01-11 01:00', 'Москва', -9, 7, 149, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2970, '2019-01-11 01:00', 'Самара', 0, -8, -44, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2971, '2019-01-11 01:00', 'Санкт-Петербург', 33, 6, 24, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2972, '2019-01-11 02:00', 'Москва', -16, -10, -105, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2973, '2019-01-11 02:00', 'Самара', -16, -17, -27, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2974, '2019-01-11 02:00', 'Санкт-Петербург', 16, -19, -107, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2975, '2019-01-11 03:00', 'Москва', 32, 12, 151, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2976, '2019-01-11 03:00', 'Самара', 16, -12, -101, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2977, '2019-01-11 03:00', 'Санкт-Петербург', 10, -3, 157, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2978, '2019-01-11 04:00', 'Москва', 26, 4, -11, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2979, '2019-01-11 04:00', 'Самара', 1, 9, 8, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2980, '2019-01-11 04:00', 'Санкт-Петербург', -11, -8, 59, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2981, '2019-01-11 05:00', 'Москва', 31, -13, 21, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2982, '2019-01-11 05:00', 'Самара', 5, 12, 48, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2983, '2019-01-11 05:00', 'Санкт-Петербург', 20, -1, -161, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2984, '2019-01-11 06:00', 'Москва', 16, -1, 115, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2985, '2019-01-11 06:00', 'Самара', 7, -19, -141, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2986, '2019-01-11 06:00', 'Санкт-Петербург', -20, 13, 178, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2987, '2019-01-11 07:00', 'Москва', 1, -7, 179, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2988, '2019-01-11 07:00', 'Самара', 24, 19, 172, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2989, '2019-01-11 07:00', 'Санкт-Петербург', 14, -16, 1, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2990, '2019-01-11 08:00', 'Москва', 8, 18, 70, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2991, '2019-01-11 08:00', 'Самара', -9, 18, 159, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2992, '2019-01-11 08:00', 'Санкт-Петербург', 23, 7, 41, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2993, '2019-01-11 09:00', 'Москва', 7, -6, 18, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2994, '2019-01-11 09:00', 'Самара', -18, 3, -27, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2995, '2019-01-11 09:00', 'Санкт-Петербург', 9, -19, -119, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2996, '2019-01-11 10:00', 'Москва', -11, 4, -89, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2997, '2019-01-11 10:00', 'Самара', 22, -11, 12, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2998, '2019-01-11 10:00', 'Санкт-Петербург', -18, -18, -46, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (2999, '2019-01-11 11:00', 'Москва', 33, -7, -156, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3000, '2019-01-11 11:00', 'Самара', 32, 11, -3, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3001, '2019-01-11 11:00', 'Санкт-Петербург', 6, 17, 37, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3002, '2019-01-11 12:00', 'Москва', 25, 6, -115, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3003, '2019-01-11 12:00', 'Самара', 23, -14, 48, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3004, '2019-01-11 12:00', 'Санкт-Петербург', -3, -19, 30, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3005, '2019-01-11 01:00', 'Москва', -13, -7, -152, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3006, '2019-01-11 01:00', 'Самара', -15, -9, 80, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3007, '2019-01-11 01:00', 'Санкт-Петербург', -13, -17, 31, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3008, '2019-01-11 02:00', 'Москва', 7, 5, 168, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3009, '2019-01-11 02:00', 'Самара', 34, 13, 75, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3010, '2019-01-11 02:00', 'Санкт-Петербург', 25, 19, -127, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3011, '2019-01-11 03:00', 'Москва', 3, -8, -45, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3012, '2019-01-11 03:00', 'Самара', -8, 6, 135, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3013, '2019-01-11 03:00', 'Санкт-Петербург', 11, -18, 136, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3014, '2019-01-11 04:00', 'Москва', -13, -13, -164, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3015, '2019-01-11 04:00', 'Самара', -12, 16, 148, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3016, '2019-01-11 04:00', 'Санкт-Петербург', -19, 10, -54, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3017, '2019-01-11 05:00', 'Москва', 21, -12, 175, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3018, '2019-01-11 05:00', 'Самара', -19, 5, 150, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3019, '2019-01-11 05:00', 'Санкт-Петербург', 31, 11, -145, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3020, '2019-01-11 06:00', 'Москва', -3, -12, 70, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3021, '2019-01-11 06:00', 'Самара', 29, 9, 160, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3022, '2019-01-11 06:00', 'Санкт-Петербург', 10, -10, -47, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3023, '2019-01-11 07:00', 'Москва', 12, 5, -47, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3024, '2019-01-11 07:00', 'Самара', -2, -11, -88, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3025, '2019-01-11 07:00', 'Санкт-Петербург', 30, 5, -62, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3026, '2019-01-11 08:00', 'Москва', -8, -2, 175, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3027, '2019-01-11 08:00', 'Самара', -16, -5, -23, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3028, '2019-01-11 08:00', 'Санкт-Петербург', 27, 2, 145, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3029, '2019-01-11 09:00', 'Москва', -4, -12, -115, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3030, '2019-01-11 09:00', 'Самара', 19, -9, -167, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3031, '2019-01-11 09:00', 'Санкт-Петербург', 2, 13, -100, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3032, '2019-01-11 10:00', 'Москва', 33, 0, 130, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3033, '2019-01-11 10:00', 'Самара', 0, 10, -15, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3034, '2019-01-11 10:00', 'Санкт-Петербург', -4, 2, 31, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3035, '2019-01-11 11:00', 'Москва', 4, 16, 180, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3036, '2019-01-11 11:00', 'Самара', 4, 4, 71, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3037, '2019-01-11 11:00', 'Санкт-Петербург', 18, -6, 155, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3038, '2019-01-12 12:00', 'Москва', -10, 10, -137, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3039, '2019-01-12 12:00', 'Самара', -11, -17, 150, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3040, '2019-01-12 12:00', 'Санкт-Петербург', 15, 0, -151, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3041, '2019-01-12 01:00', 'Москва', 25, 12, -115, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3042, '2019-01-12 01:00', 'Самара', -1, 18, 131, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3043, '2019-01-12 01:00', 'Санкт-Петербург', 31, -4, 131, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3044, '2019-01-12 02:00', 'Москва', 31, 5, 18, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3045, '2019-01-12 02:00', 'Самара', 21, 6, -37, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3046, '2019-01-12 02:00', 'Санкт-Петербург', -14, -12, 152, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3047, '2019-01-12 03:00', 'Москва', 24, 14, 143, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3048, '2019-01-12 03:00', 'Самара', 23, 19, -40, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3049, '2019-01-12 03:00', 'Санкт-Петербург', 35, 5, -159, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3050, '2019-01-12 04:00', 'Москва', 11, -8, -151, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3051, '2019-01-12 04:00', 'Самара', 1, 20, -171, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3052, '2019-01-12 04:00', 'Санкт-Петербург', 12, 12, -158, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3053, '2019-01-12 05:00', 'Москва', 31, -7, -147, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3054, '2019-01-12 05:00', 'Самара', 34, 15, 57, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3055, '2019-01-12 05:00', 'Санкт-Петербург', -3, -7, 31, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3056, '2019-01-12 06:00', 'Москва', 8, 12, 14, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3057, '2019-01-12 06:00', 'Самара', 31, -9, 87, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3058, '2019-01-12 06:00', 'Санкт-Петербург', -5, 7, 41, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3059, '2019-01-12 07:00', 'Москва', -7, 0, -116, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3060, '2019-01-12 07:00', 'Самара', 34, -16, -134, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3061, '2019-01-12 07:00', 'Санкт-Петербург', 12, 5, -62, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3062, '2019-01-12 08:00', 'Москва', 15, 7, 19, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3063, '2019-01-12 08:00', 'Самара', 9, 1, 17, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3064, '2019-01-12 08:00', 'Санкт-Петербург', 30, -11, 99, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3065, '2019-01-12 09:00', 'Москва', -19, -2, -99, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3066, '2019-01-12 09:00', 'Самара', 7, 15, 166, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3067, '2019-01-12 09:00', 'Санкт-Петербург', 34, 0, -106, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3068, '2019-01-12 10:00', 'Москва', -1, 10, -158, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3069, '2019-01-12 10:00', 'Самара', -19, 8, 32, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3070, '2019-01-12 10:00', 'Санкт-Петербург', 16, -18, 154, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3071, '2019-01-12 11:00', 'Москва', -16, 11, 77, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3072, '2019-01-12 11:00', 'Самара', -4, -18, 44, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3073, '2019-01-12 11:00', 'Санкт-Петербург', 18, 8, -117, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3074, '2019-01-12 12:00', 'Москва', -14, -7, -87, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3075, '2019-01-12 12:00', 'Самара', 4, -4, -143, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3076, '2019-01-12 12:00', 'Санкт-Петербург', 25, 7, 88, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3077, '2019-01-12 01:00', 'Москва', -16, -7, 143, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3078, '2019-01-12 01:00', 'Самара', -18, -16, 107, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3079, '2019-01-12 01:00', 'Санкт-Петербург', -9, -17, -106, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3080, '2019-01-12 02:00', 'Москва', -13, 19, -39, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3081, '2019-01-12 02:00', 'Самара', 33, 12, 136, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3082, '2019-01-12 02:00', 'Санкт-Петербург', 33, 18, -116, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3083, '2019-01-12 03:00', 'Москва', 22, -5, -115, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3084, '2019-01-12 03:00', 'Самара', 15, -19, -121, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3085, '2019-01-12 03:00', 'Санкт-Петербург', -13, -5, 66, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3086, '2019-01-12 04:00', 'Москва', -14, 1, 4, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3087, '2019-01-12 04:00', 'Самара', 35, -6, -22, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3088, '2019-01-12 04:00', 'Санкт-Петербург', 4, -6, -122, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3089, '2019-01-12 05:00', 'Москва', -4, -14, -54, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3090, '2019-01-12 05:00', 'Самара', 21, 5, -6, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3091, '2019-01-12 05:00', 'Санкт-Петербург', 29, -1, -117, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3092, '2019-01-12 06:00', 'Москва', -7, 11, -104, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3093, '2019-01-12 06:00', 'Самара', 1, 18, -33, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3094, '2019-01-12 06:00', 'Санкт-Петербург', -6, 2, 178, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3095, '2019-01-12 07:00', 'Москва', 11, -12, 106, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3096, '2019-01-12 07:00', 'Самара', -19, -16, -46, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3097, '2019-01-12 07:00', 'Санкт-Петербург', 27, -8, -152, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3098, '2019-01-12 08:00', 'Москва', 13, -19, -109, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3099, '2019-01-12 08:00', 'Самара', 3, 2, -9, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3100, '2019-01-12 08:00', 'Санкт-Петербург', -3, 10, 0, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3101, '2019-01-12 09:00', 'Москва', 3, -7, -155, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3102, '2019-01-12 09:00', 'Самара', 32, 10, -74, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3103, '2019-01-12 09:00', 'Санкт-Петербург', 16, -12, 33, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3104, '2019-01-12 10:00', 'Москва', 18, 13, 134, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3105, '2019-01-12 10:00', 'Самара', -11, 14, -74, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3106, '2019-01-12 10:00', 'Санкт-Петербург', 12, 20, -100, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3107, '2019-01-12 11:00', 'Москва', 6, 11, 88, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3108, '2019-01-12 11:00', 'Самара', -9, -15, -154, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3109, '2019-01-12 11:00', 'Санкт-Петербург', -2, -5, -45, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3110, '2019-01-13 12:00', 'Москва', 12, -20, 16, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3111, '2019-01-13 12:00', 'Самара', -6, -9, -53, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3112, '2019-01-13 12:00', 'Санкт-Петербург', 8, 14, 84, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3113, '2019-01-13 01:00', 'Москва', 17, -13, -15, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3114, '2019-01-13 01:00', 'Самара', -12, -4, 16, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3115, '2019-01-13 01:00', 'Санкт-Петербург', 1, 0, -41, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3116, '2019-01-13 02:00', 'Москва', -10, -13, 16, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3117, '2019-01-13 02:00', 'Самара', 30, -7, -109, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3118, '2019-01-13 02:00', 'Санкт-Петербург', 8, -20, 90, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3119, '2019-01-13 03:00', 'Москва', -1, -16, -159, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3120, '2019-01-13 03:00', 'Самара', 0, 7, 119, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3121, '2019-01-13 03:00', 'Санкт-Петербург', 5, 1, 47, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3122, '2019-01-13 04:00', 'Москва', 31, 17, 136, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3123, '2019-01-13 04:00', 'Самара', 12, 2, 39, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3124, '2019-01-13 04:00', 'Санкт-Петербург', -18, -7, -111, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3125, '2019-01-13 05:00', 'Москва', 21, 10, 115, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3126, '2019-01-13 05:00', 'Самара', -16, 20, -110, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3127, '2019-01-13 05:00', 'Санкт-Петербург', -7, -5, 96, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3128, '2019-01-13 06:00', 'Москва', 2, -6, 0, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3129, '2019-01-13 06:00', 'Самара', 33, 18, 50, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3130, '2019-01-13 06:00', 'Санкт-Петербург', -3, 19, 151, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3131, '2019-01-13 07:00', 'Москва', 5, 5, 84, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3132, '2019-01-13 07:00', 'Самара', -9, -3, 107, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3133, '2019-01-13 07:00', 'Санкт-Петербург', 16, -3, 66, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3134, '2019-01-13 08:00', 'Москва', -1, 6, 168, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3135, '2019-01-13 08:00', 'Самара', 35, -8, -34, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3136, '2019-01-13 08:00', 'Санкт-Петербург', 24, 0, 115, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3137, '2019-01-13 09:00', 'Москва', 34, -19, 171, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3138, '2019-01-13 09:00', 'Самара', 35, -15, -29, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3139, '2019-01-13 09:00', 'Санкт-Петербург', -14, -9, -136, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3140, '2019-01-13 10:00', 'Москва', -17, -16, 46, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3141, '2019-01-13 10:00', 'Самара', 4, -10, -86, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3142, '2019-01-13 10:00', 'Санкт-Петербург', 26, -19, -92, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3143, '2019-01-13 11:00', 'Москва', 25, -7, -127, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3144, '2019-01-13 11:00', 'Самара', 4, 14, 164, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3145, '2019-01-13 11:00', 'Санкт-Петербург', 5, 1, -9, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3146, '2019-01-13 12:00', 'Москва', -7, 4, 48, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3147, '2019-01-13 12:00', 'Самара', -11, 8, 125, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3148, '2019-01-13 12:00', 'Санкт-Петербург', -10, 16, -148, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3149, '2019-01-13 01:00', 'Москва', 25, 4, -107, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3150, '2019-01-13 01:00', 'Самара', -4, -2, 80, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3151, '2019-01-13 01:00', 'Санкт-Петербург', 1, 19, 41, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3152, '2019-01-13 02:00', 'Москва', 8, -17, 89, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3153, '2019-01-13 02:00', 'Самара', -11, -2, -137, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3154, '2019-01-13 02:00', 'Санкт-Петербург', 6, -20, -151, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3155, '2019-01-13 03:00', 'Москва', 12, -18, -60, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3156, '2019-01-13 03:00', 'Самара', 26, -6, 4, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3157, '2019-01-13 03:00', 'Санкт-Петербург', -15, -5, -90, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3158, '2019-01-13 04:00', 'Москва', 27, 5, 98, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3159, '2019-01-13 04:00', 'Самара', -4, 5, 24, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3160, '2019-01-13 04:00', 'Санкт-Петербург', 25, -13, -179, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3161, '2019-01-13 05:00', 'Москва', 33, 15, 153, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3162, '2019-01-13 05:00', 'Самара', -4, -10, -128, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3163, '2019-01-13 05:00', 'Санкт-Петербург', -8, 5, -156, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3164, '2019-01-13 06:00', 'Москва', 13, -11, 134, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3165, '2019-01-13 06:00', 'Самара', 14, 7, -73, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3166, '2019-01-13 06:00', 'Санкт-Петербург', 17, -20, -173, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3167, '2019-01-13 07:00', 'Москва', 33, 19, 120, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3168, '2019-01-13 07:00', 'Самара', -2, 2, -96, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3169, '2019-01-13 07:00', 'Санкт-Петербург', -7, -20, -126, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3170, '2019-01-13 08:00', 'Москва', -11, 10, 57, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3171, '2019-01-13 08:00', 'Самара', 15, 17, -150, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3172, '2019-01-13 08:00', 'Санкт-Петербург', 30, -5, -147, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3173, '2019-01-13 09:00', 'Москва', 23, 4, -168, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3174, '2019-01-13 09:00', 'Самара', -13, 7, 104, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3175, '2019-01-13 09:00', 'Санкт-Петербург', 28, 0, -115, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3176, '2019-01-13 10:00', 'Москва', 4, -18, 134, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3177, '2019-01-13 10:00', 'Самара', 9, 17, -116, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3178, '2019-01-13 10:00', 'Санкт-Петербург', 12, -7, 2, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3179, '2019-01-13 11:00', 'Москва', -3, 16, -136, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3180, '2019-01-13 11:00', 'Самара', 12, 13, -87, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3181, '2019-01-13 11:00', 'Санкт-Петербург', -2, -9, -167, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3182, '2019-01-14 12:00', 'Москва', -3, -12, -55, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3183, '2019-01-14 12:00', 'Самара', 24, 13, -11, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3184, '2019-01-14 12:00', 'Санкт-Петербург', -19, -1, -142, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3185, '2019-01-14 01:00', 'Москва', 22, 3, -105, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3186, '2019-01-14 01:00', 'Самара', 16, -8, -100, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3187, '2019-01-14 01:00', 'Санкт-Петербург', 25, 1, -68, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3188, '2019-01-14 02:00', 'Москва', 7, -1, -135, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3189, '2019-01-14 02:00', 'Самара', 9, -18, 153, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3190, '2019-01-14 02:00', 'Санкт-Петербург', 26, 0, -129, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3191, '2019-01-14 03:00', 'Москва', -19, -10, -164, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3192, '2019-01-14 03:00', 'Самара', -14, 8, 1, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3193, '2019-01-14 03:00', 'Санкт-Петербург', 7, -12, -166, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3194, '2019-01-14 04:00', 'Москва', 24, -11, -13, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3195, '2019-01-14 04:00', 'Самара', -15, 12, 29, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3196, '2019-01-14 04:00', 'Санкт-Петербург', 34, 5, 1, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3197, '2019-01-14 05:00', 'Москва', -16, -9, 174, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3198, '2019-01-14 05:00', 'Самара', -2, -4, -14, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3199, '2019-01-14 05:00', 'Санкт-Петербург', -1, 3, 82, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3200, '2019-01-14 06:00', 'Москва', -7, -20, 101, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3201, '2019-01-14 06:00', 'Самара', -19, 17, -25, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3202, '2019-01-14 06:00', 'Санкт-Петербург', 25, -18, 173, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3203, '2019-01-14 07:00', 'Москва', 16, -4, -122, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3204, '2019-01-14 07:00', 'Самара', -6, 18, -83, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3205, '2019-01-14 07:00', 'Санкт-Петербург', 4, -19, 14, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3206, '2019-01-14 08:00', 'Москва', 8, -7, 61, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3207, '2019-01-14 08:00', 'Самара', 30, 19, -90, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3208, '2019-01-14 08:00', 'Санкт-Петербург', -13, 4, 111, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3209, '2019-01-14 09:00', 'Москва', 4, -20, 86, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3210, '2019-01-14 09:00', 'Самара', 6, -2, -171, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3211, '2019-01-14 09:00', 'Санкт-Петербург', 31, 9, 121, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3212, '2019-01-14 10:00', 'Москва', -18, -18, 152, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3213, '2019-01-14 10:00', 'Самара', -11, 5, -129, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3214, '2019-01-14 10:00', 'Санкт-Петербург', 30, -18, 98, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3215, '2019-01-14 11:00', 'Москва', 25, 18, -142, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3216, '2019-01-14 11:00', 'Самара', 33, -4, -92, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3217, '2019-01-14 11:00', 'Санкт-Петербург', 5, 7, 25, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3218, '2019-01-14 12:00', 'Москва', -4, -4, 64, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3219, '2019-01-14 12:00', 'Самара', 12, 3, -159, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3220, '2019-01-14 12:00', 'Санкт-Петербург', -3, -20, 156, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3221, '2019-01-14 01:00', 'Москва', 11, 20, -174, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3222, '2019-01-14 01:00', 'Самара', 29, -17, 169, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3223, '2019-01-14 01:00', 'Санкт-Петербург', -8, 2, -177, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3224, '2019-01-14 02:00', 'Москва', 32, 0, 172, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3225, '2019-01-14 02:00', 'Самара', 4, 19, 49, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3226, '2019-01-14 02:00', 'Санкт-Петербург', 11, -20, 165, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3227, '2019-01-14 03:00', 'Москва', 4, -3, -139, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3228, '2019-01-14 03:00', 'Самара', 34, -14, -144, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3229, '2019-01-14 03:00', 'Санкт-Петербург', 16, 16, 119, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3230, '2019-01-14 04:00', 'Москва', -6, 1, -53, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3231, '2019-01-14 04:00', 'Самара', -11, 12, -43, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3232, '2019-01-14 04:00', 'Санкт-Петербург', 9, 4, -6, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3233, '2019-01-14 05:00', 'Москва', 22, -9, 128, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3234, '2019-01-14 05:00', 'Самара', -1, 16, 2, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3235, '2019-01-14 05:00', 'Санкт-Петербург', -8, -3, 22, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3236, '2019-01-14 06:00', 'Москва', 0, -2, 126, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3237, '2019-01-14 06:00', 'Самара', 5, -9, -152, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3238, '2019-01-14 06:00', 'Санкт-Петербург', -3, 15, -153, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3239, '2019-01-14 07:00', 'Москва', 14, 0, 136, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3240, '2019-01-14 07:00', 'Самара', 1, 0, 93, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3241, '2019-01-14 07:00', 'Санкт-Петербург', 33, 11, -124, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3242, '2019-01-14 08:00', 'Москва', 1, -1, 111, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3243, '2019-01-14 08:00', 'Самара', -13, 15, -169, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3244, '2019-01-14 08:00', 'Санкт-Петербург', 27, -4, -13, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3245, '2019-01-14 09:00', 'Москва', -8, -11, -55, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3246, '2019-01-14 09:00', 'Самара', 3, 14, -161, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3247, '2019-01-14 09:00', 'Санкт-Петербург', 22, 3, -159, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3248, '2019-01-14 10:00', 'Москва', 26, 0, 10, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3249, '2019-01-14 10:00', 'Самара', 6, -12, -131, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3250, '2019-01-14 10:00', 'Санкт-Петербург', 20, 18, 31, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3251, '2019-01-14 11:00', 'Москва', -8, -13, -127, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3252, '2019-01-14 11:00', 'Самара', -14, -19, 118, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3253, '2019-01-14 11:00', 'Санкт-Петербург', -1, 19, 74, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3254, '2019-01-15 12:00', 'Москва', 24, 1, -106, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3255, '2019-01-15 12:00', 'Самара', 28, -20, 161, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3256, '2019-01-15 12:00', 'Санкт-Петербург', 35, 14, 153, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3257, '2019-01-15 01:00', 'Москва', 15, 4, 28, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3258, '2019-01-15 01:00', 'Самара', 33, -14, 27, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3259, '2019-01-15 01:00', 'Санкт-Петербург', 22, 8, 85, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3260, '2019-01-15 02:00', 'Москва', -18, -14, 23, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3261, '2019-01-15 02:00', 'Самара', -6, 2, -50, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3262, '2019-01-15 02:00', 'Санкт-Петербург', 15, 15, -131, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3263, '2019-01-15 03:00', 'Москва', 31, 6, 29, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3264, '2019-01-15 03:00', 'Самара', -13, 6, 164, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3265, '2019-01-15 03:00', 'Санкт-Петербург', 4, -6, 83, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3266, '2019-01-15 04:00', 'Москва', -3, -19, 120, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3267, '2019-01-15 04:00', 'Самара', 27, 8, -63, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3268, '2019-01-15 04:00', 'Санкт-Петербург', -14, 16, 82, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3269, '2019-01-15 05:00', 'Москва', -11, -16, -32, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3270, '2019-01-15 05:00', 'Самара', -16, 12, 154, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3271, '2019-01-15 05:00', 'Санкт-Петербург', 21, 7, 79, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3272, '2019-01-15 06:00', 'Москва', 13, -14, 138, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3273, '2019-01-15 06:00', 'Самара', 0, -14, 77, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3274, '2019-01-15 06:00', 'Санкт-Петербург', 10, -9, 170, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3275, '2019-01-15 07:00', 'Москва', 0, -3, -122, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3276, '2019-01-15 07:00', 'Самара', 20, -8, 68, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3277, '2019-01-15 07:00', 'Санкт-Петербург', 29, -5, 179, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3278, '2019-01-15 08:00', 'Москва', -15, 16, -125, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3279, '2019-01-15 08:00', 'Самара', 24, -7, 76, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3280, '2019-01-15 08:00', 'Санкт-Петербург', 11, 5, 166, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3281, '2019-01-15 09:00', 'Москва', 1, 19, -147, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3282, '2019-01-15 09:00', 'Самара', -18, -20, -81, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3283, '2019-01-15 09:00', 'Санкт-Петербург', 30, -6, -21, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3284, '2019-01-15 10:00', 'Москва', -10, 3, 170, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3285, '2019-01-15 10:00', 'Самара', 2, 17, -91, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3286, '2019-01-15 10:00', 'Санкт-Петербург', 33, 1, 164, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3287, '2019-01-15 11:00', 'Москва', 17, 0, 150, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3288, '2019-01-15 11:00', 'Самара', -13, 14, -49, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3289, '2019-01-15 11:00', 'Санкт-Петербург', -3, 17, -164, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3290, '2019-01-15 12:00', 'Москва', 12, -18, 38, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3291, '2019-01-15 12:00', 'Самара', -3, 12, -84, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3292, '2019-01-15 12:00', 'Санкт-Петербург', -6, 15, -86, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3293, '2019-01-15 01:00', 'Москва', 28, 0, -57, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3294, '2019-01-15 01:00', 'Самара', 22, -1, 22, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3295, '2019-01-15 01:00', 'Санкт-Петербург', -9, -3, -158, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3296, '2019-01-15 02:00', 'Москва', 26, -20, -22, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3297, '2019-01-15 02:00', 'Самара', -11, 5, -142, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3298, '2019-01-15 02:00', 'Санкт-Петербург', -20, 8, -116, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3299, '2019-01-15 03:00', 'Москва', 30, -7, 63, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3300, '2019-01-15 03:00', 'Самара', 6, -3, -47, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3301, '2019-01-15 03:00', 'Санкт-Петербург', 27, -9, -28, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3302, '2019-01-15 04:00', 'Москва', 16, -1, 86, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3303, '2019-01-15 04:00', 'Самара', 35, 9, 143, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3304, '2019-01-15 04:00', 'Санкт-Петербург', -3, -20, 27, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3305, '2019-01-15 05:00', 'Москва', 15, -3, 54, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3306, '2019-01-15 05:00', 'Самара', -7, 14, -175, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3307, '2019-01-15 05:00', 'Санкт-Петербург', 11, -5, -129, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3308, '2019-01-15 06:00', 'Москва', -13, 10, 73, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3309, '2019-01-15 06:00', 'Самара', -12, -13, 130, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3310, '2019-01-15 06:00', 'Санкт-Петербург', 29, 19, -164, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3311, '2019-01-15 07:00', 'Москва', -13, 8, 129, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3312, '2019-01-15 07:00', 'Самара', 9, -7, -150, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3313, '2019-01-15 07:00', 'Санкт-Петербург', 15, -5, 49, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3314, '2019-01-15 08:00', 'Москва', -18, 19, 125, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3315, '2019-01-15 08:00', 'Самара', 9, 12, 27, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3316, '2019-01-15 08:00', 'Санкт-Петербург', -16, 6, 84, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3317, '2019-01-15 09:00', 'Москва', -6, 13, 130, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3318, '2019-01-15 09:00', 'Самара', -6, -11, -156, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3319, '2019-01-15 09:00', 'Санкт-Петербург', 16, -9, -15, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3320, '2019-01-15 10:00', 'Москва', 12, -9, 36, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3321, '2019-01-15 10:00', 'Самара', 29, -10, -28, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3322, '2019-01-15 10:00', 'Санкт-Петербург', 5, -5, 28, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3323, '2019-01-15 11:00', 'Москва', -20, 11, -74, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3324, '2019-01-15 11:00', 'Самара', -2, 3, 155, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3325, '2019-01-15 11:00', 'Санкт-Петербург', -8, -7, 170, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3326, '2019-01-16 12:00', 'Москва', -7, -8, 180, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3327, '2019-01-16 12:00', 'Самара', -19, 20, 178, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3328, '2019-01-16 12:00', 'Санкт-Петербург', 22, -17, -97, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3329, '2019-01-16 01:00', 'Москва', 28, -17, 139, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3330, '2019-01-16 01:00', 'Самара', 22, -6, -143, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3331, '2019-01-16 01:00', 'Санкт-Петербург', 3, -15, 43, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3332, '2019-01-16 02:00', 'Москва', 20, 13, -116, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3333, '2019-01-16 02:00', 'Самара', -11, 6, -2, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3334, '2019-01-16 02:00', 'Санкт-Петербург', -5, -16, 128, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3335, '2019-01-16 03:00', 'Москва', -8, 2, 19, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3336, '2019-01-16 03:00', 'Самара', -5, -2, -40, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3337, '2019-01-16 03:00', 'Санкт-Петербург', 14, 0, 42, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3338, '2019-01-16 04:00', 'Москва', -6, -17, 98, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3339, '2019-01-16 04:00', 'Самара', 17, -10, -23, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3340, '2019-01-16 04:00', 'Санкт-Петербург', 19, -10, -67, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3341, '2019-01-16 05:00', 'Москва', -18, -1, 67, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3342, '2019-01-16 05:00', 'Самара', 7, 6, 47, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3343, '2019-01-16 05:00', 'Санкт-Петербург', -20, 19, -59, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3344, '2019-01-16 06:00', 'Москва', 12, 11, 139, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3345, '2019-01-16 06:00', 'Самара', 0, -2, -101, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3346, '2019-01-16 06:00', 'Санкт-Петербург', 25, 19, 89, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3347, '2019-01-16 07:00', 'Москва', 30, -6, -9, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3348, '2019-01-16 07:00', 'Самара', -9, 19, 147, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3349, '2019-01-16 07:00', 'Санкт-Петербург', 18, -5, 158, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3350, '2019-01-16 08:00', 'Москва', 27, -8, -112, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3351, '2019-01-16 08:00', 'Самара', 16, 0, 4, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3352, '2019-01-16 08:00', 'Санкт-Петербург', 20, 11, 100, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3353, '2019-01-16 09:00', 'Москва', 8, -18, 7, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3354, '2019-01-16 09:00', 'Самара', 0, -10, 171, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3355, '2019-01-16 09:00', 'Санкт-Петербург', -8, -9, -140, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3356, '2019-01-16 10:00', 'Москва', -16, -20, 142, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3357, '2019-01-16 10:00', 'Самара', -16, -6, -105, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3358, '2019-01-16 10:00', 'Санкт-Петербург', 2, 4, 26, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3359, '2019-01-16 11:00', 'Москва', -20, 19, -84, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3360, '2019-01-16 11:00', 'Самара', -3, -17, 165, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3361, '2019-01-16 11:00', 'Санкт-Петербург', 34, 14, -84, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3362, '2019-01-16 12:00', 'Москва', 31, 1, 53, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3363, '2019-01-16 12:00', 'Самара', 11, 20, 75, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3364, '2019-01-16 12:00', 'Санкт-Петербург', 0, 13, 49, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3365, '2019-01-16 01:00', 'Москва', 26, 10, 80, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3366, '2019-01-16 01:00', 'Самара', -4, 20, -93, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3367, '2019-01-16 01:00', 'Санкт-Петербург', 13, -13, 138, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3368, '2019-01-16 02:00', 'Москва', 15, -3, -18, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3369, '2019-01-16 02:00', 'Самара', 17, -8, -21, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3370, '2019-01-16 02:00', 'Санкт-Петербург', 12, 6, -98, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3371, '2019-01-16 03:00', 'Москва', 23, -1, 103, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3372, '2019-01-16 03:00', 'Самара', -5, 18, -110, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3373, '2019-01-16 03:00', 'Санкт-Петербург', 16, -15, -99, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3374, '2019-01-16 04:00', 'Москва', 31, -15, 19, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3375, '2019-01-16 04:00', 'Самара', 7, -13, -56, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3376, '2019-01-16 04:00', 'Санкт-Петербург', 8, -4, 43, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3377, '2019-01-16 05:00', 'Москва', -16, 10, -126, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3378, '2019-01-16 05:00', 'Самара', -5, -11, -40, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3379, '2019-01-16 05:00', 'Санкт-Петербург', -8, -10, -59, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3380, '2019-01-16 06:00', 'Москва', 29, 7, -41, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3381, '2019-01-16 06:00', 'Самара', 1, -6, -74, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3382, '2019-01-16 06:00', 'Санкт-Петербург', -1, -3, 152, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3383, '2019-01-16 07:00', 'Москва', -11, 14, -7, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3384, '2019-01-16 07:00', 'Самара', -15, -11, -74, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3385, '2019-01-16 07:00', 'Санкт-Петербург', 25, -4, -130, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3386, '2019-01-16 08:00', 'Москва', 33, -5, 43, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3387, '2019-01-16 08:00', 'Самара', 24, -8, -140, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3388, '2019-01-16 08:00', 'Санкт-Петербург', -5, 19, -79, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3389, '2019-01-16 09:00', 'Москва', -13, 8, 8, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3390, '2019-01-16 09:00', 'Самара', -2, 8, 86, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3391, '2019-01-16 09:00', 'Санкт-Петербург', 6, -16, -100, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3392, '2019-01-16 10:00', 'Москва', -13, 12, 84, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3393, '2019-01-16 10:00', 'Самара', 18, 20, -30, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3394, '2019-01-16 10:00', 'Санкт-Петербург', 31, 20, 66, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3395, '2019-01-16 11:00', 'Москва', 25, 10, -72, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3396, '2019-01-16 11:00', 'Самара', 2, -7, 118, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3397, '2019-01-16 11:00', 'Санкт-Петербург', 26, -16, 88, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3398, '2019-01-17 12:00', 'Москва', -19, 11, 37, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3399, '2019-01-17 12:00', 'Самара', 12, -3, 23, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3400, '2019-01-17 12:00', 'Санкт-Петербург', 0, -1, -92, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3401, '2019-01-17 01:00', 'Москва', 26, -18, -91, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3402, '2019-01-17 01:00', 'Самара', 4, 9, -26, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3403, '2019-01-17 01:00', 'Санкт-Петербург', 3, 15, -64, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3404, '2019-01-17 02:00', 'Москва', -8, -17, 144, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3405, '2019-01-17 02:00', 'Самара', 28, 0, -142, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3406, '2019-01-17 02:00', 'Санкт-Петербург', -11, 14, -84, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3407, '2019-01-17 03:00', 'Москва', 2, 0, -1, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3408, '2019-01-17 03:00', 'Самара', 29, 8, -123, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3409, '2019-01-17 03:00', 'Санкт-Петербург', 5, 10, -99, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3410, '2019-01-17 04:00', 'Москва', -13, 18, -29, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3411, '2019-01-17 04:00', 'Самара', -12, 6, -37, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3412, '2019-01-17 04:00', 'Санкт-Петербург', 3, -20, 27, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3413, '2019-01-17 05:00', 'Москва', -9, 0, 53, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3414, '2019-01-17 05:00', 'Самара', 27, 8, 31, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3415, '2019-01-17 05:00', 'Санкт-Петербург', 22, 2, 98, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3416, '2019-01-17 06:00', 'Москва', 0, 4, 83, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3417, '2019-01-17 06:00', 'Самара', -10, -2, 25, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3418, '2019-01-17 06:00', 'Санкт-Петербург', 31, -6, -174, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3419, '2019-01-17 07:00', 'Москва', -15, 9, 19, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3420, '2019-01-17 07:00', 'Самара', -3, 6, 26, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3421, '2019-01-17 07:00', 'Санкт-Петербург', 30, -5, -165, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3422, '2019-01-17 08:00', 'Москва', 19, 10, 148, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3423, '2019-01-17 08:00', 'Самара', 15, 1, -166, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3424, '2019-01-17 08:00', 'Санкт-Петербург', -2, -17, 171, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3425, '2019-01-17 09:00', 'Москва', 22, -15, -41, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3426, '2019-01-17 09:00', 'Самара', 22, 15, 156, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3427, '2019-01-17 09:00', 'Санкт-Петербург', -2, -4, -8, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3428, '2019-01-17 10:00', 'Москва', 20, 16, 49, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3429, '2019-01-17 10:00', 'Самара', -6, -16, 142, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3430, '2019-01-17 10:00', 'Санкт-Петербург', -4, -15, 166, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3431, '2019-01-17 11:00', 'Москва', 33, 14, 49, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3432, '2019-01-17 11:00', 'Самара', 5, -12, -52, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3433, '2019-01-17 11:00', 'Санкт-Петербург', 15, 10, 127, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3434, '2019-01-17 12:00', 'Москва', 20, -1, -169, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3435, '2019-01-17 12:00', 'Самара', -6, -18, -6, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3436, '2019-01-17 12:00', 'Санкт-Петербург', 17, -14, -23, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3437, '2019-01-17 01:00', 'Москва', 23, 8, -136, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3438, '2019-01-17 01:00', 'Самара', 19, -15, -30, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3439, '2019-01-17 01:00', 'Санкт-Петербург', -18, 5, 146, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3440, '2019-01-17 02:00', 'Москва', 10, -10, 111, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3441, '2019-01-17 02:00', 'Самара', 8, 15, 128, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3442, '2019-01-17 02:00', 'Санкт-Петербург', 19, -15, 71, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3443, '2019-01-17 03:00', 'Москва', 14, -4, -71, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3444, '2019-01-17 03:00', 'Самара', 31, 3, 65, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3445, '2019-01-17 03:00', 'Санкт-Петербург', -20, -14, 9, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3446, '2019-01-17 04:00', 'Москва', -14, -7, -180, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3447, '2019-01-17 04:00', 'Самара', 20, 17, -1, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3448, '2019-01-17 04:00', 'Санкт-Петербург', 9, -12, -36, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3449, '2019-01-17 05:00', 'Москва', -16, -13, 169, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3450, '2019-01-17 05:00', 'Самара', 13, 15, -144, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3451, '2019-01-17 05:00', 'Санкт-Петербург', 14, 14, -113, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3452, '2019-01-17 06:00', 'Москва', -15, -11, 97, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3453, '2019-01-17 06:00', 'Самара', 33, -11, -39, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3454, '2019-01-17 06:00', 'Санкт-Петербург', -9, 17, 42, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3455, '2019-01-17 07:00', 'Москва', 2, 17, 146, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3456, '2019-01-17 07:00', 'Самара', -10, 15, 171, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3457, '2019-01-17 07:00', 'Санкт-Петербург', 10, -5, 52, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3458, '2019-01-17 08:00', 'Москва', 16, 3, -110, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3459, '2019-01-17 08:00', 'Самара', 11, -7, 93, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3460, '2019-01-17 08:00', 'Санкт-Петербург', 14, -6, 147, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3461, '2019-01-17 09:00', 'Москва', 13, -10, 16, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3462, '2019-01-17 09:00', 'Самара', 10, -1, 111, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3463, '2019-01-17 09:00', 'Санкт-Петербург', 34, -19, -167, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3464, '2019-01-17 10:00', 'Москва', 16, 11, -63, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3465, '2019-01-17 10:00', 'Самара', 5, 9, -33, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3466, '2019-01-17 10:00', 'Санкт-Петербург', 30, -8, -39, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3467, '2019-01-17 11:00', 'Москва', 17, 2, 61, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3468, '2019-01-17 11:00', 'Самара', -8, 1, -29, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3469, '2019-01-17 11:00', 'Санкт-Петербург', 13, -20, 126, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3470, '2019-01-18 12:00', 'Москва', 19, 17, 122, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3471, '2019-01-18 12:00', 'Самара', 28, -13, 13, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3472, '2019-01-18 12:00', 'Санкт-Петербург', -13, 6, 75, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3473, '2019-01-18 01:00', 'Москва', 11, 11, 9, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3474, '2019-01-18 01:00', 'Самара', 33, 18, 79, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3475, '2019-01-18 01:00', 'Санкт-Петербург', -11, 3, -132, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3476, '2019-01-18 02:00', 'Москва', -17, 8, 133, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3477, '2019-01-18 02:00', 'Самара', 15, -9, -85, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3478, '2019-01-18 02:00', 'Санкт-Петербург', 7, -15, 157, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3479, '2019-01-18 03:00', 'Москва', 34, -8, -112, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3480, '2019-01-18 03:00', 'Самара', 14, -6, -109, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3481, '2019-01-18 03:00', 'Санкт-Петербург', 9, -7, -96, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3482, '2019-01-18 04:00', 'Москва', 26, 19, 113, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3483, '2019-01-18 04:00', 'Самара', -17, 2, 59, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3484, '2019-01-18 04:00', 'Санкт-Петербург', -10, 5, -39, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3485, '2019-01-18 05:00', 'Москва', 10, 4, -61, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3486, '2019-01-18 05:00', 'Самара', 8, 6, -94, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3487, '2019-01-18 05:00', 'Санкт-Петербург', 25, 10, -88, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3488, '2019-01-18 06:00', 'Москва', 4, 0, 63, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3489, '2019-01-18 06:00', 'Самара', 14, 0, -103, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3490, '2019-01-18 06:00', 'Санкт-Петербург', -6, -20, -100, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3491, '2019-01-18 07:00', 'Москва', 30, -16, 141, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3492, '2019-01-18 07:00', 'Самара', 34, 0, -170, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3493, '2019-01-18 07:00', 'Санкт-Петербург', -8, -1, -64, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3494, '2019-01-18 08:00', 'Москва', 32, -17, 122, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3495, '2019-01-18 08:00', 'Самара', 27, -14, -62, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3496, '2019-01-18 08:00', 'Санкт-Петербург', 26, 8, -45, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3497, '2019-01-18 09:00', 'Москва', 34, 5, -80, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3498, '2019-01-18 09:00', 'Самара', 34, 7, 83, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3499, '2019-01-18 09:00', 'Санкт-Петербург', 2, -12, 29, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3500, '2019-01-18 10:00', 'Москва', 20, 10, -160, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3501, '2019-01-18 10:00', 'Самара', -1, 18, 120, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3502, '2019-01-18 10:00', 'Санкт-Петербург', 12, 11, 8, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3503, '2019-01-18 11:00', 'Москва', 14, -18, -150, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3504, '2019-01-18 11:00', 'Самара', -19, 8, -112, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3505, '2019-01-18 11:00', 'Санкт-Петербург', 19, 6, -88, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3506, '2019-01-18 12:00', 'Москва', 1, -8, 116, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3507, '2019-01-18 12:00', 'Самара', -10, -7, -22, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3508, '2019-01-18 12:00', 'Санкт-Петербург', -14, -5, 137, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3509, '2019-01-18 01:00', 'Москва', 4, -11, -134, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3510, '2019-01-18 01:00', 'Самара', 23, -18, -46, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3511, '2019-01-18 01:00', 'Санкт-Петербург', 0, -6, -81, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3512, '2019-01-18 02:00', 'Москва', 35, 13, -48, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3513, '2019-01-18 02:00', 'Самара', 19, 15, -171, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3514, '2019-01-18 02:00', 'Санкт-Петербург', 15, -20, 122, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3515, '2019-01-18 03:00', 'Москва', 12, -7, 175, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3516, '2019-01-18 03:00', 'Самара', 14, -1, -117, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3517, '2019-01-18 03:00', 'Санкт-Петербург', -13, 16, 57, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3518, '2019-01-18 04:00', 'Москва', -19, -7, -145, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3519, '2019-01-18 04:00', 'Самара', 29, 3, -29, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3520, '2019-01-18 04:00', 'Санкт-Петербург', 34, -4, 80, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3521, '2019-01-18 05:00', 'Москва', -7, -6, 48, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3522, '2019-01-18 05:00', 'Самара', 21, 11, 56, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3523, '2019-01-18 05:00', 'Санкт-Петербург', 2, -17, 43, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3524, '2019-01-18 06:00', 'Москва', -6, -7, -112, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3525, '2019-01-18 06:00', 'Самара', -18, -12, 23, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3526, '2019-01-18 06:00', 'Санкт-Петербург', 4, 14, 106, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3527, '2019-01-18 07:00', 'Москва', 9, 0, -52, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3528, '2019-01-18 07:00', 'Самара', 29, -9, -78, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3529, '2019-01-18 07:00', 'Санкт-Петербург', 30, 11, 36, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3530, '2019-01-18 08:00', 'Москва', 10, -12, 90, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3531, '2019-01-18 08:00', 'Самара', 16, 17, -10, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3532, '2019-01-18 08:00', 'Санкт-Петербург', 20, 3, -40, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3533, '2019-01-18 09:00', 'Москва', 24, 13, -21, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3534, '2019-01-18 09:00', 'Самара', 23, 16, 10, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3535, '2019-01-18 09:00', 'Санкт-Петербург', 13, 5, 169, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3536, '2019-01-18 10:00', 'Москва', 15, 0, -130, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3537, '2019-01-18 10:00', 'Самара', -14, 12, -85, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3538, '2019-01-18 10:00', 'Санкт-Петербург', -6, -19, 81, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3539, '2019-01-18 11:00', 'Москва', -15, 1, -157, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3540, '2019-01-18 11:00', 'Самара', -2, -16, 24, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3541, '2019-01-18 11:00', 'Санкт-Петербург', 35, -19, -92, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3542, '2019-01-19 12:00', 'Москва', 35, -3, -93, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3543, '2019-01-19 12:00', 'Самара', 0, 18, -164, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3544, '2019-01-19 12:00', 'Санкт-Петербург', -19, 12, 147, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3545, '2019-01-19 01:00', 'Москва', -14, 16, 151, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3546, '2019-01-19 01:00', 'Самара', -20, -19, 83, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3547, '2019-01-19 01:00', 'Санкт-Петербург', 2, -8, -71, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3548, '2019-01-19 02:00', 'Москва', -15, 11, 38, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3549, '2019-01-19 02:00', 'Самара', 24, 17, 150, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3550, '2019-01-19 02:00', 'Санкт-Петербург', 13, -18, 97, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3551, '2019-01-19 03:00', 'Москва', 16, 17, 155, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3552, '2019-01-19 03:00', 'Самара', 31, 3, -6, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3553, '2019-01-19 03:00', 'Санкт-Петербург', -1, 10, 5, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3554, '2019-01-19 04:00', 'Москва', -12, 17, 1, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3555, '2019-01-19 04:00', 'Самара', 35, -7, -147, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3556, '2019-01-19 04:00', 'Санкт-Петербург', 23, 6, -105, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3557, '2019-01-19 05:00', 'Москва', 14, -6, 104, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3558, '2019-01-19 05:00', 'Самара', 25, 1, 6, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3559, '2019-01-19 05:00', 'Санкт-Петербург', 32, 7, -120, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3560, '2019-01-19 06:00', 'Москва', 10, -11, 61, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3561, '2019-01-19 06:00', 'Самара', -16, -8, 21, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3562, '2019-01-19 06:00', 'Санкт-Петербург', -6, 15, -119, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3563, '2019-01-19 07:00', 'Москва', 19, 9, 141, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3564, '2019-01-19 07:00', 'Самара', 19, -12, -67, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3565, '2019-01-19 07:00', 'Санкт-Петербург', 24, -20, 59, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3566, '2019-01-19 08:00', 'Москва', -19, 8, -127, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3567, '2019-01-19 08:00', 'Самара', 22, 3, -148, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3568, '2019-01-19 08:00', 'Санкт-Петербург', 16, 16, 136, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3569, '2019-01-19 09:00', 'Москва', -4, 18, -97, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3570, '2019-01-19 09:00', 'Самара', -7, -3, 77, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3571, '2019-01-19 09:00', 'Санкт-Петербург', -7, 7, -52, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3572, '2019-01-19 10:00', 'Москва', -12, -7, 77, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3573, '2019-01-19 10:00', 'Самара', 0, 17, -146, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3574, '2019-01-19 10:00', 'Санкт-Петербург', 16, -3, 28, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3575, '2019-01-19 11:00', 'Москва', 13, -9, -26, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3576, '2019-01-19 11:00', 'Самара', 29, 6, -124, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3577, '2019-01-19 11:00', 'Санкт-Петербург', 12, 14, 93, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3578, '2019-01-19 12:00', 'Москва', -4, -15, 26, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3579, '2019-01-19 12:00', 'Самара', -6, 11, -78, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3580, '2019-01-19 12:00', 'Санкт-Петербург', 25, -14, 83, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3581, '2019-01-19 01:00', 'Москва', 14, 18, -29, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3582, '2019-01-19 01:00', 'Самара', 1, 1, -177, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3583, '2019-01-19 01:00', 'Санкт-Петербург', 31, 13, 170, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3584, '2019-01-19 02:00', 'Москва', 16, -19, -78, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3585, '2019-01-19 02:00', 'Самара', 3, 12, -106, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3586, '2019-01-19 02:00', 'Санкт-Петербург', 26, 3, -135, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3587, '2019-01-19 03:00', 'Москва', -13, -12, 65, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3588, '2019-01-19 03:00', 'Самара', 16, -4, -178, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3589, '2019-01-19 03:00', 'Санкт-Петербург', 6, 11, -85, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3590, '2019-01-19 04:00', 'Москва', 0, 19, 47, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3591, '2019-01-19 04:00', 'Самара', -11, -5, 21, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3592, '2019-01-19 04:00', 'Санкт-Петербург', -19, 16, -75, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3593, '2019-01-19 05:00', 'Москва', 0, 0, 19, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3594, '2019-01-19 05:00', 'Самара', -16, 7, -114, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3595, '2019-01-19 05:00', 'Санкт-Петербург', -7, -11, -112, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3596, '2019-01-19 06:00', 'Москва', 34, 9, -17, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3597, '2019-01-19 06:00', 'Самара', 15, -7, -98, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3598, '2019-01-19 06:00', 'Санкт-Петербург', 21, -10, 40, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3599, '2019-01-19 07:00', 'Москва', 27, 7, -25, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3600, '2019-01-19 07:00', 'Самара', 8, -6, 50, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3601, '2019-01-19 07:00', 'Санкт-Петербург', -19, 19, -31, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3602, '2019-01-19 08:00', 'Москва', 14, -8, 110, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3603, '2019-01-19 08:00', 'Самара', 2, -13, 103, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3604, '2019-01-19 08:00', 'Санкт-Петербург', 11, -11, 93, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3605, '2019-01-19 09:00', 'Москва', 15, -3, 131, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3606, '2019-01-19 09:00', 'Самара', 16, 8, 71, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3607, '2019-01-19 09:00', 'Санкт-Петербург', 15, 11, -111, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3608, '2019-01-19 10:00', 'Москва', -13, -15, -43, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3609, '2019-01-19 10:00', 'Самара', 6, -19, 118, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3610, '2019-01-19 10:00', 'Санкт-Петербург', -17, -13, 142, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3611, '2019-01-19 11:00', 'Москва', -10, 18, -6, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3612, '2019-01-19 11:00', 'Самара', 3, -1, 82, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3613, '2019-01-19 11:00', 'Санкт-Петербург', 10, -6, 8, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3614, '2019-01-20 12:00', 'Москва', 6, 15, 68, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3615, '2019-01-20 12:00', 'Самара', 11, -8, -84, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3616, '2019-01-20 12:00', 'Санкт-Петербург', 31, 1, -125, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3617, '2019-01-20 01:00', 'Москва', 4, -10, 97, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3618, '2019-01-20 01:00', 'Самара', 5, 19, 56, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3619, '2019-01-20 01:00', 'Санкт-Петербург', -1, 13, -18, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3620, '2019-01-20 02:00', 'Москва', -2, -5, -54, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3621, '2019-01-20 02:00', 'Самара', 3, 14, 5, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3622, '2019-01-20 02:00', 'Санкт-Петербург', 17, -7, 106, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3623, '2019-01-20 03:00', 'Москва', -1, -8, 129, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3624, '2019-01-20 03:00', 'Самара', -8, 7, -63, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3625, '2019-01-20 03:00', 'Санкт-Петербург', 29, 20, -180, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3626, '2019-01-20 04:00', 'Москва', 34, -18, -146, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3627, '2019-01-20 04:00', 'Самара', -5, 3, -77, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3628, '2019-01-20 04:00', 'Санкт-Петербург', -15, -3, -19, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3629, '2019-01-20 05:00', 'Москва', 30, 0, -88, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3630, '2019-01-20 05:00', 'Самара', -5, -20, 58, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3631, '2019-01-20 05:00', 'Санкт-Петербург', 32, 12, 157, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3632, '2019-01-20 06:00', 'Москва', 30, 10, -80, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3633, '2019-01-20 06:00', 'Самара', -1, 10, -52, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3634, '2019-01-20 06:00', 'Санкт-Петербург', 21, 2, 146, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3635, '2019-01-20 07:00', 'Москва', 15, -11, 105, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3636, '2019-01-20 07:00', 'Самара', 20, -20, -136, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3637, '2019-01-20 07:00', 'Санкт-Петербург', -11, -9, -170, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3638, '2019-01-20 08:00', 'Москва', -9, -8, 178, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3639, '2019-01-20 08:00', 'Самара', 26, -14, -155, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3640, '2019-01-20 08:00', 'Санкт-Петербург', 17, -18, -106, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3641, '2019-01-20 09:00', 'Москва', 22, 6, -167, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3642, '2019-01-20 09:00', 'Самара', 13, -11, -19, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3643, '2019-01-20 09:00', 'Санкт-Петербург', 10, -8, -118, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3644, '2019-01-20 10:00', 'Москва', -4, 4, 124, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3645, '2019-01-20 10:00', 'Самара', 15, -12, -11, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3646, '2019-01-20 10:00', 'Санкт-Петербург', 13, -16, -75, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3647, '2019-01-20 11:00', 'Москва', 23, 7, -77, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3648, '2019-01-20 11:00', 'Самара', -15, -17, 69, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3649, '2019-01-20 11:00', 'Санкт-Петербург', 28, 18, -120, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3650, '2019-01-20 12:00', 'Москва', 1, 6, -136, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3651, '2019-01-20 12:00', 'Самара', 23, 18, -175, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3652, '2019-01-20 12:00', 'Санкт-Петербург', -3, 19, 39, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3653, '2019-01-20 01:00', 'Москва', 19, -12, -71, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3654, '2019-01-20 01:00', 'Самара', -7, -12, -118, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3655, '2019-01-20 01:00', 'Санкт-Петербург', -10, 5, -135, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3656, '2019-01-20 02:00', 'Москва', 31, -14, -95, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3657, '2019-01-20 02:00', 'Самара', 1, 14, 173, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3658, '2019-01-20 02:00', 'Санкт-Петербург', 29, -14, 173, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3659, '2019-01-20 03:00', 'Москва', 26, 1, 176, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3660, '2019-01-20 03:00', 'Самара', -8, 13, 72, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3661, '2019-01-20 03:00', 'Санкт-Петербург', 34, 15, -166, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3662, '2019-01-20 04:00', 'Москва', 3, 19, 59, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3663, '2019-01-20 04:00', 'Самара', 14, -13, -38, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3664, '2019-01-20 04:00', 'Санкт-Петербург', 21, 4, 10, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3665, '2019-01-20 05:00', 'Москва', 14, -5, 125, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3666, '2019-01-20 05:00', 'Самара', 7, 10, 57, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3667, '2019-01-20 05:00', 'Санкт-Петербург', 7, 2, -40, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3668, '2019-01-20 06:00', 'Москва', 1, 1, 113, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3669, '2019-01-20 06:00', 'Самара', -18, 7, -19, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3670, '2019-01-20 06:00', 'Санкт-Петербург', 0, 5, -62, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3671, '2019-01-20 07:00', 'Москва', 26, -20, 149, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3672, '2019-01-20 07:00', 'Самара', 17, 11, -146, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3673, '2019-01-20 07:00', 'Санкт-Петербург', -16, -2, 167, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3674, '2019-01-20 08:00', 'Москва', 20, 20, -156, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3675, '2019-01-20 08:00', 'Самара', -8, -12, 58, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3676, '2019-01-20 08:00', 'Санкт-Петербург', 7, -4, 179, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3677, '2019-01-20 09:00', 'Москва', 24, -4, -23, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3678, '2019-01-20 09:00', 'Самара', 5, -12, 60, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3679, '2019-01-20 09:00', 'Санкт-Петербург', 20, -4, -101, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3680, '2019-01-20 10:00', 'Москва', -16, -10, 136, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3681, '2019-01-20 10:00', 'Самара', 27, 19, -6, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3682, '2019-01-20 10:00', 'Санкт-Петербург', 9, -2, 52, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3683, '2019-01-20 11:00', 'Москва', 15, -2, 145, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3684, '2019-01-20 11:00', 'Самара', -11, 3, 67, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3685, '2019-01-20 11:00', 'Санкт-Петербург', 7, -18, 110, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3686, '2019-01-21 12:00', 'Москва', -16, -7, 65, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3687, '2019-01-21 12:00', 'Самара', 35, 14, -88, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3688, '2019-01-21 12:00', 'Санкт-Петербург', -1, 5, -29, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3689, '2019-01-21 01:00', 'Москва', 0, -16, -80, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3690, '2019-01-21 01:00', 'Самара', 26, -11, -147, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3691, '2019-01-21 01:00', 'Санкт-Петербург', 30, 0, 15, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3692, '2019-01-21 02:00', 'Москва', -20, 17, 121, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3693, '2019-01-21 02:00', 'Самара', -10, 20, -167, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3694, '2019-01-21 02:00', 'Санкт-Петербург', 22, -2, -12, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3695, '2019-01-21 03:00', 'Москва', 9, -4, -7, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3696, '2019-01-21 03:00', 'Самара', 16, -8, -79, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3697, '2019-01-21 03:00', 'Санкт-Петербург', -10, 2, 174, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3698, '2019-01-21 04:00', 'Москва', 6, -6, 96, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3699, '2019-01-21 04:00', 'Самара', 11, -4, -126, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3700, '2019-01-21 04:00', 'Санкт-Петербург', 3, -10, -71, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3701, '2019-01-21 05:00', 'Москва', 14, 8, 14, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3702, '2019-01-21 05:00', 'Самара', 14, 17, -114, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3703, '2019-01-21 05:00', 'Санкт-Петербург', 5, -11, 7, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3704, '2019-01-21 06:00', 'Москва', -3, 2, -12, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3705, '2019-01-21 06:00', 'Самара', -20, 2, 14, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3706, '2019-01-21 06:00', 'Санкт-Петербург', 0, 17, 146, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3707, '2019-01-21 07:00', 'Москва', 24, 15, -70, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3708, '2019-01-21 07:00', 'Самара', 6, -2, 174, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3709, '2019-01-21 07:00', 'Санкт-Петербург', -20, -11, 11, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3710, '2019-01-21 08:00', 'Москва', 26, -12, 53, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3711, '2019-01-21 08:00', 'Самара', 9, -4, -21, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3712, '2019-01-21 08:00', 'Санкт-Петербург', 16, 15, 63, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3713, '2019-01-21 09:00', 'Москва', 6, 1, -149, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3714, '2019-01-21 09:00', 'Самара', -11, 5, 64, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3715, '2019-01-21 09:00', 'Санкт-Петербург', -20, -13, 89, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3716, '2019-01-21 10:00', 'Москва', 26, 8, -163, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3717, '2019-01-21 10:00', 'Самара', 3, 17, -23, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3718, '2019-01-21 10:00', 'Санкт-Петербург', 32, 0, -164, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3719, '2019-01-21 11:00', 'Москва', -16, 19, 140, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3720, '2019-01-21 11:00', 'Самара', 27, -19, 90, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3721, '2019-01-21 11:00', 'Санкт-Петербург', -14, 6, 160, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3722, '2019-01-21 12:00', 'Москва', 28, 16, 81, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3723, '2019-01-21 12:00', 'Самара', -17, 20, -122, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3724, '2019-01-21 12:00', 'Санкт-Петербург', -11, -16, 63, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3725, '2019-01-21 01:00', 'Москва', -8, -18, -85, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3726, '2019-01-21 01:00', 'Самара', 6, -19, 29, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3727, '2019-01-21 01:00', 'Санкт-Петербург', -1, 2, 174, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3728, '2019-01-21 02:00', 'Москва', 2, 0, -74, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3729, '2019-01-21 02:00', 'Самара', 23, -5, 153, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3730, '2019-01-21 02:00', 'Санкт-Петербург', 25, 4, -157, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3731, '2019-01-21 03:00', 'Москва', -18, 14, -52, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3732, '2019-01-21 03:00', 'Самара', -20, -10, 87, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3733, '2019-01-21 03:00', 'Санкт-Петербург', 8, 1, -172, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3734, '2019-01-21 04:00', 'Москва', -20, -18, -100, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3735, '2019-01-21 04:00', 'Самара', 19, 2, -124, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3736, '2019-01-21 04:00', 'Санкт-Петербург', 27, 1, 19, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3737, '2019-01-21 05:00', 'Москва', -3, 0, -27, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3738, '2019-01-21 05:00', 'Самара', -9, -9, -44, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3739, '2019-01-21 05:00', 'Санкт-Петербург', 7, 19, -57, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3740, '2019-01-21 06:00', 'Москва', 34, -17, -126, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3741, '2019-01-21 06:00', 'Самара', -6, -19, -53, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3742, '2019-01-21 06:00', 'Санкт-Петербург', -7, 2, 89, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3743, '2019-01-21 07:00', 'Москва', -17, 8, 22, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3744, '2019-01-21 07:00', 'Самара', 33, 20, 116, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3745, '2019-01-21 07:00', 'Санкт-Петербург', 15, 6, -57, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3746, '2019-01-21 08:00', 'Москва', -13, -4, 67, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3747, '2019-01-21 08:00', 'Самара', 13, 10, 62, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3748, '2019-01-21 08:00', 'Санкт-Петербург', 8, 1, 92, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3749, '2019-01-21 09:00', 'Москва', 16, -15, -59, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3750, '2019-01-21 09:00', 'Самара', -15, -19, 142, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3751, '2019-01-21 09:00', 'Санкт-Петербург', 0, 2, 49, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3752, '2019-01-21 10:00', 'Москва', -11, -11, -170, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3753, '2019-01-21 10:00', 'Самара', 29, 10, 161, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3754, '2019-01-21 10:00', 'Санкт-Петербург', -5, 4, -119, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3755, '2019-01-21 11:00', 'Москва', 11, -7, 51, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3756, '2019-01-21 11:00', 'Самара', -14, -6, 124, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3757, '2019-01-21 11:00', 'Санкт-Петербург', 16, 18, -49, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3758, '2019-01-22 12:00', 'Москва', -19, -20, -110, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3759, '2019-01-22 12:00', 'Самара', 30, -16, 84, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3760, '2019-01-22 12:00', 'Санкт-Петербург', 16, 13, -152, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3761, '2019-01-22 01:00', 'Москва', 32, -15, 20, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3762, '2019-01-22 01:00', 'Самара', 0, -13, 152, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3763, '2019-01-22 01:00', 'Санкт-Петербург', 19, 0, -47, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3764, '2019-01-22 02:00', 'Москва', 31, 12, -3, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3765, '2019-01-22 02:00', 'Самара', 14, 2, 21, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3766, '2019-01-22 02:00', 'Санкт-Петербург', 7, -8, 141, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3767, '2019-01-22 03:00', 'Москва', -16, 5, -91, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3768, '2019-01-22 03:00', 'Самара', -4, 16, -29, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3769, '2019-01-22 03:00', 'Санкт-Петербург', -1, 10, -178, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3770, '2019-01-22 04:00', 'Москва', -15, -4, -8, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3771, '2019-01-22 04:00', 'Самара', 4, -20, 101, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3772, '2019-01-22 04:00', 'Санкт-Петербург', -13, -4, -98, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3773, '2019-01-22 05:00', 'Москва', 35, -12, -118, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3774, '2019-01-22 05:00', 'Самара', 8, -4, 130, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3775, '2019-01-22 05:00', 'Санкт-Петербург', 20, -2, -51, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3776, '2019-01-22 06:00', 'Москва', 17, 4, -29, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3777, '2019-01-22 06:00', 'Самара', 4, 12, 145, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3778, '2019-01-22 06:00', 'Санкт-Петербург', 0, -2, -28, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3779, '2019-01-22 07:00', 'Москва', 31, 9, -16, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3780, '2019-01-22 07:00', 'Самара', 15, 12, -149, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3781, '2019-01-22 07:00', 'Санкт-Петербург', -6, 19, 61, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3782, '2019-01-22 08:00', 'Москва', -5, 1, 152, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3783, '2019-01-22 08:00', 'Самара', 26, -6, 146, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3784, '2019-01-22 08:00', 'Санкт-Петербург', 10, 11, -23, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3785, '2019-01-22 09:00', 'Москва', 1, 5, 122, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3786, '2019-01-22 09:00', 'Самара', 7, 16, -126, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3787, '2019-01-22 09:00', 'Санкт-Петербург', 4, 16, 49, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3788, '2019-01-22 10:00', 'Москва', 23, 17, -92, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3789, '2019-01-22 10:00', 'Самара', -3, -17, 117, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3790, '2019-01-22 10:00', 'Санкт-Петербург', -5, -18, 138, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3791, '2019-01-22 11:00', 'Москва', 18, 4, -174, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3792, '2019-01-22 11:00', 'Самара', 8, -19, -4, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3793, '2019-01-22 11:00', 'Санкт-Петербург', 23, -5, 135, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3794, '2019-01-22 12:00', 'Москва', 18, 13, -22, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3795, '2019-01-22 12:00', 'Самара', -16, -8, 45, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3796, '2019-01-22 12:00', 'Санкт-Петербург', 32, -5, 3, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3797, '2019-01-22 01:00', 'Москва', 30, -12, 108, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3798, '2019-01-22 01:00', 'Самара', 6, 0, -58, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3799, '2019-01-22 01:00', 'Санкт-Петербург', 14, 10, -163, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3800, '2019-01-22 02:00', 'Москва', 29, 15, -76, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3801, '2019-01-22 02:00', 'Самара', 0, -7, -46, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3802, '2019-01-22 02:00', 'Санкт-Петербург', -15, 6, -6, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3803, '2019-01-22 03:00', 'Москва', 1, -2, 144, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3804, '2019-01-22 03:00', 'Самара', 30, 11, 36, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3805, '2019-01-22 03:00', 'Санкт-Петербург', 25, 3, 99, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3806, '2019-01-22 04:00', 'Москва', 2, -6, -150, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3807, '2019-01-22 04:00', 'Самара', 17, 8, 4, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3808, '2019-01-22 04:00', 'Санкт-Петербург', 10, 8, 174, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3809, '2019-01-22 05:00', 'Москва', -18, -19, 2, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3810, '2019-01-22 05:00', 'Самара', -1, 9, 74, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3811, '2019-01-22 05:00', 'Санкт-Петербург', 12, 10, -143, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3812, '2019-01-22 06:00', 'Москва', 12, -19, 169, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3813, '2019-01-22 06:00', 'Самара', 8, -11, -96, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3814, '2019-01-22 06:00', 'Санкт-Петербург', -11, -9, -87, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3815, '2019-01-22 07:00', 'Москва', -19, 13, 130, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3816, '2019-01-22 07:00', 'Самара', 11, 10, 97, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3817, '2019-01-22 07:00', 'Санкт-Петербург', 5, -17, -56, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3818, '2019-01-22 08:00', 'Москва', 26, 6, -154, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3819, '2019-01-22 08:00', 'Самара', 7, -18, 117, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3820, '2019-01-22 08:00', 'Санкт-Петербург', 8, -8, -170, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3821, '2019-01-22 09:00', 'Москва', 9, -12, 7, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3822, '2019-01-22 09:00', 'Самара', 7, -1, 114, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3823, '2019-01-22 09:00', 'Санкт-Петербург', 21, -12, -66, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3824, '2019-01-22 10:00', 'Москва', 32, 9, 168, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3825, '2019-01-22 10:00', 'Самара', -11, -12, 124, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3826, '2019-01-22 10:00', 'Санкт-Петербург', 18, 14, 96, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3827, '2019-01-22 11:00', 'Москва', 13, 7, -166, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3828, '2019-01-22 11:00', 'Самара', 30, 12, 18, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3829, '2019-01-22 11:00', 'Санкт-Петербург', -13, 7, 1, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3830, '2019-01-23 12:00', 'Москва', 13, -20, 168, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3831, '2019-01-23 12:00', 'Самара', -18, 14, -14, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3832, '2019-01-23 12:00', 'Санкт-Петербург', -19, 6, 93, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3833, '2019-01-23 01:00', 'Москва', 25, -8, -137, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3834, '2019-01-23 01:00', 'Самара', -1, 13, -173, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3835, '2019-01-23 01:00', 'Санкт-Петербург', -14, -12, 111, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3836, '2019-01-23 02:00', 'Москва', 5, -7, -149, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3837, '2019-01-23 02:00', 'Самара', 17, -5, 130, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3838, '2019-01-23 02:00', 'Санкт-Петербург', 19, -8, -80, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3839, '2019-01-23 03:00', 'Москва', -1, -16, 108, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3840, '2019-01-23 03:00', 'Самара', -15, 6, -103, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3841, '2019-01-23 03:00', 'Санкт-Петербург', 14, -20, 78, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3842, '2019-01-23 04:00', 'Москва', 33, -14, 18, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3843, '2019-01-23 04:00', 'Самара', 19, 0, 162, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3844, '2019-01-23 04:00', 'Санкт-Петербург', 23, 6, -34, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3845, '2019-01-23 05:00', 'Москва', -19, -13, 169, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3846, '2019-01-23 05:00', 'Самара', 30, 6, -132, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3847, '2019-01-23 05:00', 'Санкт-Петербург', 16, -2, -118, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3848, '2019-01-23 06:00', 'Москва', 25, 5, -175, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3849, '2019-01-23 06:00', 'Самара', 25, 9, -56, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3850, '2019-01-23 06:00', 'Санкт-Петербург', -18, -3, 142, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3851, '2019-01-23 07:00', 'Москва', -9, -12, 161, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3852, '2019-01-23 07:00', 'Самара', 33, -5, 155, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3853, '2019-01-23 07:00', 'Санкт-Петербург', -10, -9, -151, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3854, '2019-01-23 08:00', 'Москва', 0, -20, -133, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3855, '2019-01-23 08:00', 'Самара', -9, 0, -55, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3856, '2019-01-23 08:00', 'Санкт-Петербург', 15, 1, 26, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3857, '2019-01-23 09:00', 'Москва', -19, 5, 155, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3858, '2019-01-23 09:00', 'Самара', 24, 13, 42, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3859, '2019-01-23 09:00', 'Санкт-Петербург', 34, -17, 71, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3860, '2019-01-23 10:00', 'Москва', 25, -19, -93, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3861, '2019-01-23 10:00', 'Самара', 3, 1, -120, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3862, '2019-01-23 10:00', 'Санкт-Петербург', 9, -16, -95, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3863, '2019-01-23 11:00', 'Москва', -3, -9, -41, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3864, '2019-01-23 11:00', 'Самара', -16, -17, -156, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3865, '2019-01-23 11:00', 'Санкт-Петербург', -18, -5, 76, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3866, '2019-01-23 12:00', 'Москва', 35, -10, -142, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3867, '2019-01-23 12:00', 'Самара', -12, 13, -101, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3868, '2019-01-23 12:00', 'Санкт-Петербург', 23, -20, 62, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3869, '2019-01-23 01:00', 'Москва', -12, -19, -165, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3870, '2019-01-23 01:00', 'Самара', 23, 15, 110, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3871, '2019-01-23 01:00', 'Санкт-Петербург', 13, 9, 38, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3872, '2019-01-23 02:00', 'Москва', -10, -10, -175, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3873, '2019-01-23 02:00', 'Самара', -4, 17, -15, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3874, '2019-01-23 02:00', 'Санкт-Петербург', -9, -1, -33, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3875, '2019-01-23 03:00', 'Москва', 21, 9, -173, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3876, '2019-01-23 03:00', 'Самара', 18, -2, 45, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3877, '2019-01-23 03:00', 'Санкт-Петербург', 4, 14, 74, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3878, '2019-01-23 04:00', 'Москва', 20, 19, -168, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3879, '2019-01-23 04:00', 'Самара', 5, -1, -112, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3880, '2019-01-23 04:00', 'Санкт-Петербург', -6, -5, 143, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3881, '2019-01-23 05:00', 'Москва', -16, 14, -28, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3882, '2019-01-23 05:00', 'Самара', 16, 5, 133, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3883, '2019-01-23 05:00', 'Санкт-Петербург', 2, 8, 154, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3884, '2019-01-23 06:00', 'Москва', 17, 11, -87, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3885, '2019-01-23 06:00', 'Самара', 9, 12, -84, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3886, '2019-01-23 06:00', 'Санкт-Петербург', -18, -14, -49, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3887, '2019-01-23 07:00', 'Москва', 9, 6, 8, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3888, '2019-01-23 07:00', 'Самара', -5, 19, -10, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3889, '2019-01-23 07:00', 'Санкт-Петербург', -10, 12, -92, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3890, '2019-01-23 08:00', 'Москва', 27, -6, 173, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3891, '2019-01-23 08:00', 'Самара', 19, 8, 6, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3892, '2019-01-23 08:00', 'Санкт-Петербург', 7, -20, 16, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3893, '2019-01-23 09:00', 'Москва', -17, -5, 67, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3894, '2019-01-23 09:00', 'Самара', -13, 16, 127, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3895, '2019-01-23 09:00', 'Санкт-Петербург', 32, 5, -33, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3896, '2019-01-23 10:00', 'Москва', 15, 16, -81, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3897, '2019-01-23 10:00', 'Самара', -2, -14, 68, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3898, '2019-01-23 10:00', 'Санкт-Петербург', -17, 10, -180, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3899, '2019-01-23 11:00', 'Москва', 7, 15, -61, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3900, '2019-01-23 11:00', 'Самара', -4, 15, 106, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3901, '2019-01-23 11:00', 'Санкт-Петербург', -9, 6, 158, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3902, '2019-01-24 12:00', 'Москва', 35, 8, 140, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3903, '2019-01-24 12:00', 'Самара', 19, 5, -155, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3904, '2019-01-24 12:00', 'Санкт-Петербург', -4, 9, -126, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3905, '2019-01-24 01:00', 'Москва', 12, 9, 161, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3906, '2019-01-24 01:00', 'Самара', 22, -14, 130, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3907, '2019-01-24 01:00', 'Санкт-Петербург', -19, -1, -97, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3908, '2019-01-24 02:00', 'Москва', 33, 7, -11, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3909, '2019-01-24 02:00', 'Самара', 32, -4, -134, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3910, '2019-01-24 02:00', 'Санкт-Петербург', -5, 4, -54, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3911, '2019-01-24 03:00', 'Москва', 23, -12, 30, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3912, '2019-01-24 03:00', 'Самара', 16, 18, -93, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3913, '2019-01-24 03:00', 'Санкт-Петербург', 18, -17, 115, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3914, '2019-01-24 04:00', 'Москва', 12, -4, 29, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3915, '2019-01-24 04:00', 'Самара', 15, -19, 151, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3916, '2019-01-24 04:00', 'Санкт-Петербург', 9, -18, 142, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3917, '2019-01-24 05:00', 'Москва', 9, -7, -104, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3918, '2019-01-24 05:00', 'Самара', 22, -4, -160, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3919, '2019-01-24 05:00', 'Санкт-Петербург', -16, -15, -109, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3920, '2019-01-24 06:00', 'Москва', 21, 15, 87, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3921, '2019-01-24 06:00', 'Самара', -4, -11, 35, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3922, '2019-01-24 06:00', 'Санкт-Петербург', -2, 2, 109, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3923, '2019-01-24 07:00', 'Москва', -6, 3, 14, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3924, '2019-01-24 07:00', 'Самара', 1, 13, -136, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3925, '2019-01-24 07:00', 'Санкт-Петербург', 4, -16, -140, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3926, '2019-01-24 08:00', 'Москва', 35, -3, -166, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3927, '2019-01-24 08:00', 'Самара', -13, -5, -97, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3928, '2019-01-24 08:00', 'Санкт-Петербург', 17, -12, 147, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3929, '2019-01-24 09:00', 'Москва', 3, 13, 164, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3930, '2019-01-24 09:00', 'Самара', -12, -17, -49, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3931, '2019-01-24 09:00', 'Санкт-Петербург', 29, -3, 100, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3932, '2019-01-24 10:00', 'Москва', 15, 14, -104, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3933, '2019-01-24 10:00', 'Самара', 3, 3, 121, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3934, '2019-01-24 10:00', 'Санкт-Петербург', -14, -10, -143, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3935, '2019-01-24 11:00', 'Москва', -20, 12, -177, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3936, '2019-01-24 11:00', 'Самара', 32, -14, -28, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3937, '2019-01-24 11:00', 'Санкт-Петербург', 8, -13, -13, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3938, '2019-01-24 12:00', 'Москва', 2, -17, -45, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3939, '2019-01-24 12:00', 'Самара', 16, -11, 94, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3940, '2019-01-24 12:00', 'Санкт-Петербург', 27, -13, -49, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3941, '2019-01-24 01:00', 'Москва', -3, -15, 27, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3942, '2019-01-24 01:00', 'Самара', 23, 19, 9, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3943, '2019-01-24 01:00', 'Санкт-Петербург', -5, 11, -10, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3944, '2019-01-24 02:00', 'Москва', 34, -10, 24, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3945, '2019-01-24 02:00', 'Самара', 20, 19, 120, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3946, '2019-01-24 02:00', 'Санкт-Петербург', 25, -5, 11, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3947, '2019-01-24 03:00', 'Москва', -3, 12, -88, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3948, '2019-01-24 03:00', 'Самара', 9, 11, 151, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3949, '2019-01-24 03:00', 'Санкт-Петербург', -5, 9, 177, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3950, '2019-01-24 04:00', 'Москва', 22, 16, -134, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3951, '2019-01-24 04:00', 'Самара', 21, 5, 66, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3952, '2019-01-24 04:00', 'Санкт-Петербург', 10, -11, 40, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3953, '2019-01-24 05:00', 'Москва', -7, 13, 130, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3954, '2019-01-24 05:00', 'Самара', 7, 9, -96, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3955, '2019-01-24 05:00', 'Санкт-Петербург', -10, -17, -132, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3956, '2019-01-24 06:00', 'Москва', -11, 6, 105, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3957, '2019-01-24 06:00', 'Самара', 4, 11, 39, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3958, '2019-01-24 06:00', 'Санкт-Петербург', 5, -6, 115, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3959, '2019-01-24 07:00', 'Москва', -6, -9, -100, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3960, '2019-01-24 07:00', 'Самара', 28, -16, -62, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3961, '2019-01-24 07:00', 'Санкт-Петербург', 23, -9, 113, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3962, '2019-01-24 08:00', 'Москва', 34, -2, -161, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3963, '2019-01-24 08:00', 'Самара', -14, -15, -70, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3964, '2019-01-24 08:00', 'Санкт-Петербург', -18, -6, -49, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3965, '2019-01-24 09:00', 'Москва', -8, -14, -161, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3966, '2019-01-24 09:00', 'Самара', -8, -8, -180, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3967, '2019-01-24 09:00', 'Санкт-Петербург', 15, -19, -57, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3968, '2019-01-24 10:00', 'Москва', -6, -4, -13, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3969, '2019-01-24 10:00', 'Самара', 18, -5, 55, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3970, '2019-01-24 10:00', 'Санкт-Петербург', -13, -17, 102, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3971, '2019-01-24 11:00', 'Москва', -10, -9, 159, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3972, '2019-01-24 11:00', 'Самара', 12, 17, 76, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3973, '2019-01-24 11:00', 'Санкт-Петербург', 30, -9, -129, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3974, '2019-01-25 12:00', 'Москва', -7, -16, -75, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3975, '2019-01-25 12:00', 'Самара', 22, -14, -157, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3976, '2019-01-25 12:00', 'Санкт-Петербург', -19, 17, 61, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3977, '2019-01-25 01:00', 'Москва', 1, -1, -58, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3978, '2019-01-25 01:00', 'Самара', 13, -11, 18, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3979, '2019-01-25 01:00', 'Санкт-Петербург', -3, -15, 96, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3980, '2019-01-25 02:00', 'Москва', -11, 5, 112, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3981, '2019-01-25 02:00', 'Самара', -15, -2, 51, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3982, '2019-01-25 02:00', 'Санкт-Петербург', 6, -16, -50, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3983, '2019-01-25 03:00', 'Москва', -12, -14, -119, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3984, '2019-01-25 03:00', 'Самара', -6, 2, 29, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3985, '2019-01-25 03:00', 'Санкт-Петербург', 32, -11, -125, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3986, '2019-01-25 04:00', 'Москва', 2, -11, -118, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3987, '2019-01-25 04:00', 'Самара', -10, -17, -163, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3988, '2019-01-25 04:00', 'Санкт-Петербург', 0, 0, -128, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3989, '2019-01-25 05:00', 'Москва', -14, 7, -110, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3990, '2019-01-25 05:00', 'Самара', -2, -13, 72, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3991, '2019-01-25 05:00', 'Санкт-Петербург', 2, 11, -56, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3992, '2019-01-25 06:00', 'Москва', -7, 4, -117, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3993, '2019-01-25 06:00', 'Самара', 8, -11, -124, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3994, '2019-01-25 06:00', 'Санкт-Петербург', -4, 11, -30, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3995, '2019-01-25 07:00', 'Москва', -1, 0, -172, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3996, '2019-01-25 07:00', 'Самара', -20, -2, 19, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3997, '2019-01-25 07:00', 'Санкт-Петербург', -16, 17, 27, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3998, '2019-01-25 08:00', 'Москва', -15, 14, 177, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (3999, '2019-01-25 08:00', 'Самара', 9, 10, 55, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4000, '2019-01-25 08:00', 'Санкт-Петербург', 12, -2, 51, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4001, '2019-01-25 09:00', 'Москва', 4, -20, 96, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4002, '2019-01-25 09:00', 'Самара', 35, -19, 0, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4003, '2019-01-25 09:00', 'Санкт-Петербург', 9, -20, 72, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4004, '2019-01-25 10:00', 'Москва', 5, 17, 139, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4005, '2019-01-25 10:00', 'Самара', -11, 12, 168, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4006, '2019-01-25 10:00', 'Санкт-Петербург', 13, 11, 81, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4007, '2019-01-25 11:00', 'Москва', 22, -2, -99, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4008, '2019-01-25 11:00', 'Самара', -17, 4, -31, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4009, '2019-01-25 11:00', 'Санкт-Петербург', -6, 14, -85, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4010, '2019-01-25 12:00', 'Москва', -7, 15, 147, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4011, '2019-01-25 12:00', 'Самара', 28, -14, -12, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4012, '2019-01-25 12:00', 'Санкт-Петербург', 3, 15, 103, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4013, '2019-01-25 01:00', 'Москва', -6, 13, 34, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4014, '2019-01-25 01:00', 'Самара', 15, -19, 124, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4015, '2019-01-25 01:00', 'Санкт-Петербург', 0, -9, 4, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4016, '2019-01-25 02:00', 'Москва', -16, 18, 97, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4017, '2019-01-25 02:00', 'Самара', 10, 0, 158, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4018, '2019-01-25 02:00', 'Санкт-Петербург', -11, 10, -120, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4019, '2019-01-25 03:00', 'Москва', 2, -12, -91, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4020, '2019-01-25 03:00', 'Самара', 3, 20, -91, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4021, '2019-01-25 03:00', 'Санкт-Петербург', 8, -4, 45, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4022, '2019-01-25 04:00', 'Москва', 29, -8, -10, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4023, '2019-01-25 04:00', 'Самара', -12, -5, -161, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4024, '2019-01-25 04:00', 'Санкт-Петербург', 25, 17, 78, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4025, '2019-01-25 05:00', 'Москва', 5, -6, -21, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4026, '2019-01-25 05:00', 'Самара', 35, -2, -164, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4027, '2019-01-25 05:00', 'Санкт-Петербург', 13, 18, 67, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4028, '2019-01-25 06:00', 'Москва', 33, 19, 5, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4029, '2019-01-25 06:00', 'Самара', 22, -3, -153, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4030, '2019-01-25 06:00', 'Санкт-Петербург', 29, -8, -58, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4031, '2019-01-25 07:00', 'Москва', -13, 9, -83, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4032, '2019-01-25 07:00', 'Самара', 29, -20, 8, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4033, '2019-01-25 07:00', 'Санкт-Петербург', 27, -19, -152, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4034, '2019-01-25 08:00', 'Москва', 9, -19, 144, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4035, '2019-01-25 08:00', 'Самара', -1, 8, 127, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4036, '2019-01-25 08:00', 'Санкт-Петербург', 9, 1, -15, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4037, '2019-01-25 09:00', 'Москва', 26, -9, 124, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4038, '2019-01-25 09:00', 'Самара', 30, 14, 65, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4039, '2019-01-25 09:00', 'Санкт-Петербург', 16, -3, -10, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4040, '2019-01-25 10:00', 'Москва', 32, -17, -60, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4041, '2019-01-25 10:00', 'Самара', -17, 6, -27, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4042, '2019-01-25 10:00', 'Санкт-Петербург', 17, -6, -22, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4043, '2019-01-25 11:00', 'Москва', -18, -19, 60, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4044, '2019-01-25 11:00', 'Самара', 26, 3, 60, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4045, '2019-01-25 11:00', 'Санкт-Петербург', 24, 10, 22, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4046, '2019-01-26 12:00', 'Москва', 26, 13, -101, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4047, '2019-01-26 12:00', 'Самара', 31, -2, 22, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4048, '2019-01-26 12:00', 'Санкт-Петербург', -20, -15, -16, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4049, '2019-01-26 01:00', 'Москва', 34, -9, 43, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4050, '2019-01-26 01:00', 'Самара', 8, -12, -108, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4051, '2019-01-26 01:00', 'Санкт-Петербург', 28, -7, -123, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4052, '2019-01-26 02:00', 'Москва', 9, -8, 99, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4053, '2019-01-26 02:00', 'Самара', -6, 16, -144, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4054, '2019-01-26 02:00', 'Санкт-Петербург', -6, 3, -25, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4055, '2019-01-26 03:00', 'Москва', 21, -3, 142, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4056, '2019-01-26 03:00', 'Самара', -1, -19, 85, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4057, '2019-01-26 03:00', 'Санкт-Петербург', 13, -12, 8, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4058, '2019-01-26 04:00', 'Москва', 24, 7, -152, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4059, '2019-01-26 04:00', 'Самара', -19, 6, 134, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4060, '2019-01-26 04:00', 'Санкт-Петербург', 3, 15, 81, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4061, '2019-01-26 05:00', 'Москва', 27, 14, 152, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4062, '2019-01-26 05:00', 'Самара', 14, 4, 32, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4063, '2019-01-26 05:00', 'Санкт-Петербург', 22, 6, -173, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4064, '2019-01-26 06:00', 'Москва', 11, -3, -14, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4065, '2019-01-26 06:00', 'Самара', 32, 11, -85, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4066, '2019-01-26 06:00', 'Санкт-Петербург', 9, 17, -56, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4067, '2019-01-26 07:00', 'Москва', 8, 10, 22, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4068, '2019-01-26 07:00', 'Самара', 33, 20, -77, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4069, '2019-01-26 07:00', 'Санкт-Петербург', -11, 6, -155, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4070, '2019-01-26 08:00', 'Москва', 19, 7, -22, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4071, '2019-01-26 08:00', 'Самара', 13, 4, -1, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4072, '2019-01-26 08:00', 'Санкт-Петербург', -3, 12, 71, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4073, '2019-01-26 09:00', 'Москва', 19, 7, 61, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4074, '2019-01-26 09:00', 'Самара', 0, 6, 140, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4075, '2019-01-26 09:00', 'Санкт-Петербург', -4, -14, 6, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4076, '2019-01-26 10:00', 'Москва', 14, -15, 41, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4077, '2019-01-26 10:00', 'Самара', 2, 8, 144, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4078, '2019-01-26 10:00', 'Санкт-Петербург', 2, -14, -25, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4079, '2019-01-26 11:00', 'Москва', -13, 20, 96, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4080, '2019-01-26 11:00', 'Самара', 15, 19, -77, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4081, '2019-01-26 11:00', 'Санкт-Петербург', -19, 18, 53, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4082, '2019-01-26 12:00', 'Москва', 4, 14, 129, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4083, '2019-01-26 12:00', 'Самара', 15, 19, 49, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4084, '2019-01-26 12:00', 'Санкт-Петербург', -20, -16, 50, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4085, '2019-01-26 01:00', 'Москва', -10, -6, 18, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4086, '2019-01-26 01:00', 'Самара', 33, -2, 163, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4087, '2019-01-26 01:00', 'Санкт-Петербург', 25, 18, -116, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4088, '2019-01-26 02:00', 'Москва', -4, -5, -133, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4089, '2019-01-26 02:00', 'Самара', 27, 5, -159, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4090, '2019-01-26 02:00', 'Санкт-Петербург', 35, -11, 140, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4091, '2019-01-26 03:00', 'Москва', 18, 14, -99, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4092, '2019-01-26 03:00', 'Самара', -20, -16, 58, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4093, '2019-01-26 03:00', 'Санкт-Петербург', 24, -7, -158, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4094, '2019-01-26 04:00', 'Москва', 21, 1, -179, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4095, '2019-01-26 04:00', 'Самара', -2, 20, -69, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4096, '2019-01-26 04:00', 'Санкт-Петербург', 26, -6, -88, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4097, '2019-01-26 05:00', 'Москва', 27, -6, -165, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4098, '2019-01-26 05:00', 'Самара', -3, -13, 180, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4099, '2019-01-26 05:00', 'Санкт-Петербург', 24, 2, -179, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4100, '2019-01-26 06:00', 'Москва', -4, -10, 115, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4101, '2019-01-26 06:00', 'Самара', 11, 5, 140, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4102, '2019-01-26 06:00', 'Санкт-Петербург', -13, 10, 139, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4103, '2019-01-26 07:00', 'Москва', 0, 11, 44, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4104, '2019-01-26 07:00', 'Самара', -16, 8, -148, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4105, '2019-01-26 07:00', 'Санкт-Петербург', -14, -8, -101, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4106, '2019-01-26 08:00', 'Москва', -18, 9, 18, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4107, '2019-01-26 08:00', 'Самара', 11, -18, 94, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4108, '2019-01-26 08:00', 'Санкт-Петербург', 29, 17, -19, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4109, '2019-01-26 09:00', 'Москва', 14, 4, 55, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4110, '2019-01-26 09:00', 'Самара', 7, -19, -83, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4111, '2019-01-26 09:00', 'Санкт-Петербург', -7, -17, -25, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4112, '2019-01-26 10:00', 'Москва', 1, 6, 86, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4113, '2019-01-26 10:00', 'Самара', 23, -16, 38, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4114, '2019-01-26 10:00', 'Санкт-Петербург', 19, 8, -21, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4115, '2019-01-26 11:00', 'Москва', 18, 5, 14, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4116, '2019-01-26 11:00', 'Самара', 35, 17, 45, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4117, '2019-01-26 11:00', 'Санкт-Петербург', -8, 2, 11, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4118, '2019-01-27 12:00', 'Москва', -18, -7, 114, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4119, '2019-01-27 12:00', 'Самара', 15, 20, -11, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4120, '2019-01-27 12:00', 'Санкт-Петербург', 34, 20, -101, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4121, '2019-01-27 01:00', 'Москва', 33, 6, -89, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4122, '2019-01-27 01:00', 'Самара', -19, 16, 103, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4123, '2019-01-27 01:00', 'Санкт-Петербург', 13, -5, -63, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4124, '2019-01-27 02:00', 'Москва', 33, -10, 142, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4125, '2019-01-27 02:00', 'Самара', 26, 13, 120, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4126, '2019-01-27 02:00', 'Санкт-Петербург', 19, -13, -126, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4127, '2019-01-27 03:00', 'Москва', 14, -4, 44, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4128, '2019-01-27 03:00', 'Самара', -1, 15, -41, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4129, '2019-01-27 03:00', 'Санкт-Петербург', 13, 15, -124, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4130, '2019-01-27 04:00', 'Москва', 2, 19, -129, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4131, '2019-01-27 04:00', 'Самара', -11, 13, -45, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4132, '2019-01-27 04:00', 'Санкт-Петербург', -16, -9, -71, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4133, '2019-01-27 05:00', 'Москва', 27, 4, -121, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4134, '2019-01-27 05:00', 'Самара', -2, -4, -62, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4135, '2019-01-27 05:00', 'Санкт-Петербург', 14, 16, 69, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4136, '2019-01-27 06:00', 'Москва', -14, 4, 72, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4137, '2019-01-27 06:00', 'Самара', -10, -7, 102, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4138, '2019-01-27 06:00', 'Санкт-Петербург', 3, -3, -104, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4139, '2019-01-27 07:00', 'Москва', -2, 8, 155, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4140, '2019-01-27 07:00', 'Самара', 20, -5, -64, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4141, '2019-01-27 07:00', 'Санкт-Петербург', -5, 6, -8, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4142, '2019-01-27 08:00', 'Москва', -9, -1, -67, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4143, '2019-01-27 08:00', 'Самара', 25, 19, 134, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4144, '2019-01-27 08:00', 'Санкт-Петербург', 29, 5, -164, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4145, '2019-01-27 09:00', 'Москва', 4, 9, -105, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4146, '2019-01-27 09:00', 'Самара', -3, 20, 155, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4147, '2019-01-27 09:00', 'Санкт-Петербург', -20, -8, -57, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4148, '2019-01-27 10:00', 'Москва', -20, 3, 156, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4149, '2019-01-27 10:00', 'Самара', -8, -15, 88, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4150, '2019-01-27 10:00', 'Санкт-Петербург', 4, 7, -24, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4151, '2019-01-27 11:00', 'Москва', -19, -3, -3, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4152, '2019-01-27 11:00', 'Самара', -20, -11, -108, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4153, '2019-01-27 11:00', 'Санкт-Петербург', -19, -8, 139, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4154, '2019-01-27 12:00', 'Москва', -17, -19, 176, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4155, '2019-01-27 12:00', 'Самара', 7, 9, 10, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4156, '2019-01-27 12:00', 'Санкт-Петербург', 0, 8, -23, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4157, '2019-01-27 01:00', 'Москва', 28, 11, 90, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4158, '2019-01-27 01:00', 'Самара', -18, -2, -73, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4159, '2019-01-27 01:00', 'Санкт-Петербург', 34, -18, 126, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4160, '2019-01-27 02:00', 'Москва', 34, 3, 57, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4161, '2019-01-27 02:00', 'Самара', 6, 4, 169, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4162, '2019-01-27 02:00', 'Санкт-Петербург', 25, 0, 15, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4163, '2019-01-27 03:00', 'Москва', -1, 15, -22, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4164, '2019-01-27 03:00', 'Самара', 24, 1, 170, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4165, '2019-01-27 03:00', 'Санкт-Петербург', 2, -6, -64, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4166, '2019-01-27 04:00', 'Москва', -6, 9, -160, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4167, '2019-01-27 04:00', 'Самара', 25, 14, 82, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4168, '2019-01-27 04:00', 'Санкт-Петербург', 25, -7, -16, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4169, '2019-01-27 05:00', 'Москва', 27, 1, 3, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4170, '2019-01-27 05:00', 'Самара', -16, 12, -52, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4171, '2019-01-27 05:00', 'Санкт-Петербург', -13, 10, 57, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4172, '2019-01-27 06:00', 'Москва', -10, -2, 3, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4173, '2019-01-27 06:00', 'Самара', 32, 3, -176, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4174, '2019-01-27 06:00', 'Санкт-Петербург', -15, 15, 8, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4175, '2019-01-27 07:00', 'Москва', -20, -6, 71, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4176, '2019-01-27 07:00', 'Самара', 25, 6, -2, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4177, '2019-01-27 07:00', 'Санкт-Петербург', -1, 15, 90, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4178, '2019-01-27 08:00', 'Москва', -6, 15, 98, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4179, '2019-01-27 08:00', 'Самара', 30, 19, 4, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4180, '2019-01-27 08:00', 'Санкт-Петербург', -2, -15, 155, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4181, '2019-01-27 09:00', 'Москва', 32, -17, -72, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4182, '2019-01-27 09:00', 'Самара', 6, 10, 28, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4183, '2019-01-27 09:00', 'Санкт-Петербург', -5, -19, 4, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4184, '2019-01-27 10:00', 'Москва', 33, 10, -51, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4185, '2019-01-27 10:00', 'Самара', 17, -16, 98, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4186, '2019-01-27 10:00', 'Санкт-Петербург', -7, 18, -173, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4187, '2019-01-27 11:00', 'Москва', -2, 17, -150, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4188, '2019-01-27 11:00', 'Самара', 10, 13, 38, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4189, '2019-01-27 11:00', 'Санкт-Петербург', 24, -3, 122, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4190, '2019-01-28 12:00', 'Москва', -6, 9, -101, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4191, '2019-01-28 12:00', 'Самара', 29, 13, 112, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4192, '2019-01-28 12:00', 'Санкт-Петербург', -18, 20, 158, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4193, '2019-01-28 01:00', 'Москва', -14, -16, -148, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4194, '2019-01-28 01:00', 'Самара', 17, -14, 67, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4195, '2019-01-28 01:00', 'Санкт-Петербург', 10, 20, 151, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4196, '2019-01-28 02:00', 'Москва', 7, 2, 170, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4197, '2019-01-28 02:00', 'Самара', 17, -6, 31, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4198, '2019-01-28 02:00', 'Санкт-Петербург', 23, 18, 11, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4199, '2019-01-28 03:00', 'Москва', 23, 8, 14, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4200, '2019-01-28 03:00', 'Самара', 0, 1, -173, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4201, '2019-01-28 03:00', 'Санкт-Петербург', -12, -12, 41, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4202, '2019-01-28 04:00', 'Москва', 23, 9, -32, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4203, '2019-01-28 04:00', 'Самара', 32, -18, -122, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4204, '2019-01-28 04:00', 'Санкт-Петербург', 1, -1, 156, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4205, '2019-01-28 05:00', 'Москва', 2, 12, -23, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4206, '2019-01-28 05:00', 'Самара', 6, -3, 11, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4207, '2019-01-28 05:00', 'Санкт-Петербург', -16, -5, -86, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4208, '2019-01-28 06:00', 'Москва', 10, -6, 85, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4209, '2019-01-28 06:00', 'Самара', -11, -8, -159, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4210, '2019-01-28 06:00', 'Санкт-Петербург', 28, -12, 142, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4211, '2019-01-28 07:00', 'Москва', 4, -11, -116, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4212, '2019-01-28 07:00', 'Самара', -16, 8, -150, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4213, '2019-01-28 07:00', 'Санкт-Петербург', 25, 16, -54, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4214, '2019-01-28 08:00', 'Москва', -16, 14, -14, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4215, '2019-01-28 08:00', 'Самара', 1, -4, -144, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4216, '2019-01-28 08:00', 'Санкт-Петербург', 18, 8, 159, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4217, '2019-01-28 09:00', 'Москва', 28, 9, -169, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4218, '2019-01-28 09:00', 'Самара', 9, -8, 161, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4219, '2019-01-28 09:00', 'Санкт-Петербург', 15, 17, 131, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4220, '2019-01-28 10:00', 'Москва', 29, 16, -161, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4221, '2019-01-28 10:00', 'Самара', 35, -8, -69, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4222, '2019-01-28 10:00', 'Санкт-Петербург', -1, 0, -112, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4223, '2019-01-28 11:00', 'Москва', -1, 0, -125, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4224, '2019-01-28 11:00', 'Самара', 4, -9, 138, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4225, '2019-01-28 11:00', 'Санкт-Петербург', 8, 18, -99, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4226, '2019-01-28 12:00', 'Москва', 33, -20, -112, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4227, '2019-01-28 12:00', 'Самара', 4, -16, 38, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4228, '2019-01-28 12:00', 'Санкт-Петербург', -20, -20, -169, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4229, '2019-01-28 01:00', 'Москва', 5, -3, 177, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4230, '2019-01-28 01:00', 'Самара', 31, -12, 127, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4231, '2019-01-28 01:00', 'Санкт-Петербург', 0, -4, 155, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4232, '2019-01-28 02:00', 'Москва', 0, 20, -115, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4233, '2019-01-28 02:00', 'Самара', -16, 11, -125, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4234, '2019-01-28 02:00', 'Санкт-Петербург', 8, 12, -24, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4235, '2019-01-28 03:00', 'Москва', 31, -6, -170, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4236, '2019-01-28 03:00', 'Самара', 24, -13, -106, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4237, '2019-01-28 03:00', 'Санкт-Петербург', 24, 3, 22, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4238, '2019-01-28 04:00', 'Москва', 3, -20, -46, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4239, '2019-01-28 04:00', 'Самара', 14, 10, -133, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4240, '2019-01-28 04:00', 'Санкт-Петербург', 4, 7, -111, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4241, '2019-01-28 05:00', 'Москва', 18, -1, 90, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4242, '2019-01-28 05:00', 'Самара', 34, -19, 120, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4243, '2019-01-28 05:00', 'Санкт-Петербург', 4, -2, -119, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4244, '2019-01-28 06:00', 'Москва', 27, 0, -108, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4245, '2019-01-28 06:00', 'Самара', -20, -20, 109, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4246, '2019-01-28 06:00', 'Санкт-Петербург', 10, 7, 55, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4247, '2019-01-28 07:00', 'Москва', 7, 2, 152, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4248, '2019-01-28 07:00', 'Самара', 12, 14, -52, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4249, '2019-01-28 07:00', 'Санкт-Петербург', 1, 10, 37, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4250, '2019-01-28 08:00', 'Москва', 31, 13, 41, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4251, '2019-01-28 08:00', 'Самара', 25, -13, 38, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4252, '2019-01-28 08:00', 'Санкт-Петербург', -8, -13, 142, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4253, '2019-01-28 09:00', 'Москва', 19, -5, 171, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4254, '2019-01-28 09:00', 'Самара', -14, -5, 158, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4255, '2019-01-28 09:00', 'Санкт-Петербург', 27, 4, 28, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4256, '2019-01-28 10:00', 'Москва', -3, -1, -157, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4257, '2019-01-28 10:00', 'Самара', 9, 1, 61, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4258, '2019-01-28 10:00', 'Санкт-Петербург', 13, 6, -105, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4259, '2019-01-28 11:00', 'Москва', -19, 15, -167, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4260, '2019-01-28 11:00', 'Самара', 22, 11, 127, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4261, '2019-01-28 11:00', 'Санкт-Петербург', 34, 6, 91, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4262, '2019-01-29 12:00', 'Москва', 0, 4, -60, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4263, '2019-01-29 12:00', 'Самара', 24, -14, -144, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4264, '2019-01-29 12:00', 'Санкт-Петербург', 32, -6, -168, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4265, '2019-01-29 01:00', 'Москва', 7, 20, -126, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4266, '2019-01-29 01:00', 'Самара', 25, -12, 125, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4267, '2019-01-29 01:00', 'Санкт-Петербург', 35, 3, -166, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4268, '2019-01-29 02:00', 'Москва', 29, 0, -36, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4269, '2019-01-29 02:00', 'Самара', -3, 0, -178, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4270, '2019-01-29 02:00', 'Санкт-Петербург', 9, 0, 101, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4271, '2019-01-29 03:00', 'Москва', -18, -6, -41, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4272, '2019-01-29 03:00', 'Самара', -1, -6, 31, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4273, '2019-01-29 03:00', 'Санкт-Петербург', 7, -8, -87, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4274, '2019-01-29 04:00', 'Москва', 16, -8, 83, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4275, '2019-01-29 04:00', 'Самара', -12, 18, -86, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4276, '2019-01-29 04:00', 'Санкт-Петербург', 21, 16, -108, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4277, '2019-01-29 05:00', 'Москва', -12, -14, -28, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4278, '2019-01-29 05:00', 'Самара', 32, 9, -175, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4279, '2019-01-29 05:00', 'Санкт-Петербург', 12, 16, 149, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4280, '2019-01-29 06:00', 'Москва', -5, 0, 74, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4281, '2019-01-29 06:00', 'Самара', 28, 8, -46, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4282, '2019-01-29 06:00', 'Санкт-Петербург', -2, -12, 173, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4283, '2019-01-29 07:00', 'Москва', -7, -14, 127, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4284, '2019-01-29 07:00', 'Самара', 30, -7, -8, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4285, '2019-01-29 07:00', 'Санкт-Петербург', -11, -1, -158, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4286, '2019-01-29 08:00', 'Москва', 13, 14, -28, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4287, '2019-01-29 08:00', 'Самара', 35, -20, 117, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4288, '2019-01-29 08:00', 'Санкт-Петербург', 29, 3, 119, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4289, '2019-01-29 09:00', 'Москва', -7, 4, 71, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4290, '2019-01-29 09:00', 'Самара', 31, -20, 56, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4291, '2019-01-29 09:00', 'Санкт-Петербург', -6, 18, -100, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4292, '2019-01-29 10:00', 'Москва', 34, 5, -127, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4293, '2019-01-29 10:00', 'Самара', -15, 12, -105, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4294, '2019-01-29 10:00', 'Санкт-Петербург', 20, 20, 176, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4295, '2019-01-29 11:00', 'Москва', 13, -7, -29, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4296, '2019-01-29 11:00', 'Самара', 34, -9, -66, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4297, '2019-01-29 11:00', 'Санкт-Петербург', 13, 1, 86, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4298, '2019-01-29 12:00', 'Москва', -8, -12, 132, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4299, '2019-01-29 12:00', 'Самара', -20, 8, 6, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4300, '2019-01-29 12:00', 'Санкт-Петербург', -5, -11, 77, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4301, '2019-01-29 01:00', 'Москва', -17, 7, 155, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4302, '2019-01-29 01:00', 'Самара', -8, -4, -110, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4303, '2019-01-29 01:00', 'Санкт-Петербург', -15, -1, 110, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4304, '2019-01-29 02:00', 'Москва', 2, 8, 174, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4305, '2019-01-29 02:00', 'Самара', 12, -6, 149, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4306, '2019-01-29 02:00', 'Санкт-Петербург', 7, 4, 35, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4307, '2019-01-29 03:00', 'Москва', 6, 4, 157, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4308, '2019-01-29 03:00', 'Самара', 23, -14, 93, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4309, '2019-01-29 03:00', 'Санкт-Петербург', 21, 15, 13, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4310, '2019-01-29 04:00', 'Москва', 31, 2, 17, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4311, '2019-01-29 04:00', 'Самара', -12, 20, -78, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4312, '2019-01-29 04:00', 'Санкт-Петербург', -12, 3, 131, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4313, '2019-01-29 05:00', 'Москва', -11, 9, 163, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4314, '2019-01-29 05:00', 'Самара', 20, 18, -90, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4315, '2019-01-29 05:00', 'Санкт-Петербург', -12, -15, -160, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4316, '2019-01-29 06:00', 'Москва', -11, 18, 144, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4317, '2019-01-29 06:00', 'Самара', 20, 6, -128, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4318, '2019-01-29 06:00', 'Санкт-Петербург', 12, 3, -177, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4319, '2019-01-29 07:00', 'Москва', 5, -13, 149, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4320, '2019-01-29 07:00', 'Самара', 33, 4, 6, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4321, '2019-01-29 07:00', 'Санкт-Петербург', -2, 14, 67, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4322, '2019-01-29 08:00', 'Москва', -2, -13, 50, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4323, '2019-01-29 08:00', 'Самара', 30, 11, -115, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4324, '2019-01-29 08:00', 'Санкт-Петербург', 35, -3, 179, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4325, '2019-01-29 09:00', 'Москва', 32, 0, 107, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4326, '2019-01-29 09:00', 'Самара', 32, -4, -30, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4327, '2019-01-29 09:00', 'Санкт-Петербург', -8, 10, 54, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4328, '2019-01-29 10:00', 'Москва', 35, 19, -149, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4329, '2019-01-29 10:00', 'Самара', 32, 9, -46, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4330, '2019-01-29 10:00', 'Санкт-Петербург', 2, -1, -167, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4331, '2019-01-29 11:00', 'Москва', -9, -19, -139, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4332, '2019-01-29 11:00', 'Самара', 17, -4, 13, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4333, '2019-01-29 11:00', 'Санкт-Петербург', 23, 12, -27, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4334, '2019-01-30 12:00', 'Москва', 27, -7, 134, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4335, '2019-01-30 12:00', 'Самара', -9, 8, 22, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4336, '2019-01-30 12:00', 'Санкт-Петербург', 27, -17, 121, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4337, '2019-01-30 01:00', 'Москва', 31, 11, 44, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4338, '2019-01-30 01:00', 'Самара', -2, 11, 164, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4339, '2019-01-30 01:00', 'Санкт-Петербург', 27, -4, -74, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4340, '2019-01-30 02:00', 'Москва', -13, 1, -40, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4341, '2019-01-30 02:00', 'Самара', 3, -12, -117, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4342, '2019-01-30 02:00', 'Санкт-Петербург', 4, 8, -84, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4343, '2019-01-30 03:00', 'Москва', 16, 19, 80, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4344, '2019-01-30 03:00', 'Самара', -5, -13, 134, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4345, '2019-01-30 03:00', 'Санкт-Петербург', 5, -11, -94, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4346, '2019-01-30 04:00', 'Москва', -19, 10, 146, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4347, '2019-01-30 04:00', 'Самара', -15, -11, -153, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4348, '2019-01-30 04:00', 'Санкт-Петербург', 22, -18, 93, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4349, '2019-01-30 05:00', 'Москва', 17, -6, 56, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4350, '2019-01-30 05:00', 'Самара', -1, 14, -162, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4351, '2019-01-30 05:00', 'Санкт-Петербург', 18, 11, 99, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4352, '2019-01-30 06:00', 'Москва', 5, 4, 77, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4353, '2019-01-30 06:00', 'Самара', 35, -4, 78, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4354, '2019-01-30 06:00', 'Санкт-Петербург', 28, -1, -90, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4355, '2019-01-30 07:00', 'Москва', 8, -8, 142, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4356, '2019-01-30 07:00', 'Самара', 31, -14, 13, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4357, '2019-01-30 07:00', 'Санкт-Петербург', 21, 0, 155, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4358, '2019-01-30 08:00', 'Москва', 16, 15, -65, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4359, '2019-01-30 08:00', 'Самара', 3, -1, 143, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4360, '2019-01-30 08:00', 'Санкт-Петербург', 13, -5, 174, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4361, '2019-01-30 09:00', 'Москва', -2, 4, -24, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4362, '2019-01-30 09:00', 'Самара', 12, -3, -180, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4363, '2019-01-30 09:00', 'Санкт-Петербург', -18, 16, 124, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4364, '2019-01-30 10:00', 'Москва', -11, -7, -11, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4365, '2019-01-30 10:00', 'Самара', -14, 5, -98, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4366, '2019-01-30 10:00', 'Санкт-Петербург', -6, 0, -144, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4367, '2019-01-30 11:00', 'Москва', 10, -11, 180, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4368, '2019-01-30 11:00', 'Самара', -9, -20, -25, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4369, '2019-01-30 11:00', 'Санкт-Петербург', 10, 4, -180, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4370, '2019-01-30 12:00', 'Москва', 18, 19, 57, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4371, '2019-01-30 12:00', 'Самара', 2, -2, 3, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4372, '2019-01-30 12:00', 'Санкт-Петербург', 17, -4, 121, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4373, '2019-01-30 01:00', 'Москва', -12, -16, -104, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4374, '2019-01-30 01:00', 'Самара', -18, -8, -28, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4375, '2019-01-30 01:00', 'Санкт-Петербург', 9, 6, 143, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4376, '2019-01-30 02:00', 'Москва', -14, 10, -98, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4377, '2019-01-30 02:00', 'Самара', -16, -9, -161, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4378, '2019-01-30 02:00', 'Санкт-Петербург', 31, 2, 137, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4379, '2019-01-30 03:00', 'Москва', 17, -4, 47, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4380, '2019-01-30 03:00', 'Самара', -14, -12, -112, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4381, '2019-01-30 03:00', 'Санкт-Петербург', -15, 7, -154, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4382, '2019-01-30 04:00', 'Москва', 33, 17, -55, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4383, '2019-01-30 04:00', 'Самара', -12, 16, -146, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4384, '2019-01-30 04:00', 'Санкт-Петербург', -11, 19, 134, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4385, '2019-01-30 05:00', 'Москва', -15, 20, -63, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4386, '2019-01-30 05:00', 'Самара', 12, -8, 7, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4387, '2019-01-30 05:00', 'Санкт-Петербург', -3, -5, 23, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4388, '2019-01-30 06:00', 'Москва', 11, 11, 34, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4389, '2019-01-30 06:00', 'Самара', -19, -20, -80, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4390, '2019-01-30 06:00', 'Санкт-Петербург', -9, -18, -174, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4391, '2019-01-30 07:00', 'Москва', 9, 11, -93, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4392, '2019-01-30 07:00', 'Самара', 28, -1, -18, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4393, '2019-01-30 07:00', 'Санкт-Петербург', -15, 2, 128, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4394, '2019-01-30 08:00', 'Москва', -18, 3, 155, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4395, '2019-01-30 08:00', 'Самара', 13, -1, 99, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4396, '2019-01-30 08:00', 'Санкт-Петербург', 35, 2, 128, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4397, '2019-01-30 09:00', 'Москва', 12, -19, 6, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4398, '2019-01-30 09:00', 'Самара', 6, 11, 69, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4399, '2019-01-30 09:00', 'Санкт-Петербург', 1, -17, 159, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4400, '2019-01-30 10:00', 'Москва', 24, -4, 124, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4401, '2019-01-30 10:00', 'Самара', -12, -12, 161, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4402, '2019-01-30 10:00', 'Санкт-Петербург', -11, -3, 147, 13);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4403, '2019-01-30 11:00', 'Москва', -17, 14, 71, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4404, '2019-01-30 11:00', 'Самара', 32, 5, -98, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4405, '2019-01-30 11:00', 'Санкт-Петербург', 23, 12, 119, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4406, '2019-01-31 12:00', 'Москва', -4, -10, -179, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4407, '2019-01-31 12:00', 'Самара', -14, 19, 3, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4408, '2019-01-31 12:00', 'Санкт-Петербург', 16, 17, 73, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4409, '2019-01-31 01:00', 'Москва', 34, -10, -178, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4410, '2019-01-31 01:00', 'Самара', -13, -11, -40, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4411, '2019-01-31 01:00', 'Санкт-Петербург', 18, 13, -127, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4412, '2019-01-31 02:00', 'Москва', 25, 7, -69, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4413, '2019-01-31 02:00', 'Самара', -16, -13, 71, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4414, '2019-01-31 02:00', 'Санкт-Петербург', -17, -2, 65, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4415, '2019-01-31 03:00', 'Москва', -17, -17, -72, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4416, '2019-01-31 03:00', 'Самара', 13, 10, 46, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4417, '2019-01-31 03:00', 'Санкт-Петербург', 0, -20, -82, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4418, '2019-01-31 04:00', 'Москва', -7, 13, 69, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4419, '2019-01-31 04:00', 'Самара', 30, -15, -78, 2);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4420, '2019-01-31 04:00', 'Санкт-Петербург', -16, -10, -93, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4421, '2019-01-31 05:00', 'Москва', -15, -1, 161, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4422, '2019-01-31 05:00', 'Самара', 19, 13, 157, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4423, '2019-01-31 05:00', 'Санкт-Петербург', 11, 8, -113, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4424, '2019-01-31 06:00', 'Москва', -13, 2, -120, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4425, '2019-01-31 06:00', 'Самара', 28, -6, 50, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4426, '2019-01-31 06:00', 'Санкт-Петербург', -14, 12, 142, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4427, '2019-01-31 07:00', 'Москва', -18, 10, -9, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4428, '2019-01-31 07:00', 'Самара', 22, -20, -51, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4429, '2019-01-31 07:00', 'Санкт-Петербург', -15, -7, -59, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4430, '2019-01-31 08:00', 'Москва', 4, 2, -67, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4431, '2019-01-31 08:00', 'Самара', -19, 13, 91, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4432, '2019-01-31 08:00', 'Санкт-Петербург', 5, 0, -132, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4433, '2019-01-31 09:00', 'Москва', -8, -14, -129, 11);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4434, '2019-01-31 09:00', 'Самара', -16, -4, 19, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4435, '2019-01-31 09:00', 'Санкт-Петербург', 33, 12, 114, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4436, '2019-01-31 10:00', 'Москва', 17, 3, -29, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4437, '2019-01-31 10:00', 'Самара', 20, -5, 25, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4438, '2019-01-31 10:00', 'Санкт-Петербург', 30, -10, 103, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4439, '2019-01-31 11:00', 'Москва', 13, 20, 80, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4440, '2019-01-31 11:00', 'Самара', 0, 20, -11, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4441, '2019-01-31 11:00', 'Санкт-Петербург', 23, 0, -52, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4442, '2019-01-31 12:00', 'Москва', -14, -2, -53, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4443, '2019-01-31 12:00', 'Самара', 22, -1, -39, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4444, '2019-01-31 12:00', 'Санкт-Петербург', 12, -2, -88, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4445, '2019-01-31 01:00', 'Москва', 11, 16, -122, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4446, '2019-01-31 01:00', 'Самара', 12, 9, 45, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4447, '2019-01-31 01:00', 'Санкт-Петербург', 18, 7, -4, 8);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4448, '2019-01-31 02:00', 'Москва', 6, -16, 102, 1);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4449, '2019-01-31 02:00', 'Самара', 35, -10, -125, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4450, '2019-01-31 02:00', 'Санкт-Петербург', 22, 2, -179, 10);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4451, '2019-01-31 03:00', 'Москва', 17, 20, 152, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4452, '2019-01-31 03:00', 'Самара', 31, 1, 170, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4453, '2019-01-31 03:00', 'Санкт-Петербург', 29, 0, -114, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4454, '2019-01-31 04:00', 'Москва', 28, 8, 108, 9);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4455, '2019-01-31 04:00', 'Самара', -18, 11, -135, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4456, '2019-01-31 04:00', 'Санкт-Петербург', -8, 17, 69, 6);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4457, '2019-01-31 05:00', 'Москва', -15, 15, 108, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4458, '2019-01-31 05:00', 'Самара', 15, 15, 153, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4459, '2019-01-31 05:00', 'Санкт-Петербург', -20, -5, -129, 3);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4460, '2019-01-31 06:00', 'Москва', 1, 16, 37, 7);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4461, '2019-01-31 06:00', 'Самара', 22, -13, -127, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4462, '2019-01-31 06:00', 'Санкт-Петербург', 28, 4, -106, 5);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4463, '2019-01-31 07:00', 'Москва', 5, -6, 52, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4464, '2019-01-31 07:00', 'Самара', -7, -20, -58, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4465, '2019-01-31 07:00', 'Санкт-Петербург', 21, -15, -137, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4466, '2019-01-31 08:00', 'Москва', 29, 2, 151, 12);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4467, '2019-01-31 08:00', 'Самара', -15, 10, -15, 15);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4468, '2019-01-31 08:00', 'Санкт-Петербург', 26, -13, 1, 0);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4469, '2019-01-31 09:00', 'Москва', 7, 12, 166, 18);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4470, '2019-01-31 09:00', 'Самара', -8, -19, 56, 17);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4471, '2019-01-31 09:00', 'Санкт-Петербург', 27, 3, 55, 20);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4472, '2019-01-31 10:00', 'Москва', 4, -11, -88, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4473, '2019-01-31 10:00', 'Самара', 28, -10, 147, 4);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4474, '2019-01-31 10:00', 'Санкт-Петербург', 5, 10, -62, 19);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4475, '2019-01-31 11:00', 'Москва', 10, 6, -166, 16);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4476, '2019-01-31 11:00', 'Самара', 17, -3, -82, 14);
-INSERT INTO public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) VALUES (4477, '2019-01-31 11:00', 'Санкт-Петербург', -3, -1, -23, 8);
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 10.6 (Ubuntu 10.6-1.pgdg18.04+1)
+-- Dumped by pg_dump version 10.6 (Ubuntu 10.6-1.pgdg18.04+1)
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: weather; Type: TABLE; Schema: public; Owner: user_weather_shelest
+--
+
+CREATE TABLE public.weather (
+    id bigint NOT NULL,
+    datetime character varying(16),
+    city character varying(32),
+    temperature_c integer,
+    wind_chill integer,
+    wind_direction integer,
+    wind_speed integer
+);
+
+
+ALTER TABLE public.weather OWNER TO user_weather_shelest;
+
+--
+-- Name: weather_id_seq; Type: SEQUENCE; Schema: public; Owner: user_weather_shelest
+--
+
+CREATE SEQUENCE public.weather_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.weather_id_seq OWNER TO user_weather_shelest;
+
+--
+-- Name: weather_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: user_weather_shelest
+--
+
+ALTER SEQUENCE public.weather_id_seq OWNED BY public.weather.id;
+
+
+--
+-- Name: weather id; Type: DEFAULT; Schema: public; Owner: user_weather_shelest
+--
+
+ALTER TABLE ONLY public.weather ALTER COLUMN id SET DEFAULT nextval('public.weather_id_seq'::regclass);
+
+
+--
+-- Data for Name: weather; Type: TABLE DATA; Schema: public; Owner: user_weather_shelest
+--
+
+COPY public.weather (id, datetime, city, temperature_c, wind_chill, wind_direction, wind_speed) FROM stdin;
+4465	2018-12-01 00:30	Москва	-17	0	135	5
+4466	2018-12-01 00:30	Самара	10	20	69	17
+4467	2018-12-01 00:30	Санкт-Петербург	16	-16	151	14
+4468	2018-12-01 01:30	Москва	-1	-14	129	1
+4469	2018-12-01 01:30	Самара	24	-14	116	8
+4470	2018-12-01 01:30	Санкт-Петербург	19	-17	91	13
+4471	2018-12-01 02:30	Москва	10	19	-24	8
+4472	2018-12-01 02:30	Самара	24	-4	-94	11
+4473	2018-12-01 02:30	Санкт-Петербург	-11	14	-145	16
+4474	2018-12-01 03:30	Москва	31	-7	-167	15
+4475	2018-12-01 03:30	Самара	25	-13	-169	4
+4476	2018-12-01 03:30	Санкт-Петербург	6	19	-167	3
+4477	2018-12-01 04:30	Москва	20	7	-34	1
+4478	2018-12-01 04:30	Самара	-9	16	91	14
+4479	2018-12-01 04:30	Санкт-Петербург	11	-20	-114	3
+4480	2018-12-01 05:30	Москва	16	-13	-43	6
+4481	2018-12-01 05:30	Самара	10	9	-72	15
+4482	2018-12-01 05:30	Санкт-Петербург	-4	-5	77	10
+4483	2018-12-01 06:30	Москва	2	-17	135	6
+4484	2018-12-01 06:30	Самара	25	11	-97	7
+4485	2018-12-01 06:30	Санкт-Петербург	12	13	139	2
+4486	2018-12-01 07:30	Москва	-6	6	-36	13
+4487	2018-12-01 07:30	Самара	21	-11	-145	4
+4488	2018-12-01 07:30	Санкт-Петербург	16	-6	-68	19
+4489	2018-12-01 08:30	Москва	31	-15	-37	18
+4490	2018-12-01 08:30	Самара	12	-19	130	4
+4491	2018-12-01 08:30	Санкт-Петербург	1	-11	-34	5
+4492	2018-12-01 09:30	Москва	34	-19	-153	5
+4493	2018-12-01 09:30	Самара	9	-13	-92	7
+4494	2018-12-01 09:30	Санкт-Петербург	-17	6	84	12
+4495	2018-12-01 10:30	Москва	35	4	-75	3
+4496	2018-12-01 10:30	Самара	20	17	-38	10
+4497	2018-12-01 10:30	Санкт-Петербург	12	19	82	14
+4498	2018-12-01 11:30	Москва	25	-14	-44	4
+4499	2018-12-01 11:30	Самара	-15	8	76	10
+4500	2018-12-01 11:30	Санкт-Петербург	11	-1	180	20
+4501	2018-12-01 12:30	Москва	23	-10	94	19
+4502	2018-12-01 12:30	Самара	-18	14	-69	7
+4503	2018-12-01 12:30	Санкт-Петербург	33	-6	57	7
+4504	2018-12-01 13:30	Москва	-5	0	30	6
+4505	2018-12-01 13:30	Самара	-17	-7	-37	16
+4506	2018-12-01 13:30	Санкт-Петербург	28	7	-111	13
+4507	2018-12-01 14:30	Москва	25	3	-37	13
+4508	2018-12-01 14:30	Самара	23	6	-151	17
+4509	2018-12-01 14:30	Санкт-Петербург	-9	-8	171	17
+4510	2018-12-01 15:30	Москва	-12	11	-93	12
+4511	2018-12-01 15:30	Самара	2	-4	-51	20
+4512	2018-12-01 15:30	Санкт-Петербург	32	-2	-11	16
+4513	2018-12-01 16:30	Москва	-8	16	123	5
+4514	2018-12-01 16:30	Самара	-16	19	104	5
+4515	2018-12-01 16:30	Санкт-Петербург	-8	-18	60	5
+4516	2018-12-01 17:30	Москва	-13	10	-148	3
+4517	2018-12-01 17:30	Самара	7	15	122	12
+4518	2018-12-01 17:30	Санкт-Петербург	1	-7	-81	8
+4519	2018-12-01 18:30	Москва	23	19	124	12
+4520	2018-12-01 18:30	Самара	-7	0	-41	3
+4521	2018-12-01 18:30	Санкт-Петербург	-9	-18	-106	9
+4522	2018-12-01 19:30	Москва	24	6	106	11
+4523	2018-12-01 19:30	Самара	10	20	-51	20
+4524	2018-12-01 19:30	Санкт-Петербург	20	-13	95	4
+4525	2018-12-01 20:30	Москва	-5	-8	57	12
+4526	2018-12-01 20:30	Самара	9	-11	71	13
+4527	2018-12-01 20:30	Санкт-Петербург	17	16	-58	4
+4528	2018-12-01 21:30	Москва	0	12	137	0
+4529	2018-12-01 21:30	Самара	-17	15	-54	3
+4530	2018-12-01 21:30	Санкт-Петербург	28	-19	-121	6
+4531	2018-12-01 22:30	Москва	33	13	-3	16
+4532	2018-12-01 22:30	Самара	29	6	-123	20
+4533	2018-12-01 22:30	Санкт-Петербург	27	-15	-178	11
+4534	2018-12-01 23:30	Москва	-11	-16	-132	10
+4535	2018-12-01 23:30	Самара	26	-1	-152	9
+4536	2018-12-01 23:30	Санкт-Петербург	18	-5	50	15
+4537	2018-12-02 00:30	Москва	31	6	-96	7
+4538	2018-12-02 00:30	Самара	-1	17	57	18
+4539	2018-12-02 00:30	Санкт-Петербург	2	13	92	14
+4540	2018-12-02 01:30	Москва	-9	-17	-16	8
+4541	2018-12-02 01:30	Самара	-6	7	-5	19
+4542	2018-12-02 01:30	Санкт-Петербург	0	0	-3	14
+4543	2018-12-02 02:30	Москва	8	-8	164	8
+4544	2018-12-02 02:30	Самара	2	13	157	12
+4545	2018-12-02 02:30	Санкт-Петербург	12	-13	-97	8
+4546	2018-12-02 03:30	Москва	11	11	35	17
+4547	2018-12-02 03:30	Самара	-16	-2	92	1
+4548	2018-12-02 03:30	Санкт-Петербург	16	14	-116	9
+4549	2018-12-02 04:30	Москва	3	12	4	13
+4550	2018-12-02 04:30	Самара	17	-10	137	11
+4551	2018-12-02 04:30	Санкт-Петербург	2	15	-123	9
+4552	2018-12-02 05:30	Москва	-15	-20	115	0
+4553	2018-12-02 05:30	Самара	21	-9	72	0
+4554	2018-12-02 05:30	Санкт-Петербург	-19	4	-11	1
+4555	2018-12-02 06:30	Москва	25	10	-100	13
+4556	2018-12-02 06:30	Самара	-5	-5	158	6
+4557	2018-12-02 06:30	Санкт-Петербург	4	-15	101	17
+4558	2018-12-02 07:30	Москва	29	-6	161	6
+4559	2018-12-02 07:30	Самара	30	12	110	1
+4560	2018-12-02 07:30	Санкт-Петербург	-11	1	-74	19
+4561	2018-12-02 08:30	Москва	-11	-1	-156	15
+4562	2018-12-02 08:30	Самара	21	15	150	14
+4563	2018-12-02 08:30	Санкт-Петербург	13	0	-177	18
+4564	2018-12-02 09:30	Москва	-13	17	-126	10
+4565	2018-12-02 09:30	Самара	6	17	175	16
+4566	2018-12-02 09:30	Санкт-Петербург	25	-3	64	14
+4567	2018-12-02 10:30	Москва	7	3	61	13
+4568	2018-12-02 10:30	Самара	8	19	23	6
+4569	2018-12-02 10:30	Санкт-Петербург	-19	-12	129	9
+4570	2018-12-02 11:30	Москва	13	-11	12	12
+4571	2018-12-02 11:30	Самара	-8	-18	-102	4
+4572	2018-12-02 11:30	Санкт-Петербург	20	20	-104	9
+4573	2018-12-02 12:30	Москва	-8	-17	49	6
+4574	2018-12-02 12:30	Самара	-16	18	-175	10
+4575	2018-12-02 12:30	Санкт-Петербург	-1	-14	8	17
+4576	2018-12-02 13:30	Москва	26	6	-126	18
+4577	2018-12-02 13:30	Самара	-13	6	48	6
+4578	2018-12-02 13:30	Санкт-Петербург	20	15	8	10
+4579	2018-12-02 14:30	Москва	-3	17	32	16
+4580	2018-12-02 14:30	Самара	13	14	-89	4
+4581	2018-12-02 14:30	Санкт-Петербург	10	2	-117	17
+4582	2018-12-02 15:30	Москва	31	5	-112	11
+4583	2018-12-02 15:30	Самара	16	18	18	1
+4584	2018-12-02 15:30	Санкт-Петербург	35	14	32	5
+4585	2018-12-02 16:30	Москва	-12	-15	-53	16
+4586	2018-12-02 16:30	Самара	25	5	64	2
+4587	2018-12-02 16:30	Санкт-Петербург	33	-2	44	2
+4588	2018-12-02 17:30	Москва	33	10	85	7
+4589	2018-12-02 17:30	Самара	-7	11	176	2
+4590	2018-12-02 17:30	Санкт-Петербург	13	-1	16	15
+4591	2018-12-02 18:30	Москва	-10	-1	-104	15
+4592	2018-12-02 18:30	Самара	10	9	-38	7
+4593	2018-12-02 18:30	Санкт-Петербург	0	1	12	4
+4594	2018-12-02 19:30	Москва	-18	0	-86	3
+4595	2018-12-02 19:30	Самара	33	7	-177	6
+4596	2018-12-02 19:30	Санкт-Петербург	27	-13	34	16
+4597	2018-12-02 20:30	Москва	16	6	5	18
+4598	2018-12-02 20:30	Самара	16	18	30	9
+4599	2018-12-02 20:30	Санкт-Петербург	22	11	-134	0
+4600	2018-12-02 21:30	Москва	11	-11	131	20
+4601	2018-12-02 21:30	Самара	1	-6	-105	10
+4602	2018-12-02 21:30	Санкт-Петербург	18	6	73	14
+4603	2018-12-02 22:30	Москва	34	9	-104	9
+4604	2018-12-02 22:30	Самара	18	8	-108	5
+4605	2018-12-02 22:30	Санкт-Петербург	14	-1	-145	10
+4606	2018-12-02 23:30	Москва	2	-13	117	13
+4607	2018-12-02 23:30	Самара	19	-3	-101	9
+4608	2018-12-02 23:30	Санкт-Петербург	14	-20	168	12
+4609	2018-12-03 00:30	Москва	0	-7	-126	3
+4610	2018-12-03 00:30	Самара	-15	3	-28	3
+4611	2018-12-03 00:30	Санкт-Петербург	-20	6	-163	1
+4612	2018-12-03 01:30	Москва	30	16	-37	19
+4613	2018-12-03 01:30	Самара	21	19	165	20
+4614	2018-12-03 01:30	Санкт-Петербург	33	-19	-121	1
+4615	2018-12-03 02:30	Москва	-9	-2	119	4
+4616	2018-12-03 02:30	Самара	10	20	-32	16
+4617	2018-12-03 02:30	Санкт-Петербург	30	12	7	1
+4618	2018-12-03 03:30	Москва	-2	0	-2	13
+4619	2018-12-03 03:30	Самара	22	8	-16	13
+4620	2018-12-03 03:30	Санкт-Петербург	26	14	60	7
+4621	2018-12-03 04:30	Москва	2	6	-150	4
+4622	2018-12-03 04:30	Самара	29	16	85	15
+4623	2018-12-03 04:30	Санкт-Петербург	21	-8	-11	6
+4624	2018-12-03 05:30	Москва	-8	12	28	15
+4625	2018-12-03 05:30	Самара	16	18	46	17
+4626	2018-12-03 05:30	Санкт-Петербург	-18	-18	111	0
+4627	2018-12-03 06:30	Москва	-11	3	3	14
+4628	2018-12-03 06:30	Самара	30	-10	-38	12
+4629	2018-12-03 06:30	Санкт-Петербург	2	-10	-167	10
+4630	2018-12-03 07:30	Москва	-20	19	-131	9
+4631	2018-12-03 07:30	Самара	-19	-15	-174	3
+4632	2018-12-03 07:30	Санкт-Петербург	34	-20	25	0
+4633	2018-12-03 08:30	Москва	-11	-1	110	12
+4634	2018-12-03 08:30	Самара	7	-5	-88	13
+4635	2018-12-03 08:30	Санкт-Петербург	11	-6	12	20
+4636	2018-12-03 09:30	Москва	-17	-5	-141	20
+4637	2018-12-03 09:30	Самара	-13	15	-13	17
+4638	2018-12-03 09:30	Санкт-Петербург	2	19	-143	5
+4639	2018-12-03 10:30	Москва	-17	-2	-94	0
+4640	2018-12-03 10:30	Самара	7	-15	6	14
+4641	2018-12-03 10:30	Санкт-Петербург	33	-8	50	4
+4642	2018-12-03 11:30	Москва	-16	-16	134	2
+4643	2018-12-03 11:30	Самара	-10	8	12	15
+4644	2018-12-03 11:30	Санкт-Петербург	-8	-1	59	6
+4645	2018-12-03 12:30	Москва	29	-5	54	6
+4646	2018-12-03 12:30	Самара	-9	9	-9	20
+4647	2018-12-03 12:30	Санкт-Петербург	-17	-18	82	18
+4648	2018-12-03 13:30	Москва	-5	20	116	4
+4649	2018-12-03 13:30	Самара	-5	-13	150	19
+4650	2018-12-03 13:30	Санкт-Петербург	-6	-10	-176	3
+4651	2018-12-03 14:30	Москва	-3	10	81	3
+4652	2018-12-03 14:30	Самара	-14	5	138	16
+4653	2018-12-03 14:30	Санкт-Петербург	12	10	-64	2
+4654	2018-12-03 15:30	Москва	30	-19	-10	8
+4655	2018-12-03 15:30	Самара	-2	18	25	20
+4656	2018-12-03 15:30	Санкт-Петербург	12	-3	-68	3
+4657	2018-12-03 16:30	Москва	-3	-18	74	7
+4658	2018-12-03 16:30	Самара	-1	-6	-134	14
+4659	2018-12-03 16:30	Санкт-Петербург	11	6	-159	14
+4660	2018-12-03 17:30	Москва	23	1	-161	8
+4661	2018-12-03 17:30	Самара	19	17	-52	18
+4662	2018-12-03 17:30	Санкт-Петербург	3	20	80	15
+4663	2018-12-03 18:30	Москва	-18	19	53	10
+4664	2018-12-03 18:30	Самара	32	3	103	2
+4665	2018-12-03 18:30	Санкт-Петербург	-12	-3	-65	8
+4666	2018-12-03 19:30	Москва	-1	2	-112	13
+4667	2018-12-03 19:30	Самара	27	-1	-98	10
+4668	2018-12-03 19:30	Санкт-Петербург	10	18	-56	6
+4669	2018-12-03 20:30	Москва	-19	4	75	0
+4670	2018-12-03 20:30	Самара	19	9	33	2
+4671	2018-12-03 20:30	Санкт-Петербург	28	9	87	14
+4672	2018-12-03 21:30	Москва	11	6	78	0
+4673	2018-12-03 21:30	Самара	19	16	-96	18
+4674	2018-12-03 21:30	Санкт-Петербург	7	-6	-16	7
+4675	2018-12-03 22:30	Москва	-9	20	137	7
+4676	2018-12-03 22:30	Самара	-12	-20	-26	10
+4677	2018-12-03 22:30	Санкт-Петербург	-11	-11	51	10
+4678	2018-12-03 23:30	Москва	-4	-4	-117	6
+4679	2018-12-03 23:30	Самара	-19	-16	158	18
+4680	2018-12-03 23:30	Санкт-Петербург	-8	10	-172	14
+4681	2018-12-04 00:30	Москва	8	-8	135	18
+4682	2018-12-04 00:30	Самара	24	-14	-16	14
+4683	2018-12-04 00:30	Санкт-Петербург	-13	-6	75	4
+4684	2018-12-04 01:30	Москва	34	-3	-89	11
+4685	2018-12-04 01:30	Самара	-20	-4	132	7
+4686	2018-12-04 01:30	Санкт-Петербург	12	-15	-65	18
+4687	2018-12-04 02:30	Москва	-1	6	105	0
+4688	2018-12-04 02:30	Самара	-14	-20	19	4
+4689	2018-12-04 02:30	Санкт-Петербург	11	15	-61	1
+4690	2018-12-04 03:30	Москва	13	-3	-137	13
+4691	2018-12-04 03:30	Самара	24	-15	-84	11
+4692	2018-12-04 03:30	Санкт-Петербург	30	16	67	10
+4693	2018-12-04 04:30	Москва	20	12	-96	5
+4694	2018-12-04 04:30	Самара	-4	18	-13	13
+4695	2018-12-04 04:30	Санкт-Петербург	5	-2	23	16
+4696	2018-12-04 05:30	Москва	-19	-3	-39	7
+4697	2018-12-04 05:30	Самара	24	-16	-145	19
+4698	2018-12-04 05:30	Санкт-Петербург	5	18	108	15
+4699	2018-12-04 06:30	Москва	32	8	-3	1
+4700	2018-12-04 06:30	Самара	-7	-9	55	10
+4701	2018-12-04 06:30	Санкт-Петербург	17	19	45	0
+4702	2018-12-04 07:30	Москва	-16	3	44	2
+4703	2018-12-04 07:30	Самара	6	7	-173	5
+4704	2018-12-04 07:30	Санкт-Петербург	24	-20	72	11
+4705	2018-12-04 08:30	Москва	-4	16	178	17
+4706	2018-12-04 08:30	Самара	-1	-3	-16	10
+4707	2018-12-04 08:30	Санкт-Петербург	9	13	112	19
+4708	2018-12-04 09:30	Москва	-15	8	-74	2
+4709	2018-12-04 09:30	Самара	-15	16	173	5
+4710	2018-12-04 09:30	Санкт-Петербург	32	4	76	12
+4711	2018-12-04 10:30	Москва	10	3	-121	16
+4712	2018-12-04 10:30	Самара	9	7	-46	4
+4713	2018-12-04 10:30	Санкт-Петербург	31	15	136	20
+4714	2018-12-04 11:30	Москва	-3	10	10	1
+4715	2018-12-04 11:30	Самара	-15	-14	-79	8
+4716	2018-12-04 11:30	Санкт-Петербург	11	-2	14	18
+4717	2018-12-04 12:30	Москва	26	9	124	3
+4718	2018-12-04 12:30	Самара	-16	14	124	2
+4719	2018-12-04 12:30	Санкт-Петербург	15	1	37	7
+4720	2018-12-04 13:30	Москва	-18	-1	-148	3
+4721	2018-12-04 13:30	Самара	4	18	62	18
+4722	2018-12-04 13:30	Санкт-Петербург	24	-3	-111	6
+4723	2018-12-04 14:30	Москва	4	-10	-11	15
+4724	2018-12-04 14:30	Самара	2	-18	-125	2
+4725	2018-12-04 14:30	Санкт-Петербург	2	-20	-68	16
+4726	2018-12-04 15:30	Москва	-17	-4	163	19
+4727	2018-12-04 15:30	Самара	-3	1	143	12
+4728	2018-12-04 15:30	Санкт-Петербург	34	-5	3	12
+4729	2018-12-04 16:30	Москва	21	-1	166	1
+4730	2018-12-04 16:30	Самара	10	10	115	8
+4731	2018-12-04 16:30	Санкт-Петербург	21	0	60	15
+4732	2018-12-04 17:30	Москва	-6	-7	155	18
+4733	2018-12-04 17:30	Самара	30	14	127	3
+4734	2018-12-04 17:30	Санкт-Петербург	14	6	-8	5
+4735	2018-12-04 18:30	Москва	-3	-11	41	8
+4736	2018-12-04 18:30	Самара	23	13	-120	8
+4737	2018-12-04 18:30	Санкт-Петербург	26	19	23	10
+4738	2018-12-04 19:30	Москва	10	11	-176	14
+4739	2018-12-04 19:30	Самара	2	-17	9	17
+4740	2018-12-04 19:30	Санкт-Петербург	29	-4	-9	19
+4741	2018-12-04 20:30	Москва	0	-15	156	10
+4742	2018-12-04 20:30	Самара	-15	9	23	15
+4743	2018-12-04 20:30	Санкт-Петербург	6	-8	-131	1
+4744	2018-12-04 21:30	Москва	-20	-7	-177	8
+4745	2018-12-04 21:30	Самара	35	0	-163	8
+4746	2018-12-04 21:30	Санкт-Петербург	-2	-6	-117	3
+4747	2018-12-04 22:30	Москва	1	17	-137	9
+4748	2018-12-04 22:30	Самара	29	-7	86	10
+4749	2018-12-04 22:30	Санкт-Петербург	-20	-7	-118	5
+4750	2018-12-04 23:30	Москва	-6	-14	9	1
+4751	2018-12-04 23:30	Самара	31	5	-179	16
+4752	2018-12-04 23:30	Санкт-Петербург	10	18	-41	15
+4753	2018-12-05 00:30	Москва	-16	-18	-76	0
+4754	2018-12-05 00:30	Самара	9	17	-143	17
+4755	2018-12-05 00:30	Санкт-Петербург	19	13	-100	12
+4756	2018-12-05 01:30	Москва	-14	20	161	0
+4757	2018-12-05 01:30	Самара	-8	-7	-51	19
+4758	2018-12-05 01:30	Санкт-Петербург	30	20	41	7
+4759	2018-12-05 02:30	Москва	32	20	-9	4
+4760	2018-12-05 02:30	Самара	23	15	-46	10
+4761	2018-12-05 02:30	Санкт-Петербург	1	-14	-65	19
+4762	2018-12-05 03:30	Москва	-11	-6	-145	7
+4763	2018-12-05 03:30	Самара	-9	18	65	3
+4764	2018-12-05 03:30	Санкт-Петербург	35	-9	105	16
+4765	2018-12-05 04:30	Москва	-15	15	94	0
+4766	2018-12-05 04:30	Самара	-8	-19	133	14
+4767	2018-12-05 04:30	Санкт-Петербург	-1	12	-99	15
+4768	2018-12-05 05:30	Москва	1	12	85	20
+4769	2018-12-05 05:30	Самара	2	-9	-107	18
+4770	2018-12-05 05:30	Санкт-Петербург	20	-16	-13	11
+4771	2018-12-05 06:30	Москва	27	-7	129	15
+4772	2018-12-05 06:30	Самара	22	-5	12	20
+4773	2018-12-05 06:30	Санкт-Петербург	14	-15	-13	16
+4774	2018-12-05 07:30	Москва	22	-2	-107	19
+4775	2018-12-05 07:30	Самара	29	-13	-137	4
+4776	2018-12-05 07:30	Санкт-Петербург	-16	7	-47	20
+4777	2018-12-05 08:30	Москва	32	-2	62	17
+4778	2018-12-05 08:30	Самара	34	-5	-180	18
+4779	2018-12-05 08:30	Санкт-Петербург	26	1	64	8
+4780	2018-12-05 09:30	Москва	16	8	107	20
+4781	2018-12-05 09:30	Самара	7	10	167	10
+4782	2018-12-05 09:30	Санкт-Петербург	33	9	-60	19
+4783	2018-12-05 10:30	Москва	-19	15	14	9
+4784	2018-12-05 10:30	Самара	0	-19	-115	19
+4785	2018-12-05 10:30	Санкт-Петербург	27	8	85	18
+4786	2018-12-05 11:30	Москва	21	0	16	0
+4787	2018-12-05 11:30	Самара	7	16	-78	17
+4788	2018-12-05 11:30	Санкт-Петербург	15	-6	-178	10
+4789	2018-12-05 12:30	Москва	3	-20	98	14
+4790	2018-12-05 12:30	Самара	-16	-12	39	8
+4791	2018-12-05 12:30	Санкт-Петербург	11	4	-156	3
+4792	2018-12-05 13:30	Москва	25	-5	-48	4
+4793	2018-12-05 13:30	Самара	-6	12	112	6
+4794	2018-12-05 13:30	Санкт-Петербург	8	2	4	1
+4795	2018-12-05 14:30	Москва	21	17	136	12
+4796	2018-12-05 14:30	Самара	35	13	-158	0
+4797	2018-12-05 14:30	Санкт-Петербург	4	-15	146	10
+4798	2018-12-05 15:30	Москва	34	1	-8	1
+4799	2018-12-05 15:30	Самара	-9	9	113	19
+4800	2018-12-05 15:30	Санкт-Петербург	-4	8	-9	1
+4801	2018-12-05 16:30	Москва	17	17	179	6
+4802	2018-12-05 16:30	Самара	3	-15	-31	2
+4803	2018-12-05 16:30	Санкт-Петербург	31	17	-88	2
+4804	2018-12-05 17:30	Москва	26	18	-29	18
+4805	2018-12-05 17:30	Самара	-9	12	157	14
+4806	2018-12-05 17:30	Санкт-Петербург	-15	-17	-153	3
+4807	2018-12-05 18:30	Москва	4	18	-85	17
+4808	2018-12-05 18:30	Самара	0	-18	39	1
+4809	2018-12-05 18:30	Санкт-Петербург	2	16	-44	12
+4810	2018-12-05 19:30	Москва	5	-10	-76	6
+4811	2018-12-05 19:30	Самара	-9	-20	-22	19
+4812	2018-12-05 19:30	Санкт-Петербург	-10	1	-59	18
+4813	2018-12-05 20:30	Москва	26	-12	111	0
+4814	2018-12-05 20:30	Самара	29	19	90	3
+4815	2018-12-05 20:30	Санкт-Петербург	13	12	-77	1
+4816	2018-12-05 21:30	Москва	14	9	155	20
+4817	2018-12-05 21:30	Самара	-14	0	-20	2
+4818	2018-12-05 21:30	Санкт-Петербург	32	0	-177	11
+4819	2018-12-05 22:30	Москва	34	20	-53	8
+4820	2018-12-05 22:30	Самара	21	18	50	11
+4821	2018-12-05 22:30	Санкт-Петербург	30	-10	-121	17
+4822	2018-12-05 23:30	Москва	22	10	-175	2
+4823	2018-12-05 23:30	Самара	3	2	35	16
+4824	2018-12-05 23:30	Санкт-Петербург	-17	-14	-88	4
+4825	2018-12-06 00:30	Москва	4	-16	126	8
+4826	2018-12-06 00:30	Самара	27	-12	97	3
+4827	2018-12-06 00:30	Санкт-Петербург	-18	7	-19	9
+4828	2018-12-06 01:30	Москва	3	-11	176	7
+4829	2018-12-06 01:30	Самара	1	9	-49	16
+4830	2018-12-06 01:30	Санкт-Петербург	11	9	100	14
+4831	2018-12-06 02:30	Москва	9	-18	-116	19
+4832	2018-12-06 02:30	Самара	22	20	20	5
+4833	2018-12-06 02:30	Санкт-Петербург	13	1	-81	6
+4834	2018-12-06 03:30	Москва	9	4	69	8
+4835	2018-12-06 03:30	Самара	30	14	23	14
+4836	2018-12-06 03:30	Санкт-Петербург	14	12	80	1
+4837	2018-12-06 04:30	Москва	4	11	-92	4
+4838	2018-12-06 04:30	Самара	-13	-13	-132	6
+4839	2018-12-06 04:30	Санкт-Петербург	19	-13	96	9
+4840	2018-12-06 05:30	Москва	9	-7	8	8
+4841	2018-12-06 05:30	Самара	13	11	-3	5
+4842	2018-12-06 05:30	Санкт-Петербург	-2	4	-14	9
+4843	2018-12-06 06:30	Москва	-12	15	82	9
+4844	2018-12-06 06:30	Самара	9	-4	-157	2
+4845	2018-12-06 06:30	Санкт-Петербург	-2	13	140	6
+4846	2018-12-06 07:30	Москва	29	6	166	14
+4847	2018-12-06 07:30	Самара	24	-18	58	6
+4848	2018-12-06 07:30	Санкт-Петербург	-1	-2	107	8
+4849	2018-12-06 08:30	Москва	21	9	-88	8
+4850	2018-12-06 08:30	Самара	23	-18	-93	16
+4851	2018-12-06 08:30	Санкт-Петербург	35	-6	163	20
+4852	2018-12-06 09:30	Москва	-19	11	-34	13
+4853	2018-12-06 09:30	Самара	-7	16	-37	17
+4854	2018-12-06 09:30	Санкт-Петербург	-16	-1	-22	20
+4855	2018-12-06 10:30	Москва	16	1	19	13
+4856	2018-12-06 10:30	Самара	3	10	-69	2
+4857	2018-12-06 10:30	Санкт-Петербург	1	16	-32	3
+4858	2018-12-06 11:30	Москва	-20	-10	67	5
+4859	2018-12-06 11:30	Самара	4	-7	-11	16
+4860	2018-12-06 11:30	Санкт-Петербург	25	3	58	16
+4861	2018-12-06 12:30	Москва	11	-6	-20	14
+4862	2018-12-06 12:30	Самара	-8	-15	-3	13
+4863	2018-12-06 12:30	Санкт-Петербург	-7	17	-130	17
+4864	2018-12-06 13:30	Москва	1	-20	-41	7
+4865	2018-12-06 13:30	Самара	-3	17	-77	16
+4866	2018-12-06 13:30	Санкт-Петербург	15	20	11	16
+4867	2018-12-06 14:30	Москва	31	10	-136	3
+4868	2018-12-06 14:30	Самара	-9	-19	-8	11
+4869	2018-12-06 14:30	Санкт-Петербург	-1	12	-87	20
+4870	2018-12-06 15:30	Москва	-1	-19	38	18
+4871	2018-12-06 15:30	Самара	10	2	-162	12
+4872	2018-12-06 15:30	Санкт-Петербург	8	-19	-35	14
+4873	2018-12-06 16:30	Москва	6	5	117	0
+4874	2018-12-06 16:30	Самара	23	-19	-178	13
+4875	2018-12-06 16:30	Санкт-Петербург	-9	6	-152	1
+4876	2018-12-06 17:30	Москва	22	7	-18	16
+4877	2018-12-06 17:30	Самара	-17	-20	83	2
+4878	2018-12-06 17:30	Санкт-Петербург	-14	-12	-80	17
+4879	2018-12-06 18:30	Москва	-3	13	123	10
+4880	2018-12-06 18:30	Самара	-1	-10	-180	13
+4881	2018-12-06 18:30	Санкт-Петербург	-1	-5	-25	0
+4882	2018-12-06 19:30	Москва	34	-15	16	18
+4883	2018-12-06 19:30	Самара	4	-9	33	6
+4884	2018-12-06 19:30	Санкт-Петербург	35	-6	4	13
+4885	2018-12-06 20:30	Москва	17	-17	83	20
+4886	2018-12-06 20:30	Самара	-11	5	11	8
+4887	2018-12-06 20:30	Санкт-Петербург	26	2	-118	4
+4888	2018-12-06 21:30	Москва	17	-17	177	11
+4889	2018-12-06 21:30	Самара	0	8	-159	8
+4890	2018-12-06 21:30	Санкт-Петербург	13	11	143	14
+4891	2018-12-06 22:30	Москва	21	-14	-127	15
+4892	2018-12-06 22:30	Самара	-8	10	-52	1
+4893	2018-12-06 22:30	Санкт-Петербург	-15	8	22	2
+4894	2018-12-06 23:30	Москва	6	0	-12	17
+4895	2018-12-06 23:30	Самара	16	11	-152	2
+4896	2018-12-06 23:30	Санкт-Петербург	-14	-6	-103	2
+4897	2018-12-07 00:30	Москва	-17	-15	-11	2
+4898	2018-12-07 00:30	Самара	0	-3	-13	8
+4899	2018-12-07 00:30	Санкт-Петербург	26	9	-59	10
+4900	2018-12-07 01:30	Москва	-13	9	-109	19
+4901	2018-12-07 01:30	Самара	-17	-20	-153	20
+4902	2018-12-07 01:30	Санкт-Петербург	-13	-7	10	0
+4903	2018-12-07 02:30	Москва	2	0	154	3
+4904	2018-12-07 02:30	Самара	-8	14	78	1
+4905	2018-12-07 02:30	Санкт-Петербург	2	-11	-104	10
+4906	2018-12-07 03:30	Москва	-20	-12	122	5
+4907	2018-12-07 03:30	Самара	15	-7	-104	11
+4908	2018-12-07 03:30	Санкт-Петербург	-1	-7	138	4
+4909	2018-12-07 04:30	Москва	26	8	109	15
+4910	2018-12-07 04:30	Самара	28	13	45	15
+4911	2018-12-07 04:30	Санкт-Петербург	29	-3	-131	19
+4912	2018-12-07 05:30	Москва	-18	-6	-141	5
+4913	2018-12-07 05:30	Самара	3	17	-118	10
+4914	2018-12-07 05:30	Санкт-Петербург	-9	-1	17	7
+4915	2018-12-07 06:30	Москва	13	-12	147	16
+4916	2018-12-07 06:30	Самара	33	-6	-180	17
+4917	2018-12-07 06:30	Санкт-Петербург	1	7	-121	13
+4918	2018-12-07 07:30	Москва	19	-2	-166	1
+4919	2018-12-07 07:30	Самара	-4	15	-3	4
+4920	2018-12-07 07:30	Санкт-Петербург	2	5	-143	16
+4921	2018-12-07 08:30	Москва	22	18	-149	11
+4922	2018-12-07 08:30	Самара	31	-3	18	8
+4923	2018-12-07 08:30	Санкт-Петербург	-17	-19	-168	15
+4924	2018-12-07 09:30	Москва	19	-4	-123	3
+4925	2018-12-07 09:30	Самара	3	4	146	7
+4926	2018-12-07 09:30	Санкт-Петербург	13	7	-103	5
+4927	2018-12-07 10:30	Москва	29	13	-154	5
+4928	2018-12-07 10:30	Самара	-11	-16	103	5
+4929	2018-12-07 10:30	Санкт-Петербург	0	-15	26	14
+4930	2018-12-07 11:30	Москва	9	2	-79	13
+4931	2018-12-07 11:30	Самара	31	18	-133	5
+4932	2018-12-07 11:30	Санкт-Петербург	10	12	-95	1
+4933	2018-12-07 12:30	Москва	23	-9	-93	6
+4934	2018-12-07 12:30	Самара	8	-16	-49	18
+4935	2018-12-07 12:30	Санкт-Петербург	27	-13	-155	9
+4936	2018-12-07 13:30	Москва	-12	12	-66	7
+4937	2018-12-07 13:30	Самара	-14	10	-29	13
+4938	2018-12-07 13:30	Санкт-Петербург	9	-12	-150	5
+4939	2018-12-07 14:30	Москва	31	9	-69	8
+4940	2018-12-07 14:30	Самара	-2	5	-152	12
+4941	2018-12-07 14:30	Санкт-Петербург	13	20	101	19
+4942	2018-12-07 15:30	Москва	-16	19	-171	17
+4943	2018-12-07 15:30	Самара	12	11	-53	5
+4944	2018-12-07 15:30	Санкт-Петербург	9	-20	-62	8
+4945	2018-12-07 16:30	Москва	23	-3	150	15
+4946	2018-12-07 16:30	Самара	-5	-8	53	0
+4947	2018-12-07 16:30	Санкт-Петербург	-5	0	-69	17
+4948	2018-12-07 17:30	Москва	23	-15	26	6
+4949	2018-12-07 17:30	Самара	5	-7	15	3
+4950	2018-12-07 17:30	Санкт-Петербург	25	19	-167	17
+4951	2018-12-07 18:30	Москва	7	19	151	8
+4952	2018-12-07 18:30	Самара	-1	19	-131	12
+4953	2018-12-07 18:30	Санкт-Петербург	8	4	-61	0
+4954	2018-12-07 19:30	Москва	-9	8	-154	11
+4955	2018-12-07 19:30	Самара	-4	-8	-42	14
+4956	2018-12-07 19:30	Санкт-Петербург	24	-6	69	4
+4957	2018-12-07 20:30	Москва	12	8	-119	3
+4958	2018-12-07 20:30	Самара	28	2	47	4
+4959	2018-12-07 20:30	Санкт-Петербург	3	-17	125	15
+4960	2018-12-07 21:30	Москва	-17	14	56	14
+4961	2018-12-07 21:30	Самара	27	10	115	17
+4962	2018-12-07 21:30	Санкт-Петербург	12	6	49	6
+4963	2018-12-07 22:30	Москва	-8	18	-6	8
+4964	2018-12-07 22:30	Самара	27	-9	-166	3
+4965	2018-12-07 22:30	Санкт-Петербург	14	16	-80	9
+4966	2018-12-07 23:30	Москва	-11	4	-152	14
+4967	2018-12-07 23:30	Самара	-12	11	130	11
+4968	2018-12-07 23:30	Санкт-Петербург	34	11	-130	20
+4969	2018-12-08 00:30	Москва	22	7	166	4
+4970	2018-12-08 00:30	Самара	-12	1	-59	18
+4971	2018-12-08 00:30	Санкт-Петербург	2	17	62	6
+4972	2018-12-08 01:30	Москва	-1	15	-106	7
+4973	2018-12-08 01:30	Самара	19	13	98	18
+4974	2018-12-08 01:30	Санкт-Петербург	5	-13	33	17
+4975	2018-12-08 02:30	Москва	12	14	-19	4
+4976	2018-12-08 02:30	Самара	20	14	95	9
+4977	2018-12-08 02:30	Санкт-Петербург	-2	-6	-39	10
+4978	2018-12-08 03:30	Москва	-12	20	-103	2
+4979	2018-12-08 03:30	Самара	-19	-13	19	16
+4980	2018-12-08 03:30	Санкт-Петербург	6	2	-171	0
+4981	2018-12-08 04:30	Москва	9	-3	-57	7
+4982	2018-12-08 04:30	Самара	35	-19	-79	10
+4983	2018-12-08 04:30	Санкт-Петербург	-6	1	-151	16
+4984	2018-12-08 05:30	Москва	19	10	-16	16
+4985	2018-12-08 05:30	Самара	14	14	-61	3
+4986	2018-12-08 05:30	Санкт-Петербург	-2	0	-159	3
+4987	2018-12-08 06:30	Москва	-12	-9	87	2
+4988	2018-12-08 06:30	Самара	-17	5	-48	17
+4989	2018-12-08 06:30	Санкт-Петербург	18	19	-144	9
+4990	2018-12-08 07:30	Москва	10	9	57	11
+4991	2018-12-08 07:30	Самара	-6	1	123	15
+4992	2018-12-08 07:30	Санкт-Петербург	-11	-15	-41	19
+4993	2018-12-08 08:30	Москва	1	1	45	3
+4994	2018-12-08 08:30	Самара	17	-19	179	10
+4995	2018-12-08 08:30	Санкт-Петербург	10	9	-34	15
+4996	2018-12-08 09:30	Москва	-5	4	91	11
+4997	2018-12-08 09:30	Самара	-9	-7	29	11
+4998	2018-12-08 09:30	Санкт-Петербург	30	16	-6	12
+4999	2018-12-08 10:30	Москва	1	19	-7	7
+5000	2018-12-08 10:30	Самара	30	-6	37	19
+5001	2018-12-08 10:30	Санкт-Петербург	-6	-16	172	13
+5002	2018-12-08 11:30	Москва	34	7	160	18
+5003	2018-12-08 11:30	Самара	5	-20	-50	17
+5004	2018-12-08 11:30	Санкт-Петербург	-13	-2	-18	16
+5005	2018-12-08 12:30	Москва	-20	2	-143	6
+5006	2018-12-08 12:30	Самара	26	-9	78	9
+5007	2018-12-08 12:30	Санкт-Петербург	-17	6	23	18
+5008	2018-12-08 13:30	Москва	-15	-12	37	15
+5009	2018-12-08 13:30	Самара	-1	-20	51	19
+5010	2018-12-08 13:30	Санкт-Петербург	14	6	-75	15
+5011	2018-12-08 14:30	Москва	18	-19	-112	17
+5012	2018-12-08 14:30	Самара	21	10	-32	2
+5013	2018-12-08 14:30	Санкт-Петербург	10	4	-80	2
+5014	2018-12-08 15:30	Москва	8	-5	104	9
+5015	2018-12-08 15:30	Самара	-16	-15	-180	14
+5016	2018-12-08 15:30	Санкт-Петербург	22	-5	-55	3
+5017	2018-12-08 16:30	Москва	9	-11	-13	5
+5018	2018-12-08 16:30	Самара	28	-6	-168	10
+5019	2018-12-08 16:30	Санкт-Петербург	17	-3	30	6
+5020	2018-12-08 17:30	Москва	33	2	18	20
+5021	2018-12-08 17:30	Самара	-8	-19	-84	18
+5022	2018-12-08 17:30	Санкт-Петербург	-10	-17	125	7
+5023	2018-12-08 18:30	Москва	3	-16	104	14
+5024	2018-12-08 18:30	Самара	-4	-15	-149	17
+5025	2018-12-08 18:30	Санкт-Петербург	19	14	57	8
+5026	2018-12-08 19:30	Москва	16	5	-142	13
+5027	2018-12-08 19:30	Самара	-20	0	-41	6
+5028	2018-12-08 19:30	Санкт-Петербург	-19	16	-13	15
+5029	2018-12-08 20:30	Москва	-6	2	116	13
+5030	2018-12-08 20:30	Самара	10	-5	174	1
+5031	2018-12-08 20:30	Санкт-Петербург	-1	-15	46	20
+5032	2018-12-08 21:30	Москва	28	-16	44	15
+5033	2018-12-08 21:30	Самара	-19	12	85	5
+5034	2018-12-08 21:30	Санкт-Петербург	18	6	-97	20
+5035	2018-12-08 22:30	Москва	1	-10	-56	5
+5036	2018-12-08 22:30	Самара	32	18	-25	10
+5037	2018-12-08 22:30	Санкт-Петербург	-13	-20	-93	12
+5038	2018-12-08 23:30	Москва	29	19	176	15
+5039	2018-12-08 23:30	Самара	-7	-17	114	20
+5040	2018-12-08 23:30	Санкт-Петербург	29	-5	33	1
+5041	2018-12-09 00:30	Москва	6	6	77	10
+5042	2018-12-09 00:30	Самара	-16	16	79	20
+5043	2018-12-09 00:30	Санкт-Петербург	-6	14	150	9
+5044	2018-12-09 01:30	Москва	1	18	18	15
+5045	2018-12-09 01:30	Самара	-11	-17	-144	10
+5046	2018-12-09 01:30	Санкт-Петербург	15	-13	-54	13
+5047	2018-12-09 02:30	Москва	9	-6	-42	5
+5048	2018-12-09 02:30	Самара	16	13	59	14
+5049	2018-12-09 02:30	Санкт-Петербург	1	5	177	7
+5050	2018-12-09 03:30	Москва	-11	4	-176	6
+5051	2018-12-09 03:30	Самара	12	12	-80	17
+5052	2018-12-09 03:30	Санкт-Петербург	18	15	83	16
+5053	2018-12-09 04:30	Москва	11	-1	-130	4
+5054	2018-12-09 04:30	Самара	32	1	112	3
+5055	2018-12-09 04:30	Санкт-Петербург	-2	3	-87	13
+5056	2018-12-09 05:30	Москва	33	-14	37	7
+5057	2018-12-09 05:30	Самара	19	16	149	19
+5058	2018-12-09 05:30	Санкт-Петербург	15	-8	-134	11
+5059	2018-12-09 06:30	Москва	-16	-15	-32	17
+5060	2018-12-09 06:30	Самара	-12	20	-141	11
+5061	2018-12-09 06:30	Санкт-Петербург	-11	-5	60	14
+5062	2018-12-09 07:30	Москва	27	-17	-72	8
+5063	2018-12-09 07:30	Самара	-16	-5	120	10
+5064	2018-12-09 07:30	Санкт-Петербург	5	16	-127	8
+5065	2018-12-09 08:30	Москва	24	-8	-115	20
+5066	2018-12-09 08:30	Самара	6	-19	66	9
+5067	2018-12-09 08:30	Санкт-Петербург	7	-20	-62	13
+5068	2018-12-09 09:30	Москва	15	14	-176	1
+5069	2018-12-09 09:30	Самара	-9	5	-87	16
+5070	2018-12-09 09:30	Санкт-Петербург	-7	-19	-105	9
+5071	2018-12-09 10:30	Москва	-19	-9	44	11
+5072	2018-12-09 10:30	Самара	29	3	-51	8
+5073	2018-12-09 10:30	Санкт-Петербург	-9	-11	-174	0
+5074	2018-12-09 11:30	Москва	23	11	133	2
+5075	2018-12-09 11:30	Самара	7	17	-102	16
+5076	2018-12-09 11:30	Санкт-Петербург	3	9	-121	18
+5077	2018-12-09 12:30	Москва	12	-1	-158	20
+5078	2018-12-09 12:30	Самара	12	9	-101	18
+5079	2018-12-09 12:30	Санкт-Петербург	5	16	-32	19
+5080	2018-12-09 13:30	Москва	-19	-15	158	10
+5081	2018-12-09 13:30	Самара	-13	1	-65	16
+5082	2018-12-09 13:30	Санкт-Петербург	6	0	-41	2
+5083	2018-12-09 14:30	Москва	7	6	-124	16
+5084	2018-12-09 14:30	Самара	21	3	-98	1
+5085	2018-12-09 14:30	Санкт-Петербург	0	-20	65	7
+5086	2018-12-09 15:30	Москва	-17	-12	166	3
+5087	2018-12-09 15:30	Самара	2	-19	-31	20
+5088	2018-12-09 15:30	Санкт-Петербург	-7	-16	48	5
+5089	2018-12-09 16:30	Москва	14	17	91	4
+5090	2018-12-09 16:30	Самара	4	-4	-152	14
+5091	2018-12-09 16:30	Санкт-Петербург	0	-13	-49	13
+5092	2018-12-09 17:30	Москва	-2	-8	-128	1
+5093	2018-12-09 17:30	Самара	17	-6	157	4
+5094	2018-12-09 17:30	Санкт-Петербург	-5	-3	-23	20
+5095	2018-12-09 18:30	Москва	12	19	13	17
+5096	2018-12-09 18:30	Самара	-2	-16	32	7
+5097	2018-12-09 18:30	Санкт-Петербург	5	-5	177	6
+5098	2018-12-09 19:30	Москва	14	-15	-17	0
+5099	2018-12-09 19:30	Самара	25	1	68	2
+5100	2018-12-09 19:30	Санкт-Петербург	-20	-19	-67	12
+5101	2018-12-09 20:30	Москва	-15	1	95	9
+5102	2018-12-09 20:30	Самара	-19	1	82	19
+5103	2018-12-09 20:30	Санкт-Петербург	-9	20	91	12
+5104	2018-12-09 21:30	Москва	7	3	155	15
+5105	2018-12-09 21:30	Самара	-17	5	-108	19
+5106	2018-12-09 21:30	Санкт-Петербург	21	-6	155	19
+5107	2018-12-09 22:30	Москва	0	-11	-50	13
+5108	2018-12-09 22:30	Самара	21	-1	114	10
+5109	2018-12-09 22:30	Санкт-Петербург	23	8	-113	1
+5110	2018-12-09 23:30	Москва	-7	-14	-45	10
+5111	2018-12-09 23:30	Самара	-19	11	-106	9
+5112	2018-12-09 23:30	Санкт-Петербург	4	18	105	5
+5113	2018-12-10 00:30	Москва	34	-20	-166	0
+5114	2018-12-10 00:30	Самара	22	14	-148	12
+5115	2018-12-10 00:30	Санкт-Петербург	-7	6	-156	11
+5116	2018-12-10 01:30	Москва	32	-16	-33	2
+5117	2018-12-10 01:30	Самара	-1	2	70	19
+5118	2018-12-10 01:30	Санкт-Петербург	-14	13	-142	3
+5119	2018-12-10 02:30	Москва	26	-7	40	4
+5120	2018-12-10 02:30	Самара	3	9	-156	15
+5121	2018-12-10 02:30	Санкт-Петербург	11	-16	-27	1
+5122	2018-12-10 03:30	Москва	21	3	-102	19
+5123	2018-12-10 03:30	Самара	13	3	129	2
+5124	2018-12-10 03:30	Санкт-Петербург	0	-8	76	5
+5125	2018-12-10 04:30	Москва	-3	-12	118	18
+5126	2018-12-10 04:30	Самара	24	5	-166	8
+5127	2018-12-10 04:30	Санкт-Петербург	4	7	-54	16
+5128	2018-12-10 05:30	Москва	21	-7	125	3
+5129	2018-12-10 05:30	Самара	33	14	-62	12
+5130	2018-12-10 05:30	Санкт-Петербург	22	-11	165	3
+5131	2018-12-10 06:30	Москва	27	10	-24	12
+5132	2018-12-10 06:30	Самара	22	-3	-49	18
+5133	2018-12-10 06:30	Санкт-Петербург	23	-8	75	19
+5134	2018-12-10 07:30	Москва	31	18	27	10
+5135	2018-12-10 07:30	Самара	15	-14	14	1
+5136	2018-12-10 07:30	Санкт-Петербург	30	0	-63	10
+5137	2018-12-10 08:30	Москва	-19	-1	99	4
+5138	2018-12-10 08:30	Самара	-1	-13	73	7
+5139	2018-12-10 08:30	Санкт-Петербург	7	17	116	8
+5140	2018-12-10 09:30	Москва	10	-8	83	16
+5141	2018-12-10 09:30	Самара	-12	0	-102	0
+5142	2018-12-10 09:30	Санкт-Петербург	-9	6	166	5
+5143	2018-12-10 10:30	Москва	32	-17	64	16
+5144	2018-12-10 10:30	Самара	18	16	145	14
+5145	2018-12-10 10:30	Санкт-Петербург	14	2	126	3
+5146	2018-12-10 11:30	Москва	-16	11	-65	18
+5147	2018-12-10 11:30	Самара	1	-5	-161	12
+5148	2018-12-10 11:30	Санкт-Петербург	30	16	144	4
+5149	2018-12-10 12:30	Москва	-8	-2	-165	19
+5150	2018-12-10 12:30	Самара	-2	20	-18	18
+5151	2018-12-10 12:30	Санкт-Петербург	25	-16	159	8
+5152	2018-12-10 13:30	Москва	19	-19	113	2
+5153	2018-12-10 13:30	Самара	21	2	164	12
+5154	2018-12-10 13:30	Санкт-Петербург	25	-4	-83	3
+5155	2018-12-10 14:30	Москва	21	-1	-145	12
+5156	2018-12-10 14:30	Самара	-13	6	-125	14
+5157	2018-12-10 14:30	Санкт-Петербург	7	-14	76	14
+5158	2018-12-10 15:30	Москва	0	14	62	7
+5159	2018-12-10 15:30	Самара	-5	-16	77	19
+5160	2018-12-10 15:30	Санкт-Петербург	12	-2	-173	20
+5161	2018-12-10 16:30	Москва	1	-17	-30	9
+5162	2018-12-10 16:30	Самара	-2	-9	179	16
+5163	2018-12-10 16:30	Санкт-Петербург	-2	-19	41	15
+5164	2018-12-10 17:30	Москва	22	16	87	17
+5165	2018-12-10 17:30	Самара	10	15	-174	12
+5166	2018-12-10 17:30	Санкт-Петербург	5	13	164	0
+5167	2018-12-10 18:30	Москва	-19	11	-2	12
+5168	2018-12-10 18:30	Самара	4	-6	119	18
+5169	2018-12-10 18:30	Санкт-Петербург	20	-13	127	5
+5170	2018-12-10 19:30	Москва	8	3	-23	4
+5171	2018-12-10 19:30	Самара	0	0	-96	20
+5172	2018-12-10 19:30	Санкт-Петербург	31	16	158	12
+5173	2018-12-10 20:30	Москва	29	2	-91	12
+5174	2018-12-10 20:30	Самара	7	-11	110	16
+5175	2018-12-10 20:30	Санкт-Петербург	11	11	-128	6
+5176	2018-12-10 21:30	Москва	-15	-1	5	18
+5177	2018-12-10 21:30	Самара	32	-4	-1	19
+5178	2018-12-10 21:30	Санкт-Петербург	33	18	-48	15
+5179	2018-12-10 22:30	Москва	32	-7	156	3
+5180	2018-12-10 22:30	Самара	18	-18	107	7
+5181	2018-12-10 22:30	Санкт-Петербург	-5	-4	156	1
+5182	2018-12-10 23:30	Москва	17	14	124	2
+5183	2018-12-10 23:30	Самара	5	-11	-112	2
+5184	2018-12-10 23:30	Санкт-Петербург	-13	17	-32	11
+5185	2018-12-11 00:30	Москва	-12	6	127	14
+5186	2018-12-11 00:30	Самара	-13	-7	-72	12
+5187	2018-12-11 00:30	Санкт-Петербург	30	3	67	20
+5188	2018-12-11 01:30	Москва	13	-14	73	14
+5189	2018-12-11 01:30	Самара	27	-16	60	6
+5190	2018-12-11 01:30	Санкт-Петербург	-11	2	72	6
+5191	2018-12-11 02:30	Москва	-4	-4	38	4
+5192	2018-12-11 02:30	Самара	33	-12	-16	7
+5193	2018-12-11 02:30	Санкт-Петербург	-7	-6	-58	4
+5194	2018-12-11 03:30	Москва	-11	-11	65	3
+5195	2018-12-11 03:30	Самара	-15	17	61	1
+5196	2018-12-11 03:30	Санкт-Петербург	-14	-4	-52	13
+5197	2018-12-11 04:30	Москва	-5	10	95	17
+5198	2018-12-11 04:30	Самара	3	-18	83	1
+5199	2018-12-11 04:30	Санкт-Петербург	24	6	140	4
+5200	2018-12-11 05:30	Москва	-11	-8	34	1
+5201	2018-12-11 05:30	Самара	-6	20	-114	11
+5202	2018-12-11 05:30	Санкт-Петербург	-6	-2	152	10
+5203	2018-12-11 06:30	Москва	6	-16	0	17
+5204	2018-12-11 06:30	Самара	-9	11	73	8
+5205	2018-12-11 06:30	Санкт-Петербург	-1	-20	0	7
+5206	2018-12-11 07:30	Москва	34	15	-43	20
+5207	2018-12-11 07:30	Самара	21	9	67	16
+5208	2018-12-11 07:30	Санкт-Петербург	22	-18	103	12
+5209	2018-12-11 08:30	Москва	-7	-10	-15	10
+5210	2018-12-11 08:30	Самара	-15	11	6	12
+5211	2018-12-11 08:30	Санкт-Петербург	2	16	-40	0
+5212	2018-12-11 09:30	Москва	27	13	-25	19
+5213	2018-12-11 09:30	Самара	1	-11	-69	4
+5214	2018-12-11 09:30	Санкт-Петербург	15	20	42	19
+5215	2018-12-11 10:30	Москва	11	-10	-108	8
+5216	2018-12-11 10:30	Самара	-20	0	-161	18
+5217	2018-12-11 10:30	Санкт-Петербург	22	8	-62	5
+5218	2018-12-11 11:30	Москва	19	18	159	3
+5219	2018-12-11 11:30	Самара	19	19	79	18
+5220	2018-12-11 11:30	Санкт-Петербург	32	-20	156	15
+5221	2018-12-11 12:30	Москва	30	0	-41	19
+5222	2018-12-11 12:30	Самара	30	-7	121	14
+5223	2018-12-11 12:30	Санкт-Петербург	-7	-7	-154	16
+5224	2018-12-11 13:30	Москва	33	-1	88	13
+5225	2018-12-11 13:30	Самара	32	17	-107	10
+5226	2018-12-11 13:30	Санкт-Петербург	2	-17	142	12
+5227	2018-12-11 14:30	Москва	-20	5	-118	16
+5228	2018-12-11 14:30	Самара	35	16	-145	8
+5229	2018-12-11 14:30	Санкт-Петербург	-17	-14	33	16
+5230	2018-12-11 15:30	Москва	2	17	14	19
+5231	2018-12-11 15:30	Самара	-13	3	-71	0
+5232	2018-12-11 15:30	Санкт-Петербург	-15	-12	-46	4
+5233	2018-12-11 16:30	Москва	-9	12	90	18
+5234	2018-12-11 16:30	Самара	-7	19	-117	17
+5235	2018-12-11 16:30	Санкт-Петербург	-19	-19	-146	16
+5236	2018-12-11 17:30	Москва	-13	-1	-178	12
+5237	2018-12-11 17:30	Самара	-18	18	178	7
+5238	2018-12-11 17:30	Санкт-Петербург	26	-5	-22	0
+5239	2018-12-11 18:30	Москва	24	3	56	10
+5240	2018-12-11 18:30	Самара	3	14	-21	1
+5241	2018-12-11 18:30	Санкт-Петербург	34	-1	-31	9
+5242	2018-12-11 19:30	Москва	5	1	94	12
+5243	2018-12-11 19:30	Самара	-3	10	148	11
+5244	2018-12-11 19:30	Санкт-Петербург	28	14	-168	14
+5245	2018-12-11 20:30	Москва	4	-13	-40	7
+5246	2018-12-11 20:30	Самара	21	-17	-159	20
+5247	2018-12-11 20:30	Санкт-Петербург	31	-3	-122	0
+5248	2018-12-11 21:30	Москва	-2	1	72	0
+5249	2018-12-11 21:30	Самара	-13	-15	104	20
+5250	2018-12-11 21:30	Санкт-Петербург	8	-2	73	7
+5251	2018-12-11 22:30	Москва	5	9	-130	2
+5252	2018-12-11 22:30	Самара	6	-12	-78	20
+5253	2018-12-11 22:30	Санкт-Петербург	12	-10	126	4
+5254	2018-12-11 23:30	Москва	-12	-3	28	17
+5255	2018-12-11 23:30	Самара	17	3	172	11
+5256	2018-12-11 23:30	Санкт-Петербург	17	3	-133	18
+5257	2018-12-12 00:30	Москва	20	0	-124	11
+5258	2018-12-12 00:30	Самара	35	-10	0	14
+5259	2018-12-12 00:30	Санкт-Петербург	20	-10	166	13
+5260	2018-12-12 01:30	Москва	-16	8	174	8
+5261	2018-12-12 01:30	Самара	2	20	169	14
+5262	2018-12-12 01:30	Санкт-Петербург	-11	-12	98	18
+5263	2018-12-12 02:30	Москва	23	-6	4	3
+5264	2018-12-12 02:30	Самара	0	-10	-120	1
+5265	2018-12-12 02:30	Санкт-Петербург	28	9	151	2
+5266	2018-12-12 03:30	Москва	14	-15	57	2
+5267	2018-12-12 03:30	Самара	-18	-11	-111	5
+5268	2018-12-12 03:30	Санкт-Петербург	-1	15	-3	2
+5269	2018-12-12 04:30	Москва	29	0	166	9
+5270	2018-12-12 04:30	Самара	24	16	-109	11
+5271	2018-12-12 04:30	Санкт-Петербург	5	-14	-85	5
+5272	2018-12-12 05:30	Москва	18	7	-126	2
+5273	2018-12-12 05:30	Самара	-12	2	-41	10
+5274	2018-12-12 05:30	Санкт-Петербург	25	13	28	17
+5275	2018-12-12 06:30	Москва	-17	17	13	10
+5276	2018-12-12 06:30	Самара	14	-17	-137	18
+5277	2018-12-12 06:30	Санкт-Петербург	-6	-8	15	4
+5278	2018-12-12 07:30	Москва	-8	9	77	18
+5279	2018-12-12 07:30	Самара	-8	-16	-59	18
+5280	2018-12-12 07:30	Санкт-Петербург	10	-3	86	19
+5281	2018-12-12 08:30	Москва	-17	-13	-46	12
+5282	2018-12-12 08:30	Самара	0	20	-14	11
+5283	2018-12-12 08:30	Санкт-Петербург	12	-2	175	19
+5284	2018-12-12 09:30	Москва	1	13	-144	20
+5285	2018-12-12 09:30	Самара	28	-4	98	16
+5286	2018-12-12 09:30	Санкт-Петербург	1	14	70	12
+5287	2018-12-12 10:30	Москва	4	14	-152	17
+5288	2018-12-12 10:30	Самара	-20	-1	131	10
+5289	2018-12-12 10:30	Санкт-Петербург	31	-8	159	16
+5290	2018-12-12 11:30	Москва	26	-9	-94	5
+5291	2018-12-12 11:30	Самара	35	8	42	14
+5292	2018-12-12 11:30	Санкт-Петербург	30	-9	-31	16
+5293	2018-12-12 12:30	Москва	8	19	-158	6
+5294	2018-12-12 12:30	Самара	32	-19	78	13
+5295	2018-12-12 12:30	Санкт-Петербург	-12	2	-164	8
+5296	2018-12-12 13:30	Москва	32	1	-49	10
+5297	2018-12-12 13:30	Самара	17	-15	154	10
+5298	2018-12-12 13:30	Санкт-Петербург	35	-19	-97	4
+5299	2018-12-12 14:30	Москва	30	-11	101	20
+5300	2018-12-12 14:30	Самара	-2	20	64	8
+5301	2018-12-12 14:30	Санкт-Петербург	19	5	34	14
+5302	2018-12-12 15:30	Москва	32	4	117	20
+5303	2018-12-12 15:30	Самара	6	8	-166	0
+5304	2018-12-12 15:30	Санкт-Петербург	-16	-17	-108	19
+5305	2018-12-12 16:30	Москва	10	3	-129	10
+5306	2018-12-12 16:30	Самара	-13	-1	92	18
+5307	2018-12-12 16:30	Санкт-Петербург	7	-11	-11	14
+5308	2018-12-12 17:30	Москва	33	-16	-98	20
+5309	2018-12-12 17:30	Самара	-19	8	-131	14
+5310	2018-12-12 17:30	Санкт-Петербург	-12	-8	-72	20
+5311	2018-12-12 18:30	Москва	-5	14	-118	19
+5312	2018-12-12 18:30	Самара	23	17	143	17
+5313	2018-12-12 18:30	Санкт-Петербург	-19	0	28	17
+5314	2018-12-12 19:30	Москва	-18	1	-135	12
+5315	2018-12-12 19:30	Самара	-6	11	45	0
+5316	2018-12-12 19:30	Санкт-Петербург	-19	-15	-56	8
+5317	2018-12-12 20:30	Москва	0	-7	30	1
+5318	2018-12-12 20:30	Самара	1	19	-171	11
+5319	2018-12-12 20:30	Санкт-Петербург	5	-14	-78	2
+5320	2018-12-12 21:30	Москва	19	14	-87	20
+5321	2018-12-12 21:30	Самара	6	12	-142	3
+5322	2018-12-12 21:30	Санкт-Петербург	3	9	-151	10
+5323	2018-12-12 22:30	Москва	3	-15	77	20
+5324	2018-12-12 22:30	Самара	34	8	-44	4
+5325	2018-12-12 22:30	Санкт-Петербург	5	-3	44	3
+5326	2018-12-12 23:30	Москва	22	-15	-136	5
+5327	2018-12-12 23:30	Самара	1	-19	48	20
+5328	2018-12-12 23:30	Санкт-Петербург	15	-1	-147	12
+5329	2018-12-13 00:30	Москва	-6	-12	-67	17
+5330	2018-12-13 00:30	Самара	3	-19	121	10
+5331	2018-12-13 00:30	Санкт-Петербург	2	-7	-116	11
+5332	2018-12-13 01:30	Москва	0	-18	-16	10
+5333	2018-12-13 01:30	Самара	-17	10	-169	9
+5334	2018-12-13 01:30	Санкт-Петербург	31	-3	162	3
+5335	2018-12-13 02:30	Москва	24	-15	-153	6
+5336	2018-12-13 02:30	Самара	24	18	-152	12
+5337	2018-12-13 02:30	Санкт-Петербург	-20	15	-131	9
+5338	2018-12-13 03:30	Москва	-1	15	-104	12
+5339	2018-12-13 03:30	Самара	-12	13	-145	15
+5340	2018-12-13 03:30	Санкт-Петербург	-14	9	54	17
+5341	2018-12-13 04:30	Москва	13	14	180	14
+5342	2018-12-13 04:30	Самара	-7	-6	-24	10
+5343	2018-12-13 04:30	Санкт-Петербург	19	16	42	18
+5344	2018-12-13 05:30	Москва	35	0	3	13
+5345	2018-12-13 05:30	Самара	-14	-6	-93	19
+5346	2018-12-13 05:30	Санкт-Петербург	35	5	158	0
+5347	2018-12-13 06:30	Москва	8	-5	159	20
+5348	2018-12-13 06:30	Самара	-2	13	54	5
+5349	2018-12-13 06:30	Санкт-Петербург	31	0	-41	19
+5350	2018-12-13 07:30	Москва	23	-6	-58	1
+5351	2018-12-13 07:30	Самара	15	0	39	15
+5352	2018-12-13 07:30	Санкт-Петербург	-14	7	163	17
+5353	2018-12-13 08:30	Москва	2	16	-103	18
+5354	2018-12-13 08:30	Самара	30	-13	-168	8
+5355	2018-12-13 08:30	Санкт-Петербург	5	16	-122	8
+5356	2018-12-13 09:30	Москва	20	-18	-156	11
+5357	2018-12-13 09:30	Самара	24	17	-121	18
+5358	2018-12-13 09:30	Санкт-Петербург	20	15	2	20
+5359	2018-12-13 10:30	Москва	14	19	-95	11
+5360	2018-12-13 10:30	Самара	-10	-10	-177	16
+5361	2018-12-13 10:30	Санкт-Петербург	2	5	125	14
+5362	2018-12-13 11:30	Москва	34	-2	-115	15
+5363	2018-12-13 11:30	Самара	4	-14	71	1
+5364	2018-12-13 11:30	Санкт-Петербург	-1	15	4	9
+5365	2018-12-13 12:30	Москва	26	-6	107	5
+5366	2018-12-13 12:30	Самара	31	-11	25	10
+5367	2018-12-13 12:30	Санкт-Петербург	-20	19	-52	8
+5368	2018-12-13 13:30	Москва	19	-8	74	20
+5369	2018-12-13 13:30	Самара	-20	-7	-12	2
+5370	2018-12-13 13:30	Санкт-Петербург	18	14	132	2
+5371	2018-12-13 14:30	Москва	11	14	9	0
+5372	2018-12-13 14:30	Самара	26	-14	-146	17
+5373	2018-12-13 14:30	Санкт-Петербург	10	11	63	12
+5374	2018-12-13 15:30	Москва	34	-9	-46	14
+5375	2018-12-13 15:30	Самара	-11	14	33	7
+5376	2018-12-13 15:30	Санкт-Петербург	-10	4	-140	8
+5377	2018-12-13 16:30	Москва	-18	3	-171	0
+5378	2018-12-13 16:30	Самара	-8	-8	54	8
+5379	2018-12-13 16:30	Санкт-Петербург	12	-15	37	9
+5380	2018-12-13 17:30	Москва	21	-8	143	11
+5381	2018-12-13 17:30	Самара	-20	14	-52	5
+5382	2018-12-13 17:30	Санкт-Петербург	-17	8	-30	4
+5383	2018-12-13 18:30	Москва	-3	13	125	16
+5384	2018-12-13 18:30	Самара	18	-18	-47	17
+5385	2018-12-13 18:30	Санкт-Петербург	21	6	130	11
+5386	2018-12-13 19:30	Москва	3	2	152	6
+5387	2018-12-13 19:30	Самара	1	15	110	5
+5388	2018-12-13 19:30	Санкт-Петербург	-17	-5	73	5
+5389	2018-12-13 20:30	Москва	26	-2	29	0
+5390	2018-12-13 20:30	Самара	29	0	14	3
+5391	2018-12-13 20:30	Санкт-Петербург	-17	8	48	18
+5392	2018-12-13 21:30	Москва	9	-4	4	1
+5393	2018-12-13 21:30	Самара	7	12	-55	13
+5394	2018-12-13 21:30	Санкт-Петербург	11	4	47	11
+5395	2018-12-13 22:30	Москва	23	8	85	6
+5396	2018-12-13 22:30	Самара	29	-17	-94	20
+5397	2018-12-13 22:30	Санкт-Петербург	17	-9	17	2
+5398	2018-12-13 23:30	Москва	-11	4	-177	20
+5399	2018-12-13 23:30	Самара	-7	0	-101	5
+5400	2018-12-13 23:30	Санкт-Петербург	19	13	-109	1
+5401	2018-12-14 00:30	Москва	-14	9	162	4
+5402	2018-12-14 00:30	Самара	19	8	-10	6
+5403	2018-12-14 00:30	Санкт-Петербург	15	14	133	0
+5404	2018-12-14 01:30	Москва	-9	0	52	16
+5405	2018-12-14 01:30	Самара	11	20	68	19
+5406	2018-12-14 01:30	Санкт-Петербург	-16	-4	150	20
+5407	2018-12-14 02:30	Москва	-5	19	-116	0
+5408	2018-12-14 02:30	Самара	-16	-13	155	20
+5409	2018-12-14 02:30	Санкт-Петербург	-19	2	-68	17
+5410	2018-12-14 03:30	Москва	-2	3	-38	10
+5411	2018-12-14 03:30	Самара	9	9	105	3
+5412	2018-12-14 03:30	Санкт-Петербург	11	11	35	3
+5413	2018-12-14 04:30	Москва	-15	10	100	4
+5414	2018-12-14 04:30	Самара	28	0	-66	5
+5415	2018-12-14 04:30	Санкт-Петербург	24	12	-72	18
+5416	2018-12-14 05:30	Москва	8	7	-33	10
+5417	2018-12-14 05:30	Самара	20	-4	-152	10
+5418	2018-12-14 05:30	Санкт-Петербург	-5	-2	-96	13
+5419	2018-12-14 06:30	Москва	-9	-10	101	17
+5420	2018-12-14 06:30	Самара	23	19	-72	0
+5421	2018-12-14 06:30	Санкт-Петербург	-13	3	54	0
+5422	2018-12-14 07:30	Москва	-13	20	22	12
+5423	2018-12-14 07:30	Самара	26	6	9	18
+5424	2018-12-14 07:30	Санкт-Петербург	14	-14	-117	12
+5425	2018-12-14 08:30	Москва	8	16	-63	6
+5426	2018-12-14 08:30	Самара	27	6	17	6
+5427	2018-12-14 08:30	Санкт-Петербург	-1	-20	-90	10
+5428	2018-12-14 09:30	Москва	-19	18	66	6
+5429	2018-12-14 09:30	Самара	31	20	-30	14
+5430	2018-12-14 09:30	Санкт-Петербург	33	-17	145	11
+5431	2018-12-14 10:30	Москва	-20	-8	40	16
+5432	2018-12-14 10:30	Самара	30	1	172	4
+5433	2018-12-14 10:30	Санкт-Петербург	15	-11	46	16
+5434	2018-12-14 11:30	Москва	-18	2	-119	14
+5435	2018-12-14 11:30	Самара	27	7	-52	8
+5436	2018-12-14 11:30	Санкт-Петербург	23	-13	85	7
+5437	2018-12-14 12:30	Москва	27	1	178	16
+5438	2018-12-14 12:30	Самара	-3	10	-106	11
+5439	2018-12-14 12:30	Санкт-Петербург	13	10	-157	16
+5440	2018-12-14 13:30	Москва	-13	-20	113	8
+5441	2018-12-14 13:30	Самара	-14	-2	-152	7
+5442	2018-12-14 13:30	Санкт-Петербург	18	-16	36	16
+5443	2018-12-14 14:30	Москва	25	18	8	19
+5444	2018-12-14 14:30	Самара	-11	11	142	8
+5445	2018-12-14 14:30	Санкт-Петербург	-20	5	173	14
+5446	2018-12-14 15:30	Москва	15	1	112	9
+5447	2018-12-14 15:30	Самара	19	-8	-139	4
+5448	2018-12-14 15:30	Санкт-Петербург	-8	-9	118	12
+5449	2018-12-14 16:30	Москва	34	-14	-132	6
+5450	2018-12-14 16:30	Самара	29	-14	171	17
+5451	2018-12-14 16:30	Санкт-Петербург	34	-11	-112	6
+5452	2018-12-14 17:30	Москва	-13	-7	-35	7
+5453	2018-12-14 17:30	Самара	34	15	-141	7
+5454	2018-12-14 17:30	Санкт-Петербург	14	-6	-138	10
+5455	2018-12-14 18:30	Москва	-6	-12	-71	7
+5456	2018-12-14 18:30	Самара	17	-16	-166	4
+5457	2018-12-14 18:30	Санкт-Петербург	16	-15	140	7
+5458	2018-12-14 19:30	Москва	35	-4	-180	5
+5459	2018-12-14 19:30	Самара	14	-7	39	4
+5460	2018-12-14 19:30	Санкт-Петербург	-7	9	177	6
+5461	2018-12-14 20:30	Москва	25	-2	88	14
+5462	2018-12-14 20:30	Самара	12	16	46	8
+5463	2018-12-14 20:30	Санкт-Петербург	8	-18	11	20
+5464	2018-12-14 21:30	Москва	30	-3	81	12
+5465	2018-12-14 21:30	Самара	-10	-19	-21	17
+5466	2018-12-14 21:30	Санкт-Петербург	19	-17	-27	18
+5467	2018-12-14 22:30	Москва	-13	3	-158	2
+5468	2018-12-14 22:30	Самара	4	-2	-179	1
+5469	2018-12-14 22:30	Санкт-Петербург	18	12	45	15
+5470	2018-12-14 23:30	Москва	35	10	9	14
+5471	2018-12-14 23:30	Самара	26	-13	28	15
+5472	2018-12-14 23:30	Санкт-Петербург	21	-1	44	20
+5473	2018-12-15 00:30	Москва	-18	3	83	19
+5474	2018-12-15 00:30	Самара	18	20	-24	15
+5475	2018-12-15 00:30	Санкт-Петербург	-8	-3	102	18
+5476	2018-12-15 01:30	Москва	-17	-4	-29	13
+5477	2018-12-15 01:30	Самара	-3	5	117	6
+5478	2018-12-15 01:30	Санкт-Петербург	23	-9	93	18
+5479	2018-12-15 02:30	Москва	8	-19	-11	18
+5480	2018-12-15 02:30	Самара	29	-2	-138	13
+5481	2018-12-15 02:30	Санкт-Петербург	-14	1	12	4
+5482	2018-12-15 03:30	Москва	-20	-11	-61	6
+5483	2018-12-15 03:30	Самара	-3	12	130	2
+5484	2018-12-15 03:30	Санкт-Петербург	2	6	-90	16
+5485	2018-12-15 04:30	Москва	19	-15	-11	7
+5486	2018-12-15 04:30	Самара	-18	9	-53	8
+5487	2018-12-15 04:30	Санкт-Петербург	-14	-18	-159	0
+5488	2018-12-15 05:30	Москва	29	3	-108	3
+5489	2018-12-15 05:30	Самара	5	-10	113	7
+5490	2018-12-15 05:30	Санкт-Петербург	12	-2	91	6
+5491	2018-12-15 06:30	Москва	-17	20	-141	14
+5492	2018-12-15 06:30	Самара	15	11	129	12
+5493	2018-12-15 06:30	Санкт-Петербург	16	5	-140	7
+5494	2018-12-15 07:30	Москва	-7	17	-57	7
+5495	2018-12-15 07:30	Самара	32	8	-37	0
+5496	2018-12-15 07:30	Санкт-Петербург	19	9	-112	4
+5497	2018-12-15 08:30	Москва	33	-5	9	10
+5498	2018-12-15 08:30	Самара	22	-12	27	16
+5499	2018-12-15 08:30	Санкт-Петербург	-4	14	-28	14
+5500	2018-12-15 09:30	Москва	16	-15	-163	4
+5501	2018-12-15 09:30	Самара	-6	-2	107	11
+5502	2018-12-15 09:30	Санкт-Петербург	3	-16	-71	1
+5503	2018-12-15 10:30	Москва	34	-13	157	19
+5504	2018-12-15 10:30	Самара	24	18	42	2
+5505	2018-12-15 10:30	Санкт-Петербург	33	16	138	18
+5506	2018-12-15 11:30	Москва	21	3	75	18
+5507	2018-12-15 11:30	Самара	2	3	124	19
+5508	2018-12-15 11:30	Санкт-Петербург	18	-16	-175	3
+5509	2018-12-15 12:30	Москва	17	3	106	19
+5510	2018-12-15 12:30	Самара	19	-14	173	8
+5511	2018-12-15 12:30	Санкт-Петербург	-1	18	-106	14
+5512	2018-12-15 13:30	Москва	-7	-12	-79	7
+5513	2018-12-15 13:30	Самара	-18	-14	155	6
+5514	2018-12-15 13:30	Санкт-Петербург	-5	19	-145	18
+5515	2018-12-15 14:30	Москва	-13	-9	-92	5
+5516	2018-12-15 14:30	Самара	18	-10	140	11
+5517	2018-12-15 14:30	Санкт-Петербург	33	4	170	0
+5518	2018-12-15 15:30	Москва	-3	19	24	6
+5519	2018-12-15 15:30	Самара	5	0	-93	15
+5520	2018-12-15 15:30	Санкт-Петербург	-17	-3	-173	3
+5521	2018-12-15 16:30	Москва	-12	-16	111	1
+5522	2018-12-15 16:30	Самара	11	-4	75	9
+5523	2018-12-15 16:30	Санкт-Петербург	10	-6	21	17
+5524	2018-12-15 17:30	Москва	12	-1	50	12
+5525	2018-12-15 17:30	Самара	3	11	137	4
+5526	2018-12-15 17:30	Санкт-Петербург	35	13	-65	3
+5527	2018-12-15 18:30	Москва	31	-1	75	15
+5528	2018-12-15 18:30	Самара	5	0	125	11
+5529	2018-12-15 18:30	Санкт-Петербург	26	13	58	3
+5530	2018-12-15 19:30	Москва	28	8	-46	3
+5531	2018-12-15 19:30	Самара	-15	-11	-71	7
+5532	2018-12-15 19:30	Санкт-Петербург	14	-3	-144	19
+5533	2018-12-15 20:30	Москва	33	1	-3	13
+5534	2018-12-15 20:30	Самара	24	-19	-103	6
+5535	2018-12-15 20:30	Санкт-Петербург	19	13	98	17
+5536	2018-12-15 21:30	Москва	-14	1	-57	10
+5537	2018-12-15 21:30	Самара	0	-3	-169	16
+5538	2018-12-15 21:30	Санкт-Петербург	-10	-10	179	5
+5539	2018-12-15 22:30	Москва	-13	-20	-72	0
+5540	2018-12-15 22:30	Самара	-16	-2	-4	20
+5541	2018-12-15 22:30	Санкт-Петербург	-13	-8	-41	20
+5542	2018-12-15 23:30	Москва	15	9	-75	10
+5543	2018-12-15 23:30	Самара	-7	-18	37	15
+5544	2018-12-15 23:30	Санкт-Петербург	-15	9	-111	11
+5545	2018-12-16 00:30	Москва	-1	11	-147	7
+5546	2018-12-16 00:30	Самара	27	-1	-117	2
+5547	2018-12-16 00:30	Санкт-Петербург	2	16	-69	18
+5548	2018-12-16 01:30	Москва	16	13	-29	12
+5549	2018-12-16 01:30	Самара	32	-14	-130	14
+5550	2018-12-16 01:30	Санкт-Петербург	-4	13	22	1
+5551	2018-12-16 02:30	Москва	4	19	63	10
+5552	2018-12-16 02:30	Самара	-15	-5	-3	8
+5553	2018-12-16 02:30	Санкт-Петербург	28	-8	104	5
+5554	2018-12-16 03:30	Москва	-20	4	46	6
+5555	2018-12-16 03:30	Самара	31	-3	178	4
+5556	2018-12-16 03:30	Санкт-Петербург	16	-4	-55	18
+5557	2018-12-16 04:30	Москва	-14	2	143	4
+5558	2018-12-16 04:30	Самара	-1	13	-48	13
+5559	2018-12-16 04:30	Санкт-Петербург	15	-10	96	20
+5560	2018-12-16 05:30	Москва	13	2	113	8
+5561	2018-12-16 05:30	Самара	4	-12	99	13
+5562	2018-12-16 05:30	Санкт-Петербург	32	-11	-43	16
+5563	2018-12-16 06:30	Москва	20	7	89	18
+5564	2018-12-16 06:30	Самара	-6	-4	-178	6
+5565	2018-12-16 06:30	Санкт-Петербург	29	-6	-139	2
+5566	2018-12-16 07:30	Москва	30	-8	137	16
+5567	2018-12-16 07:30	Самара	18	-8	-98	12
+5568	2018-12-16 07:30	Санкт-Петербург	-1	7	50	12
+5569	2018-12-16 08:30	Москва	16	6	48	12
+5570	2018-12-16 08:30	Самара	18	5	-127	10
+5571	2018-12-16 08:30	Санкт-Петербург	21	5	120	9
+5572	2018-12-16 09:30	Москва	17	17	-17	12
+5573	2018-12-16 09:30	Самара	16	16	-21	0
+5574	2018-12-16 09:30	Санкт-Петербург	6	-1	86	13
+5575	2018-12-16 10:30	Москва	17	15	-86	4
+5576	2018-12-16 10:30	Самара	4	-11	-71	3
+5577	2018-12-16 10:30	Санкт-Петербург	10	20	150	11
+5578	2018-12-16 11:30	Москва	27	-15	-45	16
+5579	2018-12-16 11:30	Самара	-19	12	-97	2
+5580	2018-12-16 11:30	Санкт-Петербург	7	15	-49	4
+5581	2018-12-16 12:30	Москва	-12	-9	-105	15
+5582	2018-12-16 12:30	Самара	-5	20	89	10
+5583	2018-12-16 12:30	Санкт-Петербург	35	-1	-180	15
+5584	2018-12-16 13:30	Москва	16	-13	-138	15
+5585	2018-12-16 13:30	Самара	-14	18	172	8
+5586	2018-12-16 13:30	Санкт-Петербург	22	-14	145	16
+5587	2018-12-16 14:30	Москва	33	12	77	3
+5588	2018-12-16 14:30	Самара	19	12	-137	18
+5589	2018-12-16 14:30	Санкт-Петербург	-20	1	-86	2
+5590	2018-12-16 15:30	Москва	15	-6	-130	10
+5591	2018-12-16 15:30	Самара	23	10	-138	15
+5592	2018-12-16 15:30	Санкт-Петербург	-16	16	-129	16
+5593	2018-12-16 16:30	Москва	16	-11	52	0
+5594	2018-12-16 16:30	Самара	24	1	62	0
+5595	2018-12-16 16:30	Санкт-Петербург	-5	6	-124	17
+5596	2018-12-16 17:30	Москва	-14	-9	-145	11
+5597	2018-12-16 17:30	Самара	4	-18	-32	9
+5598	2018-12-16 17:30	Санкт-Петербург	-13	-8	-128	3
+5599	2018-12-16 18:30	Москва	27	1	67	19
+5600	2018-12-16 18:30	Самара	23	0	-112	3
+5601	2018-12-16 18:30	Санкт-Петербург	-13	15	72	12
+5602	2018-12-16 19:30	Москва	-4	20	-110	6
+5603	2018-12-16 19:30	Самара	-16	19	81	7
+5604	2018-12-16 19:30	Санкт-Петербург	-15	-14	-118	10
+5605	2018-12-16 20:30	Москва	-6	7	-121	15
+5606	2018-12-16 20:30	Самара	7	-17	-121	5
+5607	2018-12-16 20:30	Санкт-Петербург	13	-20	-38	1
+5608	2018-12-16 21:30	Москва	-1	-18	124	20
+5609	2018-12-16 21:30	Самара	21	18	-130	1
+5610	2018-12-16 21:30	Санкт-Петербург	-6	13	-12	4
+5611	2018-12-16 22:30	Москва	-19	-13	-102	18
+5612	2018-12-16 22:30	Самара	12	13	-16	17
+5613	2018-12-16 22:30	Санкт-Петербург	31	6	89	17
+5614	2018-12-16 23:30	Москва	-7	20	-116	19
+5615	2018-12-16 23:30	Самара	20	-1	11	9
+5616	2018-12-16 23:30	Санкт-Петербург	14	-10	75	7
+5617	2018-12-17 00:30	Москва	-2	11	-44	16
+5618	2018-12-17 00:30	Самара	-20	8	-148	20
+5619	2018-12-17 00:30	Санкт-Петербург	33	13	-36	3
+5620	2018-12-17 01:30	Москва	24	-1	-137	7
+5621	2018-12-17 01:30	Самара	-20	14	69	1
+5622	2018-12-17 01:30	Санкт-Петербург	-9	6	166	17
+5623	2018-12-17 02:30	Москва	13	14	103	9
+5624	2018-12-17 02:30	Самара	7	-14	-36	14
+5625	2018-12-17 02:30	Санкт-Петербург	-6	11	-135	1
+5626	2018-12-17 03:30	Москва	23	2	35	15
+5627	2018-12-17 03:30	Самара	16	9	45	5
+5628	2018-12-17 03:30	Санкт-Петербург	-1	-12	-71	16
+5629	2018-12-17 04:30	Москва	-13	14	12	19
+5630	2018-12-17 04:30	Самара	-1	16	-149	6
+5631	2018-12-17 04:30	Санкт-Петербург	15	-10	-45	12
+5632	2018-12-17 05:30	Москва	-11	-16	83	8
+5633	2018-12-17 05:30	Самара	11	-19	109	2
+5634	2018-12-17 05:30	Санкт-Петербург	7	14	-165	6
+5635	2018-12-17 06:30	Москва	-20	-2	-7	17
+5636	2018-12-17 06:30	Самара	24	11	30	5
+5637	2018-12-17 06:30	Санкт-Петербург	-18	17	-78	6
+5638	2018-12-17 07:30	Москва	21	-7	-20	10
+5639	2018-12-17 07:30	Самара	20	11	100	20
+5640	2018-12-17 07:30	Санкт-Петербург	14	-2	4	14
+5641	2018-12-17 08:30	Москва	20	20	18	8
+5642	2018-12-17 08:30	Самара	11	-3	-89	0
+5643	2018-12-17 08:30	Санкт-Петербург	17	11	11	20
+5644	2018-12-17 09:30	Москва	28	-12	142	6
+5645	2018-12-17 09:30	Самара	20	-2	89	8
+5646	2018-12-17 09:30	Санкт-Петербург	-11	-16	106	15
+5647	2018-12-17 10:30	Москва	14	7	153	18
+5648	2018-12-17 10:30	Самара	-3	-4	-174	15
+5649	2018-12-17 10:30	Санкт-Петербург	2	14	-72	8
+5650	2018-12-17 11:30	Москва	-5	15	-145	2
+5651	2018-12-17 11:30	Самара	3	13	-162	13
+5652	2018-12-17 11:30	Санкт-Петербург	15	20	164	19
+5653	2018-12-17 12:30	Москва	10	17	112	16
+5654	2018-12-17 12:30	Самара	-1	-7	18	19
+5655	2018-12-17 12:30	Санкт-Петербург	-4	1	-7	11
+5656	2018-12-17 13:30	Москва	-1	7	-110	5
+5657	2018-12-17 13:30	Самара	10	12	-5	16
+5658	2018-12-17 13:30	Санкт-Петербург	-11	-1	139	16
+5659	2018-12-17 14:30	Москва	-18	-12	-86	2
+5660	2018-12-17 14:30	Самара	18	-13	150	14
+5661	2018-12-17 14:30	Санкт-Петербург	-2	-12	-99	5
+5662	2018-12-17 15:30	Москва	34	-16	-102	12
+5663	2018-12-17 15:30	Самара	35	11	-167	4
+5664	2018-12-17 15:30	Санкт-Петербург	18	15	-150	9
+5665	2018-12-17 16:30	Москва	-17	-18	160	8
+5666	2018-12-17 16:30	Самара	0	-4	76	9
+5667	2018-12-17 16:30	Санкт-Петербург	3	-15	-97	13
+5668	2018-12-17 17:30	Москва	15	-7	4	13
+5669	2018-12-17 17:30	Самара	20	-10	170	17
+5670	2018-12-17 17:30	Санкт-Петербург	0	20	73	12
+5671	2018-12-17 18:30	Москва	-4	1	34	1
+5672	2018-12-17 18:30	Самара	27	19	124	13
+5673	2018-12-17 18:30	Санкт-Петербург	9	11	50	7
+5674	2018-12-17 19:30	Москва	2	19	57	6
+5675	2018-12-17 19:30	Самара	4	-19	102	20
+5676	2018-12-17 19:30	Санкт-Петербург	17	7	155	16
+5677	2018-12-17 20:30	Москва	21	2	92	0
+5678	2018-12-17 20:30	Самара	30	-20	-34	13
+5679	2018-12-17 20:30	Санкт-Петербург	8	-16	115	8
+5680	2018-12-17 21:30	Москва	6	-17	-43	12
+5681	2018-12-17 21:30	Самара	13	17	13	19
+5682	2018-12-17 21:30	Санкт-Петербург	33	18	141	11
+5683	2018-12-17 22:30	Москва	11	-17	-137	16
+5684	2018-12-17 22:30	Самара	-9	13	39	14
+5685	2018-12-17 22:30	Санкт-Петербург	-11	-10	108	20
+5686	2018-12-17 23:30	Москва	-17	-12	-74	17
+5687	2018-12-17 23:30	Самара	32	8	-21	15
+5688	2018-12-17 23:30	Санкт-Петербург	14	-14	-42	15
+5689	2018-12-18 00:30	Москва	15	1	-2	18
+5690	2018-12-18 00:30	Самара	31	4	31	18
+5691	2018-12-18 00:30	Санкт-Петербург	-7	6	-151	15
+5692	2018-12-18 01:30	Москва	9	12	-89	5
+5693	2018-12-18 01:30	Самара	32	-4	114	20
+5694	2018-12-18 01:30	Санкт-Петербург	-15	12	83	16
+5695	2018-12-18 02:30	Москва	-19	-13	157	6
+5696	2018-12-18 02:30	Самара	3	-17	-4	13
+5697	2018-12-18 02:30	Санкт-Петербург	20	-1	155	3
+5698	2018-12-18 03:30	Москва	32	15	149	4
+5699	2018-12-18 03:30	Самара	30	11	20	0
+5700	2018-12-18 03:30	Санкт-Петербург	-3	-18	71	18
+5701	2018-12-18 04:30	Москва	4	-16	-63	15
+5702	2018-12-18 04:30	Самара	19	13	-43	20
+5703	2018-12-18 04:30	Санкт-Петербург	14	-19	-31	18
+5704	2018-12-18 05:30	Москва	32	20	-168	6
+5705	2018-12-18 05:30	Самара	28	-12	107	20
+5706	2018-12-18 05:30	Санкт-Петербург	14	2	97	5
+5707	2018-12-18 06:30	Москва	31	-1	-108	6
+5708	2018-12-18 06:30	Самара	33	-16	150	10
+5709	2018-12-18 06:30	Санкт-Петербург	-1	14	-27	7
+5710	2018-12-18 07:30	Москва	-13	7	38	4
+5711	2018-12-18 07:30	Самара	6	-19	-55	15
+5712	2018-12-18 07:30	Санкт-Петербург	-3	17	102	18
+5713	2018-12-18 08:30	Москва	5	-10	-32	14
+5714	2018-12-18 08:30	Самара	-19	-12	-42	19
+5715	2018-12-18 08:30	Санкт-Петербург	16	-15	-62	2
+5716	2018-12-18 09:30	Москва	-4	-18	36	1
+5717	2018-12-18 09:30	Самара	2	15	-72	0
+5718	2018-12-18 09:30	Санкт-Петербург	-7	9	-153	17
+5719	2018-12-18 10:30	Москва	15	-14	60	19
+5720	2018-12-18 10:30	Самара	31	8	65	0
+5721	2018-12-18 10:30	Санкт-Петербург	26	-7	-133	10
+5722	2018-12-18 11:30	Москва	-14	-4	32	17
+5723	2018-12-18 11:30	Самара	33	-10	96	11
+5724	2018-12-18 11:30	Санкт-Петербург	17	9	144	11
+5725	2018-12-18 12:30	Москва	35	-12	-178	17
+5726	2018-12-18 12:30	Самара	-20	-4	-120	5
+5727	2018-12-18 12:30	Санкт-Петербург	-11	-19	-141	2
+5728	2018-12-18 13:30	Москва	-20	-11	-94	18
+5729	2018-12-18 13:30	Самара	-15	8	-55	0
+5730	2018-12-18 13:30	Санкт-Петербург	5	-6	168	12
+5731	2018-12-18 14:30	Москва	16	-9	-27	1
+5732	2018-12-18 14:30	Самара	21	-11	162	19
+5733	2018-12-18 14:30	Санкт-Петербург	-14	15	76	3
+5734	2018-12-18 15:30	Москва	-8	19	40	7
+5735	2018-12-18 15:30	Самара	-10	-15	12	8
+5736	2018-12-18 15:30	Санкт-Петербург	18	-4	57	13
+5737	2018-12-18 16:30	Москва	-14	3	-155	20
+5738	2018-12-18 16:30	Самара	-20	10	-10	16
+5739	2018-12-18 16:30	Санкт-Петербург	30	7	-105	19
+5740	2018-12-18 17:30	Москва	15	5	-176	15
+5741	2018-12-18 17:30	Самара	19	15	-50	13
+5742	2018-12-18 17:30	Санкт-Петербург	13	-1	-150	19
+5743	2018-12-18 18:30	Москва	15	5	-143	8
+5744	2018-12-18 18:30	Самара	16	-10	-61	13
+5745	2018-12-18 18:30	Санкт-Петербург	34	20	-164	3
+5746	2018-12-18 19:30	Москва	16	-19	-55	11
+5747	2018-12-18 19:30	Самара	3	-13	7	17
+5748	2018-12-18 19:30	Санкт-Петербург	-12	11	-153	12
+5749	2018-12-18 20:30	Москва	28	-17	-85	8
+5750	2018-12-18 20:30	Самара	16	-7	108	18
+5751	2018-12-18 20:30	Санкт-Петербург	3	0	-110	18
+5752	2018-12-18 21:30	Москва	-8	17	6	5
+5753	2018-12-18 21:30	Самара	7	8	-81	14
+5754	2018-12-18 21:30	Санкт-Петербург	31	-10	176	11
+5755	2018-12-18 22:30	Москва	26	-11	-42	8
+5756	2018-12-18 22:30	Самара	-15	17	-164	0
+5757	2018-12-18 22:30	Санкт-Петербург	32	-19	21	5
+5758	2018-12-18 23:30	Москва	11	15	62	14
+5759	2018-12-18 23:30	Самара	0	-16	-91	4
+5760	2018-12-18 23:30	Санкт-Петербург	25	14	-157	10
+5761	2018-12-19 00:30	Москва	31	-3	-24	19
+5762	2018-12-19 00:30	Самара	17	17	-10	11
+5763	2018-12-19 00:30	Санкт-Петербург	31	6	-59	5
+5764	2018-12-19 01:30	Москва	-15	-16	16	17
+5765	2018-12-19 01:30	Самара	18	17	172	15
+5766	2018-12-19 01:30	Санкт-Петербург	14	5	-157	17
+5767	2018-12-19 02:30	Москва	27	-6	-139	9
+5768	2018-12-19 02:30	Самара	-8	-18	-15	16
+5769	2018-12-19 02:30	Санкт-Петербург	-9	-1	-69	3
+5770	2018-12-19 03:30	Москва	16	-13	60	2
+5771	2018-12-19 03:30	Самара	-7	0	58	16
+5772	2018-12-19 03:30	Санкт-Петербург	-8	-19	66	7
+5773	2018-12-19 04:30	Москва	23	-20	-106	4
+5774	2018-12-19 04:30	Самара	-16	-11	101	14
+5775	2018-12-19 04:30	Санкт-Петербург	-10	-7	87	17
+5776	2018-12-19 05:30	Москва	-9	-14	-31	4
+5777	2018-12-19 05:30	Самара	14	10	14	3
+5778	2018-12-19 05:30	Санкт-Петербург	-15	-4	-22	11
+5779	2018-12-19 06:30	Москва	28	19	-180	18
+5780	2018-12-19 06:30	Самара	31	-5	46	12
+5781	2018-12-19 06:30	Санкт-Петербург	-14	-12	-11	20
+5782	2018-12-19 07:30	Москва	9	-11	14	15
+5783	2018-12-19 07:30	Самара	27	6	153	9
+5784	2018-12-19 07:30	Санкт-Петербург	32	-11	104	6
+5785	2018-12-19 08:30	Москва	35	-20	-91	13
+5786	2018-12-19 08:30	Самара	-8	3	-117	1
+5787	2018-12-19 08:30	Санкт-Петербург	34	-19	175	19
+5788	2018-12-19 09:30	Москва	7	-10	160	16
+5789	2018-12-19 09:30	Самара	5	-7	20	4
+5790	2018-12-19 09:30	Санкт-Петербург	0	-10	-149	14
+5791	2018-12-19 10:30	Москва	3	-10	-23	10
+5792	2018-12-19 10:30	Самара	35	20	-135	6
+5793	2018-12-19 10:30	Санкт-Петербург	26	-20	-64	10
+5794	2018-12-19 11:30	Москва	11	20	33	17
+5795	2018-12-19 11:30	Самара	12	-8	39	11
+5796	2018-12-19 11:30	Санкт-Петербург	27	-12	-148	16
+5797	2018-12-19 12:30	Москва	25	-20	155	12
+5798	2018-12-19 12:30	Самара	0	7	104	15
+5799	2018-12-19 12:30	Санкт-Петербург	5	-12	92	16
+5800	2018-12-19 13:30	Москва	2	18	146	1
+5801	2018-12-19 13:30	Самара	34	4	58	9
+5802	2018-12-19 13:30	Санкт-Петербург	-6	-18	-3	18
+5803	2018-12-19 14:30	Москва	24	-17	-65	0
+5804	2018-12-19 14:30	Самара	-16	-14	33	19
+5805	2018-12-19 14:30	Санкт-Петербург	9	7	141	0
+5806	2018-12-19 15:30	Москва	3	17	127	5
+5807	2018-12-19 15:30	Самара	25	9	-77	15
+5808	2018-12-19 15:30	Санкт-Петербург	30	-10	51	2
+5809	2018-12-19 16:30	Москва	14	-6	152	12
+5810	2018-12-19 16:30	Самара	-8	13	179	9
+5811	2018-12-19 16:30	Санкт-Петербург	21	-17	149	0
+5812	2018-12-19 17:30	Москва	5	9	-87	15
+5813	2018-12-19 17:30	Самара	-15	1	-128	13
+5814	2018-12-19 17:30	Санкт-Петербург	2	18	101	12
+5815	2018-12-19 18:30	Москва	14	-3	114	14
+5816	2018-12-19 18:30	Самара	26	-15	-50	12
+5817	2018-12-19 18:30	Санкт-Петербург	2	4	180	0
+5818	2018-12-19 19:30	Москва	-3	-12	40	13
+5819	2018-12-19 19:30	Самара	0	-8	177	6
+5820	2018-12-19 19:30	Санкт-Петербург	-16	-19	173	17
+5821	2018-12-19 20:30	Москва	-19	2	33	13
+5822	2018-12-19 20:30	Самара	12	0	81	20
+5823	2018-12-19 20:30	Санкт-Петербург	-1	-5	149	10
+5824	2018-12-19 21:30	Москва	25	2	30	3
+5825	2018-12-19 21:30	Самара	5	-18	162	0
+5826	2018-12-19 21:30	Санкт-Петербург	32	2	-66	15
+5827	2018-12-19 22:30	Москва	30	8	39	7
+5828	2018-12-19 22:30	Самара	31	0	-119	18
+5829	2018-12-19 22:30	Санкт-Петербург	-10	2	-114	14
+5830	2018-12-19 23:30	Москва	16	-20	79	8
+5831	2018-12-19 23:30	Самара	4	-3	-151	2
+5832	2018-12-19 23:30	Санкт-Петербург	-12	11	161	14
+5833	2018-12-20 00:30	Москва	-20	1	84	20
+5834	2018-12-20 00:30	Самара	4	-6	15	7
+5835	2018-12-20 00:30	Санкт-Петербург	0	20	77	13
+5836	2018-12-20 01:30	Москва	24	-7	54	4
+5837	2018-12-20 01:30	Самара	20	-7	25	6
+5838	2018-12-20 01:30	Санкт-Петербург	6	-9	144	8
+5839	2018-12-20 02:30	Москва	32	-8	92	2
+5840	2018-12-20 02:30	Самара	-9	-8	126	2
+5841	2018-12-20 02:30	Санкт-Петербург	13	-5	92	12
+5842	2018-12-20 03:30	Москва	20	17	122	16
+5843	2018-12-20 03:30	Самара	29	-14	-143	10
+5844	2018-12-20 03:30	Санкт-Петербург	12	19	63	13
+5845	2018-12-20 04:30	Москва	-15	-4	-97	11
+5846	2018-12-20 04:30	Самара	-2	-6	-13	13
+5847	2018-12-20 04:30	Санкт-Петербург	-16	-4	-17	1
+5848	2018-12-20 05:30	Москва	-15	19	116	20
+5849	2018-12-20 05:30	Самара	-3	1	-142	1
+5850	2018-12-20 05:30	Санкт-Петербург	-10	-11	129	4
+5851	2018-12-20 06:30	Москва	13	-9	-106	7
+5852	2018-12-20 06:30	Самара	19	14	19	6
+5853	2018-12-20 06:30	Санкт-Петербург	3	16	-79	20
+5854	2018-12-20 07:30	Москва	0	5	176	6
+5855	2018-12-20 07:30	Самара	29	20	118	14
+5856	2018-12-20 07:30	Санкт-Петербург	-19	-13	33	12
+5857	2018-12-20 08:30	Москва	-10	-20	74	4
+5858	2018-12-20 08:30	Самара	18	15	6	6
+5859	2018-12-20 08:30	Санкт-Петербург	9	16	-86	12
+5860	2018-12-20 09:30	Москва	-9	-19	170	9
+5861	2018-12-20 09:30	Самара	19	-12	45	12
+5862	2018-12-20 09:30	Санкт-Петербург	-15	20	40	14
+5863	2018-12-20 10:30	Москва	28	-2	-100	2
+5864	2018-12-20 10:30	Самара	35	6	159	16
+5865	2018-12-20 10:30	Санкт-Петербург	19	7	3	8
+5866	2018-12-20 11:30	Москва	22	2	-129	13
+5867	2018-12-20 11:30	Самара	30	20	137	13
+5868	2018-12-20 11:30	Санкт-Петербург	-8	-19	87	6
+5869	2018-12-20 12:30	Москва	-7	12	-77	2
+5870	2018-12-20 12:30	Самара	-8	18	-25	2
+5871	2018-12-20 12:30	Санкт-Петербург	32	16	93	15
+5872	2018-12-20 13:30	Москва	-10	-15	-148	18
+5873	2018-12-20 13:30	Самара	30	-11	-106	8
+5874	2018-12-20 13:30	Санкт-Петербург	28	-17	-17	1
+5875	2018-12-20 14:30	Москва	23	20	-144	0
+5876	2018-12-20 14:30	Самара	18	-8	-97	15
+5877	2018-12-20 14:30	Санкт-Петербург	19	15	-42	13
+5878	2018-12-20 15:30	Москва	25	2	108	4
+5879	2018-12-20 15:30	Самара	27	-12	105	2
+5880	2018-12-20 15:30	Санкт-Петербург	34	-6	-14	18
+5881	2018-12-20 16:30	Москва	24	-11	-8	7
+5882	2018-12-20 16:30	Самара	-13	0	8	14
+5883	2018-12-20 16:30	Санкт-Петербург	16	-1	-121	17
+5884	2018-12-20 17:30	Москва	6	-13	-47	12
+5885	2018-12-20 17:30	Самара	31	14	-18	16
+5886	2018-12-20 17:30	Санкт-Петербург	3	9	-100	11
+5887	2018-12-20 18:30	Москва	-9	18	-71	2
+5888	2018-12-20 18:30	Самара	-8	16	18	17
+5889	2018-12-20 18:30	Санкт-Петербург	9	7	-13	13
+5890	2018-12-20 19:30	Москва	-13	-8	48	10
+5891	2018-12-20 19:30	Самара	28	12	-156	13
+5892	2018-12-20 19:30	Санкт-Петербург	35	8	-55	12
+5893	2018-12-20 20:30	Москва	30	6	-116	3
+5894	2018-12-20 20:30	Самара	10	-12	-47	0
+5895	2018-12-20 20:30	Санкт-Петербург	31	-4	-87	15
+5896	2018-12-20 21:30	Москва	29	4	112	9
+5897	2018-12-20 21:30	Самара	-1	-10	141	2
+5898	2018-12-20 21:30	Санкт-Петербург	-12	-20	82	6
+5899	2018-12-20 22:30	Москва	-14	17	-92	17
+5900	2018-12-20 22:30	Самара	1	12	-177	7
+5901	2018-12-20 22:30	Санкт-Петербург	-9	-16	72	10
+5902	2018-12-20 23:30	Москва	20	10	114	5
+5903	2018-12-20 23:30	Самара	-9	-9	-134	3
+5904	2018-12-20 23:30	Санкт-Петербург	8	-1	31	7
+5905	2018-12-21 00:30	Москва	18	-3	113	14
+5906	2018-12-21 00:30	Самара	1	5	-171	18
+5907	2018-12-21 00:30	Санкт-Петербург	-11	-11	71	4
+5908	2018-12-21 01:30	Москва	16	-16	155	2
+5909	2018-12-21 01:30	Самара	28	4	154	12
+5910	2018-12-21 01:30	Санкт-Петербург	6	6	5	16
+5911	2018-12-21 02:30	Москва	35	14	120	20
+5912	2018-12-21 02:30	Самара	-19	6	58	3
+5913	2018-12-21 02:30	Санкт-Петербург	11	11	57	17
+5914	2018-12-21 03:30	Москва	4	-16	-86	13
+5915	2018-12-21 03:30	Самара	30	-3	-79	12
+5916	2018-12-21 03:30	Санкт-Петербург	35	19	-80	3
+5917	2018-12-21 04:30	Москва	4	7	-143	11
+5918	2018-12-21 04:30	Самара	35	-16	74	20
+5919	2018-12-21 04:30	Санкт-Петербург	11	16	-28	0
+5920	2018-12-21 05:30	Москва	-9	-20	76	20
+5921	2018-12-21 05:30	Самара	24	-1	60	20
+5922	2018-12-21 05:30	Санкт-Петербург	7	9	-93	20
+5923	2018-12-21 06:30	Москва	27	-6	20	1
+5924	2018-12-21 06:30	Самара	31	-12	95	9
+5925	2018-12-21 06:30	Санкт-Петербург	32	14	-4	17
+5926	2018-12-21 07:30	Москва	-19	5	-129	15
+5927	2018-12-21 07:30	Самара	23	-18	-160	16
+5928	2018-12-21 07:30	Санкт-Петербург	17	10	-138	4
+5929	2018-12-21 08:30	Москва	35	20	3	4
+5930	2018-12-21 08:30	Самара	2	19	112	1
+5931	2018-12-21 08:30	Санкт-Петербург	-6	-5	-42	13
+5932	2018-12-21 09:30	Москва	1	-6	85	16
+5933	2018-12-21 09:30	Самара	-6	-19	179	14
+5934	2018-12-21 09:30	Санкт-Петербург	31	18	-28	11
+5935	2018-12-21 10:30	Москва	28	1	15	1
+5936	2018-12-21 10:30	Самара	19	11	-133	18
+5937	2018-12-21 10:30	Санкт-Петербург	11	-3	-102	14
+5938	2018-12-21 11:30	Москва	-16	19	59	15
+5939	2018-12-21 11:30	Самара	30	4	-168	7
+5940	2018-12-21 11:30	Санкт-Петербург	-10	-5	48	0
+5941	2018-12-21 12:30	Москва	-1	-16	-17	1
+5942	2018-12-21 12:30	Самара	4	-13	-109	12
+5943	2018-12-21 12:30	Санкт-Петербург	-7	20	24	4
+5944	2018-12-21 13:30	Москва	29	-9	147	12
+5945	2018-12-21 13:30	Самара	9	-1	8	20
+5946	2018-12-21 13:30	Санкт-Петербург	25	-2	74	6
+5947	2018-12-21 14:30	Москва	-8	16	51	7
+5948	2018-12-21 14:30	Самара	31	-10	46	1
+5949	2018-12-21 14:30	Санкт-Петербург	-13	12	-160	18
+5950	2018-12-21 15:30	Москва	13	-18	-162	10
+5951	2018-12-21 15:30	Самара	-7	0	70	14
+5952	2018-12-21 15:30	Санкт-Петербург	16	15	125	16
+5953	2018-12-21 16:30	Москва	20	9	-50	20
+5954	2018-12-21 16:30	Самара	-2	-5	116	13
+5955	2018-12-21 16:30	Санкт-Петербург	-9	-5	-86	4
+5956	2018-12-21 17:30	Москва	-5	-14	-122	9
+5957	2018-12-21 17:30	Самара	-12	5	-24	13
+5958	2018-12-21 17:30	Санкт-Петербург	25	0	65	4
+5959	2018-12-21 18:30	Москва	23	-6	159	13
+5960	2018-12-21 18:30	Самара	-17	16	-14	8
+5961	2018-12-21 18:30	Санкт-Петербург	-10	-20	45	1
+5962	2018-12-21 19:30	Москва	-12	19	-117	6
+5963	2018-12-21 19:30	Самара	25	9	172	18
+5964	2018-12-21 19:30	Санкт-Петербург	35	17	-23	17
+5965	2018-12-21 20:30	Москва	5	1	52	18
+5966	2018-12-21 20:30	Самара	-20	17	-30	13
+5967	2018-12-21 20:30	Санкт-Петербург	-6	13	-90	10
+5968	2018-12-21 21:30	Москва	-8	-4	152	18
+5969	2018-12-21 21:30	Самара	8	-3	-129	9
+5970	2018-12-21 21:30	Санкт-Петербург	27	-8	58	3
+5971	2018-12-21 22:30	Москва	1	-17	15	5
+5972	2018-12-21 22:30	Самара	32	18	9	17
+5973	2018-12-21 22:30	Санкт-Петербург	28	-9	-162	4
+5974	2018-12-21 23:30	Москва	-11	-5	-176	13
+5975	2018-12-21 23:30	Самара	35	-4	12	18
+5976	2018-12-21 23:30	Санкт-Петербург	27	-15	-37	4
+5977	2018-12-22 00:30	Москва	31	-6	-111	19
+5978	2018-12-22 00:30	Самара	-7	-9	11	9
+5979	2018-12-22 00:30	Санкт-Петербург	31	-14	-166	18
+5980	2018-12-22 01:30	Москва	29	-7	26	16
+5981	2018-12-22 01:30	Самара	13	-1	-50	20
+5982	2018-12-22 01:30	Санкт-Петербург	-11	-11	-121	14
+5983	2018-12-22 02:30	Москва	21	-11	150	20
+5984	2018-12-22 02:30	Самара	14	-8	-41	19
+5985	2018-12-22 02:30	Санкт-Петербург	25	4	-98	10
+5986	2018-12-22 03:30	Москва	-20	7	100	3
+5987	2018-12-22 03:30	Самара	-4	-12	-9	9
+5988	2018-12-22 03:30	Санкт-Петербург	8	-6	157	11
+5989	2018-12-22 04:30	Москва	4	13	-95	20
+5990	2018-12-22 04:30	Самара	25	6	54	18
+5991	2018-12-22 04:30	Санкт-Петербург	17	-8	-145	15
+5992	2018-12-22 05:30	Москва	12	-8	-92	13
+5993	2018-12-22 05:30	Самара	20	4	-85	8
+5994	2018-12-22 05:30	Санкт-Петербург	31	-12	123	16
+5995	2018-12-22 06:30	Москва	30	13	-112	1
+5996	2018-12-22 06:30	Самара	-20	14	-42	14
+5997	2018-12-22 06:30	Санкт-Петербург	19	-19	-54	10
+5998	2018-12-22 07:30	Москва	14	-7	110	19
+5999	2018-12-22 07:30	Самара	3	4	73	18
+6000	2018-12-22 07:30	Санкт-Петербург	16	18	-166	4
+6001	2018-12-22 08:30	Москва	-14	8	-91	18
+6002	2018-12-22 08:30	Самара	32	-17	76	2
+6003	2018-12-22 08:30	Санкт-Петербург	-18	14	154	16
+6004	2018-12-22 09:30	Москва	-14	1	-80	9
+6005	2018-12-22 09:30	Самара	-3	-12	-87	15
+6006	2018-12-22 09:30	Санкт-Петербург	-13	-15	-64	15
+6007	2018-12-22 10:30	Москва	28	1	7	10
+6008	2018-12-22 10:30	Самара	-18	1	-79	18
+6009	2018-12-22 10:30	Санкт-Петербург	25	5	-74	16
+6010	2018-12-22 11:30	Москва	33	-14	144	10
+6011	2018-12-22 11:30	Самара	-14	16	-177	9
+6012	2018-12-22 11:30	Санкт-Петербург	27	-14	76	0
+6013	2018-12-22 12:30	Москва	-4	4	125	2
+6014	2018-12-22 12:30	Самара	8	4	-48	8
+6015	2018-12-22 12:30	Санкт-Петербург	-10	13	156	7
+6016	2018-12-22 13:30	Москва	21	12	85	17
+6017	2018-12-22 13:30	Самара	33	7	-99	8
+6018	2018-12-22 13:30	Санкт-Петербург	33	-11	45	10
+6019	2018-12-22 14:30	Москва	29	-15	141	17
+6020	2018-12-22 14:30	Самара	0	-10	102	15
+6021	2018-12-22 14:30	Санкт-Петербург	1	12	60	5
+6022	2018-12-22 15:30	Москва	1	3	-52	1
+6023	2018-12-22 15:30	Самара	9	15	93	1
+6024	2018-12-22 15:30	Санкт-Петербург	6	14	89	4
+6025	2018-12-22 16:30	Москва	-4	20	138	1
+6026	2018-12-22 16:30	Самара	25	14	-99	11
+6027	2018-12-22 16:30	Санкт-Петербург	1	-20	125	12
+6028	2018-12-22 17:30	Москва	-3	0	99	2
+6029	2018-12-22 17:30	Самара	32	-7	-153	13
+6030	2018-12-22 17:30	Санкт-Петербург	-9	-16	-80	16
+6031	2018-12-22 18:30	Москва	-8	-13	-173	13
+6032	2018-12-22 18:30	Самара	-9	10	90	9
+6033	2018-12-22 18:30	Санкт-Петербург	13	19	-146	9
+6034	2018-12-22 19:30	Москва	3	-16	141	13
+6035	2018-12-22 19:30	Самара	32	-5	3	0
+6036	2018-12-22 19:30	Санкт-Петербург	14	-8	26	4
+6037	2018-12-22 20:30	Москва	-20	19	-32	19
+6038	2018-12-22 20:30	Самара	9	-6	-77	20
+6039	2018-12-22 20:30	Санкт-Петербург	-20	9	-151	20
+6040	2018-12-22 21:30	Москва	20	-14	85	16
+6041	2018-12-22 21:30	Самара	-13	4	-81	10
+6042	2018-12-22 21:30	Санкт-Петербург	4	-17	-160	5
+6043	2018-12-22 22:30	Москва	-3	10	150	20
+6044	2018-12-22 22:30	Самара	4	-6	-97	2
+6045	2018-12-22 22:30	Санкт-Петербург	1	-17	-52	9
+6046	2018-12-22 23:30	Москва	21	20	161	12
+6047	2018-12-22 23:30	Самара	-15	10	-1	17
+6048	2018-12-22 23:30	Санкт-Петербург	18	-15	-87	9
+6049	2018-12-23 00:30	Москва	17	-16	76	10
+6050	2018-12-23 00:30	Самара	17	-18	108	0
+6051	2018-12-23 00:30	Санкт-Петербург	5	18	152	13
+6052	2018-12-23 01:30	Москва	-18	-6	24	11
+6053	2018-12-23 01:30	Самара	7	-13	-126	9
+6054	2018-12-23 01:30	Санкт-Петербург	31	-15	-163	8
+6055	2018-12-23 02:30	Москва	9	5	-147	6
+6056	2018-12-23 02:30	Самара	6	-1	28	16
+6057	2018-12-23 02:30	Санкт-Петербург	11	-7	13	1
+6058	2018-12-23 03:30	Москва	-9	-14	-150	2
+6059	2018-12-23 03:30	Самара	35	-2	-114	9
+6060	2018-12-23 03:30	Санкт-Петербург	20	-5	-45	2
+6061	2018-12-23 04:30	Москва	9	12	-9	0
+6062	2018-12-23 04:30	Самара	-11	8	151	20
+6063	2018-12-23 04:30	Санкт-Петербург	26	19	123	7
+6064	2018-12-23 05:30	Москва	7	10	178	15
+6065	2018-12-23 05:30	Самара	32	15	153	0
+6066	2018-12-23 05:30	Санкт-Петербург	-9	10	48	20
+6067	2018-12-23 06:30	Москва	2	14	-88	16
+6068	2018-12-23 06:30	Самара	-15	20	-120	20
+6069	2018-12-23 06:30	Санкт-Петербург	15	-16	36	18
+6070	2018-12-23 07:30	Москва	29	-13	117	5
+6071	2018-12-23 07:30	Самара	-7	16	85	7
+6072	2018-12-23 07:30	Санкт-Петербург	9	-15	108	13
+6073	2018-12-23 08:30	Москва	-9	-19	-67	11
+6074	2018-12-23 08:30	Самара	25	4	-78	5
+6075	2018-12-23 08:30	Санкт-Петербург	31	-14	31	11
+6076	2018-12-23 09:30	Москва	-12	18	-172	9
+6077	2018-12-23 09:30	Самара	-8	-16	-22	1
+6078	2018-12-23 09:30	Санкт-Петербург	-20	-13	-115	6
+6079	2018-12-23 10:30	Москва	33	-5	141	20
+6080	2018-12-23 10:30	Самара	26	-3	12	11
+6081	2018-12-23 10:30	Санкт-Петербург	25	8	167	12
+6082	2018-12-23 11:30	Москва	31	-10	140	19
+6083	2018-12-23 11:30	Самара	15	-20	123	8
+6084	2018-12-23 11:30	Санкт-Петербург	28	18	-73	4
+6085	2018-12-23 12:30	Москва	-20	4	153	14
+6086	2018-12-23 12:30	Самара	33	-12	99	9
+6087	2018-12-23 12:30	Санкт-Петербург	12	-6	170	10
+6088	2018-12-23 13:30	Москва	-5	-6	104	2
+6089	2018-12-23 13:30	Самара	8	15	146	13
+6090	2018-12-23 13:30	Санкт-Петербург	12	20	177	5
+6091	2018-12-23 14:30	Москва	-19	-19	-4	18
+6092	2018-12-23 14:30	Самара	-1	12	-94	10
+6093	2018-12-23 14:30	Санкт-Петербург	8	16	-93	19
+6094	2018-12-23 15:30	Москва	-10	-4	40	19
+6095	2018-12-23 15:30	Самара	5	17	152	5
+6096	2018-12-23 15:30	Санкт-Петербург	13	-8	130	9
+6097	2018-12-23 16:30	Москва	-7	2	-25	9
+6098	2018-12-23 16:30	Самара	11	19	-153	17
+6099	2018-12-23 16:30	Санкт-Петербург	-15	-4	-154	20
+6100	2018-12-23 17:30	Москва	25	-20	-179	4
+6101	2018-12-23 17:30	Самара	-2	18	-127	0
+6102	2018-12-23 17:30	Санкт-Петербург	35	-19	-106	13
+6103	2018-12-23 18:30	Москва	1	8	-23	19
+6104	2018-12-23 18:30	Самара	12	-19	45	18
+6105	2018-12-23 18:30	Санкт-Петербург	-12	4	-178	14
+6106	2018-12-23 19:30	Москва	29	-4	-157	2
+6107	2018-12-23 19:30	Самара	29	1	120	9
+6108	2018-12-23 19:30	Санкт-Петербург	-8	18	99	13
+6109	2018-12-23 20:30	Москва	9	-12	19	4
+6110	2018-12-23 20:30	Самара	22	11	-76	12
+6111	2018-12-23 20:30	Санкт-Петербург	34	2	47	0
+6112	2018-12-23 21:30	Москва	-10	3	-62	0
+6113	2018-12-23 21:30	Самара	0	-13	-116	20
+6114	2018-12-23 21:30	Санкт-Петербург	15	-11	-108	2
+6115	2018-12-23 22:30	Москва	-17	-10	50	11
+6116	2018-12-23 22:30	Самара	-1	-8	-16	19
+6117	2018-12-23 22:30	Санкт-Петербург	7	19	-140	14
+6118	2018-12-23 23:30	Москва	-16	-12	166	5
+6119	2018-12-23 23:30	Самара	34	12	82	0
+6120	2018-12-23 23:30	Санкт-Петербург	13	9	-106	17
+6121	2018-12-24 00:30	Москва	-11	1	9	20
+6122	2018-12-24 00:30	Самара	32	19	-166	19
+6123	2018-12-24 00:30	Санкт-Петербург	-17	-14	-162	19
+6124	2018-12-24 01:30	Москва	2	6	-73	6
+6125	2018-12-24 01:30	Самара	32	0	-66	9
+6126	2018-12-24 01:30	Санкт-Петербург	23	-19	110	6
+6127	2018-12-24 02:30	Москва	30	7	-48	2
+6128	2018-12-24 02:30	Самара	26	7	49	3
+6129	2018-12-24 02:30	Санкт-Петербург	-1	12	70	11
+6130	2018-12-24 03:30	Москва	20	-2	-111	14
+6131	2018-12-24 03:30	Самара	5	2	178	0
+6132	2018-12-24 03:30	Санкт-Петербург	5	-18	2	17
+6133	2018-12-24 04:30	Москва	-7	18	-30	19
+6134	2018-12-24 04:30	Самара	-7	-16	140	4
+6135	2018-12-24 04:30	Санкт-Петербург	13	-16	22	18
+6136	2018-12-24 05:30	Москва	-1	11	-162	13
+6137	2018-12-24 05:30	Самара	4	-5	144	0
+6138	2018-12-24 05:30	Санкт-Петербург	21	12	53	11
+6139	2018-12-24 06:30	Москва	6	18	173	6
+6140	2018-12-24 06:30	Самара	24	10	-54	6
+6141	2018-12-24 06:30	Санкт-Петербург	22	-17	60	8
+6142	2018-12-24 07:30	Москва	-8	1	-3	19
+6143	2018-12-24 07:30	Самара	17	-14	-82	6
+6144	2018-12-24 07:30	Санкт-Петербург	22	-6	-158	6
+6145	2018-12-24 08:30	Москва	1	-20	-72	11
+6146	2018-12-24 08:30	Самара	-6	6	-71	10
+6147	2018-12-24 08:30	Санкт-Петербург	33	-14	129	17
+6148	2018-12-24 09:30	Москва	-5	-18	134	6
+6149	2018-12-24 09:30	Самара	-10	-1	-67	0
+6150	2018-12-24 09:30	Санкт-Петербург	12	-20	-72	2
+6151	2018-12-24 10:30	Москва	13	16	-150	16
+6152	2018-12-24 10:30	Самара	33	-4	28	4
+6153	2018-12-24 10:30	Санкт-Петербург	15	-7	60	16
+6154	2018-12-24 11:30	Москва	2	-14	174	15
+6155	2018-12-24 11:30	Самара	6	-5	52	12
+6156	2018-12-24 11:30	Санкт-Петербург	23	12	152	7
+6157	2018-12-24 12:30	Москва	9	-11	-109	7
+6158	2018-12-24 12:30	Самара	7	17	-85	18
+6159	2018-12-24 12:30	Санкт-Петербург	33	16	66	17
+6160	2018-12-24 13:30	Москва	-19	2	-157	14
+6161	2018-12-24 13:30	Самара	-10	5	17	2
+6162	2018-12-24 13:30	Санкт-Петербург	0	-17	-57	2
+6163	2018-12-24 14:30	Москва	17	-16	-146	19
+6164	2018-12-24 14:30	Самара	5	-2	135	0
+6165	2018-12-24 14:30	Санкт-Петербург	-15	3	-111	12
+6166	2018-12-24 15:30	Москва	25	10	116	9
+6167	2018-12-24 15:30	Самара	8	-19	33	15
+6168	2018-12-24 15:30	Санкт-Петербург	-12	-12	-54	10
+6169	2018-12-24 16:30	Москва	-20	-12	88	13
+6170	2018-12-24 16:30	Самара	26	20	73	18
+6171	2018-12-24 16:30	Санкт-Петербург	10	7	72	1
+6172	2018-12-24 17:30	Москва	35	7	-14	11
+6173	2018-12-24 17:30	Самара	-18	-14	-14	18
+6174	2018-12-24 17:30	Санкт-Петербург	25	-16	34	8
+6175	2018-12-24 18:30	Москва	22	-8	61	4
+6176	2018-12-24 18:30	Самара	-18	4	172	14
+6177	2018-12-24 18:30	Санкт-Петербург	16	9	-127	7
+6178	2018-12-24 19:30	Москва	4	7	-29	6
+6179	2018-12-24 19:30	Самара	26	4	-6	12
+6180	2018-12-24 19:30	Санкт-Петербург	31	8	97	1
+6181	2018-12-24 20:30	Москва	27	-3	34	14
+6182	2018-12-24 20:30	Самара	6	-18	61	13
+6183	2018-12-24 20:30	Санкт-Петербург	33	-7	-108	12
+6184	2018-12-24 21:30	Москва	1	-15	-10	20
+6185	2018-12-24 21:30	Самара	8	-9	-6	6
+6186	2018-12-24 21:30	Санкт-Петербург	17	2	-95	6
+6187	2018-12-24 22:30	Москва	35	13	18	6
+6188	2018-12-24 22:30	Самара	32	-12	-65	10
+6189	2018-12-24 22:30	Санкт-Петербург	-19	9	58	17
+6190	2018-12-24 23:30	Москва	23	-2	63	14
+6191	2018-12-24 23:30	Самара	32	-15	-100	14
+6192	2018-12-24 23:30	Санкт-Петербург	-15	1	52	17
+6193	2018-12-25 00:30	Москва	-14	-19	83	12
+6194	2018-12-25 00:30	Самара	4	-5	96	2
+6195	2018-12-25 00:30	Санкт-Петербург	-5	-2	-175	10
+6196	2018-12-25 01:30	Москва	24	-1	-92	9
+6197	2018-12-25 01:30	Самара	-11	-2	-104	20
+6198	2018-12-25 01:30	Санкт-Петербург	-16	1	-122	0
+6199	2018-12-25 02:30	Москва	-18	-15	116	11
+6200	2018-12-25 02:30	Самара	24	2	166	10
+6201	2018-12-25 02:30	Санкт-Петербург	-16	-15	-55	20
+6202	2018-12-25 03:30	Москва	10	-10	-53	12
+6203	2018-12-25 03:30	Самара	7	12	31	3
+6204	2018-12-25 03:30	Санкт-Петербург	24	-9	83	19
+6205	2018-12-25 04:30	Москва	27	-13	50	18
+6206	2018-12-25 04:30	Самара	25	-11	-129	12
+6207	2018-12-25 04:30	Санкт-Петербург	-19	20	157	13
+6208	2018-12-25 05:30	Москва	23	-11	-109	2
+6209	2018-12-25 05:30	Самара	-12	-17	-27	9
+6210	2018-12-25 05:30	Санкт-Петербург	-3	-3	-5	14
+6211	2018-12-25 06:30	Москва	2	-17	-160	5
+6212	2018-12-25 06:30	Самара	13	-20	177	3
+6213	2018-12-25 06:30	Санкт-Петербург	-15	19	-38	4
+6214	2018-12-25 07:30	Москва	9	-9	89	17
+6215	2018-12-25 07:30	Самара	15	-2	179	9
+6216	2018-12-25 07:30	Санкт-Петербург	28	5	-35	0
+6217	2018-12-25 08:30	Москва	28	16	-98	19
+6218	2018-12-25 08:30	Самара	-8	-17	81	4
+6219	2018-12-25 08:30	Санкт-Петербург	34	20	-150	6
+6220	2018-12-25 09:30	Москва	24	-3	-32	3
+6221	2018-12-25 09:30	Самара	15	-14	-56	5
+6222	2018-12-25 09:30	Санкт-Петербург	32	7	117	13
+6223	2018-12-25 10:30	Москва	33	-19	-26	15
+6224	2018-12-25 10:30	Самара	-7	7	75	6
+6225	2018-12-25 10:30	Санкт-Петербург	8	6	109	11
+6226	2018-12-25 11:30	Москва	18	-13	12	10
+6227	2018-12-25 11:30	Самара	-3	-9	110	19
+6228	2018-12-25 11:30	Санкт-Петербург	11	1	-116	17
+6229	2018-12-25 12:30	Москва	26	1	35	15
+6230	2018-12-25 12:30	Самара	33	-5	144	6
+6231	2018-12-25 12:30	Санкт-Петербург	6	12	1	3
+6232	2018-12-25 13:30	Москва	29	7	-4	20
+6233	2018-12-25 13:30	Самара	23	-5	151	8
+6234	2018-12-25 13:30	Санкт-Петербург	-12	-12	170	4
+6235	2018-12-25 14:30	Москва	0	-4	-16	0
+6236	2018-12-25 14:30	Самара	11	10	-43	8
+6237	2018-12-25 14:30	Санкт-Петербург	-7	3	2	4
+6238	2018-12-25 15:30	Москва	29	-2	-114	11
+6239	2018-12-25 15:30	Самара	-6	-15	-12	0
+6240	2018-12-25 15:30	Санкт-Петербург	3	-20	-29	17
+6241	2018-12-25 16:30	Москва	-1	-5	-179	8
+6242	2018-12-25 16:30	Самара	12	-8	3	18
+6243	2018-12-25 16:30	Санкт-Петербург	-11	12	-107	18
+6244	2018-12-25 17:30	Москва	-7	7	-65	5
+6245	2018-12-25 17:30	Самара	35	9	60	7
+6246	2018-12-25 17:30	Санкт-Петербург	15	10	-61	9
+6247	2018-12-25 18:30	Москва	32	16	-100	20
+6248	2018-12-25 18:30	Самара	11	2	98	12
+6249	2018-12-25 18:30	Санкт-Петербург	-9	-19	119	10
+6250	2018-12-25 19:30	Москва	20	2	-152	2
+6251	2018-12-25 19:30	Самара	14	11	-103	9
+6252	2018-12-25 19:30	Санкт-Петербург	-7	16	-83	17
+6253	2018-12-25 20:30	Москва	11	-16	-59	5
+6254	2018-12-25 20:30	Самара	22	17	-4	19
+6255	2018-12-25 20:30	Санкт-Петербург	-18	11	-147	2
+6256	2018-12-25 21:30	Москва	-19	14	118	17
+6257	2018-12-25 21:30	Самара	-17	2	108	0
+6258	2018-12-25 21:30	Санкт-Петербург	-12	-9	17	17
+6259	2018-12-25 22:30	Москва	-14	-10	119	14
+6260	2018-12-25 22:30	Самара	1	15	-29	12
+6261	2018-12-25 22:30	Санкт-Петербург	-4	7	131	19
+6262	2018-12-25 23:30	Москва	18	-9	-119	12
+6263	2018-12-25 23:30	Самара	4	11	126	14
+6264	2018-12-25 23:30	Санкт-Петербург	24	-1	44	18
+6265	2018-12-26 00:30	Москва	19	17	-98	3
+6266	2018-12-26 00:30	Самара	-18	8	-140	15
+6267	2018-12-26 00:30	Санкт-Петербург	17	-15	-19	13
+6268	2018-12-26 01:30	Москва	31	3	140	4
+6269	2018-12-26 01:30	Самара	32	-1	-77	4
+6270	2018-12-26 01:30	Санкт-Петербург	7	-6	71	20
+6271	2018-12-26 02:30	Москва	-20	-10	7	16
+6272	2018-12-26 02:30	Самара	27	-4	133	1
+6273	2018-12-26 02:30	Санкт-Петербург	-9	2	53	8
+6274	2018-12-26 03:30	Москва	28	19	89	12
+6275	2018-12-26 03:30	Самара	-18	1	-28	6
+6276	2018-12-26 03:30	Санкт-Петербург	17	-14	-142	3
+6277	2018-12-26 04:30	Москва	23	1	-74	4
+6278	2018-12-26 04:30	Самара	16	-1	-65	17
+6279	2018-12-26 04:30	Санкт-Петербург	4	7	177	4
+6280	2018-12-26 05:30	Москва	27	-8	7	0
+6281	2018-12-26 05:30	Самара	-6	10	-6	8
+6282	2018-12-26 05:30	Санкт-Петербург	-9	0	156	11
+6283	2018-12-26 06:30	Москва	25	7	-66	11
+6284	2018-12-26 06:30	Самара	-15	3	-170	6
+6285	2018-12-26 06:30	Санкт-Петербург	14	1	115	20
+6286	2018-12-26 07:30	Москва	-14	-7	40	10
+6287	2018-12-26 07:30	Самара	18	14	11	2
+6288	2018-12-26 07:30	Санкт-Петербург	0	-3	-174	19
+6289	2018-12-26 08:30	Москва	-17	9	-179	5
+6290	2018-12-26 08:30	Самара	15	6	-52	19
+6291	2018-12-26 08:30	Санкт-Петербург	-11	-17	-139	5
+6292	2018-12-26 09:30	Москва	12	4	37	4
+6293	2018-12-26 09:30	Самара	2	1	18	11
+6294	2018-12-26 09:30	Санкт-Петербург	8	12	107	18
+6295	2018-12-26 10:30	Москва	-8	-14	63	10
+6296	2018-12-26 10:30	Самара	-13	6	131	9
+6297	2018-12-26 10:30	Санкт-Петербург	23	14	-138	0
+6298	2018-12-26 11:30	Москва	33	-7	-79	19
+6299	2018-12-26 11:30	Самара	-11	-9	-49	10
+6300	2018-12-26 11:30	Санкт-Петербург	-11	14	-53	5
+6301	2018-12-26 12:30	Москва	28	-3	-153	17
+6302	2018-12-26 12:30	Самара	11	-2	48	18
+6303	2018-12-26 12:30	Санкт-Петербург	34	0	65	4
+6304	2018-12-26 13:30	Москва	26	2	109	7
+6305	2018-12-26 13:30	Самара	18	1	110	9
+6306	2018-12-26 13:30	Санкт-Петербург	18	-16	110	14
+6307	2018-12-26 14:30	Москва	34	-16	-137	8
+6308	2018-12-26 14:30	Самара	14	8	132	6
+6309	2018-12-26 14:30	Санкт-Петербург	26	12	26	6
+6310	2018-12-26 15:30	Москва	11	3	179	19
+6311	2018-12-26 15:30	Самара	23	4	69	6
+6312	2018-12-26 15:30	Санкт-Петербург	35	-4	162	14
+6313	2018-12-26 16:30	Москва	26	-5	143	6
+6314	2018-12-26 16:30	Самара	28	-11	23	19
+6315	2018-12-26 16:30	Санкт-Петербург	-1	7	-8	12
+6316	2018-12-26 17:30	Москва	27	-14	-1	6
+6317	2018-12-26 17:30	Самара	25	-11	-1	9
+6318	2018-12-26 17:30	Санкт-Петербург	-4	4	24	6
+6319	2018-12-26 18:30	Москва	25	18	-17	16
+6320	2018-12-26 18:30	Самара	2	-18	-116	20
+6321	2018-12-26 18:30	Санкт-Петербург	16	-7	-169	8
+6322	2018-12-26 19:30	Москва	-1	-3	-131	3
+6323	2018-12-26 19:30	Самара	25	16	-133	0
+6324	2018-12-26 19:30	Санкт-Петербург	27	-10	-53	13
+6325	2018-12-26 20:30	Москва	-15	14	143	4
+6326	2018-12-26 20:30	Самара	-14	14	96	11
+6327	2018-12-26 20:30	Санкт-Петербург	-11	10	-166	7
+6328	2018-12-26 21:30	Москва	34	12	-10	1
+6329	2018-12-26 21:30	Самара	10	-12	-128	5
+6330	2018-12-26 21:30	Санкт-Петербург	22	8	-63	6
+6331	2018-12-26 22:30	Москва	10	4	53	18
+6332	2018-12-26 22:30	Самара	-14	14	155	17
+6333	2018-12-26 22:30	Санкт-Петербург	17	19	-106	17
+6334	2018-12-26 23:30	Москва	-3	-11	97	14
+6335	2018-12-26 23:30	Самара	-10	-19	-28	11
+6336	2018-12-26 23:30	Санкт-Петербург	-9	-16	50	16
+6337	2018-12-27 00:30	Москва	-4	-2	168	2
+6338	2018-12-27 00:30	Самара	10	-17	28	18
+6339	2018-12-27 00:30	Санкт-Петербург	31	-12	178	6
+6340	2018-12-27 01:30	Москва	2	14	-98	1
+6341	2018-12-27 01:30	Самара	7	0	74	2
+6342	2018-12-27 01:30	Санкт-Петербург	-5	8	21	3
+6343	2018-12-27 02:30	Москва	13	6	4	6
+6344	2018-12-27 02:30	Самара	-12	11	-166	8
+6345	2018-12-27 02:30	Санкт-Петербург	7	-10	-137	2
+6346	2018-12-27 03:30	Москва	-6	-7	56	15
+6347	2018-12-27 03:30	Самара	-20	-15	72	18
+6348	2018-12-27 03:30	Санкт-Петербург	-6	3	32	5
+6349	2018-12-27 04:30	Москва	28	-2	-90	13
+6350	2018-12-27 04:30	Самара	-6	-14	-175	20
+6351	2018-12-27 04:30	Санкт-Петербург	26	-7	-150	6
+6352	2018-12-27 05:30	Москва	33	-9	22	5
+6353	2018-12-27 05:30	Самара	-14	-18	-160	17
+6354	2018-12-27 05:30	Санкт-Петербург	11	-4	-29	13
+6355	2018-12-27 06:30	Москва	-20	4	-23	16
+6356	2018-12-27 06:30	Самара	-5	-6	96	2
+6357	2018-12-27 06:30	Санкт-Петербург	0	-19	-30	5
+6358	2018-12-27 07:30	Москва	25	-3	-63	8
+6359	2018-12-27 07:30	Самара	18	-11	-94	15
+6360	2018-12-27 07:30	Санкт-Петербург	-15	-18	54	7
+6361	2018-12-27 08:30	Москва	21	11	111	20
+6362	2018-12-27 08:30	Самара	-20	13	-2	18
+6363	2018-12-27 08:30	Санкт-Петербург	16	-11	-130	0
+6364	2018-12-27 09:30	Москва	27	14	67	13
+6365	2018-12-27 09:30	Самара	-1	3	-141	5
+6366	2018-12-27 09:30	Санкт-Петербург	-8	-7	145	15
+6367	2018-12-27 10:30	Москва	19	15	133	0
+6368	2018-12-27 10:30	Самара	-10	-4	69	15
+6369	2018-12-27 10:30	Санкт-Петербург	-3	14	97	10
+6370	2018-12-27 11:30	Москва	4	-4	73	13
+6371	2018-12-27 11:30	Самара	20	-20	-42	15
+6372	2018-12-27 11:30	Санкт-Петербург	-9	-15	-25	1
+6373	2018-12-27 12:30	Москва	-2	-8	5	13
+6374	2018-12-27 12:30	Самара	-12	1	-159	7
+6375	2018-12-27 12:30	Санкт-Петербург	25	20	-5	12
+6376	2018-12-27 13:30	Москва	-7	4	-36	13
+6377	2018-12-27 13:30	Самара	22	19	130	18
+6378	2018-12-27 13:30	Санкт-Петербург	20	-5	122	17
+6379	2018-12-27 14:30	Москва	-17	9	-87	11
+6380	2018-12-27 14:30	Самара	11	-4	-76	5
+6381	2018-12-27 14:30	Санкт-Петербург	-15	5	39	13
+6382	2018-12-27 15:30	Москва	27	13	-98	13
+6383	2018-12-27 15:30	Самара	19	-3	127	13
+6384	2018-12-27 15:30	Санкт-Петербург	-12	2	-115	0
+6385	2018-12-27 16:30	Москва	19	-5	-129	17
+6386	2018-12-27 16:30	Самара	-5	-6	119	2
+6387	2018-12-27 16:30	Санкт-Петербург	-20	-7	107	11
+6388	2018-12-27 17:30	Москва	23	14	-35	13
+6389	2018-12-27 17:30	Самара	30	5	-7	14
+6390	2018-12-27 17:30	Санкт-Петербург	13	1	-75	8
+6391	2018-12-27 18:30	Москва	34	-6	-9	0
+6392	2018-12-27 18:30	Самара	20	13	-168	8
+6393	2018-12-27 18:30	Санкт-Петербург	16	13	-54	18
+6394	2018-12-27 19:30	Москва	-9	-17	-2	6
+6395	2018-12-27 19:30	Самара	10	9	75	12
+6396	2018-12-27 19:30	Санкт-Петербург	25	10	-150	10
+6397	2018-12-27 20:30	Москва	34	16	-48	1
+6398	2018-12-27 20:30	Самара	11	16	-8	2
+6399	2018-12-27 20:30	Санкт-Петербург	4	-9	42	5
+6400	2018-12-27 21:30	Москва	-1	-11	114	11
+6401	2018-12-27 21:30	Самара	10	20	-62	7
+6402	2018-12-27 21:30	Санкт-Петербург	32	3	-22	4
+6403	2018-12-27 22:30	Москва	2	4	12	9
+6404	2018-12-27 22:30	Самара	18	9	-158	4
+6405	2018-12-27 22:30	Санкт-Петербург	27	-15	179	2
+6406	2018-12-27 23:30	Москва	10	12	59	3
+6407	2018-12-27 23:30	Самара	24	-13	42	15
+6408	2018-12-27 23:30	Санкт-Петербург	-11	2	125	6
+6409	2018-12-28 00:30	Москва	8	-17	-39	9
+6410	2018-12-28 00:30	Самара	-18	-14	-67	9
+6411	2018-12-28 00:30	Санкт-Петербург	-4	-10	2	7
+6412	2018-12-28 01:30	Москва	26	16	-60	6
+6413	2018-12-28 01:30	Самара	-1	6	86	12
+6414	2018-12-28 01:30	Санкт-Петербург	-14	-15	144	1
+6415	2018-12-28 02:30	Москва	-14	19	152	4
+6416	2018-12-28 02:30	Самара	-1	14	157	20
+6417	2018-12-28 02:30	Санкт-Петербург	-12	-14	32	14
+6418	2018-12-28 03:30	Москва	7	14	-78	2
+6419	2018-12-28 03:30	Самара	-16	-20	122	19
+6420	2018-12-28 03:30	Санкт-Петербург	-9	-2	-143	17
+6421	2018-12-28 04:30	Москва	31	8	111	16
+6422	2018-12-28 04:30	Самара	28	6	60	5
+6423	2018-12-28 04:30	Санкт-Петербург	25	-12	-138	3
+6424	2018-12-28 05:30	Москва	27	12	100	4
+6425	2018-12-28 05:30	Самара	25	-20	-150	3
+6426	2018-12-28 05:30	Санкт-Петербург	-3	3	-148	14
+6427	2018-12-28 06:30	Москва	-11	-15	130	4
+6428	2018-12-28 06:30	Самара	14	11	89	5
+6429	2018-12-28 06:30	Санкт-Петербург	21	-17	57	10
+6430	2018-12-28 07:30	Москва	-5	11	-104	11
+6431	2018-12-28 07:30	Самара	23	1	-12	5
+6432	2018-12-28 07:30	Санкт-Петербург	-19	-5	120	7
+6433	2018-12-28 08:30	Москва	24	9	-59	8
+6434	2018-12-28 08:30	Самара	17	-6	-40	16
+6435	2018-12-28 08:30	Санкт-Петербург	-7	16	64	3
+6436	2018-12-28 09:30	Москва	-15	14	124	8
+6437	2018-12-28 09:30	Самара	27	9	-153	9
+6438	2018-12-28 09:30	Санкт-Петербург	2	-10	6	18
+6439	2018-12-28 10:30	Москва	21	10	-19	5
+6440	2018-12-28 10:30	Самара	4	-2	-72	18
+6441	2018-12-28 10:30	Санкт-Петербург	-20	1	-41	20
+6442	2018-12-28 11:30	Москва	8	13	-141	10
+6443	2018-12-28 11:30	Самара	19	-4	-165	0
+6444	2018-12-28 11:30	Санкт-Петербург	-12	-16	-105	18
+6445	2018-12-28 12:30	Москва	-16	5	-94	8
+6446	2018-12-28 12:30	Самара	-2	-17	139	17
+6447	2018-12-28 12:30	Санкт-Петербург	4	10	-62	15
+6448	2018-12-28 13:30	Москва	0	5	-170	19
+6449	2018-12-28 13:30	Самара	6	-6	-178	14
+6450	2018-12-28 13:30	Санкт-Петербург	-3	8	-171	1
+6451	2018-12-28 14:30	Москва	17	7	51	6
+6452	2018-12-28 14:30	Самара	-3	-4	-64	15
+6453	2018-12-28 14:30	Санкт-Петербург	-8	-4	7	0
+6454	2018-12-28 15:30	Москва	-2	17	-132	10
+6455	2018-12-28 15:30	Самара	10	-16	-154	4
+6456	2018-12-28 15:30	Санкт-Петербург	-16	-14	167	11
+6457	2018-12-28 16:30	Москва	-13	-2	94	1
+6458	2018-12-28 16:30	Самара	16	-15	75	3
+6459	2018-12-28 16:30	Санкт-Петербург	21	-19	113	6
+6460	2018-12-28 17:30	Москва	6	2	44	8
+6461	2018-12-28 17:30	Самара	14	5	-136	13
+6462	2018-12-28 17:30	Санкт-Петербург	4	-8	-112	2
+6463	2018-12-28 18:30	Москва	2	16	-65	17
+6464	2018-12-28 18:30	Самара	-20	16	-164	15
+6465	2018-12-28 18:30	Санкт-Петербург	-10	-19	128	4
+6466	2018-12-28 19:30	Москва	-17	9	34	8
+6467	2018-12-28 19:30	Самара	10	-17	158	18
+6468	2018-12-28 19:30	Санкт-Петербург	17	5	166	10
+6469	2018-12-28 20:30	Москва	12	-8	-169	11
+6470	2018-12-28 20:30	Самара	32	0	-145	18
+6471	2018-12-28 20:30	Санкт-Петербург	6	6	-116	6
+6472	2018-12-28 21:30	Москва	1	-19	-174	18
+6473	2018-12-28 21:30	Самара	-9	7	179	12
+6474	2018-12-28 21:30	Санкт-Петербург	1	-2	-74	0
+6475	2018-12-28 22:30	Москва	-2	11	136	7
+6476	2018-12-28 22:30	Самара	-16	2	112	2
+6477	2018-12-28 22:30	Санкт-Петербург	-1	20	148	17
+6478	2018-12-28 23:30	Москва	-4	4	-142	3
+6479	2018-12-28 23:30	Самара	-15	-5	144	0
+6480	2018-12-28 23:30	Санкт-Петербург	27	19	57	17
+6481	2018-12-29 00:30	Москва	-9	20	68	20
+6482	2018-12-29 00:30	Самара	-4	-17	-90	6
+6483	2018-12-29 00:30	Санкт-Петербург	28	5	48	7
+6484	2018-12-29 01:30	Москва	28	-9	-136	5
+6485	2018-12-29 01:30	Самара	19	-19	54	1
+6486	2018-12-29 01:30	Санкт-Петербург	16	14	-69	3
+6487	2018-12-29 02:30	Москва	3	-13	85	9
+6488	2018-12-29 02:30	Самара	-4	-14	-39	18
+6489	2018-12-29 02:30	Санкт-Петербург	13	1	36	7
+6490	2018-12-29 03:30	Москва	31	-3	0	0
+6491	2018-12-29 03:30	Самара	-19	12	167	5
+6492	2018-12-29 03:30	Санкт-Петербург	7	11	106	10
+6493	2018-12-29 04:30	Москва	8	-6	-173	15
+6494	2018-12-29 04:30	Самара	-18	14	124	1
+6495	2018-12-29 04:30	Санкт-Петербург	24	-15	165	4
+6496	2018-12-29 05:30	Москва	-1	14	133	5
+6497	2018-12-29 05:30	Самара	22	3	-68	0
+6498	2018-12-29 05:30	Санкт-Петербург	11	5	-151	18
+6499	2018-12-29 06:30	Москва	2	14	-83	2
+6500	2018-12-29 06:30	Самара	-7	-7	-105	14
+6501	2018-12-29 06:30	Санкт-Петербург	9	-20	-61	20
+6502	2018-12-29 07:30	Москва	0	-18	-52	19
+6503	2018-12-29 07:30	Самара	-7	13	-67	0
+6504	2018-12-29 07:30	Санкт-Петербург	35	9	-64	19
+6505	2018-12-29 08:30	Москва	10	-9	-133	15
+6506	2018-12-29 08:30	Самара	0	-8	9	2
+6507	2018-12-29 08:30	Санкт-Петербург	-10	-4	-65	13
+6508	2018-12-29 09:30	Москва	-1	2	-107	11
+6509	2018-12-29 09:30	Самара	-9	-11	34	18
+6510	2018-12-29 09:30	Санкт-Петербург	15	11	-129	17
+6511	2018-12-29 10:30	Москва	29	-18	34	13
+6512	2018-12-29 10:30	Самара	13	7	85	2
+6513	2018-12-29 10:30	Санкт-Петербург	11	3	133	10
+6514	2018-12-29 11:30	Москва	27	-19	31	16
+6515	2018-12-29 11:30	Самара	20	5	-164	11
+6516	2018-12-29 11:30	Санкт-Петербург	-2	0	-123	5
+6517	2018-12-29 12:30	Москва	1	13	22	9
+6518	2018-12-29 12:30	Самара	1	-13	-16	7
+6519	2018-12-29 12:30	Санкт-Петербург	-1	0	-163	12
+6520	2018-12-29 13:30	Москва	1	-6	-64	5
+6521	2018-12-29 13:30	Самара	0	14	132	12
+6522	2018-12-29 13:30	Санкт-Петербург	6	-18	-81	14
+6523	2018-12-29 14:30	Москва	-10	9	-8	4
+6524	2018-12-29 14:30	Самара	-1	10	-104	14
+6525	2018-12-29 14:30	Санкт-Петербург	-15	17	59	2
+6526	2018-12-29 15:30	Москва	1	3	-69	15
+6527	2018-12-29 15:30	Самара	34	-4	45	0
+6528	2018-12-29 15:30	Санкт-Петербург	19	-1	-10	14
+6529	2018-12-29 16:30	Москва	21	-9	46	11
+6530	2018-12-29 16:30	Самара	-7	5	-163	1
+6531	2018-12-29 16:30	Санкт-Петербург	27	15	162	9
+6532	2018-12-29 17:30	Москва	4	-7	-138	14
+6533	2018-12-29 17:30	Самара	10	-8	163	10
+6534	2018-12-29 17:30	Санкт-Петербург	22	-18	-3	5
+6535	2018-12-29 18:30	Москва	14	5	-66	6
+6536	2018-12-29 18:30	Самара	13	6	168	5
+6537	2018-12-29 18:30	Санкт-Петербург	3	3	-56	13
+6538	2018-12-29 19:30	Москва	26	15	175	8
+6539	2018-12-29 19:30	Самара	31	9	40	5
+6540	2018-12-29 19:30	Санкт-Петербург	-17	16	88	9
+6541	2018-12-29 20:30	Москва	-18	-3	47	5
+6542	2018-12-29 20:30	Самара	-15	-17	81	2
+6543	2018-12-29 20:30	Санкт-Петербург	6	12	-11	7
+6544	2018-12-29 21:30	Москва	-5	5	41	6
+6545	2018-12-29 21:30	Самара	-17	-14	-177	4
+6546	2018-12-29 21:30	Санкт-Петербург	-8	17	41	7
+6547	2018-12-29 22:30	Москва	2	11	-115	3
+6548	2018-12-29 22:30	Самара	-6	1	5	0
+6549	2018-12-29 22:30	Санкт-Петербург	22	-3	42	17
+6550	2018-12-29 23:30	Москва	34	-5	95	12
+6551	2018-12-29 23:30	Самара	19	0	85	11
+6552	2018-12-29 23:30	Санкт-Петербург	-1	9	79	11
+6553	2018-12-30 00:30	Москва	3	5	131	13
+6554	2018-12-30 00:30	Самара	14	19	122	3
+6555	2018-12-30 00:30	Санкт-Петербург	-9	-2	17	9
+6556	2018-12-30 01:30	Москва	-14	-11	-29	8
+6557	2018-12-30 01:30	Самара	26	17	-35	10
+6558	2018-12-30 01:30	Санкт-Петербург	-16	-16	-66	13
+6559	2018-12-30 02:30	Москва	-18	0	-118	10
+6560	2018-12-30 02:30	Самара	-20	-12	-162	17
+6561	2018-12-30 02:30	Санкт-Петербург	7	-19	31	8
+6562	2018-12-30 03:30	Москва	1	0	62	11
+6563	2018-12-30 03:30	Самара	5	16	-76	12
+6564	2018-12-30 03:30	Санкт-Петербург	27	8	-94	12
+6565	2018-12-30 04:30	Москва	31	-3	-60	8
+6566	2018-12-30 04:30	Самара	4	-18	-58	9
+6567	2018-12-30 04:30	Санкт-Петербург	12	-7	113	3
+6568	2018-12-30 05:30	Москва	-14	12	-1	19
+6569	2018-12-30 05:30	Самара	31	16	171	2
+6570	2018-12-30 05:30	Санкт-Петербург	11	14	-92	15
+6571	2018-12-30 06:30	Москва	-2	19	90	12
+6572	2018-12-30 06:30	Самара	-2	-9	107	4
+6573	2018-12-30 06:30	Санкт-Петербург	6	17	-6	1
+6574	2018-12-30 07:30	Москва	-20	12	174	14
+6575	2018-12-30 07:30	Самара	-20	10	-8	15
+6576	2018-12-30 07:30	Санкт-Петербург	-11	8	89	18
+6577	2018-12-30 08:30	Москва	-8	-15	-13	11
+6578	2018-12-30 08:30	Самара	17	12	-142	12
+6579	2018-12-30 08:30	Санкт-Петербург	30	9	-76	19
+6580	2018-12-30 09:30	Москва	-5	-13	130	10
+6581	2018-12-30 09:30	Самара	26	-11	137	0
+6582	2018-12-30 09:30	Санкт-Петербург	17	3	-138	19
+6583	2018-12-30 10:30	Москва	34	-15	-14	0
+6584	2018-12-30 10:30	Самара	15	-7	-140	14
+6585	2018-12-30 10:30	Санкт-Петербург	13	13	-79	17
+6586	2018-12-30 11:30	Москва	27	15	-51	6
+6587	2018-12-30 11:30	Самара	22	-5	-83	8
+6588	2018-12-30 11:30	Санкт-Петербург	16	17	7	12
+6589	2018-12-30 12:30	Москва	23	-2	-83	20
+6590	2018-12-30 12:30	Самара	17	8	83	11
+6591	2018-12-30 12:30	Санкт-Петербург	34	-5	154	6
+6592	2018-12-30 13:30	Москва	-8	15	71	12
+6593	2018-12-30 13:30	Самара	31	-13	139	15
+6594	2018-12-30 13:30	Санкт-Петербург	26	-13	133	12
+6595	2018-12-30 14:30	Москва	-7	-3	34	16
+6596	2018-12-30 14:30	Самара	14	14	-38	20
+6597	2018-12-30 14:30	Санкт-Петербург	17	-1	124	17
+6598	2018-12-30 15:30	Москва	20	-11	-118	7
+6599	2018-12-30 15:30	Самара	-4	12	-20	5
+6600	2018-12-30 15:30	Санкт-Петербург	8	-14	-93	0
+6601	2018-12-30 16:30	Москва	23	17	45	12
+6602	2018-12-30 16:30	Самара	29	17	110	12
+6603	2018-12-30 16:30	Санкт-Петербург	29	-1	-166	14
+6604	2018-12-30 17:30	Москва	23	14	-78	4
+6605	2018-12-30 17:30	Самара	33	1	-173	18
+6606	2018-12-30 17:30	Санкт-Петербург	15	-15	-49	9
+6607	2018-12-30 18:30	Москва	-4	-10	-139	17
+6608	2018-12-30 18:30	Самара	-9	8	92	1
+6609	2018-12-30 18:30	Санкт-Петербург	25	-14	24	10
+6610	2018-12-30 19:30	Москва	-5	10	49	12
+6611	2018-12-30 19:30	Самара	31	-14	43	4
+6612	2018-12-30 19:30	Санкт-Петербург	21	6	120	5
+6613	2018-12-30 20:30	Москва	28	3	158	19
+6614	2018-12-30 20:30	Самара	13	-15	-20	17
+6615	2018-12-30 20:30	Санкт-Петербург	-3	11	0	17
+6616	2018-12-30 21:30	Москва	-18	-12	5	5
+6617	2018-12-30 21:30	Самара	-8	13	-103	3
+6618	2018-12-30 21:30	Санкт-Петербург	-12	-4	-96	4
+6619	2018-12-30 22:30	Москва	15	13	62	10
+6620	2018-12-30 22:30	Самара	20	1	42	11
+6621	2018-12-30 22:30	Санкт-Петербург	21	-19	-105	8
+6622	2018-12-30 23:30	Москва	-5	19	-141	6
+6623	2018-12-30 23:30	Самара	30	-8	-118	8
+6624	2018-12-30 23:30	Санкт-Петербург	19	13	174	3
+6625	2018-12-31 00:30	Москва	-14	-8	128	6
+6626	2018-12-31 00:30	Самара	2	-1	-52	17
+6627	2018-12-31 00:30	Санкт-Петербург	-3	20	55	8
+6628	2018-12-31 01:30	Москва	14	20	124	7
+6629	2018-12-31 01:30	Самара	-8	-9	162	16
+6630	2018-12-31 01:30	Санкт-Петербург	-20	-17	-48	10
+6631	2018-12-31 02:30	Москва	27	2	-81	13
+6632	2018-12-31 02:30	Самара	26	-6	60	17
+6633	2018-12-31 02:30	Санкт-Петербург	29	0	43	15
+6634	2018-12-31 03:30	Москва	-14	8	-173	20
+6635	2018-12-31 03:30	Самара	15	-6	-16	14
+6636	2018-12-31 03:30	Санкт-Петербург	26	-14	155	10
+6637	2018-12-31 04:30	Москва	30	-20	71	10
+6638	2018-12-31 04:30	Самара	-5	-8	-166	10
+6639	2018-12-31 04:30	Санкт-Петербург	10	-5	-130	18
+6640	2018-12-31 05:30	Москва	-19	11	170	2
+6641	2018-12-31 05:30	Самара	34	-14	90	4
+6642	2018-12-31 05:30	Санкт-Петербург	25	5	85	15
+6643	2018-12-31 06:30	Москва	22	14	104	12
+6644	2018-12-31 06:30	Самара	27	12	174	13
+6645	2018-12-31 06:30	Санкт-Петербург	1	11	-174	5
+6646	2018-12-31 07:30	Москва	-9	8	-100	3
+6647	2018-12-31 07:30	Самара	35	-17	103	9
+6648	2018-12-31 07:30	Санкт-Петербург	17	-15	-40	3
+6649	2018-12-31 08:30	Москва	-10	3	54	2
+6650	2018-12-31 08:30	Самара	-10	20	14	0
+6651	2018-12-31 08:30	Санкт-Петербург	-10	7	64	12
+6652	2018-12-31 09:30	Москва	24	14	18	15
+6653	2018-12-31 09:30	Самара	10	-8	176	7
+6654	2018-12-31 09:30	Санкт-Петербург	-11	-10	72	3
+6655	2018-12-31 10:30	Москва	13	-11	-32	2
+6656	2018-12-31 10:30	Самара	2	11	81	11
+6657	2018-12-31 10:30	Санкт-Петербург	-10	-10	-178	15
+6658	2018-12-31 11:30	Москва	25	-6	-150	3
+6659	2018-12-31 11:30	Самара	20	-15	79	17
+6660	2018-12-31 11:30	Санкт-Петербург	27	20	-39	14
+6661	2018-12-31 12:30	Москва	18	-1	-51	20
+6662	2018-12-31 12:30	Самара	3	8	26	17
+6663	2018-12-31 12:30	Санкт-Петербург	-9	2	-17	7
+6664	2018-12-31 13:30	Москва	28	-17	-63	15
+6665	2018-12-31 13:30	Самара	19	-16	8	17
+6666	2018-12-31 13:30	Санкт-Петербург	1	4	82	11
+6667	2018-12-31 14:30	Москва	-16	-13	-27	9
+6668	2018-12-31 14:30	Самара	-9	-6	33	17
+6669	2018-12-31 14:30	Санкт-Петербург	5	-8	-8	13
+6670	2018-12-31 15:30	Москва	13	-19	-170	0
+6671	2018-12-31 15:30	Самара	-6	1	-75	17
+6672	2018-12-31 15:30	Санкт-Петербург	10	-11	-67	19
+6673	2018-12-31 16:30	Москва	4	1	84	10
+6674	2018-12-31 16:30	Самара	29	20	75	6
+6675	2018-12-31 16:30	Санкт-Петербург	1	14	47	8
+6676	2018-12-31 17:30	Москва	16	-20	-166	7
+6677	2018-12-31 17:30	Самара	10	18	-36	18
+6678	2018-12-31 17:30	Санкт-Петербург	21	3	123	16
+6679	2018-12-31 18:30	Москва	28	16	-94	9
+6680	2018-12-31 18:30	Самара	-3	-18	84	8
+6681	2018-12-31 18:30	Санкт-Петербург	33	13	-42	14
+6682	2018-12-31 19:30	Москва	4	-6	-40	19
+6683	2018-12-31 19:30	Самара	22	-1	180	8
+6684	2018-12-31 19:30	Санкт-Петербург	23	-7	72	3
+6685	2018-12-31 20:30	Москва	-19	-11	-61	8
+6686	2018-12-31 20:30	Самара	20	0	174	10
+6687	2018-12-31 20:30	Санкт-Петербург	-5	19	60	8
+6688	2018-12-31 21:30	Москва	25	-15	9	18
+6689	2018-12-31 21:30	Самара	9	-6	46	20
+6690	2018-12-31 21:30	Санкт-Петербург	-14	-5	167	8
+6691	2018-12-31 22:30	Москва	14	7	47	19
+6692	2018-12-31 22:30	Самара	-2	13	-73	19
+6693	2018-12-31 22:30	Санкт-Петербург	30	-9	-155	13
+6694	2018-12-31 23:30	Москва	20	-9	-34	17
+6695	2018-12-31 23:30	Самара	-14	8	-39	18
+6696	2018-12-31 23:30	Санкт-Петербург	-20	12	-84	19
+6697	2019-01-01 00:30	Москва	-6	6	72	19
+6698	2019-01-01 00:30	Самара	10	-3	152	16
+6699	2019-01-01 00:30	Санкт-Петербург	17	12	-152	12
+6700	2019-01-01 01:30	Москва	-3	-2	154	14
+6701	2019-01-01 01:30	Самара	32	-6	124	16
+6702	2019-01-01 01:30	Санкт-Петербург	0	14	70	5
+6703	2019-01-01 02:30	Москва	30	-15	108	9
+6704	2019-01-01 02:30	Самара	26	-16	68	6
+6705	2019-01-01 02:30	Санкт-Петербург	-18	7	-81	9
+6706	2019-01-01 03:30	Москва	27	15	39	12
+6707	2019-01-01 03:30	Самара	-19	12	155	6
+6708	2019-01-01 03:30	Санкт-Петербург	2	-5	96	14
+6709	2019-01-01 04:30	Москва	-20	11	22	2
+6710	2019-01-01 04:30	Самара	3	-9	28	9
+6711	2019-01-01 04:30	Санкт-Петербург	29	4	98	12
+6712	2019-01-01 05:30	Москва	0	-6	-84	9
+6713	2019-01-01 05:30	Самара	-16	4	31	1
+6714	2019-01-01 05:30	Санкт-Петербург	-10	-11	53	0
+6715	2019-01-01 06:30	Москва	15	-19	-47	10
+6716	2019-01-01 06:30	Самара	0	7	-149	9
+6717	2019-01-01 06:30	Санкт-Петербург	17	-7	107	5
+6718	2019-01-01 07:30	Москва	-19	9	53	18
+6719	2019-01-01 07:30	Самара	-9	13	-109	9
+6720	2019-01-01 07:30	Санкт-Петербург	2	-19	-81	4
+6721	2019-01-01 08:30	Москва	4	12	-109	18
+6722	2019-01-01 08:30	Самара	29	16	180	14
+6723	2019-01-01 08:30	Санкт-Петербург	5	-1	-33	11
+6724	2019-01-01 09:30	Москва	2	-10	-112	19
+6725	2019-01-01 09:30	Самара	8	11	-79	9
+6726	2019-01-01 09:30	Санкт-Петербург	-10	-14	114	16
+6727	2019-01-01 10:30	Москва	-9	1	121	12
+6728	2019-01-01 10:30	Самара	-20	7	-53	17
+6729	2019-01-01 10:30	Санкт-Петербург	18	-20	111	18
+6730	2019-01-01 11:30	Москва	11	-16	78	19
+6731	2019-01-01 11:30	Самара	27	6	31	6
+6732	2019-01-01 11:30	Санкт-Петербург	-8	16	-172	15
+6733	2019-01-01 12:30	Москва	11	12	-102	18
+6734	2019-01-01 12:30	Самара	26	-4	60	3
+6735	2019-01-01 12:30	Санкт-Петербург	-20	-7	98	10
+6736	2019-01-01 13:30	Москва	20	20	-74	19
+6737	2019-01-01 13:30	Самара	33	8	-25	9
+6738	2019-01-01 13:30	Санкт-Петербург	33	20	132	2
+6739	2019-01-01 14:30	Москва	22	0	42	12
+6740	2019-01-01 14:30	Самара	-7	-8	25	3
+6741	2019-01-01 14:30	Санкт-Петербург	-5	18	-101	1
+6742	2019-01-01 15:30	Москва	26	-11	-14	9
+6743	2019-01-01 15:30	Самара	-11	5	-65	11
+6744	2019-01-01 15:30	Санкт-Петербург	-15	18	164	11
+6745	2019-01-01 16:30	Москва	32	20	-66	16
+6746	2019-01-01 16:30	Самара	8	-12	110	17
+6747	2019-01-01 16:30	Санкт-Петербург	-2	-17	-31	7
+6748	2019-01-01 17:30	Москва	15	6	-143	20
+6749	2019-01-01 17:30	Самара	0	12	-113	13
+6750	2019-01-01 17:30	Санкт-Петербург	21	-7	83	0
+6751	2019-01-01 18:30	Москва	-1	-20	-125	5
+6752	2019-01-01 18:30	Самара	15	13	125	19
+6753	2019-01-01 18:30	Санкт-Петербург	2	13	170	20
+6754	2019-01-01 19:30	Москва	-7	8	158	5
+6755	2019-01-01 19:30	Самара	27	-7	144	8
+6756	2019-01-01 19:30	Санкт-Петербург	22	-20	-160	17
+6757	2019-01-01 20:30	Москва	21	1	119	13
+6758	2019-01-01 20:30	Самара	-7	-19	-21	0
+6759	2019-01-01 20:30	Санкт-Петербург	-1	17	140	17
+6760	2019-01-01 21:30	Москва	30	-13	140	7
+6761	2019-01-01 21:30	Самара	-5	6	137	18
+6762	2019-01-01 21:30	Санкт-Петербург	22	3	130	8
+6763	2019-01-01 22:30	Москва	-13	4	-85	18
+6764	2019-01-01 22:30	Самара	8	5	-38	2
+6765	2019-01-01 22:30	Санкт-Петербург	23	-17	178	7
+6766	2019-01-01 23:30	Москва	13	-20	-172	9
+6767	2019-01-01 23:30	Самара	16	-2	142	4
+6768	2019-01-01 23:30	Санкт-Петербург	0	8	-145	4
+6769	2019-01-02 00:30	Москва	22	3	-99	9
+6770	2019-01-02 00:30	Самара	6	-10	-116	17
+6771	2019-01-02 00:30	Санкт-Петербург	-6	-11	79	8
+6772	2019-01-02 01:30	Москва	-1	-17	114	7
+6773	2019-01-02 01:30	Самара	11	18	106	18
+6774	2019-01-02 01:30	Санкт-Петербург	-17	12	-56	19
+6775	2019-01-02 02:30	Москва	23	13	-30	13
+6776	2019-01-02 02:30	Самара	-19	0	172	5
+6777	2019-01-02 02:30	Санкт-Петербург	-4	16	-10	3
+6778	2019-01-02 03:30	Москва	3	9	-145	20
+6779	2019-01-02 03:30	Самара	24	-7	169	4
+6780	2019-01-02 03:30	Санкт-Петербург	0	13	175	6
+6781	2019-01-02 04:30	Москва	-9	19	132	1
+6782	2019-01-02 04:30	Самара	9	-18	-22	15
+6783	2019-01-02 04:30	Санкт-Петербург	28	-14	-21	10
+6784	2019-01-02 05:30	Москва	1	-7	-33	4
+6785	2019-01-02 05:30	Самара	16	-11	-13	20
+6786	2019-01-02 05:30	Санкт-Петербург	0	7	154	11
+6787	2019-01-02 06:30	Москва	27	-19	-148	6
+6788	2019-01-02 06:30	Самара	-11	-11	-79	3
+6789	2019-01-02 06:30	Санкт-Петербург	29	1	-23	20
+6790	2019-01-02 07:30	Москва	30	-20	-82	9
+6791	2019-01-02 07:30	Самара	8	14	-122	9
+6792	2019-01-02 07:30	Санкт-Петербург	-13	-2	-178	2
+6793	2019-01-02 08:30	Москва	26	5	-43	19
+6794	2019-01-02 08:30	Самара	-12	0	-147	14
+6795	2019-01-02 08:30	Санкт-Петербург	18	-3	-155	12
+6796	2019-01-02 09:30	Москва	9	7	-53	4
+6797	2019-01-02 09:30	Самара	30	-12	-14	1
+6798	2019-01-02 09:30	Санкт-Петербург	-13	-8	-27	2
+6799	2019-01-02 10:30	Москва	25	-4	149	13
+6800	2019-01-02 10:30	Самара	-10	-2	-71	1
+6801	2019-01-02 10:30	Санкт-Петербург	0	-12	32	3
+6802	2019-01-02 11:30	Москва	-19	-12	126	3
+6803	2019-01-02 11:30	Самара	29	4	-131	12
+6804	2019-01-02 11:30	Санкт-Петербург	24	-5	54	12
+6805	2019-01-02 12:30	Москва	18	3	-176	6
+6806	2019-01-02 12:30	Самара	21	7	54	19
+6807	2019-01-02 12:30	Санкт-Петербург	23	-10	88	18
+6808	2019-01-02 13:30	Москва	-17	-5	-62	0
+6809	2019-01-02 13:30	Самара	21	17	40	9
+6810	2019-01-02 13:30	Санкт-Петербург	17	0	-45	2
+6811	2019-01-02 14:30	Москва	-18	-5	-110	6
+6812	2019-01-02 14:30	Самара	24	9	-162	14
+6813	2019-01-02 14:30	Санкт-Петербург	8	17	36	7
+6814	2019-01-02 15:30	Москва	-14	6	-29	17
+6815	2019-01-02 15:30	Самара	-13	17	-122	17
+6816	2019-01-02 15:30	Санкт-Петербург	-18	15	-42	14
+6817	2019-01-02 16:30	Москва	9	13	91	19
+6818	2019-01-02 16:30	Самара	2	17	-177	5
+6819	2019-01-02 16:30	Санкт-Петербург	27	10	-147	11
+6820	2019-01-02 17:30	Москва	14	1	-21	13
+6821	2019-01-02 17:30	Самара	-9	-3	43	5
+6822	2019-01-02 17:30	Санкт-Петербург	25	0	59	7
+6823	2019-01-02 18:30	Москва	4	1	155	8
+6824	2019-01-02 18:30	Самара	10	1	93	3
+6825	2019-01-02 18:30	Санкт-Петербург	6	-19	158	8
+6826	2019-01-02 19:30	Москва	15	17	-48	5
+6827	2019-01-02 19:30	Самара	-4	-15	49	2
+6828	2019-01-02 19:30	Санкт-Петербург	6	15	-14	11
+6829	2019-01-02 20:30	Москва	25	20	16	3
+6830	2019-01-02 20:30	Самара	18	0	105	16
+6831	2019-01-02 20:30	Санкт-Петербург	2	-8	-21	14
+6832	2019-01-02 21:30	Москва	-20	1	179	10
+6833	2019-01-02 21:30	Самара	31	-14	4	8
+6834	2019-01-02 21:30	Санкт-Петербург	25	-4	49	7
+6835	2019-01-02 22:30	Москва	-13	7	-173	6
+6836	2019-01-02 22:30	Самара	30	7	90	10
+6837	2019-01-02 22:30	Санкт-Петербург	14	9	-18	3
+6838	2019-01-02 23:30	Москва	-2	-9	173	16
+6839	2019-01-02 23:30	Самара	-20	-12	136	3
+6840	2019-01-02 23:30	Санкт-Петербург	24	-17	-37	11
+6841	2019-01-03 00:30	Москва	19	0	100	8
+6842	2019-01-03 00:30	Самара	-1	-17	99	8
+6843	2019-01-03 00:30	Санкт-Петербург	-13	0	146	19
+6844	2019-01-03 01:30	Москва	14	-10	-156	11
+6845	2019-01-03 01:30	Самара	24	0	-56	2
+6846	2019-01-03 01:30	Санкт-Петербург	13	-18	-59	17
+6847	2019-01-03 02:30	Москва	3	-1	137	19
+6848	2019-01-03 02:30	Самара	-14	19	29	5
+6849	2019-01-03 02:30	Санкт-Петербург	-14	-14	73	18
+6850	2019-01-03 03:30	Москва	23	6	91	19
+6851	2019-01-03 03:30	Самара	-18	-6	0	19
+6852	2019-01-03 03:30	Санкт-Петербург	-13	-6	-98	19
+6853	2019-01-03 04:30	Москва	32	10	141	19
+6854	2019-01-03 04:30	Самара	-2	-18	-144	5
+6855	2019-01-03 04:30	Санкт-Петербург	16	14	-104	19
+6856	2019-01-03 05:30	Москва	-8	-3	-104	17
+6857	2019-01-03 05:30	Самара	-7	-11	-46	0
+6858	2019-01-03 05:30	Санкт-Петербург	30	-18	-149	19
+6859	2019-01-03 06:30	Москва	-12	-16	-14	2
+6860	2019-01-03 06:30	Самара	-7	-4	-6	14
+6861	2019-01-03 06:30	Санкт-Петербург	-17	1	124	8
+6862	2019-01-03 07:30	Москва	35	17	167	11
+6863	2019-01-03 07:30	Самара	-17	-6	118	12
+6864	2019-01-03 07:30	Санкт-Петербург	-10	-11	-49	2
+6865	2019-01-03 08:30	Москва	3	3	-89	0
+6866	2019-01-03 08:30	Самара	-8	0	-172	3
+6867	2019-01-03 08:30	Санкт-Петербург	-14	-3	-41	15
+6868	2019-01-03 09:30	Москва	12	-2	169	13
+6869	2019-01-03 09:30	Самара	-11	13	132	11
+6870	2019-01-03 09:30	Санкт-Петербург	4	-16	-174	10
+6871	2019-01-03 10:30	Москва	-14	-1	47	15
+6872	2019-01-03 10:30	Самара	11	7	-63	13
+6873	2019-01-03 10:30	Санкт-Петербург	-4	-15	-23	8
+6874	2019-01-03 11:30	Москва	-3	8	-73	14
+6875	2019-01-03 11:30	Самара	21	-12	35	5
+6876	2019-01-03 11:30	Санкт-Петербург	0	-2	65	10
+6877	2019-01-03 12:30	Москва	18	12	68	10
+6878	2019-01-03 12:30	Самара	14	-19	165	15
+6879	2019-01-03 12:30	Санкт-Петербург	-13	-1	-79	19
+6880	2019-01-03 13:30	Москва	-4	11	-138	3
+6881	2019-01-03 13:30	Самара	15	-12	-19	9
+6882	2019-01-03 13:30	Санкт-Петербург	4	19	-121	3
+6883	2019-01-03 14:30	Москва	34	13	148	13
+6884	2019-01-03 14:30	Самара	32	13	155	5
+6885	2019-01-03 14:30	Санкт-Петербург	0	10	-65	12
+6886	2019-01-03 15:30	Москва	-3	-13	-69	10
+6887	2019-01-03 15:30	Самара	16	-11	71	13
+6888	2019-01-03 15:30	Санкт-Петербург	15	-18	-171	12
+6889	2019-01-03 16:30	Москва	-5	0	-46	2
+6890	2019-01-03 16:30	Самара	5	19	-149	19
+6891	2019-01-03 16:30	Санкт-Петербург	15	-11	-147	19
+6892	2019-01-03 17:30	Москва	33	3	-62	19
+6893	2019-01-03 17:30	Самара	4	18	-123	10
+6894	2019-01-03 17:30	Санкт-Петербург	-15	5	49	17
+6895	2019-01-03 18:30	Москва	18	19	93	7
+6896	2019-01-03 18:30	Самара	8	16	99	14
+6897	2019-01-03 18:30	Санкт-Петербург	25	-1	-163	6
+6898	2019-01-03 19:30	Москва	-14	4	114	1
+6899	2019-01-03 19:30	Самара	6	-17	48	5
+6900	2019-01-03 19:30	Санкт-Петербург	8	-10	-149	13
+6901	2019-01-03 20:30	Москва	15	-20	-160	5
+6902	2019-01-03 20:30	Самара	5	-12	-58	12
+6903	2019-01-03 20:30	Санкт-Петербург	14	12	50	14
+6904	2019-01-03 21:30	Москва	8	16	95	16
+6905	2019-01-03 21:30	Самара	-18	-13	-15	9
+6906	2019-01-03 21:30	Санкт-Петербург	25	-8	92	19
+6907	2019-01-03 22:30	Москва	7	-10	-106	5
+6908	2019-01-03 22:30	Самара	11	4	53	8
+6909	2019-01-03 22:30	Санкт-Петербург	9	9	96	5
+6910	2019-01-03 23:30	Москва	4	-4	138	17
+6911	2019-01-03 23:30	Самара	35	-3	142	20
+6912	2019-01-03 23:30	Санкт-Петербург	13	16	-68	6
+6913	2019-01-04 00:30	Москва	8	-2	97	11
+6914	2019-01-04 00:30	Самара	-7	-9	177	16
+6915	2019-01-04 00:30	Санкт-Петербург	-10	-10	-91	11
+6916	2019-01-04 01:30	Москва	29	-8	24	18
+6917	2019-01-04 01:30	Самара	16	19	-100	14
+6918	2019-01-04 01:30	Санкт-Петербург	32	11	-126	6
+6919	2019-01-04 02:30	Москва	29	1	162	16
+6920	2019-01-04 02:30	Самара	-14	-16	141	11
+6921	2019-01-04 02:30	Санкт-Петербург	0	2	-156	10
+6922	2019-01-04 03:30	Москва	-16	-10	-53	3
+6923	2019-01-04 03:30	Самара	-19	-4	-159	7
+6924	2019-01-04 03:30	Санкт-Петербург	-16	-7	172	12
+6925	2019-01-04 04:30	Москва	-7	9	149	17
+6926	2019-01-04 04:30	Самара	-18	18	-15	2
+6927	2019-01-04 04:30	Санкт-Петербург	31	15	-135	9
+6928	2019-01-04 05:30	Москва	7	11	166	1
+6929	2019-01-04 05:30	Самара	30	17	-76	6
+6930	2019-01-04 05:30	Санкт-Петербург	22	19	-134	17
+6931	2019-01-04 06:30	Москва	26	10	-153	17
+6932	2019-01-04 06:30	Самара	16	-11	71	9
+6933	2019-01-04 06:30	Санкт-Петербург	13	-11	-173	11
+6934	2019-01-04 07:30	Москва	-16	2	-156	5
+6935	2019-01-04 07:30	Самара	29	-12	-80	2
+6936	2019-01-04 07:30	Санкт-Петербург	-12	1	33	12
+6937	2019-01-04 08:30	Москва	30	-1	164	20
+6938	2019-01-04 08:30	Самара	23	14	-121	9
+6939	2019-01-04 08:30	Санкт-Петербург	23	19	-33	15
+6940	2019-01-04 09:30	Москва	1	16	89	15
+6941	2019-01-04 09:30	Самара	-17	7	-145	1
+6942	2019-01-04 09:30	Санкт-Петербург	27	6	116	0
+6943	2019-01-04 10:30	Москва	21	-14	-5	18
+6944	2019-01-04 10:30	Самара	11	2	30	11
+6945	2019-01-04 10:30	Санкт-Петербург	34	-2	-85	9
+6946	2019-01-04 11:30	Москва	-11	0	53	10
+6947	2019-01-04 11:30	Самара	-19	-20	14	18
+6948	2019-01-04 11:30	Санкт-Петербург	-7	18	-148	2
+6949	2019-01-04 12:30	Москва	24	17	118	5
+6950	2019-01-04 12:30	Самара	6	20	8	12
+6951	2019-01-04 12:30	Санкт-Петербург	16	-20	26	14
+6952	2019-01-04 13:30	Москва	-4	15	19	6
+6953	2019-01-04 13:30	Самара	-7	-13	-104	18
+6954	2019-01-04 13:30	Санкт-Петербург	4	-6	-178	10
+6955	2019-01-04 14:30	Москва	1	8	104	20
+6956	2019-01-04 14:30	Самара	32	1	9	3
+6957	2019-01-04 14:30	Санкт-Петербург	21	-1	-4	14
+6958	2019-01-04 15:30	Москва	-5	0	-27	4
+6959	2019-01-04 15:30	Самара	24	16	155	15
+6960	2019-01-04 15:30	Санкт-Петербург	22	-9	155	20
+6961	2019-01-04 16:30	Москва	2	-10	102	15
+6962	2019-01-04 16:30	Самара	-14	5	135	4
+6963	2019-01-04 16:30	Санкт-Петербург	33	20	-55	11
+6964	2019-01-04 17:30	Москва	13	-15	148	2
+6965	2019-01-04 17:30	Самара	27	-16	-128	1
+6966	2019-01-04 17:30	Санкт-Петербург	24	-18	-164	6
+6967	2019-01-04 18:30	Москва	-13	-20	177	16
+6968	2019-01-04 18:30	Самара	13	18	89	6
+6969	2019-01-04 18:30	Санкт-Петербург	-11	-7	-53	1
+6970	2019-01-04 19:30	Москва	-13	-13	-165	12
+6971	2019-01-04 19:30	Самара	32	8	41	4
+6972	2019-01-04 19:30	Санкт-Петербург	-9	-9	-74	15
+6973	2019-01-04 20:30	Москва	-17	-17	-63	10
+6974	2019-01-04 20:30	Самара	30	16	109	14
+6975	2019-01-04 20:30	Санкт-Петербург	16	1	126	9
+6976	2019-01-04 21:30	Москва	7	19	139	4
+6977	2019-01-04 21:30	Самара	23	2	97	10
+6978	2019-01-04 21:30	Санкт-Петербург	-16	-10	-106	11
+6979	2019-01-04 22:30	Москва	-11	-11	-163	4
+6980	2019-01-04 22:30	Самара	7	-12	33	12
+6981	2019-01-04 22:30	Санкт-Петербург	12	-9	137	4
+6982	2019-01-04 23:30	Москва	1	-10	-57	7
+6983	2019-01-04 23:30	Самара	-8	9	12	12
+6984	2019-01-04 23:30	Санкт-Петербург	2	-14	-103	4
+6985	2019-01-05 00:30	Москва	29	16	2	20
+6986	2019-01-05 00:30	Самара	4	-14	96	13
+6987	2019-01-05 00:30	Санкт-Петербург	31	-4	13	8
+6988	2019-01-05 01:30	Москва	21	3	89	6
+6989	2019-01-05 01:30	Самара	-11	5	-53	7
+6990	2019-01-05 01:30	Санкт-Петербург	31	-11	-48	15
+6991	2019-01-05 02:30	Москва	3	-1	12	2
+6992	2019-01-05 02:30	Самара	-16	20	-172	11
+6993	2019-01-05 02:30	Санкт-Петербург	12	-1	-164	2
+6994	2019-01-05 03:30	Москва	-14	-14	-118	14
+6995	2019-01-05 03:30	Самара	-16	10	137	6
+6996	2019-01-05 03:30	Санкт-Петербург	-15	-13	-155	20
+6997	2019-01-05 04:30	Москва	35	-2	97	17
+6998	2019-01-05 04:30	Самара	-1	-9	69	4
+6999	2019-01-05 04:30	Санкт-Петербург	11	12	-133	9
+7000	2019-01-05 05:30	Москва	23	-16	55	17
+7001	2019-01-05 05:30	Самара	0	7	-12	13
+7002	2019-01-05 05:30	Санкт-Петербург	5	0	-55	19
+7003	2019-01-05 06:30	Москва	-14	0	-149	19
+7004	2019-01-05 06:30	Самара	5	10	-41	0
+7005	2019-01-05 06:30	Санкт-Петербург	-20	14	123	11
+7006	2019-01-05 07:30	Москва	28	-14	166	3
+7007	2019-01-05 07:30	Самара	35	8	-151	15
+7008	2019-01-05 07:30	Санкт-Петербург	13	8	-70	14
+7009	2019-01-05 08:30	Москва	8	3	-56	15
+7010	2019-01-05 08:30	Самара	33	2	-40	9
+7011	2019-01-05 08:30	Санкт-Петербург	-5	13	57	9
+7012	2019-01-05 09:30	Москва	24	-13	-151	4
+7013	2019-01-05 09:30	Самара	-11	-1	-71	11
+7014	2019-01-05 09:30	Санкт-Петербург	32	6	17	8
+7015	2019-01-05 10:30	Москва	-3	8	-14	8
+7016	2019-01-05 10:30	Самара	-18	-12	-141	12
+7017	2019-01-05 10:30	Санкт-Петербург	-16	6	91	19
+7018	2019-01-05 11:30	Москва	-10	-3	169	17
+7019	2019-01-05 11:30	Самара	10	-11	-65	8
+7020	2019-01-05 11:30	Санкт-Петербург	8	-17	-135	8
+7021	2019-01-05 12:30	Москва	-1	19	55	17
+7022	2019-01-05 12:30	Самара	13	18	163	0
+7023	2019-01-05 12:30	Санкт-Петербург	0	14	-90	20
+7024	2019-01-05 13:30	Москва	7	-5	24	17
+7025	2019-01-05 13:30	Самара	-7	-5	-105	5
+7026	2019-01-05 13:30	Санкт-Петербург	-20	-14	-18	8
+7027	2019-01-05 14:30	Москва	-2	-15	33	5
+7028	2019-01-05 14:30	Самара	-15	5	153	18
+7029	2019-01-05 14:30	Санкт-Петербург	15	0	-112	17
+7030	2019-01-05 15:30	Москва	1	11	30	19
+7031	2019-01-05 15:30	Самара	23	17	-178	17
+7032	2019-01-05 15:30	Санкт-Петербург	10	-9	105	2
+7033	2019-01-05 16:30	Москва	-11	-10	-58	12
+7034	2019-01-05 16:30	Самара	20	-6	-22	5
+7035	2019-01-05 16:30	Санкт-Петербург	23	20	-155	15
+7036	2019-01-05 17:30	Москва	9	6	94	15
+7037	2019-01-05 17:30	Самара	17	-11	14	6
+7038	2019-01-05 17:30	Санкт-Петербург	2	10	-177	0
+7039	2019-01-05 18:30	Москва	8	-8	65	8
+7040	2019-01-05 18:30	Самара	17	18	112	16
+7041	2019-01-05 18:30	Санкт-Петербург	-7	4	-123	4
+7042	2019-01-05 19:30	Москва	-4	10	158	12
+7043	2019-01-05 19:30	Самара	26	-8	103	14
+7044	2019-01-05 19:30	Санкт-Петербург	18	-5	-134	4
+7045	2019-01-05 20:30	Москва	15	-16	-158	1
+7046	2019-01-05 20:30	Самара	17	-19	11	11
+7047	2019-01-05 20:30	Санкт-Петербург	-9	-17	7	15
+7048	2019-01-05 21:30	Москва	15	-18	46	3
+7049	2019-01-05 21:30	Самара	-2	16	129	4
+7050	2019-01-05 21:30	Санкт-Петербург	23	-5	135	17
+7051	2019-01-05 22:30	Москва	12	-17	-75	17
+7052	2019-01-05 22:30	Самара	1	2	64	7
+7053	2019-01-05 22:30	Санкт-Петербург	-15	16	-146	10
+7054	2019-01-05 23:30	Москва	-19	-16	-17	8
+7055	2019-01-05 23:30	Самара	18	5	-106	1
+7056	2019-01-05 23:30	Санкт-Петербург	1	-16	-19	19
+7057	2019-01-06 00:30	Москва	-5	16	-131	20
+7058	2019-01-06 00:30	Самара	33	3	-121	0
+7059	2019-01-06 00:30	Санкт-Петербург	-12	-19	84	7
+7060	2019-01-06 01:30	Москва	10	20	141	9
+7061	2019-01-06 01:30	Самара	35	11	16	8
+7062	2019-01-06 01:30	Санкт-Петербург	15	-14	22	9
+7063	2019-01-06 02:30	Москва	-6	20	-20	4
+7064	2019-01-06 02:30	Самара	-10	19	162	13
+7065	2019-01-06 02:30	Санкт-Петербург	-13	-19	-45	18
+7066	2019-01-06 03:30	Москва	-9	8	85	8
+7067	2019-01-06 03:30	Самара	8	-3	142	8
+7068	2019-01-06 03:30	Санкт-Петербург	14	-19	82	7
+7069	2019-01-06 04:30	Москва	26	1	153	17
+7070	2019-01-06 04:30	Самара	9	10	33	10
+7071	2019-01-06 04:30	Санкт-Петербург	-6	-5	-81	18
+7072	2019-01-06 05:30	Москва	9	2	72	19
+7073	2019-01-06 05:30	Самара	16	-8	-92	6
+7074	2019-01-06 05:30	Санкт-Петербург	20	-1	-3	5
+7075	2019-01-06 06:30	Москва	-1	-1	-60	15
+7076	2019-01-06 06:30	Самара	21	17	2	1
+7077	2019-01-06 06:30	Санкт-Петербург	-16	19	-132	7
+7078	2019-01-06 07:30	Москва	7	18	-165	14
+7079	2019-01-06 07:30	Самара	2	-17	95	19
+7080	2019-01-06 07:30	Санкт-Петербург	35	-17	-99	9
+7081	2019-01-06 08:30	Москва	-6	8	76	1
+7082	2019-01-06 08:30	Самара	-10	-17	80	14
+7083	2019-01-06 08:30	Санкт-Петербург	-19	18	-72	8
+7084	2019-01-06 09:30	Москва	28	4	147	11
+7085	2019-01-06 09:30	Самара	18	-8	0	19
+7086	2019-01-06 09:30	Санкт-Петербург	30	3	23	16
+7087	2019-01-06 10:30	Москва	-19	-10	56	16
+7088	2019-01-06 10:30	Самара	2	5	-27	0
+7089	2019-01-06 10:30	Санкт-Петербург	30	8	-127	19
+7090	2019-01-06 11:30	Москва	15	13	99	7
+7091	2019-01-06 11:30	Самара	27	11	-77	11
+7092	2019-01-06 11:30	Санкт-Петербург	15	-13	140	20
+7093	2019-01-06 12:30	Москва	-3	-7	-37	13
+7094	2019-01-06 12:30	Самара	6	11	-134	14
+7095	2019-01-06 12:30	Санкт-Петербург	-8	2	-129	12
+7096	2019-01-06 13:30	Москва	-14	-7	-157	1
+7097	2019-01-06 13:30	Самара	-19	-1	79	17
+7098	2019-01-06 13:30	Санкт-Петербург	21	6	68	13
+7099	2019-01-06 14:30	Москва	-7	-18	-59	20
+7100	2019-01-06 14:30	Самара	-10	9	141	19
+7101	2019-01-06 14:30	Санкт-Петербург	-17	1	-108	8
+7102	2019-01-06 15:30	Москва	35	7	130	14
+7103	2019-01-06 15:30	Самара	-5	-6	158	9
+7104	2019-01-06 15:30	Санкт-Петербург	-13	-12	33	6
+7105	2019-01-06 16:30	Москва	35	-15	164	18
+7106	2019-01-06 16:30	Самара	5	15	-65	11
+7107	2019-01-06 16:30	Санкт-Петербург	-13	-18	144	8
+7108	2019-01-06 17:30	Москва	-13	11	-55	17
+7109	2019-01-06 17:30	Самара	-7	16	11	9
+7110	2019-01-06 17:30	Санкт-Петербург	14	2	24	19
+7111	2019-01-06 18:30	Москва	30	-19	52	9
+7112	2019-01-06 18:30	Самара	-6	3	137	18
+7113	2019-01-06 18:30	Санкт-Петербург	6	-2	-88	2
+7114	2019-01-06 19:30	Москва	32	-14	168	12
+7115	2019-01-06 19:30	Самара	24	12	-34	13
+7116	2019-01-06 19:30	Санкт-Петербург	-12	17	-109	17
+7117	2019-01-06 20:30	Москва	-11	-7	-44	13
+7118	2019-01-06 20:30	Самара	-1	10	130	14
+7119	2019-01-06 20:30	Санкт-Петербург	25	11	-150	17
+7120	2019-01-06 21:30	Москва	29	-11	-121	1
+7121	2019-01-06 21:30	Самара	6	-13	-170	0
+7122	2019-01-06 21:30	Санкт-Петербург	32	-12	-130	16
+7123	2019-01-06 22:30	Москва	22	7	-116	13
+7124	2019-01-06 22:30	Самара	8	4	87	14
+7125	2019-01-06 22:30	Санкт-Петербург	11	11	50	11
+7126	2019-01-06 23:30	Москва	-11	-6	4	9
+7127	2019-01-06 23:30	Самара	29	-7	-52	18
+7128	2019-01-06 23:30	Санкт-Петербург	17	-6	-129	1
+7129	2019-01-07 00:30	Москва	-12	-3	15	15
+7130	2019-01-07 00:30	Самара	23	-17	-101	14
+7131	2019-01-07 00:30	Санкт-Петербург	-3	13	44	7
+7132	2019-01-07 01:30	Москва	12	15	-175	19
+7133	2019-01-07 01:30	Самара	-8	-4	-41	19
+7134	2019-01-07 01:30	Санкт-Петербург	-17	10	-119	16
+7135	2019-01-07 02:30	Москва	-6	12	55	20
+7136	2019-01-07 02:30	Самара	8	-13	-155	13
+7137	2019-01-07 02:30	Санкт-Петербург	-12	4	179	20
+7138	2019-01-07 03:30	Москва	-17	-18	-146	15
+7139	2019-01-07 03:30	Самара	30	5	48	2
+7140	2019-01-07 03:30	Санкт-Петербург	8	19	-56	7
+7141	2019-01-07 04:30	Москва	-11	-2	99	8
+7142	2019-01-07 04:30	Самара	-20	7	-177	19
+7143	2019-01-07 04:30	Санкт-Петербург	1	4	-135	14
+7144	2019-01-07 05:30	Москва	-7	9	-122	4
+7145	2019-01-07 05:30	Самара	31	12	-158	5
+7146	2019-01-07 05:30	Санкт-Петербург	31	11	-33	9
+7147	2019-01-07 06:30	Москва	-19	17	-95	14
+7148	2019-01-07 06:30	Самара	-3	-3	-70	7
+7149	2019-01-07 06:30	Санкт-Петербург	28	-7	-150	15
+7150	2019-01-07 07:30	Москва	-8	15	-133	15
+7151	2019-01-07 07:30	Самара	-18	10	161	13
+7152	2019-01-07 07:30	Санкт-Петербург	10	17	64	16
+7153	2019-01-07 08:30	Москва	1	9	-172	9
+7154	2019-01-07 08:30	Самара	8	-9	-128	0
+7155	2019-01-07 08:30	Санкт-Петербург	32	-6	168	0
+7156	2019-01-07 09:30	Москва	7	7	125	19
+7157	2019-01-07 09:30	Самара	10	6	148	1
+7158	2019-01-07 09:30	Санкт-Петербург	-4	16	4	18
+7159	2019-01-07 10:30	Москва	30	-14	66	14
+7160	2019-01-07 10:30	Самара	18	-13	132	14
+7161	2019-01-07 10:30	Санкт-Петербург	20	-5	-178	12
+7162	2019-01-07 11:30	Москва	-14	12	-131	8
+7163	2019-01-07 11:30	Самара	19	2	-70	10
+7164	2019-01-07 11:30	Санкт-Петербург	32	20	86	3
+7165	2019-01-07 12:30	Москва	23	13	-39	6
+7166	2019-01-07 12:30	Самара	-17	3	34	4
+7167	2019-01-07 12:30	Санкт-Петербург	-2	-4	-54	0
+7168	2019-01-07 13:30	Москва	-7	-11	169	13
+7169	2019-01-07 13:30	Самара	-16	19	-48	13
+7170	2019-01-07 13:30	Санкт-Петербург	18	-9	-108	17
+7171	2019-01-07 14:30	Москва	3	-4	112	9
+7172	2019-01-07 14:30	Самара	8	-9	165	16
+7173	2019-01-07 14:30	Санкт-Петербург	13	9	117	1
+7174	2019-01-07 15:30	Москва	18	1	90	19
+7175	2019-01-07 15:30	Самара	24	-16	-32	4
+7176	2019-01-07 15:30	Санкт-Петербург	26	-19	-93	12
+7177	2019-01-07 16:30	Москва	-7	-5	57	9
+7178	2019-01-07 16:30	Самара	20	16	-82	3
+7179	2019-01-07 16:30	Санкт-Петербург	34	10	-14	5
+7180	2019-01-07 17:30	Москва	-18	18	137	3
+7181	2019-01-07 17:30	Самара	15	-8	40	10
+7182	2019-01-07 17:30	Санкт-Петербург	-3	-20	-119	1
+7183	2019-01-07 18:30	Москва	10	-11	-4	16
+7184	2019-01-07 18:30	Самара	4	-2	-55	14
+7185	2019-01-07 18:30	Санкт-Петербург	30	12	-46	7
+7186	2019-01-07 19:30	Москва	-16	-5	161	10
+7187	2019-01-07 19:30	Самара	-9	7	43	20
+7188	2019-01-07 19:30	Санкт-Петербург	2	15	-140	6
+7189	2019-01-07 20:30	Москва	-20	14	153	16
+7190	2019-01-07 20:30	Самара	-3	12	44	10
+7191	2019-01-07 20:30	Санкт-Петербург	-15	1	-137	10
+7192	2019-01-07 21:30	Москва	4	6	40	6
+7193	2019-01-07 21:30	Самара	5	13	134	4
+7194	2019-01-07 21:30	Санкт-Петербург	5	2	107	7
+7195	2019-01-07 22:30	Москва	-9	-1	137	4
+7196	2019-01-07 22:30	Самара	-17	17	-40	1
+7197	2019-01-07 22:30	Санкт-Петербург	33	20	-115	10
+7198	2019-01-07 23:30	Москва	-9	5	127	10
+7199	2019-01-07 23:30	Самара	-16	-6	-42	16
+7200	2019-01-07 23:30	Санкт-Петербург	-11	-19	49	14
+7201	2019-01-08 00:30	Москва	-18	-14	109	7
+7202	2019-01-08 00:30	Самара	-3	19	15	2
+7203	2019-01-08 00:30	Санкт-Петербург	-8	6	-45	2
+7204	2019-01-08 01:30	Москва	-8	20	-30	3
+7205	2019-01-08 01:30	Самара	0	0	43	3
+7206	2019-01-08 01:30	Санкт-Петербург	14	-3	73	13
+7207	2019-01-08 02:30	Москва	-6	-1	40	1
+7208	2019-01-08 02:30	Самара	-16	10	-147	3
+7209	2019-01-08 02:30	Санкт-Петербург	-1	9	48	5
+7210	2019-01-08 03:30	Москва	-7	17	-11	20
+7211	2019-01-08 03:30	Самара	31	6	-5	15
+7212	2019-01-08 03:30	Санкт-Петербург	-4	-8	-27	14
+7213	2019-01-08 04:30	Москва	-6	-1	-66	12
+7214	2019-01-08 04:30	Самара	-10	11	-15	1
+7215	2019-01-08 04:30	Санкт-Петербург	-15	19	-133	4
+7216	2019-01-08 05:30	Москва	35	-19	-82	19
+7217	2019-01-08 05:30	Самара	20	7	-21	0
+7218	2019-01-08 05:30	Санкт-Петербург	19	12	73	16
+7219	2019-01-08 06:30	Москва	27	15	175	7
+7220	2019-01-08 06:30	Самара	-12	6	117	11
+7221	2019-01-08 06:30	Санкт-Петербург	21	16	94	2
+7222	2019-01-08 07:30	Москва	-9	17	155	10
+7223	2019-01-08 07:30	Самара	7	-14	42	1
+7224	2019-01-08 07:30	Санкт-Петербург	8	-17	7	7
+7225	2019-01-08 08:30	Москва	34	-20	166	16
+7226	2019-01-08 08:30	Самара	28	-15	172	4
+7227	2019-01-08 08:30	Санкт-Петербург	-2	7	-25	15
+7228	2019-01-08 09:30	Москва	-4	3	-51	1
+7229	2019-01-08 09:30	Самара	-7	12	-8	14
+7230	2019-01-08 09:30	Санкт-Петербург	-13	-3	151	8
+7231	2019-01-08 10:30	Москва	9	-18	-32	10
+7232	2019-01-08 10:30	Самара	-8	16	124	17
+7233	2019-01-08 10:30	Санкт-Петербург	31	-5	-162	1
+7234	2019-01-08 11:30	Москва	-18	-18	157	2
+7235	2019-01-08 11:30	Самара	11	9	-87	1
+7236	2019-01-08 11:30	Санкт-Петербург	16	12	115	1
+7237	2019-01-08 12:30	Москва	30	-4	6	16
+7238	2019-01-08 12:30	Самара	-3	9	-67	7
+7239	2019-01-08 12:30	Санкт-Петербург	14	5	147	16
+7240	2019-01-08 13:30	Москва	-10	20	-137	8
+7241	2019-01-08 13:30	Самара	-8	9	-109	1
+7242	2019-01-08 13:30	Санкт-Петербург	15	-16	7	8
+7243	2019-01-08 14:30	Москва	27	20	-102	2
+7244	2019-01-08 14:30	Самара	13	-13	-34	5
+7245	2019-01-08 14:30	Санкт-Петербург	21	2	-108	9
+7246	2019-01-08 15:30	Москва	15	10	110	12
+7247	2019-01-08 15:30	Самара	19	-11	-165	17
+7248	2019-01-08 15:30	Санкт-Петербург	-3	-16	-76	18
+7249	2019-01-08 16:30	Москва	0	-14	-68	7
+7250	2019-01-08 16:30	Самара	-1	14	-77	2
+7251	2019-01-08 16:30	Санкт-Петербург	-12	3	74	11
+7252	2019-01-08 17:30	Москва	-5	15	82	19
+7253	2019-01-08 17:30	Самара	9	-10	125	10
+7254	2019-01-08 17:30	Санкт-Петербург	10	6	-133	5
+7255	2019-01-08 18:30	Москва	-14	1	144	3
+7256	2019-01-08 18:30	Самара	8	-14	-73	18
+7257	2019-01-08 18:30	Санкт-Петербург	9	-20	-29	13
+7258	2019-01-08 19:30	Москва	31	7	129	7
+7259	2019-01-08 19:30	Самара	-4	-7	111	14
+7260	2019-01-08 19:30	Санкт-Петербург	-1	19	12	9
+7261	2019-01-08 20:30	Москва	2	20	-113	9
+7262	2019-01-08 20:30	Самара	7	-7	132	15
+7263	2019-01-08 20:30	Санкт-Петербург	34	-5	94	2
+7264	2019-01-08 21:30	Москва	12	-16	-15	2
+7265	2019-01-08 21:30	Самара	32	20	-122	17
+7266	2019-01-08 21:30	Санкт-Петербург	18	2	139	5
+7267	2019-01-08 22:30	Москва	-7	12	-83	17
+7268	2019-01-08 22:30	Самара	20	-5	-12	10
+7269	2019-01-08 22:30	Санкт-Петербург	27	-19	77	6
+7270	2019-01-08 23:30	Москва	27	10	85	2
+7271	2019-01-08 23:30	Самара	20	2	7	15
+7272	2019-01-08 23:30	Санкт-Петербург	2	-4	138	9
+7273	2019-01-09 00:30	Москва	13	7	72	12
+7274	2019-01-09 00:30	Самара	8	-9	105	17
+7275	2019-01-09 00:30	Санкт-Петербург	2	-5	144	13
+7276	2019-01-09 01:30	Москва	8	-19	176	6
+7277	2019-01-09 01:30	Самара	14	-20	-66	12
+7278	2019-01-09 01:30	Санкт-Петербург	0	-6	-53	8
+7279	2019-01-09 02:30	Москва	33	3	-179	18
+7280	2019-01-09 02:30	Самара	-13	-14	-162	16
+7281	2019-01-09 02:30	Санкт-Петербург	27	-9	-2	15
+7282	2019-01-09 03:30	Москва	7	-3	-67	2
+7283	2019-01-09 03:30	Самара	26	8	79	18
+7284	2019-01-09 03:30	Санкт-Петербург	-1	5	-34	0
+7285	2019-01-09 04:30	Москва	-4	10	33	16
+7286	2019-01-09 04:30	Самара	9	-17	40	5
+7287	2019-01-09 04:30	Санкт-Петербург	27	-6	79	4
+7288	2019-01-09 05:30	Москва	29	6	-89	3
+7289	2019-01-09 05:30	Самара	-16	4	-56	17
+7290	2019-01-09 05:30	Санкт-Петербург	33	2	-9	3
+7291	2019-01-09 06:30	Москва	-19	16	59	4
+7292	2019-01-09 06:30	Самара	0	-20	84	12
+7293	2019-01-09 06:30	Санкт-Петербург	-16	7	52	7
+7294	2019-01-09 07:30	Москва	14	8	38	13
+7295	2019-01-09 07:30	Самара	15	-13	139	19
+7296	2019-01-09 07:30	Санкт-Петербург	3	-18	25	4
+7297	2019-01-09 08:30	Москва	19	14	-85	3
+7298	2019-01-09 08:30	Самара	35	10	171	15
+7299	2019-01-09 08:30	Санкт-Петербург	-14	14	80	14
+7300	2019-01-09 09:30	Москва	-1	9	63	16
+7301	2019-01-09 09:30	Самара	-19	15	44	11
+7302	2019-01-09 09:30	Санкт-Петербург	11	5	142	9
+7303	2019-01-09 10:30	Москва	24	18	-97	1
+7304	2019-01-09 10:30	Самара	31	-10	-40	5
+7305	2019-01-09 10:30	Санкт-Петербург	34	10	-132	19
+7306	2019-01-09 11:30	Москва	4	2	-21	18
+7307	2019-01-09 11:30	Самара	20	-9	-24	11
+7308	2019-01-09 11:30	Санкт-Петербург	27	7	163	8
+7309	2019-01-09 12:30	Москва	-4	15	-90	14
+7310	2019-01-09 12:30	Самара	23	19	94	19
+7311	2019-01-09 12:30	Санкт-Петербург	13	-19	152	14
+7312	2019-01-09 13:30	Москва	5	0	58	14
+7313	2019-01-09 13:30	Самара	7	10	-144	8
+7314	2019-01-09 13:30	Санкт-Петербург	-5	-6	130	6
+7315	2019-01-09 14:30	Москва	7	-15	-146	12
+7316	2019-01-09 14:30	Самара	-3	-6	129	15
+7317	2019-01-09 14:30	Санкт-Петербург	-19	-8	-1	3
+7318	2019-01-09 15:30	Москва	7	17	-127	1
+7319	2019-01-09 15:30	Самара	9	13	-81	0
+7320	2019-01-09 15:30	Санкт-Петербург	19	-11	146	13
+7321	2019-01-09 16:30	Москва	-15	-15	-13	20
+7322	2019-01-09 16:30	Самара	33	18	-141	15
+7323	2019-01-09 16:30	Санкт-Петербург	-10	8	-171	10
+7324	2019-01-09 17:30	Москва	-9	7	-80	2
+7325	2019-01-09 17:30	Самара	10	-3	8	20
+7326	2019-01-09 17:30	Санкт-Петербург	11	0	120	18
+7327	2019-01-09 18:30	Москва	-18	5	33	18
+7328	2019-01-09 18:30	Самара	32	7	-93	20
+7329	2019-01-09 18:30	Санкт-Петербург	-13	-6	73	17
+7330	2019-01-09 19:30	Москва	16	-1	87	3
+7331	2019-01-09 19:30	Самара	15	1	156	12
+7332	2019-01-09 19:30	Санкт-Петербург	32	8	84	15
+7333	2019-01-09 20:30	Москва	4	14	-161	17
+7334	2019-01-09 20:30	Самара	-7	-7	-66	0
+7335	2019-01-09 20:30	Санкт-Петербург	4	3	34	18
+7336	2019-01-09 21:30	Москва	9	4	151	17
+7337	2019-01-09 21:30	Самара	12	3	88	2
+7338	2019-01-09 21:30	Санкт-Петербург	6	12	80	20
+7339	2019-01-09 22:30	Москва	32	12	-88	10
+7340	2019-01-09 22:30	Самара	32	-3	-50	7
+7341	2019-01-09 22:30	Санкт-Петербург	24	-17	76	15
+7342	2019-01-09 23:30	Москва	6	-4	-141	10
+7343	2019-01-09 23:30	Самара	7	-16	5	19
+7344	2019-01-09 23:30	Санкт-Петербург	2	6	67	18
+7345	2019-01-10 00:30	Москва	17	11	166	0
+7346	2019-01-10 00:30	Самара	30	16	88	18
+7347	2019-01-10 00:30	Санкт-Петербург	-20	14	40	18
+7348	2019-01-10 01:30	Москва	35	-4	-27	3
+7349	2019-01-10 01:30	Самара	12	-16	21	1
+7350	2019-01-10 01:30	Санкт-Петербург	-3	14	-24	7
+7351	2019-01-10 02:30	Москва	-9	-7	14	15
+7352	2019-01-10 02:30	Самара	12	-1	-48	7
+7353	2019-01-10 02:30	Санкт-Петербург	-1	5	-171	20
+7354	2019-01-10 03:30	Москва	8	4	-149	7
+7355	2019-01-10 03:30	Самара	28	-4	117	12
+7356	2019-01-10 03:30	Санкт-Петербург	-16	-17	124	14
+7357	2019-01-10 04:30	Москва	25	5	145	9
+7358	2019-01-10 04:30	Самара	18	4	-169	7
+7359	2019-01-10 04:30	Санкт-Петербург	-3	2	107	5
+7360	2019-01-10 05:30	Москва	-1	7	-68	6
+7361	2019-01-10 05:30	Самара	-2	-9	-45	10
+7362	2019-01-10 05:30	Санкт-Петербург	15	-17	50	20
+7363	2019-01-10 06:30	Москва	-8	-14	-122	10
+7364	2019-01-10 06:30	Самара	26	-16	145	6
+7365	2019-01-10 06:30	Санкт-Петербург	-10	-16	-71	0
+7366	2019-01-10 07:30	Москва	33	15	70	13
+7367	2019-01-10 07:30	Самара	-16	10	-72	12
+7368	2019-01-10 07:30	Санкт-Петербург	-1	5	128	12
+7369	2019-01-10 08:30	Москва	17	13	29	16
+7370	2019-01-10 08:30	Самара	32	4	2	17
+7371	2019-01-10 08:30	Санкт-Петербург	12	-20	-4	7
+7372	2019-01-10 09:30	Москва	-1	19	-70	18
+7373	2019-01-10 09:30	Самара	-7	-15	103	18
+7374	2019-01-10 09:30	Санкт-Петербург	15	-14	122	7
+7375	2019-01-10 10:30	Москва	-13	1	113	2
+7376	2019-01-10 10:30	Самара	31	-7	-161	20
+7377	2019-01-10 10:30	Санкт-Петербург	-11	-4	87	12
+7378	2019-01-10 11:30	Москва	-11	-18	-173	12
+7379	2019-01-10 11:30	Самара	1	-12	84	19
+7380	2019-01-10 11:30	Санкт-Петербург	31	3	-146	0
+7381	2019-01-10 12:30	Москва	30	3	-112	16
+7382	2019-01-10 12:30	Самара	-12	-17	-178	20
+7383	2019-01-10 12:30	Санкт-Петербург	1	16	163	3
+7384	2019-01-10 13:30	Москва	-2	-20	-97	18
+7385	2019-01-10 13:30	Самара	34	-16	22	19
+7386	2019-01-10 13:30	Санкт-Петербург	9	9	87	12
+7387	2019-01-10 14:30	Москва	11	-15	-63	0
+7388	2019-01-10 14:30	Самара	-6	12	-42	12
+7389	2019-01-10 14:30	Санкт-Петербург	17	15	-16	10
+7390	2019-01-10 15:30	Москва	-18	-1	130	9
+7391	2019-01-10 15:30	Самара	-1	13	-145	11
+7392	2019-01-10 15:30	Санкт-Петербург	2	18	-175	6
+7393	2019-01-10 16:30	Москва	23	-7	-163	9
+7394	2019-01-10 16:30	Самара	-11	-5	158	16
+7395	2019-01-10 16:30	Санкт-Петербург	12	-3	147	8
+7396	2019-01-10 17:30	Москва	4	17	-176	4
+7397	2019-01-10 17:30	Самара	-7	-7	51	12
+7398	2019-01-10 17:30	Санкт-Петербург	29	-19	-52	0
+7399	2019-01-10 18:30	Москва	-16	1	-151	17
+7400	2019-01-10 18:30	Самара	13	0	55	17
+7401	2019-01-10 18:30	Санкт-Петербург	33	0	-13	6
+7402	2019-01-10 19:30	Москва	15	20	101	7
+7403	2019-01-10 19:30	Самара	18	-5	105	17
+7404	2019-01-10 19:30	Санкт-Петербург	-13	5	88	16
+7405	2019-01-10 20:30	Москва	24	-15	85	7
+7406	2019-01-10 20:30	Самара	22	-17	116	17
+7407	2019-01-10 20:30	Санкт-Петербург	5	-13	-148	17
+7408	2019-01-10 21:30	Москва	8	11	-64	19
+7409	2019-01-10 21:30	Самара	18	12	-87	8
+7410	2019-01-10 21:30	Санкт-Петербург	-2	15	129	20
+7411	2019-01-10 22:30	Москва	2	14	73	2
+7412	2019-01-10 22:30	Самара	19	18	-53	9
+7413	2019-01-10 22:30	Санкт-Петербург	31	8	-100	17
+7414	2019-01-10 23:30	Москва	-4	-3	84	2
+7415	2019-01-10 23:30	Самара	3	2	-70	3
+7416	2019-01-10 23:30	Санкт-Петербург	11	-8	33	13
+7417	2019-01-11 00:30	Москва	9	-8	104	2
+7418	2019-01-11 00:30	Самара	26	-5	39	3
+7419	2019-01-11 00:30	Санкт-Петербург	13	-8	73	11
+7420	2019-01-11 01:30	Москва	15	14	24	15
+7421	2019-01-11 01:30	Самара	23	-14	-61	14
+7422	2019-01-11 01:30	Санкт-Петербург	-3	1	-1	17
+7423	2019-01-11 02:30	Москва	-17	16	-24	19
+7424	2019-01-11 02:30	Самара	35	-6	-65	20
+7425	2019-01-11 02:30	Санкт-Петербург	20	-8	-123	1
+7426	2019-01-11 03:30	Москва	9	18	52	16
+7427	2019-01-11 03:30	Самара	27	-14	-165	3
+7428	2019-01-11 03:30	Санкт-Петербург	-7	-6	39	8
+7429	2019-01-11 04:30	Москва	22	-17	13	2
+7430	2019-01-11 04:30	Самара	-17	8	-94	19
+7431	2019-01-11 04:30	Санкт-Петербург	-9	9	-32	3
+7432	2019-01-11 05:30	Москва	-19	1	152	16
+7433	2019-01-11 05:30	Самара	7	-6	-96	14
+7434	2019-01-11 05:30	Санкт-Петербург	-19	-7	-135	19
+7435	2019-01-11 06:30	Москва	-8	20	-143	15
+7436	2019-01-11 06:30	Самара	-3	-2	176	16
+7437	2019-01-11 06:30	Санкт-Петербург	-13	-14	-128	2
+7438	2019-01-11 07:30	Москва	25	16	-147	15
+7439	2019-01-11 07:30	Самара	16	-7	34	19
+7440	2019-01-11 07:30	Санкт-Петербург	35	15	86	20
+7441	2019-01-11 08:30	Москва	-3	11	175	16
+7442	2019-01-11 08:30	Самара	6	-13	25	9
+7443	2019-01-11 08:30	Санкт-Петербург	-6	20	105	10
+7444	2019-01-11 09:30	Москва	-14	16	49	15
+7445	2019-01-11 09:30	Самара	30	-20	-61	14
+7446	2019-01-11 09:30	Санкт-Петербург	-2	-3	110	9
+7447	2019-01-11 10:30	Москва	34	7	16	4
+7448	2019-01-11 10:30	Самара	17	14	-48	19
+7449	2019-01-11 10:30	Санкт-Петербург	33	17	90	3
+7450	2019-01-11 11:30	Москва	11	-5	-167	12
+7451	2019-01-11 11:30	Самара	-15	-13	-155	14
+7452	2019-01-11 11:30	Санкт-Петербург	28	-13	-145	19
+7453	2019-01-11 12:30	Москва	33	16	141	19
+7454	2019-01-11 12:30	Самара	-20	2	-150	4
+7455	2019-01-11 12:30	Санкт-Петербург	28	11	-101	3
+7456	2019-01-11 13:30	Москва	-18	2	44	1
+7457	2019-01-11 13:30	Самара	-8	2	101	10
+7458	2019-01-11 13:30	Санкт-Петербург	-13	16	59	5
+7459	2019-01-11 14:30	Москва	-15	-18	148	18
+7460	2019-01-11 14:30	Самара	25	16	-139	9
+7461	2019-01-11 14:30	Санкт-Петербург	8	-1	154	15
+7462	2019-01-11 15:30	Москва	16	-6	-100	16
+7463	2019-01-11 15:30	Самара	-20	-19	-41	5
+7464	2019-01-11 15:30	Санкт-Петербург	-19	-11	-20	3
+7465	2019-01-11 16:30	Москва	27	20	36	20
+7466	2019-01-11 16:30	Самара	31	2	-27	8
+7467	2019-01-11 16:30	Санкт-Петербург	2	10	72	1
+7468	2019-01-11 17:30	Москва	21	13	168	7
+7469	2019-01-11 17:30	Самара	-5	18	116	7
+7470	2019-01-11 17:30	Санкт-Петербург	0	4	155	9
+7471	2019-01-11 18:30	Москва	-18	-14	122	20
+7472	2019-01-11 18:30	Самара	3	15	-105	19
+7473	2019-01-11 18:30	Санкт-Петербург	17	-1	-31	4
+7474	2019-01-11 19:30	Москва	4	9	-138	6
+7475	2019-01-11 19:30	Самара	23	13	58	5
+7476	2019-01-11 19:30	Санкт-Петербург	5	20	-35	3
+7477	2019-01-11 20:30	Москва	12	-8	134	20
+7478	2019-01-11 20:30	Самара	-19	-18	-53	12
+7479	2019-01-11 20:30	Санкт-Петербург	35	-2	-1	16
+7480	2019-01-11 21:30	Москва	6	-3	45	8
+7481	2019-01-11 21:30	Самара	16	-17	56	15
+7482	2019-01-11 21:30	Санкт-Петербург	-16	14	121	3
+7483	2019-01-11 22:30	Москва	3	16	39	6
+7484	2019-01-11 22:30	Самара	-4	-9	146	20
+7485	2019-01-11 22:30	Санкт-Петербург	-2	20	-26	6
+7486	2019-01-11 23:30	Москва	30	-20	-94	7
+7487	2019-01-11 23:30	Самара	-14	3	18	1
+7488	2019-01-11 23:30	Санкт-Петербург	-13	11	107	14
+7489	2019-01-12 00:30	Москва	20	7	-3	3
+7490	2019-01-12 00:30	Самара	25	13	-101	1
+7491	2019-01-12 00:30	Санкт-Петербург	11	16	-150	11
+7492	2019-01-12 01:30	Москва	-14	5	-5	0
+7493	2019-01-12 01:30	Самара	-2	20	45	12
+7494	2019-01-12 01:30	Санкт-Петербург	17	-11	-172	17
+7495	2019-01-12 02:30	Москва	4	13	115	6
+7496	2019-01-12 02:30	Самара	-11	1	127	12
+7497	2019-01-12 02:30	Санкт-Петербург	22	-17	152	15
+7498	2019-01-12 03:30	Москва	14	-13	74	2
+7499	2019-01-12 03:30	Самара	-3	-7	94	14
+7500	2019-01-12 03:30	Санкт-Петербург	26	10	-173	3
+7501	2019-01-12 04:30	Москва	29	13	-133	9
+7502	2019-01-12 04:30	Самара	23	-3	46	3
+7503	2019-01-12 04:30	Санкт-Петербург	4	-20	172	20
+7504	2019-01-12 05:30	Москва	-10	1	78	8
+7505	2019-01-12 05:30	Самара	-19	-7	-137	8
+7506	2019-01-12 05:30	Санкт-Петербург	11	0	160	7
+7507	2019-01-12 06:30	Москва	-9	3	45	3
+7508	2019-01-12 06:30	Самара	19	5	-18	5
+7509	2019-01-12 06:30	Санкт-Петербург	28	5	-99	17
+7510	2019-01-12 07:30	Москва	-17	8	-150	17
+7511	2019-01-12 07:30	Самара	8	0	-143	20
+7512	2019-01-12 07:30	Санкт-Петербург	32	4	158	0
+7513	2019-01-12 08:30	Москва	25	-18	42	14
+7514	2019-01-12 08:30	Самара	-7	-11	-9	2
+7515	2019-01-12 08:30	Санкт-Петербург	4	10	-88	9
+7516	2019-01-12 09:30	Москва	17	-3	-10	10
+7517	2019-01-12 09:30	Самара	-20	-13	-51	15
+7518	2019-01-12 09:30	Санкт-Петербург	25	-9	87	10
+7519	2019-01-12 10:30	Москва	-18	-15	-66	20
+7520	2019-01-12 10:30	Самара	7	-7	-34	4
+7521	2019-01-12 10:30	Санкт-Петербург	1	11	-106	8
+7522	2019-01-12 11:30	Москва	25	14	48	2
+7523	2019-01-12 11:30	Самара	-16	0	-135	14
+7524	2019-01-12 11:30	Санкт-Петербург	35	11	70	9
+7525	2019-01-12 12:30	Москва	-18	-4	23	3
+7526	2019-01-12 12:30	Самара	23	18	140	18
+7527	2019-01-12 12:30	Санкт-Петербург	-15	15	-33	5
+7528	2019-01-12 13:30	Москва	-12	-3	-58	0
+7529	2019-01-12 13:30	Самара	-5	4	10	13
+7530	2019-01-12 13:30	Санкт-Петербург	3	-13	115	7
+7531	2019-01-12 14:30	Москва	29	-5	56	5
+7532	2019-01-12 14:30	Самара	26	10	-166	4
+7533	2019-01-12 14:30	Санкт-Петербург	-8	-9	-83	15
+7534	2019-01-12 15:30	Москва	33	-7	-171	16
+7535	2019-01-12 15:30	Самара	0	10	143	0
+7536	2019-01-12 15:30	Санкт-Петербург	21	-15	-21	17
+7537	2019-01-12 16:30	Москва	9	-12	29	6
+7538	2019-01-12 16:30	Самара	2	-10	-119	0
+7539	2019-01-12 16:30	Санкт-Петербург	26	-4	-66	9
+7540	2019-01-12 17:30	Москва	35	-6	81	2
+7541	2019-01-12 17:30	Самара	16	-10	-145	8
+7542	2019-01-12 17:30	Санкт-Петербург	5	-6	29	11
+7543	2019-01-12 18:30	Москва	31	-9	179	10
+7544	2019-01-12 18:30	Самара	23	-2	109	13
+7545	2019-01-12 18:30	Санкт-Петербург	0	-6	-15	20
+7546	2019-01-12 19:30	Москва	32	-9	-130	18
+7547	2019-01-12 19:30	Самара	9	-5	-89	8
+7548	2019-01-12 19:30	Санкт-Петербург	26	5	144	16
+7549	2019-01-12 20:30	Москва	24	-1	89	20
+7550	2019-01-12 20:30	Самара	10	-15	40	12
+7551	2019-01-12 20:30	Санкт-Петербург	6	14	-26	7
+7552	2019-01-12 21:30	Москва	34	0	83	14
+7553	2019-01-12 21:30	Самара	-7	1	-47	18
+7554	2019-01-12 21:30	Санкт-Петербург	15	-14	156	11
+7555	2019-01-12 22:30	Москва	-11	-14	159	6
+7556	2019-01-12 22:30	Самара	-10	-18	94	20
+7557	2019-01-12 22:30	Санкт-Петербург	17	-9	100	16
+7558	2019-01-12 23:30	Москва	1	-12	-134	8
+7559	2019-01-12 23:30	Самара	22	-12	-89	20
+7560	2019-01-12 23:30	Санкт-Петербург	14	0	138	4
+7561	2019-01-13 00:30	Москва	30	-8	-70	18
+7562	2019-01-13 00:30	Самара	33	-3	-68	2
+7563	2019-01-13 00:30	Санкт-Петербург	-13	11	-128	9
+7564	2019-01-13 01:30	Москва	-9	-19	-157	1
+7565	2019-01-13 01:30	Самара	-17	14	-52	3
+7566	2019-01-13 01:30	Санкт-Петербург	-10	-15	-129	16
+7567	2019-01-13 02:30	Москва	9	16	145	7
+7568	2019-01-13 02:30	Самара	-7	-19	-153	3
+7569	2019-01-13 02:30	Санкт-Петербург	35	-11	165	19
+7570	2019-01-13 03:30	Москва	-14	1	-179	10
+7571	2019-01-13 03:30	Самара	-11	5	149	11
+7572	2019-01-13 03:30	Санкт-Петербург	7	4	103	12
+7573	2019-01-13 04:30	Москва	3	-17	-147	15
+7574	2019-01-13 04:30	Самара	26	-16	-163	6
+7575	2019-01-13 04:30	Санкт-Петербург	21	12	99	9
+7576	2019-01-13 05:30	Москва	11	-10	-152	15
+7577	2019-01-13 05:30	Самара	-16	0	141	16
+7578	2019-01-13 05:30	Санкт-Петербург	6	1	-79	20
+7579	2019-01-13 06:30	Москва	-10	10	-118	5
+7580	2019-01-13 06:30	Самара	23	-9	-53	2
+7581	2019-01-13 06:30	Санкт-Петербург	18	-6	-100	16
+7582	2019-01-13 07:30	Москва	29	-11	-6	20
+7583	2019-01-13 07:30	Самара	0	-5	132	7
+7584	2019-01-13 07:30	Санкт-Петербург	-9	8	-109	18
+7585	2019-01-13 08:30	Москва	35	11	-57	9
+7586	2019-01-13 08:30	Самара	22	13	160	11
+7587	2019-01-13 08:30	Санкт-Петербург	-12	-5	88	13
+7588	2019-01-13 09:30	Москва	-14	-2	68	15
+7589	2019-01-13 09:30	Самара	-19	3	46	7
+7590	2019-01-13 09:30	Санкт-Петербург	5	-11	140	7
+7591	2019-01-13 10:30	Москва	-7	16	5	9
+7592	2019-01-13 10:30	Самара	-18	16	-82	4
+7593	2019-01-13 10:30	Санкт-Петербург	-19	-10	41	16
+7594	2019-01-13 11:30	Москва	7	15	164	3
+7595	2019-01-13 11:30	Самара	0	20	-104	10
+7596	2019-01-13 11:30	Санкт-Петербург	5	-9	113	17
+7597	2019-01-13 12:30	Москва	-8	-18	-83	12
+7598	2019-01-13 12:30	Самара	3	3	-48	17
+7599	2019-01-13 12:30	Санкт-Петербург	34	10	-116	17
+7600	2019-01-13 13:30	Москва	4	-14	38	5
+7601	2019-01-13 13:30	Самара	-18	3	163	11
+7602	2019-01-13 13:30	Санкт-Петербург	-12	-19	-15	6
+7603	2019-01-13 14:30	Москва	5	12	10	6
+7604	2019-01-13 14:30	Самара	27	-6	-97	5
+7605	2019-01-13 14:30	Санкт-Петербург	28	0	-90	2
+7606	2019-01-13 15:30	Москва	-17	17	150	2
+7607	2019-01-13 15:30	Самара	0	-8	6	12
+7608	2019-01-13 15:30	Санкт-Петербург	5	-13	1	0
+7609	2019-01-13 16:30	Москва	-8	-12	-170	20
+7610	2019-01-13 16:30	Самара	28	1	43	5
+7611	2019-01-13 16:30	Санкт-Петербург	14	4	107	19
+7612	2019-01-13 17:30	Москва	-19	-2	-45	10
+7613	2019-01-13 17:30	Самара	-9	-3	165	0
+7614	2019-01-13 17:30	Санкт-Петербург	19	-3	26	0
+7615	2019-01-13 18:30	Москва	8	13	-163	13
+7616	2019-01-13 18:30	Самара	27	10	-144	17
+7617	2019-01-13 18:30	Санкт-Петербург	-18	-12	-119	9
+7618	2019-01-13 19:30	Москва	20	4	-109	1
+7619	2019-01-13 19:30	Самара	4	-8	-175	15
+7620	2019-01-13 19:30	Санкт-Петербург	4	13	85	19
+7621	2019-01-13 20:30	Москва	-14	0	161	11
+7622	2019-01-13 20:30	Самара	12	20	129	2
+7623	2019-01-13 20:30	Санкт-Петербург	4	-8	-96	10
+7624	2019-01-13 21:30	Москва	-6	19	-7	7
+7625	2019-01-13 21:30	Самара	-8	1	-69	10
+7626	2019-01-13 21:30	Санкт-Петербург	30	13	-46	4
+7627	2019-01-13 22:30	Москва	17	15	-85	2
+7628	2019-01-13 22:30	Самара	11	20	-48	18
+7629	2019-01-13 22:30	Санкт-Петербург	-4	-13	77	11
+7630	2019-01-13 23:30	Москва	-3	-12	-67	2
+7631	2019-01-13 23:30	Самара	30	-16	-123	8
+7632	2019-01-13 23:30	Санкт-Петербург	-5	14	-111	15
+7633	2019-01-14 00:30	Москва	-18	11	-24	2
+7634	2019-01-14 00:30	Самара	1	13	33	4
+7635	2019-01-14 00:30	Санкт-Петербург	26	-14	-134	7
+7636	2019-01-14 01:30	Москва	-13	13	-98	4
+7637	2019-01-14 01:30	Самара	10	18	-115	3
+7638	2019-01-14 01:30	Санкт-Петербург	8	18	163	18
+7639	2019-01-14 02:30	Москва	-9	13	-137	17
+7640	2019-01-14 02:30	Самара	3	18	-172	13
+7641	2019-01-14 02:30	Санкт-Петербург	-13	-11	-167	11
+7642	2019-01-14 03:30	Москва	15	-2	110	14
+7643	2019-01-14 03:30	Самара	10	-1	-130	14
+7644	2019-01-14 03:30	Санкт-Петербург	29	14	105	7
+7645	2019-01-14 04:30	Москва	34	-8	64	18
+7646	2019-01-14 04:30	Самара	10	-12	-125	2
+7647	2019-01-14 04:30	Санкт-Петербург	19	-19	-66	13
+7648	2019-01-14 05:30	Москва	7	-11	42	10
+7649	2019-01-14 05:30	Самара	27	5	-118	3
+7650	2019-01-14 05:30	Санкт-Петербург	27	13	-97	14
+7651	2019-01-14 06:30	Москва	-16	5	-164	20
+7652	2019-01-14 06:30	Самара	20	-17	-53	19
+7653	2019-01-14 06:30	Санкт-Петербург	28	17	29	8
+7654	2019-01-14 07:30	Москва	28	-19	-50	7
+7655	2019-01-14 07:30	Самара	-15	9	115	7
+7656	2019-01-14 07:30	Санкт-Петербург	22	12	147	10
+7657	2019-01-14 08:30	Москва	29	18	88	9
+7658	2019-01-14 08:30	Самара	-8	18	-138	5
+7659	2019-01-14 08:30	Санкт-Петербург	14	1	104	15
+7660	2019-01-14 09:30	Москва	32	-14	-16	12
+7661	2019-01-14 09:30	Самара	-1	1	-105	20
+7662	2019-01-14 09:30	Санкт-Петербург	24	-1	-46	16
+7663	2019-01-14 10:30	Москва	11	2	-18	20
+7664	2019-01-14 10:30	Самара	19	-19	102	15
+7665	2019-01-14 10:30	Санкт-Петербург	11	-10	48	11
+7666	2019-01-14 11:30	Москва	11	2	-27	8
+7667	2019-01-14 11:30	Самара	-3	11	-98	15
+7668	2019-01-14 11:30	Санкт-Петербург	30	-9	-50	18
+7669	2019-01-14 12:30	Москва	-20	-20	-65	12
+7670	2019-01-14 12:30	Самара	16	-8	-104	11
+7671	2019-01-14 12:30	Санкт-Петербург	22	5	23	14
+7672	2019-01-14 13:30	Москва	19	-3	157	12
+7673	2019-01-14 13:30	Самара	35	-6	33	9
+7674	2019-01-14 13:30	Санкт-Петербург	-11	5	-101	16
+7675	2019-01-14 14:30	Москва	-1	9	-69	12
+7676	2019-01-14 14:30	Самара	-15	-17	177	4
+7677	2019-01-14 14:30	Санкт-Петербург	27	18	-139	19
+7678	2019-01-14 15:30	Москва	31	8	-47	13
+7679	2019-01-14 15:30	Самара	-9	14	121	9
+7680	2019-01-14 15:30	Санкт-Петербург	-20	-15	-66	6
+7681	2019-01-14 16:30	Москва	-8	18	-169	16
+7682	2019-01-14 16:30	Самара	-15	0	81	18
+7683	2019-01-14 16:30	Санкт-Петербург	20	0	114	8
+7684	2019-01-14 17:30	Москва	-15	-16	-55	7
+7685	2019-01-14 17:30	Самара	-5	6	62	20
+7686	2019-01-14 17:30	Санкт-Петербург	-5	-18	-19	17
+7687	2019-01-14 18:30	Москва	29	9	122	3
+7688	2019-01-14 18:30	Самара	12	15	16	13
+7689	2019-01-14 18:30	Санкт-Петербург	16	-13	-138	2
+7690	2019-01-14 19:30	Москва	8	19	-91	8
+7691	2019-01-14 19:30	Самара	22	18	127	11
+7692	2019-01-14 19:30	Санкт-Петербург	11	4	-92	15
+7693	2019-01-14 20:30	Москва	32	5	135	11
+7694	2019-01-14 20:30	Самара	34	-20	178	1
+7695	2019-01-14 20:30	Санкт-Петербург	-7	-15	158	11
+7696	2019-01-14 21:30	Москва	-15	4	60	2
+7697	2019-01-14 21:30	Самара	15	-18	29	1
+7698	2019-01-14 21:30	Санкт-Петербург	24	6	11	4
+7699	2019-01-14 22:30	Москва	-3	-10	168	1
+7700	2019-01-14 22:30	Самара	1	-20	78	15
+7701	2019-01-14 22:30	Санкт-Петербург	20	3	20	9
+7702	2019-01-14 23:30	Москва	-13	-19	-5	17
+7703	2019-01-14 23:30	Самара	-12	-15	-69	5
+7704	2019-01-14 23:30	Санкт-Петербург	-5	1	45	20
+7705	2019-01-15 00:30	Москва	23	11	-180	1
+7706	2019-01-15 00:30	Самара	30	-8	-37	11
+7707	2019-01-15 00:30	Санкт-Петербург	34	18	-37	4
+7708	2019-01-15 01:30	Москва	10	9	134	13
+7709	2019-01-15 01:30	Самара	25	9	-111	14
+7710	2019-01-15 01:30	Санкт-Петербург	9	0	-165	4
+7711	2019-01-15 02:30	Москва	16	-4	15	10
+7712	2019-01-15 02:30	Самара	8	6	66	0
+7713	2019-01-15 02:30	Санкт-Петербург	24	-9	96	6
+7714	2019-01-15 03:30	Москва	29	17	72	7
+7715	2019-01-15 03:30	Самара	-17	14	-14	20
+7716	2019-01-15 03:30	Санкт-Петербург	-7	0	31	14
+7717	2019-01-15 04:30	Москва	12	0	-14	12
+7718	2019-01-15 04:30	Самара	-6	3	24	12
+7719	2019-01-15 04:30	Санкт-Петербург	-2	-7	-49	8
+7720	2019-01-15 05:30	Москва	19	10	-110	9
+7721	2019-01-15 05:30	Самара	31	-7	178	17
+7722	2019-01-15 05:30	Санкт-Петербург	-10	10	8	11
+7723	2019-01-15 06:30	Москва	-18	7	129	20
+7724	2019-01-15 06:30	Самара	13	-15	-13	6
+7725	2019-01-15 06:30	Санкт-Петербург	0	12	117	4
+7726	2019-01-15 07:30	Москва	5	-1	-131	10
+7727	2019-01-15 07:30	Самара	14	18	43	9
+7728	2019-01-15 07:30	Санкт-Петербург	15	5	-78	9
+7729	2019-01-15 08:30	Москва	7	8	95	3
+7730	2019-01-15 08:30	Самара	-18	14	33	19
+7731	2019-01-15 08:30	Санкт-Петербург	-4	8	135	19
+7732	2019-01-15 09:30	Москва	22	0	32	15
+7733	2019-01-15 09:30	Самара	21	-15	175	0
+7734	2019-01-15 09:30	Санкт-Петербург	20	12	-79	19
+7735	2019-01-15 10:30	Москва	-19	-7	136	0
+7736	2019-01-15 10:30	Самара	26	-7	-99	10
+7737	2019-01-15 10:30	Санкт-Петербург	0	4	-51	2
+7738	2019-01-15 11:30	Москва	34	4	-169	9
+7739	2019-01-15 11:30	Самара	23	-15	56	7
+7740	2019-01-15 11:30	Санкт-Петербург	29	14	80	4
+7741	2019-01-15 12:30	Москва	-11	-4	-97	18
+7742	2019-01-15 12:30	Самара	18	11	-123	13
+7743	2019-01-15 12:30	Санкт-Петербург	5	6	-145	13
+7744	2019-01-15 13:30	Москва	32	20	101	11
+7745	2019-01-15 13:30	Самара	9	-12	-72	3
+7746	2019-01-15 13:30	Санкт-Петербург	-4	11	-122	6
+7747	2019-01-15 14:30	Москва	23	16	-34	2
+7748	2019-01-15 14:30	Самара	31	-1	21	14
+7749	2019-01-15 14:30	Санкт-Петербург	17	-9	-6	5
+7750	2019-01-15 15:30	Москва	14	-19	-68	5
+7751	2019-01-15 15:30	Самара	-20	-20	-123	0
+7752	2019-01-15 15:30	Санкт-Петербург	26	8	-108	13
+7753	2019-01-15 16:30	Москва	24	5	-163	20
+7754	2019-01-15 16:30	Самара	11	11	-31	2
+7755	2019-01-15 16:30	Санкт-Петербург	13	9	109	8
+7756	2019-01-15 17:30	Москва	-12	-4	48	14
+7757	2019-01-15 17:30	Самара	34	7	-151	17
+7758	2019-01-15 17:30	Санкт-Петербург	31	9	24	19
+7759	2019-01-15 18:30	Москва	24	-17	-57	9
+7760	2019-01-15 18:30	Самара	17	6	-80	6
+7761	2019-01-15 18:30	Санкт-Петербург	13	18	-51	5
+7762	2019-01-15 19:30	Москва	-1	-11	-109	14
+7763	2019-01-15 19:30	Самара	2	-3	-77	4
+7764	2019-01-15 19:30	Санкт-Петербург	8	18	118	2
+7765	2019-01-15 20:30	Москва	12	-15	-99	20
+7766	2019-01-15 20:30	Самара	19	-3	-99	19
+7767	2019-01-15 20:30	Санкт-Петербург	19	-12	88	19
+7768	2019-01-15 21:30	Москва	18	18	64	10
+7769	2019-01-15 21:30	Самара	-16	4	-52	12
+7770	2019-01-15 21:30	Санкт-Петербург	0	-11	48	2
+7771	2019-01-15 22:30	Москва	-13	3	-79	2
+7772	2019-01-15 22:30	Самара	29	17	-168	11
+7773	2019-01-15 22:30	Санкт-Петербург	1	-9	155	20
+7774	2019-01-15 23:30	Москва	-9	-8	158	8
+7775	2019-01-15 23:30	Самара	8	2	27	10
+7776	2019-01-15 23:30	Санкт-Петербург	11	-6	-177	13
+7777	2019-01-16 00:30	Москва	-15	12	-135	12
+7778	2019-01-16 00:30	Самара	28	12	69	3
+7779	2019-01-16 00:30	Санкт-Петербург	8	-11	10	9
+7780	2019-01-16 01:30	Москва	14	10	67	7
+7781	2019-01-16 01:30	Самара	-9	5	40	18
+7782	2019-01-16 01:30	Санкт-Петербург	14	19	7	1
+7783	2019-01-16 02:30	Москва	26	-12	-57	16
+7784	2019-01-16 02:30	Самара	-1	-10	-109	19
+7785	2019-01-16 02:30	Санкт-Петербург	3	18	5	9
+7786	2019-01-16 03:30	Москва	22	-8	-69	14
+7787	2019-01-16 03:30	Самара	10	16	-150	2
+7788	2019-01-16 03:30	Санкт-Петербург	35	7	156	16
+7789	2019-01-16 04:30	Москва	32	-15	20	11
+7790	2019-01-16 04:30	Самара	-18	-3	-87	17
+7791	2019-01-16 04:30	Санкт-Петербург	-12	17	-137	10
+7792	2019-01-16 05:30	Москва	30	-1	-153	9
+7793	2019-01-16 05:30	Самара	-18	-20	52	12
+7794	2019-01-16 05:30	Санкт-Петербург	-11	-14	178	2
+7795	2019-01-16 06:30	Москва	18	15	-48	6
+7796	2019-01-16 06:30	Самара	2	-6	161	20
+7797	2019-01-16 06:30	Санкт-Петербург	5	-16	166	15
+7798	2019-01-16 07:30	Москва	-5	-1	-2	13
+7799	2019-01-16 07:30	Самара	-19	-3	-93	2
+7800	2019-01-16 07:30	Санкт-Петербург	31	2	-175	5
+7801	2019-01-16 08:30	Москва	26	-17	164	12
+7802	2019-01-16 08:30	Самара	19	-12	39	15
+7803	2019-01-16 08:30	Санкт-Петербург	-20	-10	102	11
+7804	2019-01-16 09:30	Москва	-11	12	-59	18
+7805	2019-01-16 09:30	Самара	6	-9	-158	10
+7806	2019-01-16 09:30	Санкт-Петербург	35	-19	162	3
+7807	2019-01-16 10:30	Москва	6	7	-105	19
+7808	2019-01-16 10:30	Самара	-11	-16	111	19
+7809	2019-01-16 10:30	Санкт-Петербург	-13	-18	-134	20
+7810	2019-01-16 11:30	Москва	17	-17	86	14
+7811	2019-01-16 11:30	Самара	-17	6	-83	13
+7812	2019-01-16 11:30	Санкт-Петербург	16	15	175	13
+7813	2019-01-16 12:30	Москва	10	-1	173	1
+7814	2019-01-16 12:30	Самара	20	-20	-27	17
+7815	2019-01-16 12:30	Санкт-Петербург	6	-6	-59	3
+7816	2019-01-16 13:30	Москва	14	-7	-111	19
+7817	2019-01-16 13:30	Самара	6	-12	154	2
+7818	2019-01-16 13:30	Санкт-Петербург	-9	-14	-28	1
+7819	2019-01-16 14:30	Москва	30	-8	-43	5
+7820	2019-01-16 14:30	Самара	3	4	51	7
+7821	2019-01-16 14:30	Санкт-Петербург	26	7	159	18
+7822	2019-01-16 15:30	Москва	-4	-1	-61	16
+7823	2019-01-16 15:30	Самара	3	-12	-98	3
+7824	2019-01-16 15:30	Санкт-Петербург	28	19	-7	15
+7825	2019-01-16 16:30	Москва	33	-10	35	15
+7826	2019-01-16 16:30	Самара	4	-3	-23	8
+7827	2019-01-16 16:30	Санкт-Петербург	14	8	-159	5
+7828	2019-01-16 17:30	Москва	24	-11	-123	2
+7829	2019-01-16 17:30	Самара	-2	18	59	6
+7830	2019-01-16 17:30	Санкт-Петербург	7	-19	50	2
+7831	2019-01-16 18:30	Москва	-2	7	-67	3
+7832	2019-01-16 18:30	Самара	-15	-7	-147	14
+7833	2019-01-16 18:30	Санкт-Петербург	10	-4	-43	14
+7834	2019-01-16 19:30	Москва	9	18	162	7
+7835	2019-01-16 19:30	Самара	9	9	25	14
+7836	2019-01-16 19:30	Санкт-Петербург	-18	12	-45	15
+7837	2019-01-16 20:30	Москва	-5	17	-92	8
+7838	2019-01-16 20:30	Самара	9	-18	-52	11
+7839	2019-01-16 20:30	Санкт-Петербург	21	6	-71	20
+7840	2019-01-16 21:30	Москва	10	20	-108	3
+7841	2019-01-16 21:30	Самара	16	-15	73	13
+7842	2019-01-16 21:30	Санкт-Петербург	22	4	165	9
+7843	2019-01-16 22:30	Москва	32	-12	-168	14
+7844	2019-01-16 22:30	Самара	29	15	-163	12
+7845	2019-01-16 22:30	Санкт-Петербург	-12	4	-75	14
+7846	2019-01-16 23:30	Москва	8	1	31	3
+7847	2019-01-16 23:30	Самара	18	-7	-118	13
+7848	2019-01-16 23:30	Санкт-Петербург	18	2	175	8
+7849	2019-01-17 00:30	Москва	28	-3	-147	20
+7850	2019-01-17 00:30	Самара	30	-16	-73	13
+7851	2019-01-17 00:30	Санкт-Петербург	-9	-8	-167	14
+7852	2019-01-17 01:30	Москва	27	-10	-180	9
+7853	2019-01-17 01:30	Самара	6	9	0	16
+7854	2019-01-17 01:30	Санкт-Петербург	-20	-14	-30	6
+7855	2019-01-17 02:30	Москва	15	-10	128	15
+7856	2019-01-17 02:30	Самара	10	6	148	8
+7857	2019-01-17 02:30	Санкт-Петербург	-9	-5	-127	18
+7858	2019-01-17 03:30	Москва	30	-11	132	5
+7859	2019-01-17 03:30	Самара	-16	-14	155	18
+7860	2019-01-17 03:30	Санкт-Петербург	3	-12	55	13
+7861	2019-01-17 04:30	Москва	-7	-7	-161	11
+7862	2019-01-17 04:30	Самара	22	1	-34	19
+7863	2019-01-17 04:30	Санкт-Петербург	-11	15	93	11
+7864	2019-01-17 05:30	Москва	-3	5	-83	2
+7865	2019-01-17 05:30	Самара	-19	-4	-156	19
+7866	2019-01-17 05:30	Санкт-Петербург	-17	5	-14	10
+7867	2019-01-17 06:30	Москва	32	3	-63	0
+7868	2019-01-17 06:30	Самара	-10	-8	-68	9
+7869	2019-01-17 06:30	Санкт-Петербург	-20	-13	140	17
+7870	2019-01-17 07:30	Москва	20	6	45	3
+7871	2019-01-17 07:30	Самара	2	-8	-159	15
+7872	2019-01-17 07:30	Санкт-Петербург	-13	10	22	0
+7873	2019-01-17 08:30	Москва	-12	-9	-54	7
+7874	2019-01-17 08:30	Самара	5	8	-2	13
+7875	2019-01-17 08:30	Санкт-Петербург	4	-9	-89	15
+7876	2019-01-17 09:30	Москва	-19	10	7	13
+7877	2019-01-17 09:30	Самара	-4	-9	-167	9
+7878	2019-01-17 09:30	Санкт-Петербург	15	7	101	11
+7879	2019-01-17 10:30	Москва	24	-8	-33	0
+7880	2019-01-17 10:30	Самара	16	6	101	4
+7881	2019-01-17 10:30	Санкт-Петербург	18	5	-169	5
+7882	2019-01-17 11:30	Москва	-5	8	154	0
+7883	2019-01-17 11:30	Самара	-12	2	-152	20
+7884	2019-01-17 11:30	Санкт-Петербург	-3	3	18	1
+7885	2019-01-17 12:30	Москва	18	-8	-50	13
+7886	2019-01-17 12:30	Самара	-18	18	155	11
+7887	2019-01-17 12:30	Санкт-Петербург	-10	-17	-94	3
+7888	2019-01-17 13:30	Москва	22	-3	35	17
+7889	2019-01-17 13:30	Самара	1	-12	126	10
+7890	2019-01-17 13:30	Санкт-Петербург	8	-8	-122	17
+7891	2019-01-17 14:30	Москва	-1	16	-122	10
+7892	2019-01-17 14:30	Самара	8	-1	-174	2
+7893	2019-01-17 14:30	Санкт-Петербург	-2	-16	-8	10
+7894	2019-01-17 15:30	Москва	29	-9	-90	14
+7895	2019-01-17 15:30	Самара	31	17	176	17
+7896	2019-01-17 15:30	Санкт-Петербург	22	-9	-64	13
+7897	2019-01-17 16:30	Москва	34	2	-139	4
+7898	2019-01-17 16:30	Самара	16	5	157	5
+7899	2019-01-17 16:30	Санкт-Петербург	16	-6	13	4
+7900	2019-01-17 17:30	Москва	24	-20	-136	2
+7901	2019-01-17 17:30	Самара	12	-17	158	14
+7902	2019-01-17 17:30	Санкт-Петербург	8	-10	-35	3
+7903	2019-01-17 18:30	Москва	-17	-2	96	1
+7904	2019-01-17 18:30	Самара	24	12	-43	1
+7905	2019-01-17 18:30	Санкт-Петербург	18	12	150	2
+7906	2019-01-17 19:30	Москва	-5	-9	63	5
+7907	2019-01-17 19:30	Самара	34	7	28	3
+7908	2019-01-17 19:30	Санкт-Петербург	-18	-2	8	6
+7909	2019-01-17 20:30	Москва	4	-8	134	12
+7910	2019-01-17 20:30	Самара	15	12	162	12
+7911	2019-01-17 20:30	Санкт-Петербург	-5	16	88	18
+7912	2019-01-17 21:30	Москва	-9	1	-64	6
+7913	2019-01-17 21:30	Самара	15	-10	158	19
+7914	2019-01-17 21:30	Санкт-Петербург	31	16	-30	12
+7915	2019-01-17 22:30	Москва	3	2	-171	2
+7916	2019-01-17 22:30	Самара	33	8	40	8
+7917	2019-01-17 22:30	Санкт-Петербург	32	-13	-135	16
+7918	2019-01-17 23:30	Москва	-12	7	127	0
+7919	2019-01-17 23:30	Самара	31	6	104	8
+7920	2019-01-17 23:30	Санкт-Петербург	-9	18	-44	12
+7921	2019-01-18 00:30	Москва	-20	-13	-50	16
+7922	2019-01-18 00:30	Самара	15	-17	-42	20
+7923	2019-01-18 00:30	Санкт-Петербург	4	-16	15	5
+7924	2019-01-18 01:30	Москва	-5	-11	-150	2
+7925	2019-01-18 01:30	Самара	21	-15	61	16
+7926	2019-01-18 01:30	Санкт-Петербург	2	-15	128	19
+7927	2019-01-18 02:30	Москва	-10	-5	-120	13
+7928	2019-01-18 02:30	Самара	-6	14	-81	6
+7929	2019-01-18 02:30	Санкт-Петербург	0	-11	85	1
+7930	2019-01-18 03:30	Москва	1	4	-135	16
+7931	2019-01-18 03:30	Самара	21	13	-127	19
+7932	2019-01-18 03:30	Санкт-Петербург	-2	9	130	10
+7933	2019-01-18 04:30	Москва	-8	0	119	15
+7934	2019-01-18 04:30	Самара	21	20	85	2
+7935	2019-01-18 04:30	Санкт-Петербург	13	-18	83	14
+7936	2019-01-18 05:30	Москва	-5	19	110	16
+7937	2019-01-18 05:30	Самара	29	16	-149	3
+7938	2019-01-18 05:30	Санкт-Петербург	7	11	-84	0
+7939	2019-01-18 06:30	Москва	-9	-6	66	14
+7940	2019-01-18 06:30	Самара	29	-5	18	18
+7941	2019-01-18 06:30	Санкт-Петербург	20	-7	51	19
+7942	2019-01-18 07:30	Москва	22	18	26	10
+7943	2019-01-18 07:30	Самара	27	-17	-154	1
+7944	2019-01-18 07:30	Санкт-Петербург	8	18	-171	9
+7945	2019-01-18 08:30	Москва	-7	18	-36	6
+7946	2019-01-18 08:30	Самара	8	-2	102	0
+7947	2019-01-18 08:30	Санкт-Петербург	-3	-20	-70	18
+7948	2019-01-18 09:30	Москва	23	-17	140	17
+7949	2019-01-18 09:30	Самара	13	-19	160	9
+7950	2019-01-18 09:30	Санкт-Петербург	-8	3	-15	8
+7951	2019-01-18 10:30	Москва	20	13	-79	20
+7952	2019-01-18 10:30	Самара	-17	-3	-92	1
+7953	2019-01-18 10:30	Санкт-Петербург	35	-13	-166	5
+7954	2019-01-18 11:30	Москва	14	-1	154	18
+7955	2019-01-18 11:30	Самара	31	-18	123	7
+7956	2019-01-18 11:30	Санкт-Петербург	23	-20	-172	19
+7957	2019-01-18 12:30	Москва	19	-15	-152	16
+7958	2019-01-18 12:30	Самара	-7	-5	-169	9
+7959	2019-01-18 12:30	Санкт-Петербург	17	7	-151	1
+7960	2019-01-18 13:30	Москва	34	17	-106	2
+7961	2019-01-18 13:30	Самара	-3	-8	-62	9
+7962	2019-01-18 13:30	Санкт-Петербург	-13	-11	155	9
+7963	2019-01-18 14:30	Москва	-7	-5	-121	4
+7964	2019-01-18 14:30	Самара	-4	-10	97	2
+7965	2019-01-18 14:30	Санкт-Петербург	25	18	88	0
+7966	2019-01-18 15:30	Москва	5	-10	102	13
+7967	2019-01-18 15:30	Самара	15	18	-56	1
+7968	2019-01-18 15:30	Санкт-Петербург	35	-2	5	2
+7969	2019-01-18 16:30	Москва	26	-1	68	9
+7970	2019-01-18 16:30	Самара	-15	-5	-158	19
+7971	2019-01-18 16:30	Санкт-Петербург	23	-7	53	7
+7972	2019-01-18 17:30	Москва	25	1	48	12
+7973	2019-01-18 17:30	Самара	-7	-12	-8	14
+7974	2019-01-18 17:30	Санкт-Петербург	-18	-14	36	19
+7975	2019-01-18 18:30	Москва	-9	18	-59	16
+7976	2019-01-18 18:30	Самара	27	-3	-146	2
+7977	2019-01-18 18:30	Санкт-Петербург	11	-2	32	4
+7978	2019-01-18 19:30	Москва	13	15	93	11
+7979	2019-01-18 19:30	Самара	27	19	55	0
+7980	2019-01-18 19:30	Санкт-Петербург	-13	-7	-113	14
+7981	2019-01-18 20:30	Москва	-16	15	-124	18
+7982	2019-01-18 20:30	Самара	2	2	-175	4
+7983	2019-01-18 20:30	Санкт-Петербург	31	-9	121	5
+7984	2019-01-18 21:30	Москва	-5	-7	-131	1
+7985	2019-01-18 21:30	Самара	1	-3	95	11
+7986	2019-01-18 21:30	Санкт-Петербург	12	-12	-35	19
+7987	2019-01-18 22:30	Москва	-15	13	-163	20
+7988	2019-01-18 22:30	Самара	-10	-10	-102	14
+7989	2019-01-18 22:30	Санкт-Петербург	10	-11	-28	20
+7990	2019-01-18 23:30	Москва	25	19	17	12
+7991	2019-01-18 23:30	Самара	-9	-11	6	4
+7992	2019-01-18 23:30	Санкт-Петербург	13	9	148	17
+7993	2019-01-19 00:30	Москва	17	-13	119	11
+7994	2019-01-19 00:30	Самара	3	20	137	10
+7995	2019-01-19 00:30	Санкт-Петербург	13	-13	155	9
+7996	2019-01-19 01:30	Москва	12	4	176	20
+7997	2019-01-19 01:30	Самара	6	-9	179	6
+7998	2019-01-19 01:30	Санкт-Петербург	27	3	148	5
+7999	2019-01-19 02:30	Москва	-18	-3	-133	11
+8000	2019-01-19 02:30	Самара	-12	-6	18	6
+8001	2019-01-19 02:30	Санкт-Петербург	7	-5	176	9
+8002	2019-01-19 03:30	Москва	-11	16	62	16
+8003	2019-01-19 03:30	Самара	-4	-12	-80	2
+8004	2019-01-19 03:30	Санкт-Петербург	2	7	-17	14
+8005	2019-01-19 04:30	Москва	1	13	90	20
+8006	2019-01-19 04:30	Самара	24	7	67	7
+8007	2019-01-19 04:30	Санкт-Петербург	6	-2	59	5
+8008	2019-01-19 05:30	Москва	28	3	-164	8
+8009	2019-01-19 05:30	Самара	-18	-5	-138	1
+8010	2019-01-19 05:30	Санкт-Петербург	0	-20	144	7
+8011	2019-01-19 06:30	Москва	30	-13	15	10
+8012	2019-01-19 06:30	Самара	31	16	15	9
+8013	2019-01-19 06:30	Санкт-Петербург	6	-2	-68	12
+8014	2019-01-19 07:30	Москва	-15	-20	-123	16
+8015	2019-01-19 07:30	Самара	-9	-10	-35	1
+8016	2019-01-19 07:30	Санкт-Петербург	16	6	42	5
+8017	2019-01-19 08:30	Москва	-16	-16	-147	15
+8018	2019-01-19 08:30	Самара	7	-7	71	3
+8019	2019-01-19 08:30	Санкт-Петербург	-5	7	-36	7
+8020	2019-01-19 09:30	Москва	21	16	29	0
+8021	2019-01-19 09:30	Самара	16	-11	-165	4
+8022	2019-01-19 09:30	Санкт-Петербург	27	7	-92	14
+8023	2019-01-19 10:30	Москва	33	0	0	10
+8024	2019-01-19 10:30	Самара	-5	-3	-103	13
+8025	2019-01-19 10:30	Санкт-Петербург	34	3	99	0
+8026	2019-01-19 11:30	Москва	23	13	47	5
+8027	2019-01-19 11:30	Самара	10	-1	108	1
+8028	2019-01-19 11:30	Санкт-Петербург	-19	-3	-6	16
+8029	2019-01-19 12:30	Москва	-9	9	-66	0
+8030	2019-01-19 12:30	Самара	1	-6	133	9
+8031	2019-01-19 12:30	Санкт-Петербург	-1	0	47	9
+8032	2019-01-19 13:30	Москва	0	-19	-163	20
+8033	2019-01-19 13:30	Самара	20	7	-76	4
+8034	2019-01-19 13:30	Санкт-Петербург	-3	7	101	10
+8035	2019-01-19 14:30	Москва	-19	-4	123	13
+8036	2019-01-19 14:30	Самара	6	-2	-174	0
+8037	2019-01-19 14:30	Санкт-Петербург	7	-7	90	14
+8038	2019-01-19 15:30	Москва	6	-11	-17	3
+8039	2019-01-19 15:30	Самара	-9	7	38	13
+8040	2019-01-19 15:30	Санкт-Петербург	22	6	72	16
+8041	2019-01-19 16:30	Москва	23	-2	174	6
+8042	2019-01-19 16:30	Самара	1	5	51	19
+8043	2019-01-19 16:30	Санкт-Петербург	-4	9	-138	7
+8044	2019-01-19 17:30	Москва	-11	-16	56	19
+8045	2019-01-19 17:30	Самара	9	2	175	18
+8046	2019-01-19 17:30	Санкт-Петербург	10	3	-163	3
+8047	2019-01-19 18:30	Москва	-18	8	-43	9
+8048	2019-01-19 18:30	Самара	-14	-20	83	5
+8049	2019-01-19 18:30	Санкт-Петербург	-19	-7	63	10
+8050	2019-01-19 19:30	Москва	-10	20	110	1
+8051	2019-01-19 19:30	Самара	21	-3	29	9
+8052	2019-01-19 19:30	Санкт-Петербург	-19	-9	149	15
+8053	2019-01-19 20:30	Москва	32	-15	-29	19
+8054	2019-01-19 20:30	Самара	32	-20	149	20
+8055	2019-01-19 20:30	Санкт-Петербург	34	-15	-45	4
+8056	2019-01-19 21:30	Москва	12	2	165	4
+8057	2019-01-19 21:30	Самара	-15	-17	-6	18
+8058	2019-01-19 21:30	Санкт-Петербург	19	19	-107	5
+8059	2019-01-19 22:30	Москва	2	12	2	4
+8060	2019-01-19 22:30	Самара	14	13	100	5
+8061	2019-01-19 22:30	Санкт-Петербург	-13	-16	177	4
+8062	2019-01-19 23:30	Москва	35	20	-17	9
+8063	2019-01-19 23:30	Самара	17	6	10	14
+8064	2019-01-19 23:30	Санкт-Петербург	27	5	-29	19
+8065	2019-01-20 00:30	Москва	-13	-10	110	18
+8066	2019-01-20 00:30	Самара	6	-5	-35	10
+8067	2019-01-20 00:30	Санкт-Петербург	20	-13	149	17
+8068	2019-01-20 01:30	Москва	-1	16	-24	15
+8069	2019-01-20 01:30	Самара	12	9	41	7
+8070	2019-01-20 01:30	Санкт-Петербург	-18	-16	-101	14
+8071	2019-01-20 02:30	Москва	29	13	-90	12
+8072	2019-01-20 02:30	Самара	32	-12	147	0
+8073	2019-01-20 02:30	Санкт-Петербург	-2	7	-166	4
+8074	2019-01-20 03:30	Москва	-11	-14	114	7
+8075	2019-01-20 03:30	Самара	18	9	137	2
+8076	2019-01-20 03:30	Санкт-Петербург	14	16	162	5
+8077	2019-01-20 04:30	Москва	14	2	128	10
+8078	2019-01-20 04:30	Самара	-9	-4	53	17
+8079	2019-01-20 04:30	Санкт-Петербург	34	-17	-133	14
+8080	2019-01-20 05:30	Москва	-1	-10	-88	18
+8081	2019-01-20 05:30	Самара	-5	-1	-89	0
+8082	2019-01-20 05:30	Санкт-Петербург	-12	-6	6	16
+8083	2019-01-20 06:30	Москва	-8	-17	-158	11
+8084	2019-01-20 06:30	Самара	-19	0	86	7
+8085	2019-01-20 06:30	Санкт-Петербург	35	18	151	4
+8086	2019-01-20 07:30	Москва	24	-14	-91	0
+8087	2019-01-20 07:30	Самара	9	-18	-9	12
+8088	2019-01-20 07:30	Санкт-Петербург	-2	5	127	6
+8089	2019-01-20 08:30	Москва	9	1	5	1
+8090	2019-01-20 08:30	Самара	-11	16	83	3
+8091	2019-01-20 08:30	Санкт-Петербург	-15	-10	42	9
+8092	2019-01-20 09:30	Москва	11	-2	-154	10
+8093	2019-01-20 09:30	Самара	5	-10	97	19
+8094	2019-01-20 09:30	Санкт-Петербург	34	-1	-23	11
+8095	2019-01-20 10:30	Москва	-6	-8	-58	7
+8096	2019-01-20 10:30	Самара	-8	5	-135	10
+8097	2019-01-20 10:30	Санкт-Петербург	4	-6	-179	14
+8098	2019-01-20 11:30	Москва	-10	-5	-119	17
+8099	2019-01-20 11:30	Самара	-9	-19	-132	13
+8100	2019-01-20 11:30	Санкт-Петербург	29	4	97	14
+8101	2019-01-20 12:30	Москва	1	-19	47	4
+8102	2019-01-20 12:30	Самара	-12	-15	126	16
+8103	2019-01-20 12:30	Санкт-Петербург	-13	-1	-118	10
+8104	2019-01-20 13:30	Москва	12	20	-24	4
+8105	2019-01-20 13:30	Самара	13	-7	7	0
+8106	2019-01-20 13:30	Санкт-Петербург	-19	-15	-104	2
+8107	2019-01-20 14:30	Москва	28	4	180	17
+8108	2019-01-20 14:30	Самара	2	-6	-105	7
+8109	2019-01-20 14:30	Санкт-Петербург	7	-15	-37	12
+8110	2019-01-20 15:30	Москва	32	-18	-155	19
+8111	2019-01-20 15:30	Самара	-18	-10	-32	18
+8112	2019-01-20 15:30	Санкт-Петербург	12	-10	8	6
+8113	2019-01-20 16:30	Москва	-2	-20	36	11
+8114	2019-01-20 16:30	Самара	-13	11	-179	1
+8115	2019-01-20 16:30	Санкт-Петербург	-6	-9	-50	4
+8116	2019-01-20 17:30	Москва	6	-12	112	18
+8117	2019-01-20 17:30	Самара	-7	-18	-44	5
+8118	2019-01-20 17:30	Санкт-Петербург	33	-16	92	20
+8119	2019-01-20 18:30	Москва	0	14	49	16
+8120	2019-01-20 18:30	Самара	-2	-7	-48	2
+8121	2019-01-20 18:30	Санкт-Петербург	-4	-4	111	17
+8122	2019-01-20 19:30	Москва	14	-11	90	17
+8123	2019-01-20 19:30	Самара	19	-16	-21	2
+8124	2019-01-20 19:30	Санкт-Петербург	5	1	-109	3
+8125	2019-01-20 20:30	Москва	-1	10	13	2
+8126	2019-01-20 20:30	Самара	23	13	-124	19
+8127	2019-01-20 20:30	Санкт-Петербург	-15	-3	-164	17
+8128	2019-01-20 21:30	Москва	-20	3	85	13
+8129	2019-01-20 21:30	Самара	-8	15	-176	19
+8130	2019-01-20 21:30	Санкт-Петербург	-4	-17	147	11
+8131	2019-01-20 22:30	Москва	2	-13	-57	18
+8132	2019-01-20 22:30	Самара	12	3	14	3
+8133	2019-01-20 22:30	Санкт-Петербург	27	6	163	14
+8134	2019-01-20 23:30	Москва	17	-3	-63	8
+8135	2019-01-20 23:30	Самара	24	16	-149	18
+8136	2019-01-20 23:30	Санкт-Петербург	-8	20	-19	6
+8137	2019-01-21 00:30	Москва	24	4	13	11
+8138	2019-01-21 00:30	Самара	-20	11	-10	9
+8139	2019-01-21 00:30	Санкт-Петербург	-8	-4	-85	2
+8140	2019-01-21 01:30	Москва	4	-17	87	20
+8141	2019-01-21 01:30	Самара	-15	8	-171	14
+8142	2019-01-21 01:30	Санкт-Петербург	3	-14	-129	18
+8143	2019-01-21 02:30	Москва	18	-12	-97	18
+8144	2019-01-21 02:30	Самара	19	-18	-62	13
+8145	2019-01-21 02:30	Санкт-Петербург	-1	13	-163	8
+8146	2019-01-21 03:30	Москва	-11	-13	161	11
+8147	2019-01-21 03:30	Самара	-10	-17	-111	16
+8148	2019-01-21 03:30	Санкт-Петербург	30	-15	129	7
+8149	2019-01-21 04:30	Москва	11	1	-61	3
+8150	2019-01-21 04:30	Самара	4	-8	-133	4
+8151	2019-01-21 04:30	Санкт-Петербург	-17	-12	-19	10
+8152	2019-01-21 05:30	Москва	30	-15	8	4
+8153	2019-01-21 05:30	Самара	5	8	9	12
+8154	2019-01-21 05:30	Санкт-Петербург	0	-13	-13	17
+8155	2019-01-21 06:30	Москва	-13	14	-70	18
+8156	2019-01-21 06:30	Самара	21	-18	83	2
+8157	2019-01-21 06:30	Санкт-Петербург	22	-1	45	16
+8158	2019-01-21 07:30	Москва	-16	-7	148	13
+8159	2019-01-21 07:30	Самара	8	-17	42	18
+8160	2019-01-21 07:30	Санкт-Петербург	20	-12	21	20
+8161	2019-01-21 08:30	Москва	6	13	-106	15
+8162	2019-01-21 08:30	Самара	-7	-7	-16	13
+8163	2019-01-21 08:30	Санкт-Петербург	14	6	-171	20
+8164	2019-01-21 09:30	Москва	-10	2	64	17
+8165	2019-01-21 09:30	Самара	-1	12	-95	16
+8166	2019-01-21 09:30	Санкт-Петербург	33	14	74	5
+8167	2019-01-21 10:30	Москва	-8	9	-67	20
+8168	2019-01-21 10:30	Самара	3	-11	-147	2
+8169	2019-01-21 10:30	Санкт-Петербург	11	1	-57	2
+8170	2019-01-21 11:30	Москва	18	-10	128	1
+8171	2019-01-21 11:30	Самара	21	-14	51	7
+8172	2019-01-21 11:30	Санкт-Петербург	23	-5	111	4
+8173	2019-01-21 12:30	Москва	34	12	-5	2
+8174	2019-01-21 12:30	Самара	9	2	-109	16
+8175	2019-01-21 12:30	Санкт-Петербург	-11	-3	108	17
+8176	2019-01-21 13:30	Москва	16	12	-123	16
+8177	2019-01-21 13:30	Самара	15	-18	-24	17
+8178	2019-01-21 13:30	Санкт-Петербург	-9	9	-114	18
+8179	2019-01-21 14:30	Москва	-7	15	36	3
+8180	2019-01-21 14:30	Самара	-14	-14	-150	3
+8181	2019-01-21 14:30	Санкт-Петербург	-12	-2	-177	8
+8182	2019-01-21 15:30	Москва	19	6	6	20
+8183	2019-01-21 15:30	Самара	5	-16	130	2
+8184	2019-01-21 15:30	Санкт-Петербург	16	14	142	15
+8185	2019-01-21 16:30	Москва	-8	-8	100	12
+8186	2019-01-21 16:30	Самара	-11	20	14	0
+8187	2019-01-21 16:30	Санкт-Петербург	-15	16	-162	2
+8188	2019-01-21 17:30	Москва	21	3	-169	2
+8189	2019-01-21 17:30	Самара	13	1	-35	15
+8190	2019-01-21 17:30	Санкт-Петербург	-4	10	-61	7
+8191	2019-01-21 18:30	Москва	-8	-11	-96	15
+8192	2019-01-21 18:30	Самара	23	-3	139	3
+8193	2019-01-21 18:30	Санкт-Петербург	-4	-19	-125	3
+8194	2019-01-21 19:30	Москва	6	9	85	11
+8195	2019-01-21 19:30	Самара	-3	5	-70	8
+8196	2019-01-21 19:30	Санкт-Петербург	-3	-12	-140	5
+8197	2019-01-21 20:30	Москва	-18	-11	-36	6
+8198	2019-01-21 20:30	Самара	1	14	-3	10
+8199	2019-01-21 20:30	Санкт-Петербург	20	2	-94	4
+8200	2019-01-21 21:30	Москва	-12	-13	-120	15
+8201	2019-01-21 21:30	Самара	-20	-11	93	2
+8202	2019-01-21 21:30	Санкт-Петербург	32	16	27	7
+8203	2019-01-21 22:30	Москва	-20	18	96	4
+8204	2019-01-21 22:30	Самара	-1	3	7	7
+8205	2019-01-21 22:30	Санкт-Петербург	-15	0	-75	7
+8206	2019-01-21 23:30	Москва	33	-5	-30	3
+8207	2019-01-21 23:30	Самара	19	8	-14	20
+8208	2019-01-21 23:30	Санкт-Петербург	-13	4	-116	13
+8209	2019-01-22 00:30	Москва	14	-19	91	8
+8210	2019-01-22 00:30	Самара	34	-10	-54	10
+8211	2019-01-22 00:30	Санкт-Петербург	18	18	-129	18
+8212	2019-01-22 01:30	Москва	-6	-16	130	16
+8213	2019-01-22 01:30	Самара	-2	-14	106	20
+8214	2019-01-22 01:30	Санкт-Петербург	-7	11	-179	18
+8215	2019-01-22 02:30	Москва	-4	7	48	9
+8216	2019-01-22 02:30	Самара	0	-7	176	14
+8217	2019-01-22 02:30	Санкт-Петербург	-20	-11	148	9
+8218	2019-01-22 03:30	Москва	18	4	-114	20
+8219	2019-01-22 03:30	Самара	-13	19	42	14
+8220	2019-01-22 03:30	Санкт-Петербург	12	1	-37	16
+8221	2019-01-22 04:30	Москва	-17	-11	-127	12
+8222	2019-01-22 04:30	Самара	-6	-7	-9	16
+8223	2019-01-22 04:30	Санкт-Петербург	29	-1	-180	3
+8224	2019-01-22 05:30	Москва	0	-9	126	14
+8225	2019-01-22 05:30	Самара	21	-10	142	19
+8226	2019-01-22 05:30	Санкт-Петербург	3	-13	61	2
+8227	2019-01-22 06:30	Москва	5	10	-77	8
+8228	2019-01-22 06:30	Самара	5	-10	-93	20
+8229	2019-01-22 06:30	Санкт-Петербург	-14	-15	29	17
+8230	2019-01-22 07:30	Москва	3	-5	55	4
+8231	2019-01-22 07:30	Самара	-19	13	56	9
+8232	2019-01-22 07:30	Санкт-Петербург	5	-17	50	9
+8233	2019-01-22 08:30	Москва	-16	6	-63	8
+8234	2019-01-22 08:30	Самара	-15	15	150	15
+8235	2019-01-22 08:30	Санкт-Петербург	-5	16	7	16
+8236	2019-01-22 09:30	Москва	-16	-1	36	16
+8237	2019-01-22 09:30	Самара	-5	18	33	6
+8238	2019-01-22 09:30	Санкт-Петербург	-20	17	-11	8
+8239	2019-01-22 10:30	Москва	-15	-10	139	14
+8240	2019-01-22 10:30	Самара	26	-17	-111	2
+8241	2019-01-22 10:30	Санкт-Петербург	18	10	114	11
+8242	2019-01-22 11:30	Москва	2	19	37	0
+8243	2019-01-22 11:30	Самара	21	-3	7	0
+8244	2019-01-22 11:30	Санкт-Петербург	7	8	-105	20
+8245	2019-01-22 12:30	Москва	15	-16	20	16
+8246	2019-01-22 12:30	Самара	-16	7	34	15
+8247	2019-01-22 12:30	Санкт-Петербург	23	7	44	5
+8248	2019-01-22 13:30	Москва	28	-9	106	13
+8249	2019-01-22 13:30	Самара	27	18	124	9
+8250	2019-01-22 13:30	Санкт-Петербург	-6	-14	99	4
+8251	2019-01-22 14:30	Москва	-12	-8	102	12
+8252	2019-01-22 14:30	Самара	-14	-6	57	14
+8253	2019-01-22 14:30	Санкт-Петербург	13	19	128	17
+8254	2019-01-22 15:30	Москва	6	-2	0	11
+8255	2019-01-22 15:30	Самара	35	3	-172	13
+8256	2019-01-22 15:30	Санкт-Петербург	34	-6	72	10
+8257	2019-01-22 16:30	Москва	-8	-11	163	6
+8258	2019-01-22 16:30	Самара	33	-19	83	5
+8259	2019-01-22 16:30	Санкт-Петербург	28	-5	44	15
+8260	2019-01-22 17:30	Москва	2	-19	-85	9
+8261	2019-01-22 17:30	Самара	-14	-6	139	18
+8262	2019-01-22 17:30	Санкт-Петербург	28	6	166	18
+8263	2019-01-22 18:30	Москва	-10	-2	134	10
+8264	2019-01-22 18:30	Самара	-15	17	-107	9
+8265	2019-01-22 18:30	Санкт-Петербург	29	-9	-83	6
+8266	2019-01-22 19:30	Москва	-17	-15	53	12
+8267	2019-01-22 19:30	Самара	19	0	-95	18
+8268	2019-01-22 19:30	Санкт-Петербург	10	11	106	6
+8269	2019-01-22 20:30	Москва	-8	-5	87	2
+8270	2019-01-22 20:30	Самара	9	-17	-72	19
+8271	2019-01-22 20:30	Санкт-Петербург	-19	20	-32	12
+8272	2019-01-22 21:30	Москва	10	-19	79	17
+8273	2019-01-22 21:30	Самара	2	-12	167	7
+8274	2019-01-22 21:30	Санкт-Петербург	-19	-4	113	9
+8275	2019-01-22 22:30	Москва	14	-10	41	6
+8276	2019-01-22 22:30	Самара	-12	-15	-116	8
+8277	2019-01-22 22:30	Санкт-Петербург	22	8	-147	17
+8278	2019-01-22 23:30	Москва	29	1	81	20
+8279	2019-01-22 23:30	Самара	34	-6	-127	20
+8280	2019-01-22 23:30	Санкт-Петербург	5	1	-160	14
+8281	2019-01-23 00:30	Москва	7	2	-154	13
+8282	2019-01-23 00:30	Самара	29	17	-75	1
+8283	2019-01-23 00:30	Санкт-Петербург	28	-17	74	16
+8284	2019-01-23 01:30	Москва	12	0	-134	1
+8285	2019-01-23 01:30	Самара	-14	1	-25	16
+8286	2019-01-23 01:30	Санкт-Петербург	8	15	-50	9
+8287	2019-01-23 02:30	Москва	21	1	27	9
+8288	2019-01-23 02:30	Самара	27	2	-65	3
+8289	2019-01-23 02:30	Санкт-Петербург	-5	-7	-81	0
+8290	2019-01-23 03:30	Москва	14	11	96	12
+8291	2019-01-23 03:30	Самара	24	15	-130	19
+8292	2019-01-23 03:30	Санкт-Петербург	17	17	16	18
+8293	2019-01-23 04:30	Москва	32	10	104	8
+8294	2019-01-23 04:30	Самара	29	-5	-122	15
+8295	2019-01-23 04:30	Санкт-Петербург	7	8	95	12
+8296	2019-01-23 05:30	Москва	10	4	-138	14
+8297	2019-01-23 05:30	Самара	5	1	50	8
+8298	2019-01-23 05:30	Санкт-Петербург	22	-19	-13	7
+8299	2019-01-23 06:30	Москва	-19	-11	-148	14
+8300	2019-01-23 06:30	Самара	-5	16	76	10
+8301	2019-01-23 06:30	Санкт-Петербург	-12	7	101	12
+8302	2019-01-23 07:30	Москва	30	10	-89	12
+8303	2019-01-23 07:30	Самара	8	-18	0	8
+8304	2019-01-23 07:30	Санкт-Петербург	-7	0	-3	14
+8305	2019-01-23 08:30	Москва	22	-3	114	1
+8306	2019-01-23 08:30	Самара	5	13	-167	11
+8307	2019-01-23 08:30	Санкт-Петербург	19	-17	-40	9
+8308	2019-01-23 09:30	Москва	0	2	-89	6
+8309	2019-01-23 09:30	Самара	-8	1	63	17
+8310	2019-01-23 09:30	Санкт-Петербург	-14	19	-69	6
+8311	2019-01-23 10:30	Москва	5	-20	98	11
+8312	2019-01-23 10:30	Самара	25	-9	-17	7
+8313	2019-01-23 10:30	Санкт-Петербург	-7	12	-62	3
+8314	2019-01-23 11:30	Москва	-2	12	106	5
+8315	2019-01-23 11:30	Самара	35	2	-75	16
+8316	2019-01-23 11:30	Санкт-Петербург	28	14	-47	20
+8317	2019-01-23 12:30	Москва	2	-18	180	19
+8318	2019-01-23 12:30	Самара	13	15	-100	4
+8319	2019-01-23 12:30	Санкт-Петербург	-10	-2	90	13
+8320	2019-01-23 13:30	Москва	-3	-3	-102	0
+8321	2019-01-23 13:30	Самара	-4	1	-126	6
+8322	2019-01-23 13:30	Санкт-Петербург	4	-11	121	17
+8323	2019-01-23 14:30	Москва	6	-6	-100	18
+8324	2019-01-23 14:30	Самара	-6	13	-58	15
+8325	2019-01-23 14:30	Санкт-Петербург	-15	-10	104	14
+8326	2019-01-23 15:30	Москва	-14	19	149	19
+8327	2019-01-23 15:30	Самара	-6	-4	158	10
+8328	2019-01-23 15:30	Санкт-Петербург	20	2	30	10
+8329	2019-01-23 16:30	Москва	-10	-19	155	0
+8330	2019-01-23 16:30	Самара	24	13	-30	8
+8331	2019-01-23 16:30	Санкт-Петербург	26	0	80	9
+8332	2019-01-23 17:30	Москва	25	-1	-146	11
+8333	2019-01-23 17:30	Самара	35	-11	162	13
+8334	2019-01-23 17:30	Санкт-Петербург	0	-20	-95	7
+8335	2019-01-23 18:30	Москва	-19	13	2	16
+8336	2019-01-23 18:30	Самара	32	-10	-92	19
+8337	2019-01-23 18:30	Санкт-Петербург	32	20	-167	4
+8338	2019-01-23 19:30	Москва	25	2	-155	5
+8339	2019-01-23 19:30	Самара	35	20	-174	19
+8340	2019-01-23 19:30	Санкт-Петербург	-15	-7	130	16
+8341	2019-01-23 20:30	Москва	26	14	55	8
+8342	2019-01-23 20:30	Самара	2	4	176	5
+8343	2019-01-23 20:30	Санкт-Петербург	-6	-12	-95	11
+8344	2019-01-23 21:30	Москва	3	-11	101	19
+8345	2019-01-23 21:30	Самара	-17	-19	22	7
+8346	2019-01-23 21:30	Санкт-Петербург	31	-15	-149	20
+8347	2019-01-23 22:30	Москва	5	15	-43	19
+8348	2019-01-23 22:30	Самара	17	5	138	9
+8349	2019-01-23 22:30	Санкт-Петербург	21	-9	39	17
+8350	2019-01-23 23:30	Москва	-5	-2	34	4
+8351	2019-01-23 23:30	Самара	30	9	152	6
+8352	2019-01-23 23:30	Санкт-Петербург	31	11	-119	9
+8353	2019-01-24 00:30	Москва	26	-2	-14	18
+8354	2019-01-24 00:30	Самара	16	-6	17	11
+8355	2019-01-24 00:30	Санкт-Петербург	-17	-19	106	5
+8356	2019-01-24 01:30	Москва	-11	12	-43	1
+8357	2019-01-24 01:30	Самара	-7	-5	125	11
+8358	2019-01-24 01:30	Санкт-Петербург	17	5	39	2
+8359	2019-01-24 02:30	Москва	-3	-7	113	16
+8360	2019-01-24 02:30	Самара	-14	9	-153	19
+8361	2019-01-24 02:30	Санкт-Петербург	-14	18	-89	10
+8362	2019-01-24 03:30	Москва	32	15	138	2
+8363	2019-01-24 03:30	Самара	23	-7	-68	16
+8364	2019-01-24 03:30	Санкт-Петербург	27	20	86	3
+8365	2019-01-24 04:30	Москва	28	6	-166	18
+8366	2019-01-24 04:30	Самара	-17	4	-173	11
+8367	2019-01-24 04:30	Санкт-Петербург	-20	-1	29	10
+8368	2019-01-24 05:30	Москва	8	19	-69	0
+8369	2019-01-24 05:30	Самара	-10	17	158	12
+8370	2019-01-24 05:30	Санкт-Петербург	-2	9	-87	0
+8371	2019-01-24 06:30	Москва	3	4	113	18
+8372	2019-01-24 06:30	Самара	23	8	-83	4
+8373	2019-01-24 06:30	Санкт-Петербург	-10	-4	49	8
+8374	2019-01-24 07:30	Москва	-3	-9	-78	18
+8375	2019-01-24 07:30	Самара	14	13	-142	8
+8376	2019-01-24 07:30	Санкт-Петербург	-15	10	-158	16
+8377	2019-01-24 08:30	Москва	-8	-20	-39	7
+8378	2019-01-24 08:30	Самара	15	1	73	4
+8379	2019-01-24 08:30	Санкт-Петербург	-20	15	145	17
+8380	2019-01-24 09:30	Москва	10	9	-145	19
+8381	2019-01-24 09:30	Самара	15	-18	-17	20
+8382	2019-01-24 09:30	Санкт-Петербург	22	-12	84	9
+8383	2019-01-24 10:30	Москва	-5	4	-10	14
+8384	2019-01-24 10:30	Самара	8	0	177	11
+8385	2019-01-24 10:30	Санкт-Петербург	9	12	18	1
+8386	2019-01-24 11:30	Москва	31	-18	-19	11
+8387	2019-01-24 11:30	Самара	26	-3	115	0
+8388	2019-01-24 11:30	Санкт-Петербург	-4	-11	52	11
+8389	2019-01-24 12:30	Москва	14	-8	162	3
+8390	2019-01-24 12:30	Самара	-12	-14	-132	14
+8391	2019-01-24 12:30	Санкт-Петербург	27	13	-103	7
+8392	2019-01-24 13:30	Москва	19	-10	-79	8
+8393	2019-01-24 13:30	Самара	-19	-12	-81	8
+8394	2019-01-24 13:30	Санкт-Петербург	12	-5	3	20
+8395	2019-01-24 14:30	Москва	-9	-4	180	13
+8396	2019-01-24 14:30	Самара	-7	-2	-76	4
+8397	2019-01-24 14:30	Санкт-Петербург	17	-6	26	15
+8398	2019-01-24 15:30	Москва	-10	19	14	11
+8399	2019-01-24 15:30	Самара	-9	20	-34	4
+8400	2019-01-24 15:30	Санкт-Петербург	2	-18	149	20
+8401	2019-01-24 16:30	Москва	2	-14	125	0
+8402	2019-01-24 16:30	Самара	-7	5	-73	0
+8403	2019-01-24 16:30	Санкт-Петербург	-13	17	10	10
+8404	2019-01-24 17:30	Москва	20	4	-33	4
+8405	2019-01-24 17:30	Самара	1	-17	114	4
+8406	2019-01-24 17:30	Санкт-Петербург	15	-15	-179	2
+8407	2019-01-24 18:30	Москва	-19	4	18	7
+8408	2019-01-24 18:30	Самара	3	11	-141	6
+8409	2019-01-24 18:30	Санкт-Петербург	4	18	65	11
+8410	2019-01-24 19:30	Москва	-20	-10	-119	12
+8411	2019-01-24 19:30	Самара	33	17	-109	15
+8412	2019-01-24 19:30	Санкт-Петербург	4	3	-179	13
+8413	2019-01-24 20:30	Москва	-6	11	71	6
+8414	2019-01-24 20:30	Самара	-5	-4	-93	11
+8415	2019-01-24 20:30	Санкт-Петербург	30	-14	41	10
+8416	2019-01-24 21:30	Москва	11	-17	142	15
+8417	2019-01-24 21:30	Самара	35	19	-144	5
+8418	2019-01-24 21:30	Санкт-Петербург	-13	11	-129	20
+8419	2019-01-24 22:30	Москва	16	-19	87	14
+8420	2019-01-24 22:30	Самара	21	-11	-58	3
+8421	2019-01-24 22:30	Санкт-Петербург	18	-8	-29	18
+8422	2019-01-24 23:30	Москва	-10	-8	121	2
+8423	2019-01-24 23:30	Самара	9	-18	144	17
+8424	2019-01-24 23:30	Санкт-Петербург	-13	-16	151	12
+8425	2019-01-25 00:30	Москва	2	-7	81	5
+8426	2019-01-25 00:30	Самара	14	-14	55	8
+8427	2019-01-25 00:30	Санкт-Петербург	9	-12	-33	7
+8428	2019-01-25 01:30	Москва	4	10	63	7
+8429	2019-01-25 01:30	Самара	7	12	49	20
+8430	2019-01-25 01:30	Санкт-Петербург	16	-3	13	12
+8431	2019-01-25 02:30	Москва	-1	6	-17	3
+8432	2019-01-25 02:30	Самара	-8	0	143	17
+8433	2019-01-25 02:30	Санкт-Петербург	25	1	-61	13
+8434	2019-01-25 03:30	Москва	15	-20	-117	0
+8435	2019-01-25 03:30	Самара	7	12	19	18
+8436	2019-01-25 03:30	Санкт-Петербург	-2	-14	-31	15
+8437	2019-01-25 04:30	Москва	-16	16	162	0
+8438	2019-01-25 04:30	Самара	13	-8	-92	5
+8439	2019-01-25 04:30	Санкт-Петербург	9	6	-107	18
+8440	2019-01-25 05:30	Москва	-5	-2	-154	14
+8441	2019-01-25 05:30	Самара	-9	-10	-116	1
+8442	2019-01-25 05:30	Санкт-Петербург	-4	11	-133	4
+8443	2019-01-25 06:30	Москва	-4	-3	-98	16
+8444	2019-01-25 06:30	Самара	26	-11	131	4
+8445	2019-01-25 06:30	Санкт-Петербург	3	7	-55	6
+8446	2019-01-25 07:30	Москва	32	-13	-94	4
+8447	2019-01-25 07:30	Самара	-10	-17	167	9
+8448	2019-01-25 07:30	Санкт-Петербург	-12	2	107	14
+8449	2019-01-25 08:30	Москва	-14	-1	115	8
+8450	2019-01-25 08:30	Самара	2	9	-105	11
+8451	2019-01-25 08:30	Санкт-Петербург	31	13	-64	7
+8452	2019-01-25 09:30	Москва	17	7	6	1
+8453	2019-01-25 09:30	Самара	18	-15	-75	2
+8454	2019-01-25 09:30	Санкт-Петербург	27	19	34	0
+8455	2019-01-25 10:30	Москва	34	16	60	18
+8456	2019-01-25 10:30	Самара	31	6	-10	14
+8457	2019-01-25 10:30	Санкт-Петербург	22	-10	149	19
+8458	2019-01-25 11:30	Москва	-19	9	42	8
+8459	2019-01-25 11:30	Самара	31	16	65	11
+8460	2019-01-25 11:30	Санкт-Петербург	8	-6	-34	0
+8461	2019-01-25 12:30	Москва	-4	2	59	17
+8462	2019-01-25 12:30	Самара	22	-7	25	6
+8463	2019-01-25 12:30	Санкт-Петербург	32	3	61	16
+8464	2019-01-25 13:30	Москва	-6	8	23	17
+8465	2019-01-25 13:30	Самара	-3	18	-69	4
+8466	2019-01-25 13:30	Санкт-Петербург	5	-12	-161	7
+8467	2019-01-25 14:30	Москва	32	-2	131	0
+8468	2019-01-25 14:30	Самара	5	18	-45	2
+8469	2019-01-25 14:30	Санкт-Петербург	-1	8	94	11
+8470	2019-01-25 15:30	Москва	28	8	82	9
+8471	2019-01-25 15:30	Самара	-18	11	137	17
+8472	2019-01-25 15:30	Санкт-Петербург	9	-1	-120	0
+8473	2019-01-25 16:30	Москва	23	-3	-161	2
+8474	2019-01-25 16:30	Самара	23	-5	-61	7
+8475	2019-01-25 16:30	Санкт-Петербург	-4	7	-26	11
+8476	2019-01-25 17:30	Москва	-8	-15	-150	12
+8477	2019-01-25 17:30	Самара	32	3	43	14
+8478	2019-01-25 17:30	Санкт-Петербург	9	20	-64	11
+8479	2019-01-25 18:30	Москва	23	8	-142	10
+8480	2019-01-25 18:30	Самара	20	4	116	13
+8481	2019-01-25 18:30	Санкт-Петербург	-13	12	27	10
+8482	2019-01-25 19:30	Москва	3	0	71	5
+8483	2019-01-25 19:30	Самара	-1	5	-14	16
+8484	2019-01-25 19:30	Санкт-Петербург	-11	-19	-6	19
+8485	2019-01-25 20:30	Москва	22	9	-146	19
+8486	2019-01-25 20:30	Самара	24	10	68	14
+8487	2019-01-25 20:30	Санкт-Петербург	0	-15	64	6
+8488	2019-01-25 21:30	Москва	14	-12	-179	7
+8489	2019-01-25 21:30	Самара	28	9	169	17
+8490	2019-01-25 21:30	Санкт-Петербург	35	-4	-134	12
+8491	2019-01-25 22:30	Москва	22	-12	152	1
+8492	2019-01-25 22:30	Самара	20	12	21	19
+8493	2019-01-25 22:30	Санкт-Петербург	-13	20	59	10
+8494	2019-01-25 23:30	Москва	22	-1	-5	9
+8495	2019-01-25 23:30	Самара	-10	-14	-28	16
+8496	2019-01-25 23:30	Санкт-Петербург	-12	-3	90	2
+8497	2019-01-26 00:30	Москва	31	20	66	9
+8498	2019-01-26 00:30	Самара	-6	19	55	17
+8499	2019-01-26 00:30	Санкт-Петербург	-11	9	-49	14
+8500	2019-01-26 01:30	Москва	10	8	-53	4
+8501	2019-01-26 01:30	Самара	12	-11	-155	12
+8502	2019-01-26 01:30	Санкт-Петербург	-19	16	95	3
+8503	2019-01-26 02:30	Москва	-9	-3	148	1
+8504	2019-01-26 02:30	Самара	25	4	-86	20
+8505	2019-01-26 02:30	Санкт-Петербург	-10	10	-44	17
+8506	2019-01-26 03:30	Москва	8	-3	158	14
+8507	2019-01-26 03:30	Самара	15	-16	-44	16
+8508	2019-01-26 03:30	Санкт-Петербург	-20	-20	133	0
+8509	2019-01-26 04:30	Москва	0	18	60	15
+8510	2019-01-26 04:30	Самара	28	17	-44	13
+8511	2019-01-26 04:30	Санкт-Петербург	22	-8	29	16
+8512	2019-01-26 05:30	Москва	8	3	-34	2
+8513	2019-01-26 05:30	Самара	-11	4	-39	18
+8514	2019-01-26 05:30	Санкт-Петербург	14	16	-92	9
+8515	2019-01-26 06:30	Москва	30	2	56	16
+8516	2019-01-26 06:30	Самара	2	16	124	17
+8517	2019-01-26 06:30	Санкт-Петербург	-14	5	-98	9
+8518	2019-01-26 07:30	Москва	21	14	-37	5
+8519	2019-01-26 07:30	Самара	17	3	-105	18
+8520	2019-01-26 07:30	Санкт-Петербург	16	-4	-92	2
+8521	2019-01-26 08:30	Москва	-1	19	-146	4
+8522	2019-01-26 08:30	Самара	-18	-4	-116	5
+8523	2019-01-26 08:30	Санкт-Петербург	-8	-15	-107	17
+8524	2019-01-26 09:30	Москва	-2	1	153	16
+8525	2019-01-26 09:30	Самара	2	-2	170	20
+8526	2019-01-26 09:30	Санкт-Петербург	23	14	-153	19
+8527	2019-01-26 10:30	Москва	10	15	-87	4
+8528	2019-01-26 10:30	Самара	18	10	-76	9
+8529	2019-01-26 10:30	Санкт-Петербург	5	6	120	5
+8530	2019-01-26 11:30	Москва	25	20	-175	17
+8531	2019-01-26 11:30	Самара	-1	12	-35	17
+8532	2019-01-26 11:30	Санкт-Петербург	2	14	109	12
+8533	2019-01-26 12:30	Москва	-14	14	-154	3
+8534	2019-01-26 12:30	Самара	-13	18	127	16
+8535	2019-01-26 12:30	Санкт-Петербург	-9	1	-107	8
+8536	2019-01-26 13:30	Москва	34	-19	-75	14
+8537	2019-01-26 13:30	Самара	0	-1	178	15
+8538	2019-01-26 13:30	Санкт-Петербург	-11	6	37	18
+8539	2019-01-26 14:30	Москва	-6	13	-22	4
+8540	2019-01-26 14:30	Самара	-5	19	178	8
+8541	2019-01-26 14:30	Санкт-Петербург	32	18	128	8
+8542	2019-01-26 15:30	Москва	17	-13	-20	1
+8543	2019-01-26 15:30	Самара	25	17	8	12
+8544	2019-01-26 15:30	Санкт-Петербург	16	7	114	12
+8545	2019-01-26 16:30	Москва	16	18	66	14
+8546	2019-01-26 16:30	Самара	23	-5	69	17
+8547	2019-01-26 16:30	Санкт-Петербург	-11	6	166	0
+8548	2019-01-26 17:30	Москва	-11	-15	171	11
+8549	2019-01-26 17:30	Самара	-18	-9	61	7
+8550	2019-01-26 17:30	Санкт-Петербург	-20	-9	-138	19
+8551	2019-01-26 18:30	Москва	20	14	-139	16
+8552	2019-01-26 18:30	Самара	21	-14	-11	6
+8553	2019-01-26 18:30	Санкт-Петербург	-11	-5	-102	1
+8554	2019-01-26 19:30	Москва	-20	-3	179	15
+8555	2019-01-26 19:30	Самара	-9	-2	-9	11
+8556	2019-01-26 19:30	Санкт-Петербург	31	7	-15	10
+8557	2019-01-26 20:30	Москва	-18	1	108	18
+8558	2019-01-26 20:30	Самара	8	15	22	20
+8559	2019-01-26 20:30	Санкт-Петербург	20	13	149	1
+8560	2019-01-26 21:30	Москва	-18	-5	-132	19
+8561	2019-01-26 21:30	Самара	-18	-12	72	1
+8562	2019-01-26 21:30	Санкт-Петербург	-4	2	9	16
+8563	2019-01-26 22:30	Москва	-18	-1	-95	10
+8564	2019-01-26 22:30	Самара	16	-8	102	8
+8565	2019-01-26 22:30	Санкт-Петербург	14	19	-98	19
+8566	2019-01-26 23:30	Москва	-4	-4	-47	17
+8567	2019-01-26 23:30	Самара	33	12	163	15
+8568	2019-01-26 23:30	Санкт-Петербург	-8	8	-27	19
+8569	2019-01-27 00:30	Москва	-15	15	-16	5
+8570	2019-01-27 00:30	Самара	35	19	-46	5
+8571	2019-01-27 00:30	Санкт-Петербург	-7	-9	160	5
+8572	2019-01-27 01:30	Москва	16	-14	123	6
+8573	2019-01-27 01:30	Самара	11	5	-147	0
+8574	2019-01-27 01:30	Санкт-Петербург	32	7	-84	15
+8575	2019-01-27 02:30	Москва	0	12	14	14
+8576	2019-01-27 02:30	Самара	2	-4	-174	6
+8577	2019-01-27 02:30	Санкт-Петербург	-13	-8	-53	17
+8578	2019-01-27 03:30	Москва	15	19	128	3
+8579	2019-01-27 03:30	Самара	32	-6	-61	19
+8580	2019-01-27 03:30	Санкт-Петербург	24	-1	62	11
+8581	2019-01-27 04:30	Москва	-6	-17	178	20
+8582	2019-01-27 04:30	Самара	18	-11	-111	3
+8583	2019-01-27 04:30	Санкт-Петербург	-16	-16	24	4
+8584	2019-01-27 05:30	Москва	2	11	49	4
+8585	2019-01-27 05:30	Самара	-8	-1	-119	15
+8586	2019-01-27 05:30	Санкт-Петербург	17	15	74	12
+8587	2019-01-27 06:30	Москва	11	-14	32	10
+8588	2019-01-27 06:30	Самара	34	15	84	15
+8589	2019-01-27 06:30	Санкт-Петербург	6	-6	140	4
+8590	2019-01-27 07:30	Москва	-4	-5	-113	13
+8591	2019-01-27 07:30	Самара	19	-20	-99	10
+8592	2019-01-27 07:30	Санкт-Петербург	-1	13	-113	10
+8593	2019-01-27 08:30	Москва	-1	0	6	7
+8594	2019-01-27 08:30	Самара	2	-1	160	20
+8595	2019-01-27 08:30	Санкт-Петербург	2	15	-62	18
+8596	2019-01-27 09:30	Москва	-12	-8	173	18
+8597	2019-01-27 09:30	Самара	22	3	-33	2
+8598	2019-01-27 09:30	Санкт-Петербург	16	-15	45	0
+8599	2019-01-27 10:30	Москва	20	20	-136	10
+8600	2019-01-27 10:30	Самара	-15	-2	-28	6
+8601	2019-01-27 10:30	Санкт-Петербург	30	-20	-69	13
+8602	2019-01-27 11:30	Москва	33	-12	0	9
+8603	2019-01-27 11:30	Самара	-1	20	-54	5
+8604	2019-01-27 11:30	Санкт-Петербург	-17	1	88	9
+8605	2019-01-27 12:30	Москва	-18	16	-134	2
+8606	2019-01-27 12:30	Самара	17	-6	17	15
+8607	2019-01-27 12:30	Санкт-Петербург	-11	9	-103	18
+8608	2019-01-27 13:30	Москва	-8	0	73	7
+8609	2019-01-27 13:30	Самара	-8	-3	-17	2
+8610	2019-01-27 13:30	Санкт-Петербург	-15	-12	-11	19
+8611	2019-01-27 14:30	Москва	-12	-7	19	18
+8612	2019-01-27 14:30	Самара	-14	-2	-133	0
+8613	2019-01-27 14:30	Санкт-Петербург	17	-20	107	17
+8614	2019-01-27 15:30	Москва	16	-1	-171	1
+8615	2019-01-27 15:30	Самара	-7	-14	-44	9
+8616	2019-01-27 15:30	Санкт-Петербург	-9	16	-7	7
+8617	2019-01-27 16:30	Москва	-6	-15	126	16
+8618	2019-01-27 16:30	Самара	2	16	54	20
+8619	2019-01-27 16:30	Санкт-Петербург	8	17	-98	2
+8620	2019-01-27 17:30	Москва	29	17	104	12
+8621	2019-01-27 17:30	Самара	-13	18	88	15
+8622	2019-01-27 17:30	Санкт-Петербург	30	10	-167	6
+8623	2019-01-27 18:30	Москва	-15	8	-119	17
+8624	2019-01-27 18:30	Самара	28	-8	84	5
+8625	2019-01-27 18:30	Санкт-Петербург	-1	1	-145	8
+8626	2019-01-27 19:30	Москва	8	8	-95	17
+8627	2019-01-27 19:30	Самара	34	-4	20	5
+8628	2019-01-27 19:30	Санкт-Петербург	15	-11	38	9
+8629	2019-01-27 20:30	Москва	23	-11	4	9
+8630	2019-01-27 20:30	Самара	7	18	175	3
+8631	2019-01-27 20:30	Санкт-Петербург	4	2	-51	20
+8632	2019-01-27 21:30	Москва	18	-3	-7	13
+8633	2019-01-27 21:30	Самара	31	-1	105	13
+8634	2019-01-27 21:30	Санкт-Петербург	-16	-19	-14	11
+8635	2019-01-27 22:30	Москва	26	6	149	1
+8636	2019-01-27 22:30	Самара	0	-15	-20	3
+8637	2019-01-27 22:30	Санкт-Петербург	0	-13	74	1
+8638	2019-01-27 23:30	Москва	6	3	-100	0
+8639	2019-01-27 23:30	Самара	14	-5	-173	0
+8640	2019-01-27 23:30	Санкт-Петербург	35	-13	66	7
+8641	2019-01-28 00:30	Москва	-1	-19	-103	20
+8642	2019-01-28 00:30	Самара	24	14	55	12
+8643	2019-01-28 00:30	Санкт-Петербург	-9	-1	117	12
+8644	2019-01-28 01:30	Москва	-20	-14	-64	13
+8645	2019-01-28 01:30	Самара	-3	-5	-134	12
+8646	2019-01-28 01:30	Санкт-Петербург	19	0	177	3
+8647	2019-01-28 02:30	Москва	32	-15	-62	3
+8648	2019-01-28 02:30	Самара	3	1	7	2
+8649	2019-01-28 02:30	Санкт-Петербург	27	-11	80	4
+8650	2019-01-28 03:30	Москва	-14	12	42	10
+8651	2019-01-28 03:30	Самара	-3	-14	-41	13
+8652	2019-01-28 03:30	Санкт-Петербург	2	-18	-142	20
+8653	2019-01-28 04:30	Москва	32	-19	141	8
+8654	2019-01-28 04:30	Самара	16	19	157	6
+8655	2019-01-28 04:30	Санкт-Петербург	7	10	-34	6
+8656	2019-01-28 05:30	Москва	2	-7	85	9
+8657	2019-01-28 05:30	Самара	-8	-11	103	13
+8658	2019-01-28 05:30	Санкт-Петербург	-12	-3	164	2
+8659	2019-01-28 06:30	Москва	25	-7	14	3
+8660	2019-01-28 06:30	Самара	5	-18	171	5
+8661	2019-01-28 06:30	Санкт-Петербург	1	-7	77	2
+8662	2019-01-28 07:30	Москва	2	-18	-102	12
+8663	2019-01-28 07:30	Самара	7	-14	-96	18
+8664	2019-01-28 07:30	Санкт-Петербург	1	-4	-175	8
+8665	2019-01-28 08:30	Москва	-13	-13	20	20
+8666	2019-01-28 08:30	Самара	-4	17	43	19
+8667	2019-01-28 08:30	Санкт-Петербург	-18	-13	-101	20
+8668	2019-01-28 09:30	Москва	35	17	96	18
+8669	2019-01-28 09:30	Самара	-3	10	-178	1
+8670	2019-01-28 09:30	Санкт-Петербург	1	-5	89	3
+8671	2019-01-28 10:30	Москва	-9	-14	121	17
+8672	2019-01-28 10:30	Самара	-1	-11	-114	20
+8673	2019-01-28 10:30	Санкт-Петербург	-3	18	97	9
+8674	2019-01-28 11:30	Москва	13	20	150	16
+8675	2019-01-28 11:30	Самара	34	-2	-45	15
+8676	2019-01-28 11:30	Санкт-Петербург	-11	3	-90	1
+8677	2019-01-28 12:30	Москва	7	15	-55	0
+8678	2019-01-28 12:30	Самара	31	17	-110	1
+8679	2019-01-28 12:30	Санкт-Петербург	3	7	99	18
+8680	2019-01-28 13:30	Москва	26	0	-122	8
+8681	2019-01-28 13:30	Самара	-4	-18	-47	4
+8682	2019-01-28 13:30	Санкт-Петербург	15	1	-143	0
+8683	2019-01-28 14:30	Москва	21	11	-93	15
+8684	2019-01-28 14:30	Самара	-6	-7	-66	20
+8685	2019-01-28 14:30	Санкт-Петербург	28	14	170	10
+8686	2019-01-28 15:30	Москва	2	6	125	7
+8687	2019-01-28 15:30	Самара	-18	0	-131	19
+8688	2019-01-28 15:30	Санкт-Петербург	-13	18	106	6
+8689	2019-01-28 16:30	Москва	30	-4	-61	0
+8690	2019-01-28 16:30	Самара	35	14	-51	20
+8691	2019-01-28 16:30	Санкт-Петербург	5	7	6	4
+8692	2019-01-28 17:30	Москва	10	-11	26	10
+8693	2019-01-28 17:30	Самара	3	-5	-56	17
+8694	2019-01-28 17:30	Санкт-Петербург	21	-7	-2	11
+8695	2019-01-28 18:30	Москва	12	19	-169	15
+8696	2019-01-28 18:30	Самара	14	18	34	13
+8697	2019-01-28 18:30	Санкт-Петербург	25	-12	-150	18
+8698	2019-01-28 19:30	Москва	3	10	68	3
+8699	2019-01-28 19:30	Самара	26	6	-4	12
+8700	2019-01-28 19:30	Санкт-Петербург	23	19	-1	5
+8701	2019-01-28 20:30	Москва	30	11	22	18
+8702	2019-01-28 20:30	Самара	9	-13	153	0
+8703	2019-01-28 20:30	Санкт-Петербург	-9	-14	-52	20
+8704	2019-01-28 21:30	Москва	4	-5	-141	20
+8705	2019-01-28 21:30	Самара	21	-20	-152	16
+8706	2019-01-28 21:30	Санкт-Петербург	-12	-6	-29	3
+8707	2019-01-28 22:30	Москва	34	-19	-49	16
+8708	2019-01-28 22:30	Самара	28	-15	155	13
+8709	2019-01-28 22:30	Санкт-Петербург	-4	-9	-151	11
+8710	2019-01-28 23:30	Москва	31	1	166	12
+8711	2019-01-28 23:30	Самара	17	2	-127	18
+8712	2019-01-28 23:30	Санкт-Петербург	34	-10	-8	7
+8713	2019-01-29 00:30	Москва	-19	6	-165	3
+8714	2019-01-29 00:30	Самара	-14	-7	83	12
+8715	2019-01-29 00:30	Санкт-Петербург	23	10	66	13
+8716	2019-01-29 01:30	Москва	19	-1	-157	14
+8717	2019-01-29 01:30	Самара	19	-15	67	17
+8718	2019-01-29 01:30	Санкт-Петербург	6	-2	-18	17
+8719	2019-01-29 02:30	Москва	-7	-19	-154	8
+8720	2019-01-29 02:30	Самара	29	0	-75	13
+8721	2019-01-29 02:30	Санкт-Петербург	29	-14	-66	3
+8722	2019-01-29 03:30	Москва	34	12	104	10
+8723	2019-01-29 03:30	Самара	-10	13	175	11
+8724	2019-01-29 03:30	Санкт-Петербург	5	15	65	16
+8725	2019-01-29 04:30	Москва	23	-6	-119	2
+8726	2019-01-29 04:30	Самара	-13	-7	-159	7
+8727	2019-01-29 04:30	Санкт-Петербург	3	9	-85	6
+8728	2019-01-29 05:30	Москва	21	4	89	15
+8729	2019-01-29 05:30	Самара	8	-3	-34	11
+8730	2019-01-29 05:30	Санкт-Петербург	2	-1	153	17
+8731	2019-01-29 06:30	Москва	25	-17	-164	20
+8732	2019-01-29 06:30	Самара	35	-13	-25	16
+8733	2019-01-29 06:30	Санкт-Петербург	-6	8	129	9
+8734	2019-01-29 07:30	Москва	-1	-17	71	11
+8735	2019-01-29 07:30	Самара	-10	-3	-32	10
+8736	2019-01-29 07:30	Санкт-Петербург	19	-3	180	13
+8737	2019-01-29 08:30	Москва	-16	18	165	18
+8738	2019-01-29 08:30	Самара	-5	-15	166	9
+8739	2019-01-29 08:30	Санкт-Петербург	25	11	-105	13
+8740	2019-01-29 09:30	Москва	-3	8	-152	5
+8741	2019-01-29 09:30	Самара	30	-10	-151	18
+8742	2019-01-29 09:30	Санкт-Петербург	-12	4	-147	4
+8743	2019-01-29 10:30	Москва	18	-19	-84	2
+8744	2019-01-29 10:30	Самара	6	-8	80	13
+8745	2019-01-29 10:30	Санкт-Петербург	17	-19	-44	20
+8746	2019-01-29 11:30	Москва	16	12	72	8
+8747	2019-01-29 11:30	Самара	-17	-13	116	12
+8748	2019-01-29 11:30	Санкт-Петербург	-20	-11	-147	13
+8749	2019-01-29 12:30	Москва	-20	4	149	16
+8750	2019-01-29 12:30	Самара	12	5	-53	12
+8751	2019-01-29 12:30	Санкт-Петербург	-13	0	52	18
+8752	2019-01-29 13:30	Москва	-5	-18	-58	8
+8753	2019-01-29 13:30	Самара	-8	5	102	16
+8754	2019-01-29 13:30	Санкт-Петербург	-9	18	167	3
+8755	2019-01-29 14:30	Москва	33	-14	-127	4
+8756	2019-01-29 14:30	Самара	35	-10	-94	3
+8757	2019-01-29 14:30	Санкт-Петербург	17	8	19	4
+8758	2019-01-29 15:30	Москва	-8	10	178	10
+8759	2019-01-29 15:30	Самара	-17	-18	-28	2
+8760	2019-01-29 15:30	Санкт-Петербург	-15	-5	4	13
+8761	2019-01-29 16:30	Москва	22	-11	71	5
+8762	2019-01-29 16:30	Самара	35	2	52	7
+8763	2019-01-29 16:30	Санкт-Петербург	18	7	109	12
+8764	2019-01-29 17:30	Москва	-3	-4	-7	18
+8765	2019-01-29 17:30	Самара	13	6	21	8
+8766	2019-01-29 17:30	Санкт-Петербург	-14	1	69	8
+8767	2019-01-29 18:30	Москва	-11	0	-171	7
+8768	2019-01-29 18:30	Самара	15	17	-15	7
+8769	2019-01-29 18:30	Санкт-Петербург	5	13	-143	2
+8770	2019-01-29 19:30	Москва	30	-2	89	15
+8771	2019-01-29 19:30	Самара	-4	-3	101	13
+8772	2019-01-29 19:30	Санкт-Петербург	10	-14	-109	7
+8773	2019-01-29 20:30	Москва	-10	17	42	20
+8774	2019-01-29 20:30	Самара	7	-5	-174	20
+8775	2019-01-29 20:30	Санкт-Петербург	29	-9	43	11
+8776	2019-01-29 21:30	Москва	25	-19	-100	6
+8777	2019-01-29 21:30	Самара	-13	-8	87	19
+8778	2019-01-29 21:30	Санкт-Петербург	-7	0	89	5
+8779	2019-01-29 22:30	Москва	-2	6	-156	1
+8780	2019-01-29 22:30	Самара	11	18	133	17
+8781	2019-01-29 22:30	Санкт-Петербург	21	-15	53	20
+8782	2019-01-29 23:30	Москва	1	-14	144	6
+8783	2019-01-29 23:30	Самара	25	-1	-141	12
+8784	2019-01-29 23:30	Санкт-Петербург	22	2	-145	14
+8785	2019-01-30 00:30	Москва	3	-17	103	5
+8786	2019-01-30 00:30	Самара	25	12	-3	8
+8787	2019-01-30 00:30	Санкт-Петербург	-11	5	-85	9
+8788	2019-01-30 01:30	Москва	-8	-6	144	9
+8789	2019-01-30 01:30	Самара	-15	-11	67	11
+8790	2019-01-30 01:30	Санкт-Петербург	34	-16	-36	15
+8791	2019-01-30 02:30	Москва	-12	-16	70	14
+8792	2019-01-30 02:30	Самара	3	4	114	15
+8793	2019-01-30 02:30	Санкт-Петербург	-2	-13	176	9
+8794	2019-01-30 03:30	Москва	20	20	138	6
+8795	2019-01-30 03:30	Самара	22	20	-19	5
+8796	2019-01-30 03:30	Санкт-Петербург	14	-10	-57	14
+8797	2019-01-30 04:30	Москва	29	1	-83	14
+8798	2019-01-30 04:30	Самара	6	20	127	19
+8799	2019-01-30 04:30	Санкт-Петербург	28	-5	93	13
+8800	2019-01-30 05:30	Москва	22	-7	-73	20
+8801	2019-01-30 05:30	Самара	31	-3	-69	17
+8802	2019-01-30 05:30	Санкт-Петербург	13	4	-123	14
+8803	2019-01-30 06:30	Москва	-18	8	175	10
+8804	2019-01-30 06:30	Самара	20	16	128	19
+8805	2019-01-30 06:30	Санкт-Петербург	-17	17	-90	6
+8806	2019-01-30 07:30	Москва	21	10	-48	10
+8807	2019-01-30 07:30	Самара	22	-12	-179	1
+8808	2019-01-30 07:30	Санкт-Петербург	20	15	-121	3
+8809	2019-01-30 08:30	Москва	-7	-11	78	19
+8810	2019-01-30 08:30	Самара	10	-11	-91	13
+8811	2019-01-30 08:30	Санкт-Петербург	5	14	102	2
+8812	2019-01-30 09:30	Москва	-18	18	148	14
+8813	2019-01-30 09:30	Самара	-8	-12	8	6
+8814	2019-01-30 09:30	Санкт-Петербург	22	14	-111	6
+8815	2019-01-30 10:30	Москва	18	9	35	14
+8816	2019-01-30 10:30	Самара	-10	5	25	2
+8817	2019-01-30 10:30	Санкт-Петербург	29	19	-70	1
+8818	2019-01-30 11:30	Москва	35	-8	19	15
+8819	2019-01-30 11:30	Самара	12	8	97	11
+8820	2019-01-30 11:30	Санкт-Петербург	34	4	32	13
+8821	2019-01-30 12:30	Москва	14	17	-165	1
+8822	2019-01-30 12:30	Самара	-10	-15	-111	6
+8823	2019-01-30 12:30	Санкт-Петербург	-5	15	-9	5
+8824	2019-01-30 13:30	Москва	17	-2	2	13
+8825	2019-01-30 13:30	Самара	2	-11	-163	7
+8826	2019-01-30 13:30	Санкт-Петербург	23	4	-161	19
+8827	2019-01-30 14:30	Москва	6	10	-60	9
+8828	2019-01-30 14:30	Самара	31	-11	145	19
+8829	2019-01-30 14:30	Санкт-Петербург	-13	3	133	5
+8830	2019-01-30 15:30	Москва	34	17	-80	10
+8831	2019-01-30 15:30	Самара	30	17	129	20
+8832	2019-01-30 15:30	Санкт-Петербург	-13	-9	-180	1
+8833	2019-01-30 16:30	Москва	20	-15	170	9
+8834	2019-01-30 16:30	Самара	-7	-7	-19	14
+8835	2019-01-30 16:30	Санкт-Петербург	22	4	19	8
+8836	2019-01-30 17:30	Москва	-15	-20	-177	10
+8837	2019-01-30 17:30	Самара	6	-19	71	17
+8838	2019-01-30 17:30	Санкт-Петербург	17	-12	22	2
+8839	2019-01-30 18:30	Москва	31	8	144	4
+8840	2019-01-30 18:30	Самара	17	-5	-11	13
+8841	2019-01-30 18:30	Санкт-Петербург	-11	-15	174	10
+8842	2019-01-30 19:30	Москва	-11	-5	-180	1
+8843	2019-01-30 19:30	Самара	14	11	-75	15
+8844	2019-01-30 19:30	Санкт-Петербург	14	-17	-127	13
+8845	2019-01-30 20:30	Москва	18	11	-11	12
+8846	2019-01-30 20:30	Самара	-13	18	43	5
+8847	2019-01-30 20:30	Санкт-Петербург	25	-3	153	15
+8848	2019-01-30 21:30	Москва	-13	-13	-167	3
+8849	2019-01-30 21:30	Самара	25	0	-48	16
+8850	2019-01-30 21:30	Санкт-Петербург	25	16	-173	11
+8851	2019-01-30 22:30	Москва	-4	14	73	4
+8852	2019-01-30 22:30	Самара	-3	19	-93	20
+8853	2019-01-30 22:30	Санкт-Петербург	31	-13	60	7
+8854	2019-01-30 23:30	Москва	-15	7	135	20
+8855	2019-01-30 23:30	Самара	8	14	9	2
+8856	2019-01-30 23:30	Санкт-Петербург	-5	-10	74	2
+8857	2019-01-31 00:30	Москва	35	15	-33	3
+8858	2019-01-31 00:30	Самара	-20	-20	147	9
+8859	2019-01-31 00:30	Санкт-Петербург	17	13	-89	11
+8860	2019-01-31 01:30	Москва	-8	13	56	12
+8861	2019-01-31 01:30	Самара	25	-8	-101	1
+8862	2019-01-31 01:30	Санкт-Петербург	4	-2	-137	0
+8863	2019-01-31 02:30	Москва	-9	12	-48	3
+8864	2019-01-31 02:30	Самара	-1	10	-176	3
+8865	2019-01-31 02:30	Санкт-Петербург	5	6	2	8
+8866	2019-01-31 03:30	Москва	0	-9	-138	8
+8867	2019-01-31 03:30	Самара	29	9	120	4
+8868	2019-01-31 03:30	Санкт-Петербург	13	-4	156	1
+8869	2019-01-31 04:30	Москва	20	10	141	10
+8870	2019-01-31 04:30	Самара	20	-11	-71	0
+8871	2019-01-31 04:30	Санкт-Петербург	-20	11	-109	17
+8872	2019-01-31 05:30	Москва	10	-12	-31	5
+8873	2019-01-31 05:30	Самара	0	14	-161	17
+8874	2019-01-31 05:30	Санкт-Петербург	-11	19	-56	17
+8875	2019-01-31 06:30	Москва	18	0	78	10
+8876	2019-01-31 06:30	Самара	4	15	-23	17
+8877	2019-01-31 06:30	Санкт-Петербург	14	10	-155	14
+8878	2019-01-31 07:30	Москва	27	7	-116	2
+8879	2019-01-31 07:30	Самара	33	5	171	2
+8880	2019-01-31 07:30	Санкт-Петербург	31	4	158	6
+8881	2019-01-31 08:30	Москва	32	16	96	0
+8882	2019-01-31 08:30	Самара	30	-13	-78	6
+8883	2019-01-31 08:30	Санкт-Петербург	34	16	16	6
+8884	2019-01-31 09:30	Москва	-9	1	20	0
+8885	2019-01-31 09:30	Самара	1	-19	-153	6
+8886	2019-01-31 09:30	Санкт-Петербург	13	-10	123	9
+8887	2019-01-31 10:30	Москва	-14	1	-148	3
+8888	2019-01-31 10:30	Самара	-3	-12	-14	6
+8889	2019-01-31 10:30	Санкт-Петербург	-9	-5	-157	0
+8890	2019-01-31 11:30	Москва	-8	5	-6	0
+8891	2019-01-31 11:30	Самара	3	-15	-180	10
+8892	2019-01-31 11:30	Санкт-Петербург	19	9	126	9
+8893	2019-01-31 12:30	Москва	-13	5	124	17
+8894	2019-01-31 12:30	Самара	18	7	59	16
+8895	2019-01-31 12:30	Санкт-Петербург	-15	-9	79	16
+8896	2019-01-31 13:30	Москва	1	19	-17	12
+8897	2019-01-31 13:30	Самара	15	-20	-87	1
+8898	2019-01-31 13:30	Санкт-Петербург	-9	-11	160	18
+8899	2019-01-31 14:30	Москва	15	16	124	9
+8900	2019-01-31 14:30	Самара	4	-20	-106	0
+8901	2019-01-31 14:30	Санкт-Петербург	29	1	-90	4
+8902	2019-01-31 15:30	Москва	28	16	38	6
+8903	2019-01-31 15:30	Самара	2	18	95	8
+8904	2019-01-31 15:30	Санкт-Петербург	31	-12	129	12
+8905	2019-01-31 16:30	Москва	-17	10	95	0
+8906	2019-01-31 16:30	Самара	27	-2	-59	1
+8907	2019-01-31 16:30	Санкт-Петербург	7	0	-125	8
+8908	2019-01-31 17:30	Москва	-9	1	-51	8
+8909	2019-01-31 17:30	Самара	-17	1	35	13
+8910	2019-01-31 17:30	Санкт-Петербург	-19	8	31	5
+8911	2019-01-31 18:30	Москва	-4	18	123	12
+8912	2019-01-31 18:30	Самара	3	2	93	15
+8913	2019-01-31 18:30	Санкт-Петербург	21	-15	29	6
+8914	2019-01-31 19:30	Москва	-1	15	155	1
+8915	2019-01-31 19:30	Самара	5	5	-12	18
+8916	2019-01-31 19:30	Санкт-Петербург	19	12	88	11
+8917	2019-01-31 20:30	Москва	-3	-16	82	13
+8918	2019-01-31 20:30	Самара	-10	10	-138	9
+8919	2019-01-31 20:30	Санкт-Петербург	32	15	44	6
+8920	2019-01-31 21:30	Москва	-4	10	-91	19
+8921	2019-01-31 21:30	Самара	-6	-4	119	18
+8922	2019-01-31 21:30	Санкт-Петербург	23	-3	145	16
+8923	2019-01-31 22:30	Москва	16	15	177	16
+8924	2019-01-31 22:30	Самара	24	0	-48	19
+8925	2019-01-31 22:30	Санкт-Петербург	19	-13	-139	11
+8926	2019-01-31 23:30	Москва	14	12	82	6
+8927	2019-01-31 23:30	Самара	27	13	176	18
+8928	2019-01-31 23:30	Санкт-Петербург	-4	6	56	17
+\.
+
+
+--
+-- Name: weather_id_seq; Type: SEQUENCE SET; Schema: public; Owner: user_weather_shelest
+--
+
+SELECT pg_catalog.setval('public.weather_id_seq', 8928, true);
+
+
+--
+-- Name: weather weather_pkey; Type: CONSTRAINT; Schema: public; Owner: user_weather_shelest
+--
+
+ALTER TABLE ONLY public.weather
+    ADD CONSTRAINT weather_pkey PRIMARY KEY (id);
+
+
+--
+-- PostgreSQL database dump complete
+--
+

@@ -10,9 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class Application {
 
-    @Autowired
-    private WeatherService weatherService;
-
+    
     public static void main(String[] args) throws InterruptedException {
         SpringApplication.run(Application.class, args);
     }

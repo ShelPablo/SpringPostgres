@@ -1,10 +1,15 @@
 package com.shelpablo.springpostgres.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
 @Table(name = "weather", schema = "public", catalog = "weather_shelest")
+@AllArgsConstructor
+@NoArgsConstructor
 public class WeatherEntity {
     private long id;
     private String datetime;
