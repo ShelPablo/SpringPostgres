@@ -1,3 +1,8 @@
+CREATE USER user_weather_shelest WITH PASSWORD 'Qwerty_1';
+CREATE DATABASE weather_shelest WITH OWNER user_weather_shelest;
+
+\connect weather_shelest
+
 --
 -- PostgreSQL database dump
 --

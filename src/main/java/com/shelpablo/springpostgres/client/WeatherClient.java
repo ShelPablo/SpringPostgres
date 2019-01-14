@@ -21,7 +21,7 @@ public class WeatherClient {
 
     private RestTemplate restTemplate = new RestTemplate();
 
-
+/*
     @Scheduled(fixedRate = CLIENT_QUERY_PEROD_MS)
     public void requestData() throws InterruptedException {
 
@@ -53,7 +53,7 @@ public class WeatherClient {
             weatherService.addWeather(weatherEntity);
         }
     }
-
+*/
     @Scheduled(fixedRate = CLIENT_QUERY_PEROD_MS)
     public void requestDataImitation() throws InterruptedException {
         weatherService.setCurrentWeather();

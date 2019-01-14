@@ -37,13 +37,24 @@ const TableComponent = props => {
         },
     ];
 
+
+    var titleStyle = {
+        textAlign: 'center',
+        fontSize: 16
+    };
+
+
     return (
         <div>
+            <h1 style={titleStyle}>
+                Текущая погода в городах России
+            </h1>
             <ReactTable
                 data={props.data}
                 columns={columns}
                 defaultPageSize={6}
                 minRows={3}
+                showPagination={false}
             />
         </div>
     );

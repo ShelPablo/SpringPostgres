@@ -1,7 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
 
-//import styles from "./style.css";
 import TableComponent from "./allCitiesWeather";
 import OneCityTable from "./oneCityWeather";
 import $ from "jquery";
@@ -25,7 +24,10 @@ function ShowOneCityWeather(city) {
       type: "GET",
       url: "/oneCity/" + city,
       success: function(data) {
-          render(<OneCityTable  data={data}  onBackCallback={ShowAllCitiesWeather}/>, app);
+          render(<OneCityTable
+              city = {city}
+              data={data}
+              onBackCallback={ShowAllCitiesWeather}/>, app);
       }
     });
 }

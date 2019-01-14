@@ -1,10 +1,7 @@
 import React from "react";
 import ReactTable from "react-table";
 import "react-table/react-table.css";
-//import dataOne from "./dataOne";
 import DayWeatherCell from "./DayWeatherCell";
-//import style from "./style.css";
-//console.log(style);
 
 function BackButton(props) {
   return <button onClick={props.onBackCallback}>back</button>;
@@ -90,14 +87,22 @@ const OneCityTable = props => {
     }
   ];
 
-  return (
+    var titleStyle = {
+        textAlign: 'center',
+        fontSize: 16
+    };
+
+    return (
     <div>
+      <h1 style={titleStyle}>
+          Погода в городе {props.city} за 28 дней</h1>
       <BackButton onBackCallback = {props.onBackCallback}/>
       <ReactTable
         data={props.data}
         columns={columns}
         defaultPageSize={6}
         minRows={3}
+        showPagination={false}
       />
     </div>
   );
